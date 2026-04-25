@@ -1,0 +1,254 @@
+[
+  {
+    "id": "shop-1",
+    "checked": false,
+    "item": "Asics Gel Kayano 32",
+    "where": "Asics Ginza (8-2-7)",
+    "priceRaw": "¥22.000",
+    "day": "Gün 2 — Tokyo",
+    "note": "Gait analysis"
+  },
+  {
+    "id": "shop-2",
+    "checked": false,
+    "item": "Montbell Tri-Pack 45 (carry-on)",
+    "where": "Montbell Ginza",
+    "priceRaw": "¥22-25K",
+    "day": "Gün 2 — Tokyo",
+    "note": "45L 3-way, 1010g, eski sırt atılacak"
+  },
+  {
+    "id": "shop-3",
+    "checked": false,
+    "item": "Uniqlo Grafik Tişört ×2",
+    "where": "Uniqlo Shinjuku",
+    "priceRaw": "¥4-7K",
+    "day": "Gün 2 — Tokyo",
+    "note": ""
+  },
+  {
+    "id": "shop-4",
+    "checked": false,
+    "item": "Uniqlo Basic Tişört ×2",
+    "where": "Uniqlo Shinjuku",
+    "priceRaw": "¥4-6K",
+    "day": "Gün 2 — Tokyo",
+    "note": ""
+  },
+  {
+    "id": "shop-5",
+    "checked": false,
+    "item": "Çorap Seti",
+    "where": "Uniqlo Shinjuku",
+    "priceRaw": "¥5-8K",
+    "day": "Gün 2 — Tokyo",
+    "note": ""
+  },
+  {
+    "id": "shop-6",
+    "checked": false,
+    "item": "Kyukyodo (kalem, kutu, yelpaze)",
+    "where": "Teramachi Sanjo, Kyoto",
+    "priceRaw": "¥18-28K",
+    "day": "Gün 4 — Kyoto",
+    "note": "Carry-on"
+  },
+  {
+    "id": "shop-7",
+    "checked": false,
+    "item": "Pazar malzemeleri (Toji seramik)",
+    "where": "Toji Kobo-ichi",
+    "priceRaw": "¥5-30K",
+    "day": "Gün 4 — Kyoto",
+    "note": "Kırılgan — giysilerle sar, Valiz #1"
+  },
+  {
+    "id": "shop-8",
+    "checked": false,
+    "item": "Shinonomesou kaiseki",
+    "where": "Kinosaki Onsen",
+    "priceRaw": "Dahil",
+    "day": "Gün 6",
+    "note": "Konaklama ile"
+  },
+  {
+    "id": "shop-9",
+    "checked": false,
+    "item": "Montbell (sandal, UV gömlek, bug net, eldiven, şapka)",
+    "where": "Montbell Osaka",
+    "priceRaw": "¥5-10K",
+    "day": "Gün 8 — Osaka",
+    "note": "Valiz #1"
+  },
+  {
+    "id": "shop-10",
+    "checked": false,
+    "item": "2× UGG Ayakkabı",
+    "where": "ABC Mart Shinsaibashi",
+    "priceRaw": "TBD",
+    "day": "Gün 8 — Osaka",
+    "note": "Valiz #1"
+  },
+  {
+    "id": "shop-11",
+    "checked": false,
+    "item": "Victoria's Secret Gloss ×3",
+    "where": "Matsumoto Kiyoshi Osaka",
+    "priceRaw": "¥2-6K",
+    "day": "Gün 8 — Osaka",
+    "note": "Valiz #1"
+  },
+  {
+    "id": "shop-12",
+    "checked": false,
+    "item": "Shiseido Eyelash Curler",
+    "where": "Matsumoto Kiyoshi Osaka",
+    "priceRaw": "¥1.8-2K",
+    "day": "Gün 8 — Osaka",
+    "note": "Valiz #1"
+  },
+  {
+    "id": "shop-13",
+    "checked": false,
+    "item": "Heroine Makeup Mascara",
+    "where": "Matsumoto Kiyoshi Osaka",
+    "priceRaw": "¥1.3-2K",
+    "day": "Gün 8 — Osaka",
+    "note": "Valiz #1"
+  },
+  {
+    "id": "shop-14",
+    "checked": false,
+    "item": "Bakım — Sevgili",
+    "where": "Matsumoto Kiyoshi / DQ",
+    "priceRaw": "¥5-15K",
+    "day": "Gün 8 — Osaka",
+    "note": "Valiz #1"
+  },
+  {
+    "id": "shop-15",
+    "checked": false,
+    "item": "Bakım — Annem + Abla",
+    "where": "Matsumoto Kiyoshi Osaka",
+    "priceRaw": "¥15-20K",
+    "day": "Gün 8 — Osaka",
+    "note": "Valiz #1"
+  },
+  {
+    "id": "shop-16",
+    "checked": false,
+    "item": "Samsonite UPSCAPE 104L #1 (Osaka)",
+    "where": "Yodobashi Umeda",
+    "priceRaw": "¥42-47K",
+    "day": "Gün 8 — Osaka",
+    "note": "Tax-free. PP siyah. Yamato → Tokyo"
+  },
+  {
+    "id": "shop-17",
+    "checked": false,
+    "item": "Muji Shoulder Pouch (kişisel bagaj)",
+    "where": "Muji Shinsaibashi",
+    "priceRaw": "¥1-2K",
+    "day": "Gün 8 — Osaka",
+    "note": "Personal item: Kaneko + Kobo + cüzdan"
+  },
+  {
+    "id": "shop-18",
+    "checked": false,
+    "item": "Muji Çeşitli",
+    "where": "Muji Shinsaibashi + Tokyo",
+    "priceRaw": "¥5-12K",
+    "day": "Gün 8+12",
+    "note": ""
+  },
+  {
+    "id": "shop-19",
+    "checked": false,
+    "item": "Figürler",
+    "where": "Mandarake / Akihabara",
+    "priceRaw": "¥10-20K",
+    "day": "Gün 10 — Tokyo",
+    "note": "Keyif alışverişi, ¥35K tavan"
+  },
+  {
+    "id": "shop-20",
+    "checked": false,
+    "item": "PS5 Pro",
+    "where": "Yodobashi Akihabara",
+    "priceRaw": "¥139.980",
+    "day": "Gün 11 — Tokyo",
+    "note": "Tax-free. Valiz #2"
+  },
+  {
+    "id": "shop-21",
+    "checked": false,
+    "item": "DualSense ×2",
+    "where": "Yodobashi Akihabara",
+    "priceRaw": "¥10-12K",
+    "day": "Gün 11 — Tokyo",
+    "note": "Tax-free. Valiz #2"
+  },
+  {
+    "id": "shop-22",
+    "checked": false,
+    "item": "Sony PULSE Elite",
+    "where": "Yodobashi Akihabara",
+    "priceRaw": "¥17.8-18K",
+    "day": "Gün 11 — Tokyo",
+    "note": "Tax-free. Valiz #2"
+  },
+  {
+    "id": "shop-23",
+    "checked": false,
+    "item": "Kobo Libra Color",
+    "where": "Yodobashi Akihabara",
+    "priceRaw": "¥30-40K",
+    "day": "Gün 11 — Tokyo",
+    "note": "Carry-on (Muji pouch)"
+  },
+  {
+    "id": "shop-24",
+    "checked": false,
+    "item": "Samsonite UPSCAPE 104L #2 (Tokyo)",
+    "where": "Yodobashi Akihabara",
+    "priceRaw": "¥42-47K",
+    "day": "Gün 11 — Tokyo",
+    "note": "Tax-free. PP siyah. Check-in"
+  },
+  {
+    "id": "shop-25",
+    "checked": false,
+    "item": "Kappabashi Bıçak (hediye)",
+    "where": "Kappabashi-dori",
+    "priceRaw": "¥5-15K",
+    "day": "Gün 11 — Tokyo",
+    "note": "Hediye. Valiz #1"
+  },
+  {
+    "id": "shop-26",
+    "checked": false,
+    "item": "Kaneko Gözlük (teslim)",
+    "where": "Kaneko Ginza",
+    "priceRaw": "Sipariş Gün 2",
+    "day": "Gün 12 — Tokyo",
+    "note": "Carry-on (Muji pouch)"
+  },
+  {
+    "id": "shop-27",
+    "checked": false,
+    "item": "Pantolon (2-3)",
+    "where": "Shimokitazawa vintage",
+    "priceRaw": "¥6-10K",
+    "day": "Gün 12 — Tokyo",
+    "note": "Valiz #2"
+  },
+  {
+    "id": "shop-28",
+    "checked": false,
+    "item": "Japon Snack Seçkisi",
+    "where": "Narita Duty-Free",
+    "priceRaw": "¥5-10K",
+    "day": "Gün 13 — Narita",
+    "note": "Son bagaj kapasitesi"
+  }
+]

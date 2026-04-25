@@ -1,0 +1,569 @@
+{
+  "fxNote": "Kur: ¥1 ≈ ₺0.24 (Mart 2026)",
+  "sections": [
+    {
+      "id": "b-l-m-0-u-u-ncesi-hazirlik",
+      "title": "BÖLÜM 0 — UÇUŞ ÖNCESİ HAZIRLIK — TL",
+      "items": [
+        {
+          "name": "E-Sim (Japonya veri paketi)",
+          "category": "Hazırlık",
+          "min": 500,
+          "max": 1000,
+          "currency": "TL",
+          "when": "Uçuştan önce",
+          "note": ""
+        },
+        {
+          "name": "Ekstra bagaj hakkı",
+          "category": "Hazırlık",
+          "min": 5700,
+          "max": 5700,
+          "currency": "TL",
+          "when": "Uçuştan önce",
+          "note": ""
+        }
+      ],
+      "currency": "TL",
+      "subtotal": {
+        "min": 6200,
+        "max": 6700,
+        "currency": "TL"
+      }
+    },
+    {
+      "id": "b-l-m-1-ali-veri",
+      "title": "BÖLÜM 1 — ALIŞVERİŞ — ¥ (JPY)",
+      "items": [
+        {
+          "name": "👟 Asics Gel Kayano 32",
+          "category": "Ayakkabı",
+          "min": 22000,
+          "max": 22000,
+          "currency": "¥",
+          "when": "Gün 2 — Asics Ginza",
+          "note": "Gait analysis iste"
+        },
+        {
+          "name": "Su geçirmez ayakkabı",
+          "category": "Ayakkabı",
+          "min": 0,
+          "max": 25000,
+          "currency": "¥",
+          "when": "Yağmur gözüküyorsa",
+          "note": "Opsiyonel"
+        },
+        {
+          "name": "Montbell Sock-on Sandal",
+          "category": "Ayakkabı",
+          "min": 4500,
+          "max": 5500,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka",
+          "note": "Yamato ile gönder"
+        },
+        {
+          "name": "2× UGG Ayakkabı",
+          "category": "Ayakkabı",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka ABC Mart",
+          "note": "Yamato ile gönder"
+        },
+        {
+          "name": "Uniqlo Grafik Tişört ×2",
+          "category": "Giyim",
+          "min": 4000,
+          "max": 7000,
+          "currency": "¥",
+          "when": "Gün 2 — Shinjuku",
+          "note": ""
+        },
+        {
+          "name": "Uniqlo Basic Tişört ×2",
+          "category": "Giyim",
+          "min": 4000,
+          "max": 6000,
+          "currency": "¥",
+          "when": "Gün 2 — Shinjuku",
+          "note": "İlk günlerde giyilecek"
+        },
+        {
+          "name": "Çorap Seti",
+          "category": "Giyim",
+          "min": 5000,
+          "max": 8000,
+          "currency": "¥",
+          "when": "Gün 2 — Shinjuku",
+          "note": ""
+        },
+        {
+          "name": "Pantolon (2-3 adet)",
+          "category": "Giyim",
+          "min": 6000,
+          "max": 10000,
+          "currency": "¥",
+          "when": "Gün 12 — Shimokitazawa",
+          "note": "Vintage / Uniqlo"
+        },
+        {
+          "name": "Victoria's Secret Gloss ×3",
+          "category": "Kozmetik",
+          "min": 2000,
+          "max": 6000,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka",
+          "note": "Matsumoto Kiyoshi"
+        },
+        {
+          "name": "Shiseido Eyelash Curler",
+          "category": "Kozmetik",
+          "min": 1800,
+          "max": 2000,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka",
+          "note": "Made in Japan"
+        },
+        {
+          "name": "Heroine Makeup Mascara",
+          "category": "Kozmetik",
+          "min": 1320,
+          "max": 2000,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka",
+          "note": "Super Waterproof"
+        },
+        {
+          "name": "Bakım Ürünleri — Sevgili",
+          "category": "Kozmetik",
+          "min": 5000,
+          "max": 15000,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka",
+          "note": "Matsumoto Kiyoshi / Don Quijote"
+        },
+        {
+          "name": "Bakım Ürünleri — Annem + Abla",
+          "category": "Kozmetik",
+          "min": 15000,
+          "max": 20000,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka",
+          "note": "Matsumoto Kiyoshi"
+        },
+        {
+          "name": "PlayStation 5 Pro",
+          "category": "Teknoloji",
+          "min": 139980,
+          "max": 139980,
+          "currency": "¥",
+          "when": "Gün 11 — Yodobashi Akihabara",
+          "note": "Tax-free. 2. valiz ile uçuşa"
+        },
+        {
+          "name": "DualSense ×2",
+          "category": "Teknoloji",
+          "min": 10000,
+          "max": 12000,
+          "currency": "¥",
+          "when": "Gün 11 — Yodobashi Akihabara",
+          "note": "Tax-free"
+        },
+        {
+          "name": "Sony PULSE Elite",
+          "category": "Teknoloji",
+          "min": 17811,
+          "max": 18000,
+          "currency": "¥",
+          "when": "Gün 11 — Yodobashi Akihabara",
+          "note": "Tax-free"
+        },
+        {
+          "name": "Kobo Libra Color",
+          "category": "Teknoloji",
+          "min": 30000,
+          "max": 40000,
+          "currency": "¥",
+          "when": "Gün 11 — Yodobashi Akihabara",
+          "note": "Carry-on'a al"
+        },
+        {
+          "name": "Kyukyodo — Kalem, Kutu, Yelpaze",
+          "category": "Kırtasiye",
+          "min": 18000,
+          "max": 28000,
+          "currency": "¥",
+          "when": "Gün 4 — Kyoto Teramachi",
+          "note": "Carry-on. Kırılabilir"
+        },
+        {
+          "name": "Montbell Tri-Pack 45 (carry-on)",
+          "category": "Çanta",
+          "min": 22000,
+          "max": 25000,
+          "currency": "¥",
+          "when": "Gün 2 — Montbell Ginza",
+          "note": "45L 3-way, 1010g. Eski sırt atılacak"
+        },
+        {
+          "name": "Samsonite UPSCAPE 104L #1 (Osaka)",
+          "category": "Çanta",
+          "min": 42000,
+          "max": 47000,
+          "currency": "¥",
+          "when": "Gün 8 — Yodobashi Umeda",
+          "note": "Tax-free. PP siyah. Yamato → Tokyo"
+        },
+        {
+          "name": "Samsonite UPSCAPE 104L #2 (Tokyo)",
+          "category": "Çanta",
+          "min": 42000,
+          "max": 47000,
+          "currency": "¥",
+          "when": "Gün 11 — Yodobashi Akihabara",
+          "note": "Tax-free. PP siyah. Check-in"
+        },
+        {
+          "name": "Muji Shoulder Pouch (personal item)",
+          "category": "Çanta",
+          "min": 1000,
+          "max": 2000,
+          "currency": "¥",
+          "when": "Gün 8 — Muji Shinsaibashi",
+          "note": "Kişisel bagaj: Kaneko + Kobo + cüzdan"
+        },
+        {
+          "name": "Kappabashi Bıçak (hediye)",
+          "category": "Diğer",
+          "min": 5000,
+          "max": 15000,
+          "currency": "¥",
+          "when": "Gün 11 — Kappabashi-dori",
+          "note": "Hediye. Valiz #1"
+        },
+        {
+          "name": "Muji Çeşitli",
+          "category": "Diğer",
+          "min": 5000,
+          "max": 12000,
+          "currency": "¥",
+          "when": "Gün 8+12",
+          "note": "Osaka + Tokyo"
+        },
+        {
+          "name": "Montbell UV/Bug/Eldiven/Şapka",
+          "category": "Diğer",
+          "min": 5000,
+          "max": 10000,
+          "currency": "¥",
+          "when": "Gün 8 — Osaka",
+          "note": "Yamato ile gönder"
+        },
+        {
+          "name": "Hibiki / Yamazaki",
+          "category": "Diğer",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "Bulunursa",
+          "note": ""
+        },
+        {
+          "name": "Figürler",
+          "category": "Diğer",
+          "min": 10000,
+          "max": 20000,
+          "currency": "¥",
+          "when": "Gün 10-11 — Akihabara",
+          "note": "Mandarake / Yodobashi"
+        },
+        {
+          "name": "Pazar malzemeleri",
+          "category": "Diğer",
+          "min": 5000,
+          "max": 30000,
+          "currency": "¥",
+          "when": "Gün 4 — Toji pazarı",
+          "note": "Kırılgan — giysilerle sar"
+        },
+        {
+          "name": "Japon Snack Seçkisi",
+          "category": "Yiyecek",
+          "min": 5000,
+          "max": 10000,
+          "currency": "¥",
+          "when": "Gün 13 — Narita Duty-Free",
+          "note": "Son bagaj kapasitesine göre"
+        }
+      ],
+      "currency": "¥",
+      "subtotal": {
+        "min": 428411,
+        "max": 584480,
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "b-l-m-2-konaklama",
+      "title": "BÖLÜM 2 — KONAKLAMA — 13 Gece — ¥ (JPY)",
+      "items": [
+        {
+          "name": "Sotetsu Fresa Inn Ginza-Nanachome",
+          "category": "",
+          "min": 0,
+          "max": 0,
+          "currency": "",
+          "when": "",
+          "note": ""
+        },
+        {
+          "name": "Anshin Oyado Tokyo Man Shinjuku",
+          "category": "Konaklama",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "Gün 2 — 19 Mayıs (1 gece)",
+          "note": "Kapsül. Ücretsiz onsen/ramen"
+        },
+        {
+          "name": "Kyoto Gion Oteli (TBD)",
+          "category": "Konaklama",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "Gün 3-4 — 20-21 Mayıs (2 gece)",
+          "note": "Gion bölgesi"
+        },
+        {
+          "name": "Shinonomesou (Kinosaki Onsen)",
+          "category": "Konaklama",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "Gün 5 — 22 Mayıs (1 gece)",
+          "note": "Kaiseki dahil"
+        },
+        {
+          "name": "Osaka Oteli (TBD)",
+          "category": "Konaklama",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "Gün 6-7-8 — 23-25 Mayıs (3 gece)",
+          "note": "Namba bölgesi. Gün 9 sabah check-out"
+        },
+        {
+          "name": "Tokyo Akihabara Oteli (TBD)",
+          "category": "Konaklama",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "Gün 9-12 — 26-29 Mayıs (4 gece)",
+          "note": "Yamato valizleri 28 Mayıs'ta buraya"
+        },
+        {
+          "name": "ICN Transit Hotel (Seul)",
+          "category": "Konaklama",
+          "min": 5000,
+          "max": 10000,
+          "currency": "¥",
+          "when": "Gün 13 — 30 Mayıs",
+          "note": "Terminal içi"
+        }
+      ],
+      "currency": "¥",
+      "subtotal": {
+        "min": 5000,
+        "max": 10000,
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "b-l-m-3-yemek",
+      "title": "BÖLÜM 3 — YEMEK — 13 Gün — ¥ (JPY)",
+      "items": [
+        {
+          "name": "Kahvaltı / Sabah (13 gün)",
+          "category": "",
+          "min": 0,
+          "max": 0,
+          "currency": "",
+          "when": "",
+          "note": ""
+        },
+        {
+          "name": "Öğle/Akşam — Normal (~8 gün)",
+          "category": "",
+          "min": 0,
+          "max": 0,
+          "currency": "",
+          "when": "",
+          "note": ""
+        },
+        {
+          "name": "Öğle/Akşam — İyi Restoran (~5×)",
+          "category": "Yemek",
+          "min": 10000,
+          "max": 30000,
+          "currency": "¥",
+          "when": "Seçili günler",
+          "note": "¥2.000-6.000. Kaiseki, sushi"
+        },
+        {
+          "name": "Atıştırmalık / Konbini / Kahve",
+          "category": "Yemek",
+          "min": 6500,
+          "max": 13000,
+          "currency": "¥",
+          "when": "Tüm seyahat",
+          "note": "¥500-1.000/gün"
+        },
+        {
+          "name": "Kinosaki Ryokan 2 Öğün",
+          "category": "Yemek",
+          "min": 0,
+          "max": 0,
+          "currency": "¥",
+          "when": "22 Mayıs",
+          "note": "Konaklama dahil"
+        }
+      ],
+      "currency": "¥",
+      "subtotal": {
+        "min": 16500,
+        "max": 43000,
+        "currency": "¥"
+      }
+    },
+    {
+      "id": "b-l-m-4-ula-im",
+      "title": "BÖLÜM 4 — ULAŞIM — JR Pass yok — ¥ (JPY)",
+      "items": [
+        {
+          "name": "Narita → Higashi-Ginza (Keisei)",
+          "category": "",
+          "min": 0,
+          "max": 0,
+          "currency": "",
+          "when": "",
+          "note": ""
+        },
+        {
+          "name": "Tokyo şehir içi (Gün 1-2)",
+          "category": "",
+          "min": 0,
+          "max": 0,
+          "currency": "",
+          "when": "",
+          "note": ""
+        },
+        {
+          "name": "Shinjuku → Tokyo → Kyoto (Shinkansen)",
+          "category": "Ulaşım",
+          "min": 12690,
+          "max": 12690,
+          "currency": "¥",
+          "when": "Gün 3",
+          "note": "Chuo Rapid ¥260 + Nozomi 371 ¥12.430 (Hayatoku-21)"
+        },
+        {
+          "name": "Kyoto şehir içi (Gün 3-5)",
+          "category": "Ulaşım",
+          "min": 1150,
+          "max": 1150,
+          "currency": "¥",
+          "when": "Gün 3-4",
+          "note": "Otobüs/Metro çeşitli"
+        },
+        {
+          "name": "Kyoto → Kinosaki (Ltd. Exp.)",
+          "category": "Ulaşım",
+          "min": 5370,
+          "max": 5370,
+          "currency": "¥",
+          "when": "Gün 5",
+          "note": "Rez. zorunlu. e5489'dan (22 Nisan'dan açık)"
+        },
+        {
+          "name": "Kinosaki → Osaka (Kounotori)",
+          "category": "Ulaşım",
+          "min": 5900,
+          "max": 5900,
+          "currency": "¥",
+          "when": "Gün 6",
+          "note": "Rez. zorunlu. e5489'dan (23 Nisan'dan açık)"
+        },
+        {
+          "name": "Osaka şehir içi (Gün 6-8)",
+          "category": "Ulaşım",
+          "min": 960,
+          "max": 960,
+          "currency": "¥",
+          "when": "Gün 6-8",
+          "note": "Metro Midosuji"
+        },
+        {
+          "name": "Osaka → Tokyo (Nozomi direkt)",
+          "category": "Ulaşım",
+          "min": 12430,
+          "max": 12430,
+          "currency": "¥",
+          "when": "Gün 9",
+          "note": "Hayatoku-21 indirimli. SmartEX"
+        },
+        {
+          "name": "Tokyo şehir içi (Gün 9-12)",
+          "category": "Ulaşım",
+          "min": 500,
+          "max": 500,
+          "currency": "¥",
+          "when": "Gün 9-12",
+          "note": "JR + Metro"
+        },
+        {
+          "name": "Ueno → Narita (Skyliner)",
+          "category": "Ulaşım",
+          "min": 2670,
+          "max": 2670,
+          "currency": "¥",
+          "when": "Gün 13",
+          "note": "JR + Skyliner"
+        },
+        {
+          "name": "Yamato Ta-Q-Bin (2 valiz)",
+          "category": "Ulaşım",
+          "min": 4500,
+          "max": 5500,
+          "currency": "¥",
+          "when": "Gün 9",
+          "note": "Osaka → Tokyo kargo"
+        },
+        {
+          "name": "Kinosaki Ropeway (gidiş-dönüş)",
+          "category": "Ulaşım",
+          "min": 910,
+          "max": 910,
+          "currency": "¥",
+          "when": "Gün 5",
+          "note": "Teleferik Mt. Daishi"
+        },
+        {
+          "name": "Keisei Ueno bagaj teslimat servisi",
+          "category": "Ulaşım",
+          "min": 8000,
+          "max": 8000,
+          "currency": "¥",
+          "when": "Gün 13",
+          "note": "2 valiz × ¥4.000. Narita T1'den al"
+        }
+      ],
+      "currency": "¥",
+      "subtotal": {
+        "min": 55080,
+        "max": 56080,
+        "currency": "¥"
+      }
+    }
+  ]
+}
