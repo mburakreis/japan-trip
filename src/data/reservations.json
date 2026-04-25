@@ -8,7 +8,7 @@
     "nights": 1,
     "status": "booked",
     "platform": "",
-    "manageLink": "",
+    "manageLink": "https://www.agoda.com/tr-tr/account/editbooking.html?bookingId=Hx9qUDEaVErlbT76NO3cBA%3D%3D&ds=qQ7q2f5Gh73RPyf9",
     "email": "",
     "priceRaw": "",
     "note": "Daha önce alınmıştı",
@@ -25,7 +25,7 @@
     "nights": 1,
     "status": "booked",
     "platform": "Agoda",
-    "manageLink": "",
+    "manageLink": "https://www.agoda.com/tr-tr/account/editbooking.html?navBack=true&bookingId=C31bi6ctsWQ4TNiNo1fNIg%3D%3D&ds=P%2FJeHaLZ61jMXMlC",
     "email": "",
     "priceRaw": "₺2.572",
     "note": "Room Assigned at Check-In, kahvaltı dahil, non-refundable",
@@ -42,7 +42,7 @@
     "nights": 2,
     "status": "booked",
     "platform": "Agoda",
-    "manageLink": "",
+    "manageLink": "https://www.agoda.com/tr-tr/account/editbooking.html?navBack=true&bookingId=5TxxC0s9HE8yMgMLSSj1kw%3D%3D&ds=DinDcOWdePcxXaNp",
     "email": "",
     "priceRaw": "₺10.400 (2 gece)",
     "note": "Standart Çift (14 m²), kahvaltı dahil değil. Risksiz: ücretsiz iptal 18 May'a kadar, ödeme 15 May'a kadar yok. Adres: Dojisha-cho 160, Shimogyo-ku. Shijo (metro) / Karasuma (Hankyu) 2-3 dk yürüme. Kyoto İst. metro 4 dk, Nishiki Market 7 dk yürüme, Gion-Shijo 5-8 dk (Hankyu 1 durak), Toji pazarı Kujo üzerinden 14 dk.",
@@ -60,7 +60,7 @@
     "nights": 1,
     "status": "booked",
     "platform": "Trip.com",
-    "manageLink": "",
+    "manageLink": "https://tr.trip.com/hotels/ctorderdetail?orderid=1638319127791994&tripsignature=AAEAAQAHb3JkZXJpZE-qV5AZWXxuOmhK2JFcUzU1S5aPYSZBMU0V6DGvaltK-tripsign&curr=USD&locale=tr-TR",
     "email": "",
     "priceRaw": "",
     "note": "Kaiseki + kahvaltı dahil. Check-in 14:00, check-out 23 May 10:00",
@@ -133,10 +133,10 @@
     "nights": null,
     "status": "booked",
     "platform": "SmartEX Hayatoku-21",
-    "manageLink": "",
+    "manageLink": "https://shinkansen2.jr-central.co.jp/RSV_P/ClientServiceQR-Ticket?_encParam=1600kbWNSaUb00qAaklYmr00ZQmGicRI00JD0QOvvl00Q3bomud4001mogHjwi00MlOkVyJd00Fgd5itIk00mtta63mo00Rtw",
     "email": "",
     "priceRaw": "12430",
-    "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable",
+    "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable QR kodu kiosk'a okutup basılı bilet alacağım, onunla geçeceğim.",
     "dayIds": [
       "day-3"
     ]
@@ -190,6 +190,23 @@
     "note": "⚠️ SmartEX'ten alınacak (26 Nisan'dan açık)",
     "dayIds": [
       "day-9"
+    ]
+  },
+  {
+    "id": "res-vjw",
+    "type": "activity",
+    "title": "Visit Japan Web (giriş QR)",
+    "city": "",
+    "dateRaw": "18 Mayıs 2026 — Narita varış",
+    "nights": null,
+    "status": "booked",
+    "platform": "Visit Japan Web",
+    "manageLink": "https://www.vjw.digital.go.jp/main/#/vjwpic026",
+    "email": "",
+    "priceRaw": "",
+    "note": "Pasaport + bagaj + gümrük çıkışında QR kodunu hazır tut.",
+    "dayIds": [
+      "day-1"
     ]
   }
 ]
