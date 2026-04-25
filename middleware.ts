@@ -10,6 +10,8 @@
  * Auth model: cookie `japan-trip-auth` holds the same hash. Middleware compares.
  */
 
+declare const process: { env: Record<string, string | undefined> };
+
 const BYPASS_PATHS = new Set([
   "/login.html",
   "/api/auth",
