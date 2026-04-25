@@ -12,6 +12,8 @@
 
 export const config = { runtime: "edge" };
 
+declare const process: { env: Record<string, string | undefined> };
+
 const KEY = "user-shopping:v1";
 
 async function kvGet<T>(): Promise<T | null> {
