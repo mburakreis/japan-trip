@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { shopping } from "./derive";
 import type { ShoppingItem } from "../types";
+import { pullState, pushState } from "./sync";
 
 export type ShoppingItemOverride = {
   checked: boolean;
@@ -74,6 +75,16 @@ function migrateMissingDefaults(s: State): State {
 const listeners = new Set<(s: State) => void>();
 let current: State = loadInitial();
 
+let syncStatus: "idle" | "pulling" | "pushing" | "ok" | "offline" = "idle";
+const syncListeners = new Set<(s: typeof syncStatus) => void>();
+let pushTimer: ReturnType<typeof setTimeout> | null = null;
+let lastPushedJson = JSON.stringify(current);
+
+function setSyncStatus(s: typeof syncStatus) {
+  syncStatus = s;
+  for (const fn of syncListeners) fn(s);
+}
+
 function persist() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(current));
@@ -86,10 +97,66 @@ function emit() {
   for (const fn of listeners) fn(current);
 }
 
+function schedulePush() {
+  if (pushTimer) clearTimeout(pushTimer);
+  pushTimer = setTimeout(async () => {
+    pushTimer = null;
+    const snapshot = JSON.stringify(current);
+    if (snapshot === lastPushedJson) return;
+    setSyncStatus("pushing");
+    const ok = await pushState(current);
+    if (ok) {
+      lastPushedJson = snapshot;
+      setSyncStatus("ok");
+    } else {
+      setSyncStatus("offline");
+    }
+  }, 2000);
+}
+
 function update(mutator: (s: State) => State) {
   current = mutator(current);
   persist();
   emit();
+  schedulePush();
+}
+
+// Pull from server on module load (best-effort, falls back to localStorage)
+(async () => {
+  setSyncStatus("pulling");
+  const remote = await pullState<State>();
+  if (remote && remote.overrides && Array.isArray(remote.added) && Array.isArray(remote.hidden)) {
+    current = migrateMissingDefaults(remote);
+    persist();
+    emit();
+    lastPushedJson = JSON.stringify(current);
+    setSyncStatus("ok");
+  } else {
+    setSyncStatus("offline");
+  }
+})();
+
+export function useSyncStatus(): typeof syncStatus {
+  const [s, set] = useState(syncStatus);
+  useEffect(() => {
+    const fn = (next: typeof syncStatus) => set(next);
+    syncListeners.add(fn);
+    return () => {
+      syncListeners.delete(fn);
+    };
+  }, []);
+  return s;
+}
+
+export async function syncNow(): Promise<void> {
+  setSyncStatus("pushing");
+  const ok = await pushState(current);
+  if (ok) {
+    lastPushedJson = JSON.stringify(current);
+    setSyncStatus("ok");
+  } else {
+    setSyncStatus("offline");
+  }
 }
 
 export function useShoppingState(): State {
