@@ -7,9 +7,9 @@
     "dateRaw": "18 May Pzt",
     "nights": 1,
     "status": "booked",
-    "platform": "",
+    "platform": "Agoda",
     "manageLink": "https://www.agoda.com/tr-tr/account/editbooking.html?bookingId=Hx9qUDEaVErlbT76NO3cBA%3D%3D&ds=qQ7q2f5Gh73RPyf9",
-    "email": "",
+    "email": "burakreis61e",
     "priceRaw": "",
     "note": "Daha önce alınmıştı",
     "dayIds": [
@@ -26,7 +26,7 @@
     "status": "booked",
     "platform": "Agoda",
     "manageLink": "https://www.agoda.com/tr-tr/account/editbooking.html?navBack=true&bookingId=C31bi6ctsWQ4TNiNo1fNIg%3D%3D&ds=P%2FJeHaLZ61jMXMlC",
-    "email": "",
+    "email": "m.burakreis",
     "priceRaw": "₺2.572",
     "note": "Room Assigned at Check-In, kahvaltı dahil, non-refundable",
     "dayIds": [
@@ -43,7 +43,7 @@
     "status": "booked",
     "platform": "Agoda",
     "manageLink": "https://www.agoda.com/tr-tr/account/editbooking.html?navBack=true&bookingId=5TxxC0s9HE8yMgMLSSj1kw%3D%3D&ds=DinDcOWdePcxXaNp",
-    "email": "",
+    "email": "burakreis61e",
     "priceRaw": "₺10.400 (2 gece)",
     "note": "Standart Çift (14 m²), kahvaltı dahil değil. Risksiz: ücretsiz iptal 18 May'a kadar, ödeme 15 May'a kadar yok. Adres: Dojisha-cho 160, Shimogyo-ku. Shijo (metro) / Karasuma (Hankyu) 2-3 dk yürüme. Kyoto İst. metro 4 dk, Nishiki Market 7 dk yürüme, Gion-Shijo 5-8 dk (Hankyu 1 durak), Toji pazarı Kujo üzerinden 14 dk.",
     "dayIds": [
@@ -61,7 +61,7 @@
     "status": "booked",
     "platform": "Trip.com",
     "manageLink": "https://tr.trip.com/hotels/ctorderdetail?orderid=1638319127791994&tripsignature=AAEAAQAHb3JkZXJpZE-qV5AZWXxuOmhK2JFcUzU1S5aPYSZBMU0V6DGvaltK-tripsign&curr=USD&locale=tr-TR",
-    "email": "",
+    "email": "burakreis61e",
     "priceRaw": "",
     "note": "Kaiseki + kahvaltı dahil. Check-in 14:00, check-out 23 May 10:00",
     "dayIds": [
@@ -136,7 +136,7 @@
     "manageLink": "https://shinkansen2.jr-central.co.jp/RSV_P/ClientServiceQR-Ticket?_encParam=1600kbWNSaUb00qAaklYmr00ZQmGicRI00JD0QOvvl00Q3bomud4001mogHjwi00MlOkVyJd00Fgd5itIk00mtta63mo00Rtw",
     "email": "",
     "priceRaw": "12430",
-    "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable QR kodu kiosk'a okutup basılı bilet alacağım, onunla geçeceğim.",
+    "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable QR kodu kiosk'a okutup basılı bilet alacağım, onunla geçeceğim. SmartEX hesabı; PIN/şifre/üyelik no buraya yazılmaz, ayrı tutulacak.",
     "dayIds": [
       "day-3"
     ]
@@ -144,16 +144,16 @@
   {
     "id": "res-9",
     "type": "transport",
-    "title": "Ltd. Exp. Kinosaki No.3 — KİNOSAKİ TRENİ",
+    "title": "Ltd. Exp. Kinosaki No.5 — KİNOSAKİ TRENİ",
     "city": "",
-    "dateRaw": "22 Mayıs 2026 Cuma 09:25",
+    "dateRaw": "22 Mayıs 2026 Cuma 11:25",
     "nights": null,
-    "status": "pending",
-    "platform": "e5489",
+    "status": "booked",
+    "platform": "JR West e5489",
     "manageLink": "",
-    "email": "",
+    "email": "m.burakreis",
     "priceRaw": "5370",
-    "note": "⚠️ Ön rez. şart. e5489.jr-odekake.net (22 Nisan'dan açık)",
+    "note": "✅ REZERVE (JR West e5489). Kyoto 11:25 → Kinosakionsen 13:49. Regular ticket.",
     "dayIds": [
       "day-5"
     ]
