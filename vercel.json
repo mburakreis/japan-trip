@@ -1,9 +1,6 @@
 {
+  "framework": "vite",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/((?!api/|_vercel/|login.html|icon.svg|manifest.webmanifest|robots.txt|sw.js|assets/).*)", "destination": "/index.html" }
-  ]
+  "cleanUrls": false
 }
