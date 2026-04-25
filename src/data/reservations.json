@@ -1,43 +1,5 @@
 [
   {
-    "id": "tr-home-ist",
-    "type": "activity",
-    "title": "Evden çıkış (Üsküdar Burhaniye → İstanbul Havalimanı)",
-    "city": "İstanbul",
-    "dateRaw": "17 May Pzr ~16:30",
-    "nights": null,
-    "status": "booked",
-    "platform": "",
-    "manageLink": "",
-    "email": "",
-    "priceRaw": "",
-    "note": "KE956 21:20 → uluslararası uçuş, 18:30'da terminalde ol → Burhaniye'den 16:30'da çık. M11 metro ~75dk, Havaist otobüs ~90dk.",
-    "address": "Üsküdar Burhaniye, İstanbul",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Burhaniye%20Mahallesi%20%C3%9Csk%C3%BCdar%20%C4%B0stanbul",
-    "dayIds": [
-      "day-1"
-    ]
-  },
-  {
-    "id": "tr-ist-airport",
-    "type": "activity",
-    "title": "İstanbul Havalimanı (IST)",
-    "city": "İstanbul",
-    "dateRaw": "17 May Pzr 18:30 (terminalde)",
-    "nights": null,
-    "status": "booked",
-    "platform": "",
-    "manageLink": "",
-    "email": "",
-    "priceRaw": "",
-    "note": "Online check-in açılırsa yap. Pasaport, vize/Visit Japan Web QR hazır olsun.",
-    "address": "Tayakadın, Terminal Cd., 34283 Arnavutköy/İstanbul",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport%20IST",
-    "dayIds": [
-      "day-1"
-    ]
-  },
-  {
     "id": "tr-ke956",
     "type": "transport",
     "title": "KE956: İstanbul → Seoul (Incheon)",
