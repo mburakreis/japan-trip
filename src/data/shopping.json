@@ -9,7 +9,8 @@
     "note": "Gait analysis",
     "dayIds": [
       "day-2"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Asics%20Tokyo%20Ginza"
   },
   {
     "id": "shop-2",
@@ -21,43 +22,21 @@
     "note": "45L 3-way, 1010g, eski sırt atılacak",
     "dayIds": [
       "day-2"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza"
   },
   {
-    "id": "shop-3",
+    "id": "shop-uniqlo",
     "checked": false,
-    "item": "Uniqlo Grafik Tişört ×2",
-    "where": "Uniqlo Shinjuku",
-    "priceRaw": "¥4-7K",
-    "day": "Gün 2 — Tokyo",
-    "note": "",
+    "item": "Uniqlo Shinjuku — kendi seçim",
+    "where": "Uniqlo Shinjuku Honten",
+    "priceRaw": "¥13-21K",
+    "day": "Gün 2 — Shinjuku",
+    "note": "Tişört, çorap, beğendiğin ne varsa. İlk gün giysisi öncelik.",
     "dayIds": [
       "day-2"
-    ]
-  },
-  {
-    "id": "shop-4",
-    "checked": false,
-    "item": "Uniqlo Basic Tişört ×2",
-    "where": "Uniqlo Shinjuku",
-    "priceRaw": "¥4-6K",
-    "day": "Gün 2 — Tokyo",
-    "note": "",
-    "dayIds": [
-      "day-2"
-    ]
-  },
-  {
-    "id": "shop-5",
-    "checked": false,
-    "item": "Çorap Seti",
-    "where": "Uniqlo Shinjuku",
-    "priceRaw": "¥5-8K",
-    "day": "Gün 2 — Tokyo",
-    "note": "",
-    "dayIds": [
-      "day-2"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UNIQLO%20Shinjuku%20Honten"
   },
   {
     "id": "shop-6",
@@ -69,7 +48,8 @@
     "note": "Carry-on",
     "dayIds": [
       "day-4"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyukyodo%20Kyoto"
   },
   {
     "id": "shop-7",
@@ -81,7 +61,8 @@
     "note": "Kırılgan — giysilerle sar, Valiz #1",
     "dayIds": [
       "day-4"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=To-ji%20Temple"
   },
   {
     "id": "shop-8",
@@ -93,7 +74,8 @@
     "note": "Konaklama ile",
     "dayIds": [
       "day-6"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinonomesou%20Kinosaki"
   },
   {
     "id": "shop-9",
@@ -105,7 +87,8 @@
     "note": "Valiz #1",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Osaka"
   },
   {
     "id": "shop-10",
@@ -117,7 +100,8 @@
     "note": "Valiz #1",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ABC-MART%20Shinsaibashi"
   },
   {
     "id": "shop-11",
@@ -129,7 +113,8 @@
     "note": "Valiz #1",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Dotonbori"
   },
   {
     "id": "shop-12",
@@ -141,7 +126,8 @@
     "note": "Valiz #1",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Dotonbori"
   },
   {
     "id": "shop-13",
@@ -153,7 +139,8 @@
     "note": "Valiz #1",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Dotonbori"
   },
   {
     "id": "shop-14",
@@ -165,7 +152,8 @@
     "note": "Valiz #1",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Dotonbori"
   },
   {
     "id": "shop-15",
@@ -177,7 +165,8 @@
     "note": "Valiz #1",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Dotonbori"
   },
   {
     "id": "shop-16",
@@ -189,7 +178,8 @@
     "note": "Tax-free. PP siyah. Yamato → Tokyo",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Umeda"
   },
   {
     "id": "shop-17",
@@ -201,7 +191,8 @@
     "note": "Personal item: Kaneko + Kobo + cüzdan",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MUJI%20Shinsaibashi"
   },
   {
     "id": "shop-18",
@@ -213,7 +204,8 @@
     "note": "",
     "dayIds": [
       "day-8"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MUJI%20Shinsaibashi"
   },
   {
     "id": "shop-19",
@@ -225,7 +217,8 @@
     "note": "Keyif alışverişi, ¥35K tavan",
     "dayIds": [
       "day-10"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake%20Complex%20Akihabara"
   },
   {
     "id": "shop-20",
@@ -237,7 +230,8 @@
     "note": "Tax-free. Valiz #2",
     "dayIds": [
       "day-11"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba"
   },
   {
     "id": "shop-21",
@@ -249,7 +243,8 @@
     "note": "Tax-free. Valiz #2",
     "dayIds": [
       "day-11"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba"
   },
   {
     "id": "shop-22",
@@ -261,7 +256,8 @@
     "note": "Tax-free. Valiz #2",
     "dayIds": [
       "day-11"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba"
   },
   {
     "id": "shop-23",
@@ -273,7 +269,8 @@
     "note": "Carry-on (Muji pouch)",
     "dayIds": [
       "day-11"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba"
   },
   {
     "id": "shop-24",
@@ -285,7 +282,8 @@
     "note": "Tax-free. PP siyah. Check-in",
     "dayIds": [
       "day-11"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba"
   },
   {
     "id": "shop-25",
@@ -297,7 +295,8 @@
     "note": "Hediye. Valiz #1",
     "dayIds": [
       "day-11"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town"
   },
   {
     "id": "shop-26",
@@ -309,7 +308,8 @@
     "note": "Carry-on (Muji pouch)",
     "dayIds": [
       "day-12"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaneko%20Optical%20Ginza"
   },
   {
     "id": "shop-27",
@@ -321,7 +321,8 @@
     "note": "Valiz #2",
     "dayIds": [
       "day-12"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Station"
   },
   {
     "id": "shop-28",
@@ -333,6 +334,7 @@
     "note": "Son bagaj kapasitesi",
     "dayIds": [
       "day-13"
-    ]
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20Airport%20Terminal%201%20Duty%20Free"
   }
 ]

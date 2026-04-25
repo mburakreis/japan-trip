@@ -84,42 +84,6 @@
           ]
         },
         {
-          "name": "Uniqlo Grafik Tişört ×2",
-          "category": "Giyim",
-          "min": 4000,
-          "max": 7000,
-          "currency": "¥",
-          "when": "Gün 2 — Shinjuku",
-          "note": "",
-          "dayIds": [
-            "day-2"
-          ]
-        },
-        {
-          "name": "Uniqlo Basic Tişört ×2",
-          "category": "Giyim",
-          "min": 4000,
-          "max": 6000,
-          "currency": "¥",
-          "when": "Gün 2 — Shinjuku",
-          "note": "İlk günlerde giyilecek",
-          "dayIds": [
-            "day-2"
-          ]
-        },
-        {
-          "name": "Çorap Seti",
-          "category": "Giyim",
-          "min": 5000,
-          "max": 8000,
-          "currency": "¥",
-          "when": "Gün 2 — Shinjuku",
-          "note": "",
-          "dayIds": [
-            "day-2"
-          ]
-        },
-        {
           "name": "Pantolon (2-3 adet)",
           "category": "Giyim",
           "min": 6000,
@@ -381,6 +345,18 @@
           "dayIds": [
             "day-13"
           ]
+        },
+        {
+          "name": "Uniqlo Shinjuku — kendi seçim",
+          "category": "Giyim",
+          "min": 13000,
+          "max": 21000,
+          "currency": "¥",
+          "when": "Gün 2 — Shinjuku",
+          "note": "Tişört, çorap, beğendiğin ne varsa",
+          "dayIds": [
+            "day-2"
+          ]
         }
       ],
       "currency": "¥",
@@ -604,13 +580,13 @@
           ]
         },
         {
-          "name": "Kyoto → Kinosaki (Ltd. Exp.)",
+          "name": "Kyoto → Kinosaki Onsen (Kinosaki No.5)",
           "category": "Ulaşım",
-          "min": 5370,
-          "max": 5370,
+          "min": 5170,
+          "max": 5170,
           "currency": "¥",
           "when": "Gün 5",
-          "note": "Rez. zorunlu. e5489'dan (22 Nisan'dan açık)",
+          "note": "Reserved seat, Car 2 / 18A. e5489 booking, res-9. (Eski ¥5370 → güncel ¥5170)",
           "dayIds": [
             "day-5"
           ]
