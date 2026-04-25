@@ -20,6 +20,10 @@ Batch format:
       "skipped": [...]   # ignored (reporting only)
     }
 
+Incoming mapsUrls in `/maps/dir/?api=1&destination=...` form are normalized
+to `/maps/search/?api=1&query=...` so taps open the place page (with
+surroundings) and the user can choose Directions themselves.
+
 The script is idempotent — running it twice with the same patch leaves the
 data identical. Existing fields are overwritten so re-runs of an updated
 batch correct earlier mistakes.
@@ -28,11 +32,21 @@ batch correct earlier mistakes.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "src" / "data"
+
+# Convert "directions from current location" URLs to "show place page" URLs.
+_DIR_TO_SEARCH = re.compile(r"(https?://www\.google\.com/maps/)dir/\?api=1&destination=")
+
+
+def normalize_url(url: str) -> str:
+    if not isinstance(url, str):
+        return url
+    return _DIR_TO_SEARCH.sub(r"\1search/?api=1&query=", url)
 
 
 def load(name: str):
@@ -66,7 +80,7 @@ def apply_day_entry(days, entry, errors):
         )
         return
     if "mapsUrl" in entry:
-        target["mapsUrl"] = entry["mapsUrl"]
+        target["mapsUrl"] = normalize_url(entry["mapsUrl"])
 
 
 def apply_reservation_entry(reservations, entry, errors):
@@ -77,7 +91,7 @@ def apply_reservation_entry(reservations, entry, errors):
     if "address" in entry:
         res["address"] = entry["address"]
     if "mapsUrl" in entry:
-        res["mapsUrl"] = entry["mapsUrl"]
+        res["mapsUrl"] = normalize_url(entry["mapsUrl"])
 
 
 def apply_shopping_entry(shopping, entry, errors):
@@ -86,7 +100,7 @@ def apply_shopping_entry(shopping, entry, errors):
         errors.append(f"unknown shopping id: {entry['id']}")
         return
     if "mapsUrl" in entry:
-        item["mapsUrl"] = entry["mapsUrl"]
+        item["mapsUrl"] = normalize_url(entry["mapsUrl"])
 
 
 def main(path: str) -> int:
