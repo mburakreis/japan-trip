@@ -702,7 +702,7 @@
         "duration": "60dk",
         "cost": null,
         "note": "Bagajı hazırla, tek çanta düzeninde çık",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6892851,139.7028627",
         "tabelogUrl": ""
       },
       {
@@ -728,7 +728,7 @@
         "duration": "15dk",
         "cost": null,
         "note": "Platform 14-19. Ekiben almak istersen bu ara",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6812996,139.7670658",
         "tabelogUrl": ""
       },
       {
@@ -754,7 +754,7 @@
         "duration": "—",
         "cost": null,
         "note": "",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=34.985849,135.7587667",
         "tabelogUrl": ""
       },
       {
@@ -812,7 +812,7 @@
           "raw": "500"
         },
         "note": "10:00-17:00. Tatami üstünde otur, bahçeye bak",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0000363,135.7735632",
         "tabelogUrl": ""
       },
       {
@@ -823,7 +823,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Elektrik kablosuz korumalı sokak. Geiko görürsen yolunu kesme",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0054928,135.7752402",
         "tabelogUrl": ""
       },
       {
@@ -845,7 +845,7 @@
         "duration": "40dk",
         "cost": null,
         "note": "24 saat açık, ücretsiz. Kırmızı torii fotoğraf noktası",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0036559,135.7785534",
         "tabelogUrl": ""
       },
       {
@@ -856,7 +856,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Mayıs'ta yeşillik harika. Bankta otur",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0035587,135.7805269",
         "tabelogUrl": ""
       },
       {
@@ -867,7 +867,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Hanamikoji'den daha sakin. Klasik fotoğraf noktası",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0054778,135.7736473",
         "tabelogUrl": ""
       },
       {
@@ -878,7 +878,7 @@
         "duration": "20dk",
         "cost": null,
         "note": "Gün batımı saati. Nehir kenarı Kyoto atmosferi",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0038394,135.7715331",
         "tabelogUrl": ""
       },
       {
@@ -889,7 +889,7 @@
         "duration": "90dk",
         "cost": null,
         "note": "Yürü, menülere bak, atmosferi kok. Yemek: YEMEK bölümüne bak",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0039339,135.7710439",
         "tabelogUrl": ""
       },
       {
@@ -928,7 +928,7 @@
           "raw": "900-1.4K"
         },
         "note": "Okaru'da sıra uzunsa",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0027577,135.7739856",
         "tabelogUrl": ""
       },
       {
@@ -939,7 +939,7 @@
         "duration": "60dk",
         "cost": null,
         "note": "Pontocho kalabalık/pahalıysa",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0008496,135.769274",
         "tabelogUrl": ""
       }
     ],
@@ -971,7 +971,7 @@
           "raw": "600-900"
         },
         "note": "Uji çayı kullanıyor",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.003665,135.774477",
         "tabelogUrl": ""
       },
       {
@@ -986,7 +986,7 @@
           "raw": "3K-4K"
         },
         "note": "Rez.suz girilebilir. Kamogawa manzarası. Solo bar ideal",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0043645,135.7711232",
         "tabelogUrl": ""
       },
       {
@@ -1001,7 +1001,7 @@
           "raw": "2K-3.5K"
         },
         "note": "Daha casual. Pontocho içi",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.007957,135.770948",
         "tabelogUrl": ""
       }
     ],
