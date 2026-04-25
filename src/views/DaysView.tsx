@@ -3,7 +3,7 @@ import { days, inferCity } from "../lib/derive";
 import type { Day } from "../types";
 import { DayCard } from "../components/DayCard";
 
-type NavFn = (next: { tab: "days" | "reservations" | "budget" | "shopping"; focusId?: string }) => void;
+type NavFn = (next: { tab: "days" | "reservations"  | "shopping"; focusId?: string }) => void;
 
 function dayMatches(d: Day, q: string): boolean {
   if (!q) return true;

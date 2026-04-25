@@ -15,7 +15,7 @@ import { DayChips } from "../components/DayChip";
 import { Sheet } from "../components/Sheet";
 import { ShoppingItemForm, type FormValues } from "../components/ShoppingItemForm";
 
-type NavFn = (next: { tab: "days" | "reservations" | "budget" | "shopping"; focusId?: string }) => void;
+type NavFn = (next: { tab: "days" | "reservations"  | "shopping"; focusId?: string }) => void;
 
 function matches(s: MergedItem, q: string): boolean {
   if (!q) return true;

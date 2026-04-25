@@ -3,14 +3,13 @@ import type { Tab } from "../types";
 const TABS: { id: Tab; label: string; icon: string }[] = [
   { id: "days", label: "Günler", icon: "📅" },
   { id: "reservations", label: "Rezerve", icon: "🔖" },
-  { id: "budget", label: "Bütçe", icon: "💴" },
   { id: "shopping", label: "Alışveriş", icon: "🛍️" },
 ];
 
 export function Nav({ tab, onChange }: { tab: Tab; onChange: (t: Tab) => void }) {
   return (
     <nav className="fixed bottom-0 inset-x-0 bg-white/90 dark:bg-ink/95 backdrop-blur border-t border-black/5 dark:border-white/10 pb-[env(safe-area-inset-bottom)]">
-      <div className="max-w-3xl mx-auto grid grid-cols-4">
+      <div className="max-w-3xl mx-auto grid grid-cols-3">
         {TABS.map((t) => (
           <button
             key={t.id}
