@@ -15,12 +15,56 @@ import { StatusBadge, STATUS_LABEL } from "./StatusBadge";
 
 type NavFn = (next: { tab: "days" | "reservations" | "budget" | "shopping"; focusId?: string }) => void;
 
-const SECTIONS: { key: keyof Pick<Day, "fixed" | "main" | "meals" | "alternatives">; label: string }[] = [
-  { key: "fixed", label: "Sabit" },
-  { key: "main", label: "Ana Plan" },
-  { key: "meals", label: "Yemek" },
-  { key: "alternatives", label: "B Planı" },
-];
+type Source = "fixed" | "main" | "meals" | "alternatives";
+type TimedItem = Activity & { _source: Source; _time: number };
+
+const SOURCE_ORDER: Record<Source, number> = { fixed: 0, main: 1, meals: 2, alternatives: 3 };
+
+function parseTimeMin(t: string): number {
+  if (!t) return Number.MAX_SAFE_INTEGER;
+  const cleaned = t
+    .replace(/\[SABİT\]\s*/i, "")
+    .replace(/^~/, "")
+    .replace(/\s*▸\s*$/, "")
+    .trim();
+  const m = cleaned.match(/^(\d{1,2}):(\d{2})/);
+  if (m) return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+  const lc = cleaned.toLowerCase();
+  if (/^(kahvalt|sabah)/.test(lc)) return 7 * 60;
+  if (/^öğle/.test(lc)) return 12 * 60 + 30;
+  if (/^(ara|atıştırma)/.test(lc)) return 15 * 60;
+  if (/^akşam/.test(lc)) return 19 * 60;
+  if (/^geç akşam/.test(lc)) return 22 * 60;
+  if (/^gece/.test(lc)) return 23 * 60;
+  if (/^alternatif/.test(lc) || /^alt/.test(lc)) return Number.MAX_SAFE_INTEGER - 1;
+  return Number.MAX_SAFE_INTEGER;
+}
+
+function buildTimeline(day: Day): TimedItem[] {
+  const items: TimedItem[] = [];
+  day.fixed.forEach((a) => items.push({ ...a, _source: "fixed", _time: parseTimeMin(a.time) }));
+  day.main.forEach((a) => {
+    // Skip [SABİT] cross-reference rows in main — they duplicate fixed entries
+    if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
+    items.push({ ...a, _source: "main", _time: parseTimeMin(a.time) });
+  });
+  day.meals.forEach((a) => items.push({ ...a, _source: "meals", _time: parseTimeMin(a.time) }));
+  day.alternatives.forEach((a) =>
+    items.push({ ...a, _source: "alternatives", _time: parseTimeMin(a.time) }),
+  );
+  items.sort((a, b) => {
+    if (a._time !== b._time) return a._time - b._time;
+    return SOURCE_ORDER[a._source] - SOURCE_ORDER[b._source];
+  });
+  return items;
+}
+
+function extractTotal(summary: string): { compact: string; full: string } {
+  if (!summary) return { compact: "", full: "" };
+  const cleaned = summary.replace(/^💰\s*Gün\s*\d+\s*Bütçe:\s*/i, "");
+  const m = cleaned.match(/TOPLAM\s*~?\s*([^|]+?)\s*$/i);
+  return { compact: m ? m[1].trim() : cleaned, full: cleaned };
+}
 
 export function DayCard({
   day,
@@ -43,7 +87,8 @@ export function DayCard({
   const visiblePlanShoppingCount = shopping.filter((p) => !shoppingState.hidden.includes(p.id)).length;
   const totalShoppingForDay = visiblePlanShoppingCount + userShoppingForDay.length;
   const budgetItems = budgetForDay(day.id);
-  const totalActs = day.fixed.length + day.main.length + day.meals.length;
+  const timeline = buildTimeline(day);
+  const totalActs = timeline.length;
 
   useEffect(() => {
     if (open && ref.current) {
@@ -87,30 +132,32 @@ export function DayCard({
       </button>
       {open && (
         <div className="border-t border-black/5 dark:border-white/10">
+          <TopBudgetMini summary={day.budgetSummary} />
           {reservations.length > 0 && (
-            <LinkedReservations
-              reservations={reservations}
-              navigate={navigate}
-            />
+            <LinkedReservations reservations={reservations} navigate={navigate} />
           )}
           <LinkedShopping dayId={day.id} items={shopping} navigate={navigate} />
-          {SECTIONS.map(({ key, label }) =>
-            day[key].length > 0 ? (
-              <SectionBlock key={key} title={label} items={day[key]} />
-            ) : null,
-          )}
-          {budgetItems.length > 0 && (
-            <LinkedBudget items={budgetItems} navigate={navigate} />
-          )}
+          {timeline.length > 0 && <Timeline items={timeline} />}
+          {budgetItems.length > 0 && <LinkedBudget items={budgetItems} navigate={navigate} />}
           <DayNote dayId={day.id} />
-          {day.budgetSummary && (
-            <div className="px-4 py-3 text-xs text-ink-muted dark:text-paper-muted border-t border-black/5 dark:border-white/10 bg-paper dark:bg-white/[0.02]">
-              {day.budgetSummary}
-            </div>
-          )}
         </div>
       )}
     </li>
+  );
+}
+
+function TopBudgetMini({ summary }: { summary: string }) {
+  if (!summary) return null;
+  const { compact, full } = extractTotal(summary);
+  return (
+    <div className="px-4 py-2.5 bg-paper dark:bg-white/[0.02] border-b border-black/5 dark:border-white/10">
+      <p className="text-sm">
+        💴 <span className="font-medium">{compact}</span>
+      </p>
+      <p className="text-[11px] text-ink-muted dark:text-paper-muted mt-0.5 leading-snug">
+        {full !== compact ? full : "Çoğu küçük yer cash, otel/depto card"}
+      </p>
+    </div>
   );
 }
 
@@ -335,58 +382,82 @@ function LinkedBudget({
   );
 }
 
-function SectionBlock({ title, items }: { title: string; items: Activity[] }) {
+function Timeline({ items }: { items: TimedItem[] }) {
   return (
     <section className="px-4 py-3 border-t border-black/5 dark:border-white/10">
       <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-2">
-        {title}
+        Plan
       </h3>
       <ul className="space-y-3">
         {items.map((a, i) => (
-          <li key={i} className="flex gap-3 text-sm">
-            <span className="font-mono text-xs text-ink-muted dark:text-paper-muted w-14 shrink-0 pt-0.5">
-              {a.time || "—"}
-            </span>
-            <div className="min-w-0 flex-1">
-              <p className="font-medium">{a.place || a.action}</p>
-              {a.place && a.action && (
-                <p className="text-ink-muted dark:text-paper-muted text-xs mt-0.5">{a.action}</p>
-              )}
-              <div className="flex flex-wrap gap-x-3 gap-y-0.5 mt-1 text-[11px] text-ink-muted dark:text-paper-muted">
-                {a.transport && a.transport !== "—" && <span>🚇 {a.transport}</span>}
-                {a.duration && a.duration !== "—" && <span>⏱ {a.duration}</span>}
-                {a.cost && <span>💴 {a.cost.raw}</span>}
-                {a.mapsUrl && (
-                  <a
-                    href={a.mapsUrl}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="hover:text-accent"
-                  >
-                    🗺 Haritada gör
-                  </a>
-                )}
-                {a.tabelogUrl && (
-                  <a
-                    href={a.tabelogUrl}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className="hover:text-accent"
-                  >
-                    🍽 Tabelog
-                  </a>
-                )}
-              </div>
-              {a.note && (
-                <p className="mt-1 text-[12px] text-ink-muted dark:text-paper-muted leading-snug">
-                  {a.note}
-                </p>
-              )}
-            </div>
-          </li>
+          <TimelineRow key={i} a={a} />
         ))}
       </ul>
     </section>
+  );
+}
+
+function TimelineRow({ a }: { a: TimedItem }) {
+  // Strip "[SABİT]" from time string display (we visualize via 📌 marker)
+  const displayTime = a.time.replace(/\[SABİT\]\s*/i, "").replace(/\s*▸\s*$/, "").trim();
+  const isFixed = a._source === "fixed";
+  const isMeal = a._source === "meals";
+  const isAlt = a._source === "alternatives";
+  const placeText = a.place || a.action;
+
+  return (
+    <li className={`flex gap-3 text-sm ${isAlt ? "opacity-80" : ""}`}>
+      <div className="w-14 shrink-0 pt-0.5 flex flex-col items-start gap-0.5">
+        <span className="font-mono text-xs text-ink-muted dark:text-paper-muted">
+          {displayTime || "—"}
+        </span>
+        {isAlt && (
+          <span className="chip bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200 text-[9px]">
+            B
+          </span>
+        )}
+      </div>
+      <div className="min-w-0 flex-1">
+        <p className="font-medium leading-snug">
+          {isFixed && <span className="mr-1" title="Sabit">📌</span>}
+          {isMeal && <span className="mr-1" title="Yemek">🍽</span>}
+          {placeText}
+        </p>
+        {a.place && a.action && (
+          <p className="text-ink-muted dark:text-paper-muted text-xs mt-0.5">{a.action}</p>
+        )}
+        <div className="flex flex-wrap gap-x-3 gap-y-0.5 mt-1 text-[11px] text-ink-muted dark:text-paper-muted">
+          {a.transport && a.transport !== "—" && <span>🚇 {a.transport}</span>}
+          {a.duration && a.duration !== "—" && <span>⏱ {a.duration}</span>}
+          {a.cost && <span>💴 {a.cost.raw}</span>}
+          {a.mapsUrl && (
+            <a
+              href={a.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="hover:text-accent"
+            >
+              🗺 Haritada gör
+            </a>
+          )}
+          {a.tabelogUrl && (
+            <a
+              href={a.tabelogUrl}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="hover:text-accent"
+            >
+              🍽 Tabelog
+            </a>
+          )}
+        </div>
+        {a.note && (
+          <p className="mt-1 text-[12px] text-ink-muted dark:text-paper-muted leading-snug">
+            {a.note}
+          </p>
+        )}
+      </div>
+    </li>
   );
 }
 
