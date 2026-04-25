@@ -4,7 +4,6 @@ import { Header } from "./components/Header";
 import { SearchBar } from "./components/SearchBar";
 import { DaysView } from "./views/DaysView";
 import { ReservationsView } from "./views/ReservationsView";
-import { BudgetView } from "./views/BudgetView";
 import { ShoppingView } from "./views/ShoppingView";
 import { useRoute, useTheme } from "./state";
 
@@ -23,9 +22,6 @@ export function App() {
         )}
         {route.tab === "reservations" && (
           <ReservationsView focusId={route.focusId} navigate={navigate} query={query} />
-        )}
-        {route.tab === "budget" && (
-          <BudgetView focusId={route.focusId} navigate={navigate} query={query} />
         )}
         {route.tab === "shopping" && (
           <ShoppingView focusId={route.focusId} navigate={navigate} query={query} />

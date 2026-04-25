@@ -61,30 +61,6 @@ export type ShoppingItem = {
   mapsUrl?: string;
 };
 
-export type BudgetItem = {
-  name: string;
-  category: string;
-  min: number;
-  max: number;
-  currency: string;
-  when: string;
-  note: string;
-  dayIds: string[];
-};
-
-export type BudgetSection = {
-  id: string;
-  title: string;
-  currency?: string;
-  items: BudgetItem[];
-  subtotal?: { min: number | null; max: number | null; currency: string };
-};
-
-export type Budget = {
-  fxNote: string;
-  sections: BudgetSection[];
-};
-
 export type Trip = {
   title: string;
   subtitle: string;
@@ -93,4 +69,4 @@ export type Trip = {
   fx: { from: string; to: string; rate: number; asOf: string };
 };
 
-export type Tab = "days" | "reservations" | "budget" | "shopping";
+export type Tab = "days" | "reservations" | "shopping";

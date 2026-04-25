@@ -4,16 +4,15 @@ import {
   shortDate,
   reservationsForDay,
   shoppingForDay,
-  budgetForDay,
 } from "../lib/derive";
-import type { Day, Activity, Reservation, ShoppingItem, BudgetItem } from "../types";
+import type { Day, Activity, Reservation, ShoppingItem } from "../types";
 import { todayDayId } from "../lib/countdown";
 import trip from "../data/trip.json";
 import { useShoppingState, toggleShopping } from "../lib/shoppingState";
 import { useNote } from "../lib/notesState";
 import { StatusBadge, STATUS_LABEL } from "./StatusBadge";
 
-type NavFn = (next: { tab: "days" | "reservations" | "budget" | "shopping"; focusId?: string }) => void;
+type NavFn = (next: { tab: "days" | "reservations" | "shopping"; focusId?: string }) => void;
 
 type Source = "fixed" | "main" | "meals" | "alternatives";
 type TimedItem = Activity & { _source: Source; _time: number };
@@ -86,7 +85,6 @@ export function DayCard({
   const userShoppingForDay = shoppingState.added.filter((u) => u.dayIds.includes(day.id));
   const visiblePlanShoppingCount = shopping.filter((p) => !shoppingState.hidden.includes(p.id)).length;
   const totalShoppingForDay = visiblePlanShoppingCount + userShoppingForDay.length;
-  const budgetItems = budgetForDay(day.id);
   const timeline = buildTimeline(day);
   const totalActs = timeline.length;
 
@@ -122,7 +120,6 @@ export function DayCard({
           <DayBadges
             reservations={reservations}
             shoppingCount={totalShoppingForDay}
-            budgetCount={budgetItems.length}
             actCount={totalActs}
           />
         </div>
@@ -138,7 +135,6 @@ export function DayCard({
           )}
           <LinkedShopping dayId={day.id} items={shopping} navigate={navigate} />
           {timeline.length > 0 && <Timeline items={timeline} />}
-          {budgetItems.length > 0 && <LinkedBudget items={budgetItems} navigate={navigate} />}
           <DayNote dayId={day.id} />
         </div>
       )}
@@ -164,12 +160,10 @@ function TopBudgetMini({ summary }: { summary: string }) {
 function DayBadges({
   reservations,
   shoppingCount,
-  budgetCount,
   actCount,
 }: {
   reservations: Reservation[];
   shoppingCount: number;
-  budgetCount: number;
   actCount: number;
 }) {
   const booked = reservations.filter((r) => r.status === "booked").length;
@@ -192,11 +186,6 @@ function DayBadges({
       {shoppingCount > 0 && (
         <span className="chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted">
           🛍️ {shoppingCount}
-        </span>
-      )}
-      {budgetCount > 0 && (
-        <span className="chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted">
-          💴 {budgetCount}
         </span>
       )}
     </div>
@@ -345,40 +334,6 @@ function ShoppingRow({
         </p>
       </button>
     </li>
-  );
-}
-
-function LinkedBudget({
-  items,
-  navigate,
-}: {
-  items: BudgetItem[];
-  navigate: NavFn;
-}) {
-  return (
-    <section className="px-4 py-3 border-t border-black/5 dark:border-white/10">
-      <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-2">
-        Bu güne bağlı bütçe
-      </h3>
-      <ul className="space-y-1">
-        {items.map((it, i) => (
-          <li key={i} className="flex items-baseline gap-3 text-sm">
-            <button
-              type="button"
-              onClick={() => navigate({ tab: "budget" })}
-              className="min-w-0 flex-1 text-left hover:underline"
-            >
-              {it.name}
-            </button>
-            <span className="text-xs font-mono text-ink-muted dark:text-paper-muted shrink-0">
-              {it.min === it.max
-                ? `${it.currency}${it.min.toLocaleString("tr-TR")}`
-                : `${it.currency}${it.min.toLocaleString("tr-TR")}–${it.max.toLocaleString("tr-TR")}`}
-            </span>
-          </li>
-        ))}
-      </ul>
-    </section>
   );
 }
 

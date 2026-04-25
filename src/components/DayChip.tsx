@@ -1,7 +1,7 @@
 import { dayById } from "../lib/derive";
 import type { Day } from "../types";
 
-type NavFn = (next: { tab: "days" | "reservations" | "budget" | "shopping"; focusId?: string }) => void;
+type NavFn = (next: { tab: "days" | "reservations"  | "shopping"; focusId?: string }) => void;
 
 export function DayChip({ dayId, navigate }: { dayId: string; navigate: NavFn }) {
   const d = dayById(dayId);

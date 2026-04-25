@@ -5,7 +5,7 @@ import { ObfuscatedEmail } from "../components/ObfuscatedEmail";
 import { StatusBadge } from "../components/StatusBadge";
 import { DayChips } from "../components/DayChip";
 
-type NavFn = (next: { tab: "days" | "reservations" | "budget" | "shopping"; focusId?: string }) => void;
+type NavFn = (next: { tab: "days" | "reservations"  | "shopping"; focusId?: string }) => void;
 
 const TYPE_LABEL: Record<Reservation["type"], string> = {
   accommodation: "Konaklama",
