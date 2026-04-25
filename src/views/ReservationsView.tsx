@@ -1,6 +1,7 @@
 import { useState } from "react";
 import data from "../data/reservations.json";
 import type { Reservation, ReservationStatus } from "../types";
+import { ObfuscatedEmail } from "../components/ObfuscatedEmail";
 
 const reservations = data as Reservation[];
 
@@ -70,15 +71,13 @@ export function ReservationsView() {
                   <a
                     href={r.manageLink}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="text-sm bg-ink text-white px-3 py-1.5 rounded-lg"
                   >
                     Rezervasyonu yönet ↗
                   </a>
                 )}
-                {r.email && (
-                  <span className="text-xs text-ink-muted truncate">({r.email})</span>
-                )}
+                {r.email && <ObfuscatedEmail email={r.email} />}
               </div>
             )}
           </li>
