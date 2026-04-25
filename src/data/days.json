@@ -284,17 +284,17 @@
       },
       {
         "time": "11:00",
-        "place": "ICI Ishii Sports Yurakucho",
-        "action": "Sırt çantası alımı — etiketleri kopar, eşyaları aktar",
+        "place": "Montbell Ginza",
+        "action": "Sırt çantası alımı (Tri-Pack 45) — etiketleri kopar, eşyaları aktar",
         "transport": "Yürüyüş",
         "duration": "40dk",
         "cost": {
-          "min": 15000,
+          "min": 22000,
           "max": 25000,
-          "raw": "15K-25K"
+          "raw": "22-25K"
         },
-        "note": "⚠️ Hemen al, gün boyu kullan",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.681179,139.7686823",
+        "note": "⚠️ Hemen al, gün boyu kullan. 45L 3-way, 1010g",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza",
         "tabelogUrl": ""
       },
       {
@@ -776,13 +776,13 @@
     "main": [
       {
         "time": "~14:00",
-        "place": "Otel",
+        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
         "action": "Bagajı bırak (check-in 15:00)",
         "transport": "Yürüyüş",
         "duration": "10dk",
         "cost": null,
         "note": "'nimotsu wo azuketai' de",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Kyoto-Shijokarasuma",
         "tabelogUrl": ""
       },
       {
@@ -827,14 +827,29 @@
         "tabelogUrl": ""
       },
       {
+        "time": "~16:45",
+        "place": "Kyukyodo",
+        "action": "Kırtasiye alışverişi (kalem, kutu, yelpaze) — Teramachi pasajı",
+        "transport": "Yürüyüş 10dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 18000,
+          "max": 28000,
+          "raw": "18-28K"
+        },
+        "note": "10:00-18:00 (son giriş ~17:30). Yelpazeleri carry-on'a al",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0099747,135.7670682",
+        "tabelogUrl": ""
+      },
+      {
         "time": "~17:00",
-        "place": "Otel",
+        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
         "action": "Check-in + kısa mola — duş, dinlen",
         "transport": "Yürüyüş",
         "duration": "30dk",
         "cost": null,
         "note": "15dk dinlen, akşam için enerji topla",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Kyoto-Shijokarasuma",
         "tabelogUrl": ""
       },
       {
@@ -905,13 +920,13 @@
       },
       {
         "time": "~22:30",
-        "place": "Otel",
+        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
         "action": "Dönüş + dinlenme",
         "transport": "Yürüyüş 10dk",
         "duration": "—",
         "cost": null,
         "note": "⚠️ Yarın Toji pazarı — erken kalkış",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Kyoto-Shijokarasuma",
         "tabelogUrl": ""
       }
     ],
@@ -1042,21 +1057,6 @@
         "note": "⚠️ ZORUNLU — seramiklerle gezme",
         "mapsUrl": "",
         "tabelogUrl": ""
-      },
-      {
-        "time": "14:45",
-        "place": "Kyukyodo (鳩居堂)",
-        "action": "10 kalem, kalem kutusu, 2 yelpaze",
-        "transport": "Nishiki'den yürüyüş 3dk",
-        "duration": "30dk",
-        "cost": {
-          "min": 18000,
-          "max": 28000,
-          "raw": "18K-28K"
-        },
-        "note": "10:00-18:00. Yelpazeleri carry-on'a al",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0099747,135.7670682",
-        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -1114,21 +1114,6 @@
         },
         "note": "Tako tamago, dashimaki, matcha mochi. Tezgah yanında ye",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0050258,135.764723",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "14:45",
-        "place": "Kyukyodo",
-        "action": "[SABİT] Kırtasiye alışverişi",
-        "transport": "Yürüyüş 3dk",
-        "duration": "30dk",
-        "cost": {
-          "min": 18000,
-          "max": 28000,
-          "raw": "18K-28K"
-        },
-        "note": "",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0099747,135.7670682",
         "tabelogUrl": ""
       },
       {
@@ -1385,59 +1370,59 @@
     ],
     "main": [
       {
-        "time": "07:30",
-        "place": "Gion Oteli",
-        "action": "Check-out — sırt çantasına geç, bavulları al",
+        "time": "09:00",
+        "place": "Karasuma çevresi kissaten",
+        "action": "Sabah — son Kyoto kahvaltısı, kalın tost + kahve (Inoda Coffee Honten / Rokuyo)",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 800,
+          "max": 1200,
+          "raw": "800-1.2K"
+        },
+        "note": "Otelin yanı, bavul ile rahat",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Inoda%20Coffee%20Honten",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "10:15",
+        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
+        "action": "Check-out + bavulu topla",
         "transport": "—",
-        "duration": "30dk",
+        "duration": "20dk",
         "cost": null,
         "note": "",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Kyoto-Shijokarasuma",
         "tabelogUrl": ""
       },
       {
-        "time": "08:00",
-        "place": "Gion → Kyoto İst.",
-        "action": "Bus 206 veya taksi",
-        "transport": "Otobüs/Taksi",
-        "duration": "20dk",
+        "time": "10:40",
+        "place": "Otel → Kyoto İst.",
+        "action": "Bavullu — taksi (~¥1.000-1.200) veya metro Karasuma 4dk; ardından e5489 yeşil otomattan bilet bastır",
+        "transport": "Taksi/Metro",
+        "duration": "30dk",
         "cost": {
           "min": 230,
-          "max": 230,
-          "raw": "230"
+          "max": 1200,
+          "raw": "230-1.2K"
         },
-        "note": "Bavulla taksi daha rahat (~¥1.200)",
-        "mapsUrl": "",
+        "note": "11:00'a kadar fiziksel bilet basılmalı. 11:10'da ekiben + içecek al, platform: San'in Hattı (山陰本線)",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station",
         "tabelogUrl": ""
       },
       {
-        "time": "08:30",
+        "time": "11:25",
         "place": "Kyoto İst.",
-        "action": "Son kahvaltı — Yodobashi Kyoto B1 konbini/ekiben",
-        "transport": "Yürüyüş",
-        "duration": "40dk",
-        "cost": {
-          "min": 500,
-          "max": 1000,
-          "raw": "500-1K"
-        },
-        "note": "",
-        "mapsUrl": "",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "[SABİT] 09:25",
-        "place": "Kyoto İst.",
-        "action": "Kinosaki treni",
+        "action": "Ltd. Exp. Kinosaki No.5 — Car 2, Seat 18A (varış 13:49)",
         "transport": "Tren",
         "duration": "146dk",
         "cost": {
-          "min": 5370,
-          "max": 5370,
-          "raw": "5370"
+          "min": 5170,
+          "max": 5170,
+          "raw": "5170"
         },
-        "note": "",
-        "mapsUrl": "",
+        "note": "✅ REZERVE (e5489 res-9). Kyoto İst.'da 11:00'a kadar fiziksel bilet bastır — kart + 4 haneli PIN. Sol/A pencere = Hozukyo geçidi",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station",
         "tabelogUrl": ""
       },
       {
@@ -1704,7 +1689,7 @@
         "tabelogUrl": ""
       }
     ],
-    "budgetSummary": "💰 Gün 5 Bütçe: Ulaşım ¥6.510 (Bus ¥230 + Kinosaki ¥5.370 + Ropeway ¥910) | Yemek ~¥3K | Konaklama+Yemek DAHİL | TOPLAM ~¥9.5K"
+    "budgetSummary": "💰 Gün 5 Bütçe: Ulaşım ¥6.600 (Taksi ~¥1.200 + Kinosaki No.5 ¥5.170 + Ropeway ¥910) | Yemek ~¥3K | Konaklama+Yemek DAHİL | TOPLAM ~¥10K"
   },
   {
     "id": "day-6",
