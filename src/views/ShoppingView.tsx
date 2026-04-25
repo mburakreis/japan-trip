@@ -236,7 +236,7 @@ function Row({
                 className="text-[11px] text-ink-muted dark:text-paper-muted hover:text-accent"
                 onClick={(e) => e.stopPropagation()}
               >
-                🗺 Yol tarifi
+                🗺 Haritada gör
               </a>
             )}
             {it.note && (

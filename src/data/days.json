@@ -13,7 +13,7 @@
         "duration": "—",
         "cost": null,
         "note": "Uçuş süresi 2s 30dk",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.7636035,140.3859353",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.7636035,140.3859353",
         "tabelogUrl": ""
       },
       {
@@ -24,7 +24,7 @@
         "duration": "30-45dk",
         "cost": null,
         "note": "Visit Japan Web QR kodunu hazır tut",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.7636035,140.3859353",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.7636035,140.3859353",
         "tabelogUrl": ""
       },
       {
@@ -50,7 +50,7 @@
         "duration": "15-20dk",
         "cost": null,
         "note": "Cashless only. Simmons yatak",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6681821,139.7632573",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6681821,139.7632573",
         "tabelogUrl": ""
       }
     ],
@@ -63,7 +63,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "İlk fotoğraf noktası. Ginza Chuo-dori da göz at",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6694253,139.7677446",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6694253,139.7677446",
         "tabelogUrl": ""
       },
       {
@@ -78,7 +78,7 @@
           "raw": "1200"
         },
         "note": "Pzt 05:00'e kadar açık. Paikou Tantanmen önerilir",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6676032,139.7621598",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6676032,139.7621598",
         "tabelogUrl": ""
       },
       {
@@ -113,7 +113,7 @@
         "duration": "15dk",
         "cost": null,
         "note": "Kabukiza'ya kadar yürümek fazla geliyorsa",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6688109,139.7617578",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6688109,139.7617578",
         "tabelogUrl": ""
       },
       {
@@ -145,7 +145,7 @@
           "raw": "1200"
         },
         "note": "Ginza 6-3-5. Counter-only, hızlı servis",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6676032,139.7621598",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6676032,139.7621598",
         "tabelogUrl": ""
       },
       {
@@ -184,7 +184,7 @@
           "raw": "22000"
         },
         "note": "⚠️ Pasaport şart. Kutuyu çantana sığdır",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6697955,139.7600068",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6697955,139.7600068",
         "tabelogUrl": ""
       },
       {
@@ -199,7 +199,7 @@
           "raw": "13K-21K"
         },
         "note": "Tax-free ayrı kasa",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6913489,139.7030056",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6913489,139.7030056",
         "tabelogUrl": ""
       }
     ],
@@ -242,7 +242,7 @@
           "raw": "1.5K-2.5K"
         },
         "note": "Tezgahtan tezgaha ye. Nakit hazır tut",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6647703,139.7702515",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6647703,139.7702515",
         "tabelogUrl": ""
       },
       {
@@ -268,7 +268,7 @@
           "raw": "810"
         },
         "note": "Giriş ¥300 + matcha ¥510. Tokyo Körfezi manzarası",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6596559,139.7634091",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6596559,139.7634091",
         "tabelogUrl": ""
       },
       {
@@ -294,7 +294,7 @@
           "raw": "15K-25K"
         },
         "note": "⚠️ Hemen al, gün boyu kullan",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.681179,139.7686823",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.681179,139.7686823",
         "tabelogUrl": ""
       },
       {
@@ -320,7 +320,7 @@
           "raw": "22000"
         },
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6697955,139.7600068",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6697955,139.7600068",
         "tabelogUrl": ""
       },
       {
@@ -335,7 +335,7 @@
           "raw": "1.2K-1.8K"
         },
         "note": "Kuyruk ~15-20dk ama hızlı. Counter seating",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6712019,139.7613315",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6712019,139.7613315",
         "tabelogUrl": ""
       },
       {
@@ -372,7 +372,7 @@
         "duration": "40dk",
         "cost": null,
         "note": "Magnet by Shibuya 109 terası — en iyi crossing fotoğraf açısı",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6590579,139.7006293",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6590579,139.7006293",
         "tabelogUrl": ""
       },
       {
@@ -387,7 +387,7 @@
           "raw": "500-800"
         },
         "note": "Stand-up kahveci. Yorgunluk kırma",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6567022,139.6958093",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6567022,139.6958093",
         "tabelogUrl": ""
       },
       {
@@ -398,7 +398,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Shibuya skyline fotoğrafı",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.661791,139.7018507",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.661791,139.7018507",
         "tabelogUrl": ""
       },
       {
@@ -413,7 +413,7 @@
           "raw": "2000"
         },
         "note": "Açık teras rüzgarlı — hafif ceket al. Tripod yasak",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6586719,139.7019848",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6586719,139.7019848",
         "tabelogUrl": ""
       },
       {
@@ -443,7 +443,7 @@
           "raw": "13K-21K"
         },
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6913489,139.7030056",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6913489,139.7030056",
         "tabelogUrl": ""
       },
       {
@@ -458,7 +458,7 @@
           "raw": "1K-1.5K"
         },
         "note": "Tokyo'nun en meşhur tsukemen'i. Oomori (büyük) ücretsiz",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6868343,139.6966393",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6868343,139.6966393",
         "tabelogUrl": ""
       },
       {
@@ -473,7 +473,7 @@
           "raw": "500-1K"
         },
         "note": "2-3 şiş + 1 bira. En fotojenik saat 20:00-22:00",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6927011,139.6995778",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6927011,139.6995778",
         "tabelogUrl": ""
       },
       {
@@ -488,7 +488,7 @@
           "raw": "800-1.5K"
         },
         "note": "Kapı ücreti ¥300-500, bira ¥500-800. Solo dostu",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6941118,139.7047611",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6941118,139.7047611",
         "tabelogUrl": ""
       },
       {
@@ -499,7 +499,7 @@
         "duration": "15dk",
         "cost": null,
         "note": "Toho Cinemas üstünde, gece dramatik",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6950521,139.7019117",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6950521,139.7019117",
         "tabelogUrl": ""
       },
       {
@@ -527,7 +527,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Hama-rikyū yerine — normal tapınağa benzemeyen cephe",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6664862,139.7722836",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6664862,139.7722836",
         "tabelogUrl": ""
       },
       {
@@ -542,7 +542,7 @@
           "raw": "15K-25K"
         },
         "note": "Uniqlo sonrası. Dezavantaj: gün boyu eski çanta",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6875707,139.6992203",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6875707,139.6992203",
         "tabelogUrl": ""
       },
       {
@@ -557,7 +557,7 @@
           "raw": "0-3K"
         },
         "note": "Ginza mimari tur yerine",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6731273,139.7672138",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6731273,139.7672138",
         "tabelogUrl": ""
       },
       {
@@ -568,7 +568,7 @@
         "duration": "50dk",
         "cost": null,
         "note": "Shibuya sokak keşfi yerine",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6710335,139.7051821",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6710335,139.7051821",
         "tabelogUrl": ""
       },
       {
@@ -579,7 +579,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Miyashita Park yerine — daha sakin",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6572854,139.7031601",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6572854,139.7031601",
         "tabelogUrl": ""
       },
       {
@@ -605,7 +605,7 @@
           "raw": "800-1.5K"
         },
         "note": "Golden Gai yerine — Shibuya'ya dönüş gerekir",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6599499,139.701533",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6599499,139.701533",
         "tabelogUrl": ""
       }
     ],
@@ -622,7 +622,7 @@
           "raw": "1.5K-2.5K"
         },
         "note": "Tezgahtan tezgaha. Nakit ¥5K hazır tut",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6647703,139.7702515",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6647703,139.7702515",
         "tabelogUrl": ""
       },
       {
@@ -637,7 +637,7 @@
           "raw": "1.2K-1.8K"
         },
         "note": "Michelin Bib Gourmand. Kuyruk ~15dk",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6712019,139.7613315",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6712019,139.7613315",
         "tabelogUrl": ""
       },
       {
@@ -652,7 +652,7 @@
           "raw": "500-800"
         },
         "note": "Shibuya, stand-up kahveci",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6567022,139.6958093",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6567022,139.6958093",
         "tabelogUrl": ""
       },
       {
@@ -667,7 +667,7 @@
           "raw": "1K-1.5K"
         },
         "note": "Shinjuku, kuyruk ~20-30dk ama değer",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6868343,139.6966393",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6868343,139.6966393",
         "tabelogUrl": ""
       },
       {
@@ -682,7 +682,7 @@
           "raw": "500-1K"
         },
         "note": "Tadımlık, tam öğün değil",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6927011,139.6995778",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6927011,139.6995778",
         "tabelogUrl": ""
       }
     ],
@@ -702,7 +702,7 @@
         "duration": "60dk",
         "cost": null,
         "note": "Bagajı hazırla, tek çanta düzeninde çık",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6892851,139.7028627",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6892851,139.7028627",
         "tabelogUrl": ""
       },
       {
@@ -728,7 +728,7 @@
         "duration": "15dk",
         "cost": null,
         "note": "Platform 14-19. Ekiben almak istersen bu ara",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6812996,139.7670658",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6812996,139.7670658",
         "tabelogUrl": ""
       },
       {
@@ -754,7 +754,7 @@
         "duration": "—",
         "cost": null,
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=34.985849,135.7587667",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.985849,135.7587667",
         "tabelogUrl": ""
       },
       {
@@ -812,7 +812,7 @@
           "raw": "500"
         },
         "note": "10:00-17:00. Tatami üstünde otur, bahçeye bak",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0000363,135.7735632",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0000363,135.7735632",
         "tabelogUrl": ""
       },
       {
@@ -823,7 +823,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Elektrik kablosuz korumalı sokak. Geiko görürsen yolunu kesme",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0054928,135.7752402",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0054928,135.7752402",
         "tabelogUrl": ""
       },
       {
@@ -845,7 +845,7 @@
         "duration": "40dk",
         "cost": null,
         "note": "24 saat açık, ücretsiz. Kırmızı torii fotoğraf noktası",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0036559,135.7785534",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0036559,135.7785534",
         "tabelogUrl": ""
       },
       {
@@ -856,7 +856,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Mayıs'ta yeşillik harika. Bankta otur",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0035587,135.7805269",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0035587,135.7805269",
         "tabelogUrl": ""
       },
       {
@@ -867,7 +867,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Hanamikoji'den daha sakin. Klasik fotoğraf noktası",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0054778,135.7736473",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0054778,135.7736473",
         "tabelogUrl": ""
       },
       {
@@ -878,7 +878,7 @@
         "duration": "20dk",
         "cost": null,
         "note": "Gün batımı saati. Nehir kenarı Kyoto atmosferi",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0038394,135.7715331",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0038394,135.7715331",
         "tabelogUrl": ""
       },
       {
@@ -889,7 +889,7 @@
         "duration": "90dk",
         "cost": null,
         "note": "Yürü, menülere bak, atmosferi kok. Yemek: YEMEK bölümüne bak",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0039339,135.7710439",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0039339,135.7710439",
         "tabelogUrl": ""
       },
       {
@@ -928,7 +928,7 @@
           "raw": "900-1.4K"
         },
         "note": "Okaru'da sıra uzunsa",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0027577,135.7739856",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0027577,135.7739856",
         "tabelogUrl": ""
       },
       {
@@ -939,7 +939,7 @@
         "duration": "60dk",
         "cost": null,
         "note": "Pontocho kalabalık/pahalıysa",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0008496,135.769274",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0008496,135.769274",
         "tabelogUrl": ""
       }
     ],
@@ -971,7 +971,7 @@
           "raw": "600-900"
         },
         "note": "Uji çayı kullanıyor",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.003665,135.774477",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.003665,135.774477",
         "tabelogUrl": ""
       },
       {
@@ -986,7 +986,7 @@
           "raw": "3K-4K"
         },
         "note": "Rez.suz girilebilir. Kamogawa manzarası. Solo bar ideal",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0043645,135.7711232",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0043645,135.7711232",
         "tabelogUrl": ""
       },
       {
@@ -1001,7 +1001,7 @@
           "raw": "2K-3.5K"
         },
         "note": "Daha casual. Pontocho içi",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.007957,135.770948",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.007957,135.770948",
         "tabelogUrl": ""
       }
     ],
@@ -1025,7 +1025,7 @@
           "raw": "5K-30K"
         },
         "note": "En canlı 09-12. Nakit + pazarlık: 'chotto makete kudasai'",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=34.9803395,135.7476935",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9803395,135.7476935",
         "tabelogUrl": ""
       },
       {
@@ -1055,7 +1055,7 @@
           "raw": "18K-28K"
         },
         "note": "10:00-18:00. Yelpazeleri carry-on'a al",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0099747,135.7670682",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0099747,135.7670682",
         "tabelogUrl": ""
       }
     ],
@@ -1068,7 +1068,7 @@
         "duration": "—",
         "cost": null,
         "note": "Sabah atıştırma burada",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=34.9803395,135.7476935",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9803395,135.7476935",
         "tabelogUrl": ""
       },
       {
@@ -1113,7 +1113,7 @@
           "raw": "1K-1.5K"
         },
         "note": "Tako tamago, dashimaki, matcha mochi. Tezgah yanında ye",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0050258,135.764723",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0050258,135.764723",
         "tabelogUrl": ""
       },
       {
@@ -1128,7 +1128,7 @@
           "raw": "18K-28K"
         },
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0099747,135.7670682",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0099747,135.7670682",
         "tabelogUrl": ""
       },
       {
@@ -1139,7 +1139,7 @@
         "duration": "45dk",
         "cost": null,
         "note": "Starbucks Ninenzaka (machiya) ilginç durak",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=34.9966644,135.781008",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9966644,135.781008",
         "tabelogUrl": ""
       },
       {
@@ -1154,7 +1154,7 @@
           "raw": "500"
         },
         "note": "06:00-18:00. 3 akarsu — birini seç. Altın saat fotoğraf",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=34.9946662,135.784661",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9946662,135.784661",
         "tabelogUrl": ""
       },
       {
@@ -1191,7 +1191,7 @@
         "duration": "30-60dk",
         "cost": null,
         "note": "⚠️ Yarın Kobe — 21:00'e kadar otelde ol",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0038394,135.7715331",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0038394,135.7715331",
         "tabelogUrl": ""
       }
     ],
@@ -1219,7 +1219,7 @@
         "duration": "60dk",
         "cost": null,
         "note": "Nishiki kalabalıksa",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0037877,135.7668754",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0037877,135.7668754",
         "tabelogUrl": ""
       },
       {
@@ -1249,7 +1249,7 @@
           "raw": "3K-4K"
         },
         "note": "Obanzai doluysa",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0050326,135.7730631",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0050326,135.7730631",
         "tabelogUrl": ""
       }
     ],
@@ -1296,7 +1296,7 @@
           "raw": "1K-1.5K"
         },
         "note": "Tezgah yanında ye",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.0050258,135.764723",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0050258,135.764723",
         "tabelogUrl": ""
       },
       {
@@ -1346,7 +1346,7 @@
         "duration": "—",
         "cost": null,
         "note": "İstasyon haritasından açık onsenleri teyit et",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6237606,134.8136714",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6237606,134.8136714",
         "tabelogUrl": ""
       },
       {
@@ -1357,7 +1357,7 @@
         "duration": "15dk",
         "cost": null,
         "note": "✅ REZERVE (Trip.com). Kaiseki + kahvaltı dahil",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6271108,134.8116644",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       },
       {
@@ -1368,7 +1368,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6271108,134.8116644",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       },
       {
@@ -1379,7 +1379,7 @@
         "duration": "90dk",
         "cost": null,
         "note": "Tajima eti + deniz ürünleri + mevsim sebze",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6271108,134.8116644",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       }
     ],
@@ -1452,7 +1452,7 @@
           "raw": "1.5K-3K"
         },
         "note": "Kobe beef'in kökeni Tajima eti",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.625295,134.812875",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.625295,134.812875",
         "tabelogUrl": ""
       },
       {
@@ -1467,7 +1467,7 @@
           "raw": "910"
         },
         "note": "Son yukarı 16:10. Kawarake ritüeli",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6252276,134.8038768",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6252276,134.8038768",
         "tabelogUrl": ""
       },
       {
@@ -1478,7 +1478,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "1300 yıllık",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6240679,134.8003212",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6240679,134.8003212",
         "tabelogUrl": ""
       },
       {
@@ -1489,7 +1489,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "Geta ile çıplak ayak — çorapla kayarsın",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6271108,134.8116644",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       },
       {
@@ -1500,7 +1500,7 @@
         "duration": "40dk",
         "cost": null,
         "note": "07:00-23:00. Kapalı: Salı",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.626154,134.8045277",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.626154,134.8045277",
         "tabelogUrl": ""
       },
       {
@@ -1511,7 +1511,7 @@
         "duration": "45dk",
         "cost": null,
         "note": "Şelale + buhar saunası. Kapalı: Perşembe",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6259467,134.8073683",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6259467,134.8073683",
         "tabelogUrl": ""
       },
       {
@@ -1533,7 +1533,7 @@
         "duration": "90dk",
         "cost": null,
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6271108,134.8116644",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       },
       {
@@ -1544,7 +1544,7 @@
         "duration": "40dk",
         "cost": null,
         "note": "15:00-23:00. Kapalı: Perşembe",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6261765,134.8094851",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6261765,134.8094851",
         "tabelogUrl": ""
       },
       {
@@ -1555,7 +1555,7 @@
         "duration": "35dk",
         "cost": null,
         "note": "15:00-23:00. Kapalı: Çarşamba",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6244801,134.8057161",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6244801,134.8057161",
         "tabelogUrl": ""
       },
       {
@@ -1577,7 +1577,7 @@
         "duration": "—",
         "cost": null,
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6271108,134.8116644",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       }
     ],
@@ -1594,7 +1594,7 @@
           "raw": "1.5K-2.5K"
         },
         "note": "Popüler, sıra olabilir",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6251304,134.8126564",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6251304,134.8126564",
         "tabelogUrl": ""
       },
       {
@@ -1609,7 +1609,7 @@
           "raw": "400-1.2K"
         },
         "note": "Yağmur planı",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.625486,134.808712",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.625486,134.808712",
         "tabelogUrl": ""
       },
       {
@@ -1620,7 +1620,7 @@
         "duration": "35dk",
         "cost": null,
         "note": "Açık durumunu varışta teyit et",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6267329,134.8126665",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6267329,134.8126665",
         "tabelogUrl": ""
       },
       {
@@ -1631,7 +1631,7 @@
         "duration": "25dk",
         "cost": null,
         "note": "Yavaş gir",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6263381,134.8102832",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6263381,134.8102832",
         "tabelogUrl": ""
       }
     ],
@@ -1663,7 +1663,7 @@
           "raw": "1.5K-3K"
         },
         "note": "Alt: Okesho Kaisendon",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.625295,134.812875",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.625295,134.812875",
         "tabelogUrl": ""
       },
       {
@@ -1678,7 +1678,7 @@
           "raw": "500-1K"
         },
         "note": "",
-        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.626308,134.8101635",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.626308,134.8101635",
         "tabelogUrl": ""
       },
       {
