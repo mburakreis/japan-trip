@@ -14,7 +14,7 @@
     "note": "Boeing 787-9 · Economy Class (U) Saver · 10s 5dk uçuş süresi",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Incheon%20International%20Airport%20ICN",
     "dayIds": [
-      "day-1"
+      "day-0"
     ]
   },
   {
@@ -32,7 +32,7 @@
     "note": "Boeing 737-8 · Economy Class (U) Saver · 2s 30dk · Narita T1 (day-1 plan başlangıcı)",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20International%20Airport%20Terminal%201",
     "dayIds": [
-      "day-1"
+      "day-0"
     ]
   },
   {
