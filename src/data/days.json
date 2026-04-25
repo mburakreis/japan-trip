@@ -1324,9 +1324,9 @@
     "title": "Kyoto → Kinosaki Onsen (Shinonomesou)",
     "fixed": [
       {
-        "time": "09:25",
+        "time": "11:25",
         "place": "Kyoto İst.",
-        "action": "Ltd. Exp. Kinosaki No.3 — KİNOSAKİ TRENİ",
+        "action": "Ltd. Exp. Kinosaki No.5 — KİNOSAKİ TRENİ (regular)",
         "transport": "Tren",
         "duration": "146dk",
         "cost": {
@@ -1334,12 +1334,12 @@
           "max": 5370,
           "raw": "5370"
         },
-        "note": "⚠️ Ön rez. şart. e5489.jr-odekake.net (22 Nisan'dan açık)",
+        "note": "✅ REZERVE (JR West e5489). 146dk. Kyoto 11:25 → Kinosakionsen 13:49.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "~11:51",
+        "time": "~13:49",
         "place": "Kinosaki Onsen İst.",
         "action": "Varış",
         "transport": "—",
