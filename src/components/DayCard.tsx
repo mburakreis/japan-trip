@@ -363,7 +363,7 @@ function SectionBlock({ title, items }: { title: string; items: Activity[] }) {
                     rel="noopener noreferrer nofollow"
                     className="hover:text-accent"
                   >
-                    🗺 Harita
+                    🗺 Yol tarifi
                   </a>
                 )}
                 {a.tabelogUrl && (
