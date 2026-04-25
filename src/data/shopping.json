@@ -1,5 +1,16 @@
 [
   {
+    "id": "shop-kaneko-order",
+    "checked": false,
+    "item": "Kaneko Gözlük (sipariş)",
+    "where": "Kaneko Optical Ginza",
+    "priceRaw": "TBD",
+    "day": "Gün 2 — Tokyo",
+    "note": "Bugün sipariş ver. Teslim: Gün 12",
+    "dayIds": ["day-2"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaneko%20Optical%20Ginza"
+  },
+  {
     "id": "shop-1",
     "checked": false,
     "item": "Asics Gel Kayano 32",
