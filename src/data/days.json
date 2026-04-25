@@ -10,7 +10,7 @@
         "time": "16:50",
         "place": "Ev",
         "action": "Havalimanına çıkış",
-        "transport": "TBD",
+        "transport": "Metro",
         "duration": "1s 30dk",
         "cost": null,
         "note": "Evden IST'e yaklaşık 1.5 saat yol"
@@ -165,7 +165,7 @@
         "transport": "Yürüyüş 6dk",
         "duration": "—",
         "cost": null,
-        "note": "⚠️ 07:00 alarm — yarın NOA CAFE 08:00",
+        "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
@@ -350,10 +350,10 @@
       },
       {
         "time": "10:40",
-        "place": "Hama-rikyū → Yurakucho",
-        "action": "Shiodome cam kuleleri arasından yürüyüş",
+        "place": "Hama-rikyū → Ginza",
+        "action": "Ginza'ya geçiş",
         "transport": "Yürüyüş",
-        "duration": "20dk",
+        "duration": "15dk",
         "cost": null,
         "note": "Mimari fotoğraf fırsatı",
         "mapsUrl": "",
@@ -361,44 +361,12 @@
       },
       {
         "time": "11:00",
-        "place": "Montbell Ginza",
-        "action": "Sırt çantası alımı (Tri-Pack 45) — etiketleri kopar, eşyaları aktar",
-        "transport": "Yürüyüş",
-        "duration": "40dk",
-        "cost": {
-          "min": 22000,
-          "max": 25000,
-          "raw": "22-25K"
-        },
-        "note": "⚠️ Hemen al, gün boyu kullan. 45L 3-way, 1010g",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "11:40",
-        "place": "Yurakucho → Ginza",
-        "action": "Ginza Chuo-dori üzerinden yürüyüş",
-        "transport": "Yürüyüş",
-        "duration": "10dk",
-        "cost": null,
-        "note": "Vitrin fotoğrafları",
-        "mapsUrl": "",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "[SABİT] 11:50",
-        "place": "Asics Tokyo Ginza",
-        "action": "Gel Kayano 32",
-        "transport": "—",
+        "place": "Kaneko Optical Ginza (金子眼鏡店)",
+        "action": "Gözlük siparişi — ölçü al, çerçeve seç",
+        "transport": "Yürüyüş 5dk",
         "duration": "45dk",
-        "cost": {
-          "min": 22000,
-          "max": 22000,
-          "raw": "22000"
-        },
-        "note": "",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6697955,139.7600068",
-        "tabelogUrl": ""
+        "cost": null,
+        "note": "Sipariş bugün, teslim Gün 12"
       },
       {
         "time": "12:35",
@@ -417,17 +385,15 @@
       },
       {
         "time": "13:35",
-        "place": "Ginza caddesi",
-        "action": "Mimari fotoğraf — Ginza Six terası, Mikimoto, Hermès, Kabuki-za",
-        "transport": "Yürüyüş",
-        "duration": "45dk",
-        "cost": null,
-        "note": "",
-        "mapsUrl": "",
-        "tabelogUrl": ""
+        "place": "Montbell Ginza",
+        "action": "Tri-Pack 45 sırt çantası alımı — tax-free",
+        "transport": "Yürüyüş 3dk",
+        "duration": "40dk",
+        "cost": { "min": 23000, "max": 25000, "raw": "23K-25K" },
+        "note": "Etiketleri kopar, eşyaları aktar. Tax-free için pasaport"
       },
       {
-        "time": "14:20",
+        "time": "14:30",
         "place": "Ginza → Shibuya",
         "action": "Metro Ginza Hattı (aktarmasız)",
         "transport": "Metro",
@@ -1122,7 +1088,7 @@
       },
       {
         "time": "12:00-12:45",
-        "place": "Gion Oteli",
+        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
         "action": "Kırılgan alışverişleri bırak, seramikleri paketle",
         "transport": "Yürüyüş + 206 hat (¥230)",
         "duration": "45dk",
@@ -1150,7 +1116,7 @@
       },
       {
         "time": "12:00",
-        "place": "Gion Oteli",
+        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
         "action": "[SABİT] Kırılgan eşyaları bırak",
         "transport": "—",
         "duration": "—",
@@ -1252,7 +1218,7 @@
         "transport": "Yürüyüş 5dk",
         "duration": "30-60dk",
         "cost": null,
-        "note": "⚠️ Yarın Kobe — 21:00'e kadar otelde ol",
+        "note": "⚠️ Yarın Kinosaki — 21:00'e kadar otelde ol",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0038394,135.7715331",
         "tabelogUrl": ""
       }
@@ -1396,7 +1362,7 @@
           "max": 5370,
           "raw": "5370"
         },
-        "note": "✅ REZERVE (JR West e5489). 146dk. Kyoto 11:25 → Kinosakionsen 13:49.",
+        "note": "✅ REZERVE (e5489)",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
