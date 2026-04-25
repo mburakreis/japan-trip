@@ -78,8 +78,8 @@ def parse_day_refs(text: str) -> list[str]:
             for n in range(a, b + 1):
                 days.add(n)
 
-    # 'Gün 2'
-    for m in re.finditer(r"Gün\s*(\d{1,2})(?!\s*[-–])", text):
+    # 'Gün 2' (single, not part of a range — \b prevents matching "1" in "10")
+    for m in re.finditer(r"Gün\s*(\d{1,2})\b(?!\s*[-–])", text):
         n = int(m.group(1))
         if 1 <= n <= TRIP_DAYS:
             days.add(n)

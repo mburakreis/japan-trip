@@ -117,7 +117,7 @@ def main(path: str) -> int:
         if "dayId" in entry:
             apply_day_entry(days, entry, errors)
             counts["days"] += 1
-        elif entry.get("id", "").startswith(("acc-", "res-")):
+        elif entry.get("id", "").startswith(("acc-", "res-", "tr-", "trn-")):
             apply_reservation_entry(reservations, entry, errors)
             counts["reservations"] += 1
         elif entry.get("id", "").startswith("shop-"):
