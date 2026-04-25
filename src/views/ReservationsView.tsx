@@ -102,6 +102,11 @@ export function ReservationsView({
                       .join(" · ")}
                   </p>
                   {r.priceRaw && <p className="text-sm mt-1">{r.priceRaw}</p>}
+                  {r.address && (
+                    <p className="text-xs mt-2 leading-snug font-medium">
+                      📍 {r.address}
+                    </p>
+                  )}
                   {r.note && (
                     <p className="text-xs text-ink-muted dark:text-paper-muted mt-2 leading-snug">
                       {r.note}
@@ -109,7 +114,7 @@ export function ReservationsView({
                   )}
                 </div>
               </div>
-              {(r.manageLink || r.email) && (
+              {(r.manageLink || r.mapsUrl || r.email) && (
                 <div className="flex items-center gap-2 mt-3 pt-3 border-t border-black/5 dark:border-white/10 flex-wrap">
                   {r.manageLink && (
                     <a
@@ -119,6 +124,16 @@ export function ReservationsView({
                       className="text-sm bg-ink dark:bg-paper text-paper dark:text-ink px-3 py-1.5 rounded-lg"
                     >
                       Rezervasyonu yönet ↗
+                    </a>
+                  )}
+                  {r.mapsUrl && (
+                    <a
+                      href={r.mapsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="text-sm border border-black/10 dark:border-white/10 px-3 py-1.5 rounded-lg"
+                    >
+                      🗺 Haritada aç
                     </a>
                   )}
                   {r.email && <ObfuscatedEmail email={r.email} />}

@@ -38,6 +38,10 @@ export function DayCard({
 
   const reservations = reservationsForDay(day.id);
   const shopping = shoppingForDay(day.id);
+  const shoppingState = useShoppingState();
+  const userShoppingForDay = shoppingState.added.filter((u) => u.dayIds.includes(day.id));
+  const visiblePlanShoppingCount = shopping.filter((p) => !shoppingState.hidden.includes(p.id)).length;
+  const totalShoppingForDay = visiblePlanShoppingCount + userShoppingForDay.length;
   const budgetItems = budgetForDay(day.id);
   const totalActs = day.fixed.length + day.main.length + day.meals.length;
 
@@ -72,7 +76,7 @@ export function DayCard({
           </p>
           <DayBadges
             reservations={reservations}
-            shoppingCount={shopping.length}
+            shoppingCount={totalShoppingForDay}
             budgetCount={budgetItems.length}
             actCount={totalActs}
           />
@@ -89,9 +93,7 @@ export function DayCard({
               navigate={navigate}
             />
           )}
-          {shopping.length > 0 && (
-            <LinkedShopping items={shopping} navigate={navigate} />
-          )}
+          <LinkedShopping dayId={day.id} items={shopping} navigate={navigate} />
           {SECTIONS.map(({ key, label }) =>
             day[key].length > 0 ? (
               <SectionBlock key={key} title={label} items={day[key]} />
@@ -192,53 +194,110 @@ function LinkedReservations({
 }
 
 function LinkedShopping({
+  dayId,
   items,
   navigate,
 }: {
+  dayId: string;
   items: ShoppingItem[];
   navigate: NavFn;
 }) {
-  const checked = useShoppingState();
+  const state = useShoppingState();
+  const planVisible = items.filter((p) => !state.hidden.includes(p.id));
+  const userForDay = state.added.filter((u) => u.dayIds.includes(dayId));
+  if (planVisible.length === 0 && userForDay.length === 0) return null;
   return (
     <section className="px-4 py-3 border-t border-black/5 dark:border-white/10">
       <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-2">
         Bu güne planlı alışveriş
       </h3>
       <ul className="space-y-1.5">
-        {items.map((it) => {
-          const isChecked = !!checked[it.id];
+        {planVisible.map((it) => {
+          const o = state.overrides[it.id];
           return (
-            <li key={it.id} className="flex items-start gap-2.5 text-sm">
-              <button
-                type="button"
-                onClick={() => toggleShopping(it.id)}
-                className={`mt-0.5 w-5 h-5 rounded-md border flex items-center justify-center shrink-0 ${
-                  isChecked
-                    ? "bg-ink border-ink text-paper dark:bg-paper dark:border-paper dark:text-ink"
-                    : "border-black/20 dark:border-white/20 bg-white dark:bg-white/5"
-                }`}
-                aria-label={isChecked ? "Kaldır" : "İşaretle"}
-              >
-                {isChecked && <span className="text-[11px]">✓</span>}
-              </button>
-              <button
-                type="button"
-                onClick={() => navigate({ tab: "shopping", focusId: it.id })}
-                className="min-w-0 flex-1 text-left"
-              >
-                <p className={`leading-snug ${isChecked ? "line-through text-ink-muted dark:text-paper-muted" : ""}`}>
-                  {it.item}
-                </p>
-                <p className="text-[11px] text-ink-muted dark:text-paper-muted">
-                  {it.where}
-                  {it.priceRaw ? ` · ${it.priceRaw}` : ""}
-                </p>
-              </button>
-            </li>
+            <ShoppingRow
+              key={it.id}
+              id={it.id}
+              item={it.item}
+              where={it.where}
+              priceRaw={it.priceRaw}
+              checked={!!o?.checked}
+              actual={o?.actualPriceRaw || ""}
+              navigate={navigate}
+            />
           );
         })}
+        {userForDay.map((u) => (
+          <ShoppingRow
+            key={u.id}
+            id={u.id}
+            item={u.item}
+            where={u.where}
+            priceRaw={u.priceRaw}
+            checked={u.checked}
+            actual={u.actualPriceRaw}
+            navigate={navigate}
+            badge="Ekledim"
+          />
+        ))}
       </ul>
     </section>
+  );
+}
+
+function ShoppingRow({
+  id,
+  item,
+  where,
+  priceRaw,
+  checked,
+  actual,
+  navigate,
+  badge,
+}: {
+  id: string;
+  item: string;
+  where: string;
+  priceRaw: string;
+  checked: boolean;
+  actual: string;
+  navigate: NavFn;
+  badge?: string;
+}) {
+  return (
+    <li className="flex items-start gap-2.5 text-sm">
+      <button
+        type="button"
+        onClick={() => toggleShopping(id)}
+        className={`mt-0.5 w-5 h-5 rounded-md border flex items-center justify-center shrink-0 ${
+          checked
+            ? "bg-ink border-ink text-paper dark:bg-paper dark:border-paper dark:text-ink"
+            : "border-black/20 dark:border-white/20 bg-white dark:bg-white/5"
+        }`}
+        aria-label={checked ? "Kaldır" : "İşaretle"}
+      >
+        {checked && <span className="text-[11px]">✓</span>}
+      </button>
+      <button
+        type="button"
+        onClick={() => navigate({ tab: "shopping", focusId: id })}
+        className="min-w-0 flex-1 text-left"
+      >
+        <p className={`leading-snug ${checked ? "line-through text-ink-muted dark:text-paper-muted" : ""}`}>
+          {item}
+          {badge && (
+            <span className="ml-1.5 chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted">
+              {badge}
+            </span>
+          )}
+        </p>
+        <p className="text-[11px] text-ink-muted dark:text-paper-muted">
+          {[where, priceRaw && `Plan ${priceRaw}`, actual && `Gerçek ${actual}`]
+            .filter(Boolean)
+            .join(" · ")}
+        </p>
+      </button>
+    </li>
   );
 }
 
