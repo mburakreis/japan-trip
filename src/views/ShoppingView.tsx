@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Check, ChevronDown, ChevronRight, Map, MoreHorizontal, Plus } from "lucide-react";
 import {
   useShoppingState,
   toggleShopping,
@@ -89,9 +90,10 @@ export function ShoppingView({
       <button
         type="button"
         onClick={() => setAddOpen(true)}
-        className="w-full mt-3 card px-4 py-3 text-sm text-ink-muted dark:text-paper-muted hover:text-accent hover:border-accent/30 transition"
+        className="w-full mt-3 card px-4 py-3 text-sm text-ink-muted dark:text-paper-muted hover:text-accent hover:border-accent/30 transition inline-flex items-center justify-center gap-1.5"
       >
-        + Yeni ekle
+        <Plus size={15} strokeWidth={2} />
+        Yeni ekle
       </button>
 
       {planHidden.length > 0 && (
@@ -99,9 +101,10 @@ export function ShoppingView({
           <button
             type="button"
             onClick={() => setShowHidden((s) => !s)}
-            className="text-xs text-ink-muted dark:text-paper-muted hover:text-accent"
+            className="inline-flex items-center gap-1 text-xs text-ink-muted dark:text-paper-muted hover:text-accent"
           >
-            {showHidden ? "▾" : "▸"} Gizlenenler ({planHidden.length})
+            {showHidden ? <ChevronDown size={13} strokeWidth={1.75} /> : <ChevronRight size={13} strokeWidth={1.75} />}
+            Gizlenenler ({planHidden.length})
           </button>
           {showHidden && (
             <div className="mt-2 opacity-60">
@@ -215,7 +218,7 @@ function Row({
           }`}
           aria-label={it.checked ? "Kaldır" : "İşaretle"}
         >
-          {it.checked && <span className="text-[11px]">✓</span>}
+          {it.checked && <Check size={12} strokeWidth={2.5} />}
         </button>
         <div className="min-w-0 flex-1">
           <p className={`text-sm leading-snug ${it.checked ? "line-through text-ink-muted dark:text-paper-muted" : ""}`}>
@@ -233,10 +236,11 @@ function Row({
                 href={it.mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className="text-[11px] text-ink-muted dark:text-paper-muted hover:text-accent"
+                className="inline-flex items-center gap-1 text-[11px] text-ink-muted dark:text-paper-muted hover:text-accent"
                 onClick={(e) => e.stopPropagation()}
               >
-                🗺 Haritada gör
+                <Map size={11} strokeWidth={1.75} />
+                Haritada gör
               </a>
             )}
             {it.note && (
@@ -258,10 +262,10 @@ function Row({
           <button
             type="button"
             onClick={() => setMenuOpen((m) => !m)}
-            className="text-ink-muted dark:text-paper-muted text-lg leading-none px-2 -mx-1"
+            className="text-ink-muted dark:text-paper-muted px-2 -mx-1"
             aria-label="Menü"
           >
-            ⋯
+            <MoreHorizontal size={18} strokeWidth={1.75} />
           </button>
           {menuOpen && (
             <>

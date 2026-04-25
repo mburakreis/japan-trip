@@ -1,10 +1,14 @@
+import { Search, X } from "lucide-react";
+
 export function SearchBar({ value, onChange }: { value: string; onChange: (v: string) => void }) {
   return (
     <div className="sticky top-0 z-10 -mx-4 px-4 py-2 bg-paper/85 dark:bg-ink/85 backdrop-blur">
       <div className="relative">
-        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-muted dark:text-paper-muted">
-          🔍
-        </span>
+        <Search
+          size={16}
+          strokeWidth={1.75}
+          className="absolute left-3 top-1/2 -translate-y-1/2 text-ink-muted dark:text-paper-muted pointer-events-none"
+        />
         <input
           type="search"
           value={value}
@@ -16,9 +20,10 @@ export function SearchBar({ value, onChange }: { value: string; onChange: (v: st
           <button
             type="button"
             onClick={() => onChange("")}
-            className="absolute right-2 top-1/2 -translate-y-1/2 text-xs text-ink-muted dark:text-paper-muted px-2 py-1"
+            aria-label="Temizle"
+            className="absolute right-2 top-1/2 -translate-y-1/2 p-1 text-ink-muted dark:text-paper-muted"
           >
-            ✕
+            <X size={14} strokeWidth={1.75} />
           </button>
         )}
       </div>

@@ -1,5 +1,20 @@
 import { useEffect, useRef } from "react";
 import {
+  Banknote,
+  Bookmark,
+  Check,
+  ChevronDown,
+  ChevronRight,
+  Clock,
+  ExternalLink,
+  Map,
+  Pin,
+  ShoppingBag,
+  Train,
+  Utensils,
+  UtensilsCrossed,
+} from "lucide-react";
+import {
   inferCity,
   shortDate,
   reservationsForDay,
@@ -43,7 +58,6 @@ function buildTimeline(day: Day): TimedItem[] {
   const items: TimedItem[] = [];
   day.fixed.forEach((a) => items.push({ ...a, _source: "fixed", _time: parseTimeMin(a.time) }));
   day.main.forEach((a) => {
-    // Skip [SABİT] cross-reference rows in main — they duplicate fixed entries
     if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
     items.push({ ...a, _source: "main", _time: parseTimeMin(a.time) });
   });
@@ -123,8 +137,8 @@ export function DayCard({
             actCount={totalActs}
           />
         </div>
-        <span className="text-ink-muted dark:text-paper-muted text-xs mt-1">
-          {open ? "▾" : "▸"}
+        <span className="text-ink-muted dark:text-paper-muted mt-1 shrink-0">
+          {open ? <ChevronDown size={16} strokeWidth={1.75} /> : <ChevronRight size={16} strokeWidth={1.75} />}
         </span>
       </button>
       {open && (
@@ -147,8 +161,9 @@ function TopBudgetMini({ summary }: { summary: string }) {
   const { compact, full } = extractTotal(summary);
   return (
     <div className="px-4 py-2.5 bg-paper dark:bg-white/[0.02] border-b border-black/5 dark:border-white/10">
-      <p className="text-sm">
-        💴 <span className="font-medium">{compact}</span>
+      <p className="text-sm flex items-center gap-1.5">
+        <Banknote size={14} strokeWidth={1.75} className="text-ink-muted dark:text-paper-muted" />
+        <span className="font-medium">{compact}</span>
       </p>
       <p className="text-[11px] text-ink-muted dark:text-paper-muted mt-0.5 leading-snug">
         {full !== compact ? full : "Çoğu küçük yer cash, otel/depto card"}
@@ -170,22 +185,22 @@ function DayBadges({
   const pending = reservations.filter((r) => r.status === "pending").length;
   return (
     <div className="flex flex-wrap gap-1.5 mt-2 text-[11px]">
-      <span className="chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted">
-        ⏱ {actCount}
+      <span className="chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted gap-1">
+        <Clock size={11} strokeWidth={1.75} /> {actCount}
       </span>
       {booked > 0 && (
-        <span className="chip bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200">
-          🔖 {booked}
+        <span className="chip bg-emerald-100 text-emerald-800 dark:bg-emerald-900/40 dark:text-emerald-200 gap-1">
+          <Bookmark size={11} strokeWidth={2} /> {booked}
         </span>
       )}
       {pending > 0 && (
-        <span className="chip bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200">
-          ⏳ {pending}
+        <span className="chip bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200 gap-1">
+          <Clock size={11} strokeWidth={2} /> {pending}
         </span>
       )}
       {shoppingCount > 0 && (
-        <span className="chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted">
-          🛍️ {shoppingCount}
+        <span className="chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted gap-1">
+          <ShoppingBag size={11} strokeWidth={1.75} /> {shoppingCount}
         </span>
       )}
     </div>
@@ -220,7 +235,7 @@ function LinkedReservations({
                   {r.priceRaw ? ` · ${r.priceRaw}` : ""}
                 </p>
               </div>
-              <span className="text-ink-muted dark:text-paper-muted text-xs mt-0.5">↗</span>
+              <ExternalLink size={14} strokeWidth={1.75} className="text-ink-muted dark:text-paper-muted shrink-0 mt-0.5" />
             </button>
           </li>
         ))}
@@ -312,7 +327,7 @@ function ShoppingRow({
         }`}
         aria-label={checked ? "Kaldır" : "İşaretle"}
       >
-        {checked && <span className="text-[11px]">✓</span>}
+        {checked && <Check size={12} strokeWidth={2.5} />}
       </button>
       <button
         type="button"
@@ -353,7 +368,6 @@ function Timeline({ items }: { items: TimedItem[] }) {
 }
 
 function TimelineRow({ a }: { a: TimedItem }) {
-  // Strip "[SABİT]" from time string display (we visualize via 📌 marker)
   const displayTime = a.time.replace(/\[SABİT\]\s*/i, "").replace(/\s*▸\s*$/, "").trim();
   const isFixed = a._source === "fixed";
   const isMeal = a._source === "meals";
@@ -373,26 +387,38 @@ function TimelineRow({ a }: { a: TimedItem }) {
         )}
       </div>
       <div className="min-w-0 flex-1">
-        <p className="font-medium leading-snug">
-          {isFixed && <span className="mr-1" title="Sabit">📌</span>}
-          {isMeal && <span className="mr-1" title="Yemek">🍽</span>}
-          {placeText}
+        <p className="font-medium leading-snug inline-flex items-center gap-1.5">
+          {isFixed && <Pin size={12} strokeWidth={2} className="text-accent shrink-0" aria-label="Sabit" />}
+          {isMeal && <Utensils size={12} strokeWidth={2} className="text-ink-muted dark:text-paper-muted shrink-0" aria-label="Yemek" />}
+          <span>{placeText}</span>
         </p>
         {a.place && a.action && (
           <p className="text-ink-muted dark:text-paper-muted text-xs mt-0.5">{a.action}</p>
         )}
         <div className="flex flex-wrap gap-x-3 gap-y-0.5 mt-1 text-[11px] text-ink-muted dark:text-paper-muted">
-          {a.transport && a.transport !== "—" && <span>🚇 {a.transport}</span>}
-          {a.duration && a.duration !== "—" && <span>⏱ {a.duration}</span>}
-          {a.cost && <span>💴 {a.cost.raw}</span>}
+          {a.transport && a.transport !== "—" && (
+            <span className="inline-flex items-center gap-1">
+              <Train size={11} strokeWidth={1.75} /> {a.transport}
+            </span>
+          )}
+          {a.duration && a.duration !== "—" && (
+            <span className="inline-flex items-center gap-1">
+              <Clock size={11} strokeWidth={1.75} /> {a.duration}
+            </span>
+          )}
+          {a.cost && (
+            <span className="inline-flex items-center gap-1">
+              <Banknote size={11} strokeWidth={1.75} /> {a.cost.raw}
+            </span>
+          )}
           {a.mapsUrl && (
             <a
               href={a.mapsUrl}
               target="_blank"
               rel="noopener noreferrer nofollow"
-              className="hover:text-accent"
+              className="inline-flex items-center gap-1 hover:text-accent"
             >
-              🗺 Haritada gör
+              <Map size={11} strokeWidth={1.75} /> Haritada gör
             </a>
           )}
           {a.tabelogUrl && (
@@ -400,9 +426,9 @@ function TimelineRow({ a }: { a: TimedItem }) {
               href={a.tabelogUrl}
               target="_blank"
               rel="noopener noreferrer nofollow"
-              className="hover:text-accent"
+              className="inline-flex items-center gap-1 hover:text-accent"
             >
-              🍽 Tabelog
+              <UtensilsCrossed size={11} strokeWidth={1.75} /> Tabelog
             </a>
           )}
         </div>

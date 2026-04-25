@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Check } from "lucide-react";
 
 export function ObfuscatedEmail({ email }: { email: string }) {
   const [copied, setCopied] = useState(false);
@@ -20,10 +21,15 @@ export function ObfuscatedEmail({ email }: { email: string }) {
       type="button"
       onClick={copy}
       title={copied ? "kopyalandı" : "Tam adresi kopyala"}
-      className="text-xs text-ink-muted dark:text-paper-muted hover:text-ink dark:hover:text-paper"
+      className="inline-flex items-center gap-1 text-xs text-ink-muted dark:text-paper-muted hover:text-ink dark:hover:text-paper"
     >
       ({prefix})
-      {copied && <span className="ml-1 text-emerald-600">✓</span>}
+      {copied && (
+        <span className="inline-flex items-center gap-0.5 text-emerald-600">
+          <Check size={11} strokeWidth={2.5} />
+          kopyalandı
+        </span>
+      )}
     </button>
   );
 }

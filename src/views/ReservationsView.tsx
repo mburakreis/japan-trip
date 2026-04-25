@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { CheckCircle2, Clock, ExternalLink, Map, MapPin, Search } from "lucide-react";
 import { reservations } from "../lib/derive";
 import type { Reservation, ReservationStatus } from "../types";
 import { ObfuscatedEmail } from "../components/ObfuscatedEmail";
@@ -60,13 +61,13 @@ export function ReservationsView({
           Hepsi · {reservations.length}
         </Pill>
         <Pill active={filter === "booked"} onClick={() => setFilter("booked")}>
-          ✅ Rezerve · {counts.booked}
+          <CheckCircle2 size={12} strokeWidth={2} className="mr-1" /> Rezerve · {counts.booked}
         </Pill>
         <Pill active={filter === "pending"} onClick={() => setFilter("pending")}>
-          ⏳ Beklemede · {counts.pending}
+          <Clock size={12} strokeWidth={2} className="mr-1" /> Beklemede · {counts.pending}
         </Pill>
         <Pill active={filter === "research"} onClick={() => setFilter("research")}>
-          🔍 Araştırılacak · {counts.research}
+          <Search size={12} strokeWidth={2} className="mr-1" /> Araştırılacak · {counts.research}
         </Pill>
       </div>
       {visible.length === 0 ? (
@@ -103,8 +104,9 @@ export function ReservationsView({
                   </p>
                   {r.priceRaw && <p className="text-sm mt-1">{r.priceRaw}</p>}
                   {r.address && (
-                    <p className="text-xs mt-2 leading-snug font-medium">
-                      📍 {r.address}
+                    <p className="text-xs mt-2 leading-snug font-medium inline-flex items-start gap-1">
+                      <MapPin size={12} strokeWidth={2} className="mt-0.5 shrink-0 text-ink-muted dark:text-paper-muted" />
+                      <span>{r.address}</span>
                     </p>
                   )}
                   {r.note && (
@@ -121,9 +123,10 @@ export function ReservationsView({
                       href={r.manageLink}
                       target="_blank"
                       rel="noopener noreferrer nofollow"
-                      className="text-sm bg-ink dark:bg-paper text-paper dark:text-ink px-3 py-1.5 rounded-lg"
+                      className="inline-flex items-center gap-1.5 text-sm bg-ink dark:bg-paper text-paper dark:text-ink px-3 py-1.5 rounded-lg"
                     >
-                      Rezervasyonu yönet ↗
+                      Rezervasyonu yönet
+                      <ExternalLink size={13} strokeWidth={2} />
                     </a>
                   )}
                   {r.mapsUrl && (
@@ -131,9 +134,10 @@ export function ReservationsView({
                       href={r.mapsUrl}
                       target="_blank"
                       rel="noopener noreferrer nofollow"
-                      className="text-sm border border-black/10 dark:border-white/10 px-3 py-1.5 rounded-lg"
+                      className="inline-flex items-center gap-1.5 text-sm border border-black/10 dark:border-white/10 px-3 py-1.5 rounded-lg"
                     >
-                      🗺 Haritada gör
+                      <Map size={13} strokeWidth={1.75} />
+                      Haritada gör
                     </a>
                   )}
                   {r.email && <ObfuscatedEmail email={r.email} />}
@@ -159,7 +163,7 @@ function Pill({
   return (
     <button
       onClick={onClick}
-      className={`text-xs whitespace-nowrap px-3 py-1.5 rounded-full border transition ${
+      className={`inline-flex items-center text-xs whitespace-nowrap px-3 py-1.5 rounded-full border transition ${
         active
           ? "bg-ink text-paper border-ink dark:bg-paper dark:text-ink dark:border-paper"
           : "bg-white dark:bg-white/5 text-ink-muted dark:text-paper-muted border-black/10 dark:border-white/10"
