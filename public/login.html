@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#fafaf7" />
+    <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
+    <title>Japan Trip 2026 — Giriş</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --paper: #fafaf7;
+        --ink: #1a1a1a;
+        --muted: #5a5a5a;
+        --accent: #d63a3a;
+        --line: rgba(0, 0, 0, 0.08);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --paper: #1a1a1a;
+          --ink: #fafaf7;
+          --muted: #a0a0a0;
+          --line: rgba(255, 255, 255, 0.1);
+        }
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; height: 100%; }
+      body {
+        background: var(--paper);
+        color: var(--ink);
+        font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+        -webkit-tap-highlight-color: transparent;
+      }
+      main {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+        gap: 1.5rem;
+      }
+      .logo {
+        width: 56px;
+        height: 56px;
+        border-radius: 16px;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .logo::before {
+        content: "";
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: var(--accent);
+      }
+      h1 {
+        margin: 0;
+        font-size: 1.25rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+      p.sub { margin: 0; color: var(--muted); font-size: 0.9rem; }
+      form {
+        width: 100%;
+        max-width: 18rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      input[type="password"] {
+        width: 100%;
+        padding: 0.875rem 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 0.4em;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        background: var(--paper);
+        color: var(--ink);
+        outline: none;
+        font-family: ui-monospace, "SF Mono", monospace;
+      }
+      input[type="password"]:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px rgba(214, 58, 58, 0.15);
+      }
+      button {
+        padding: 0.875rem 1rem;
+        font-size: 0.95rem;
+        font-weight: 500;
+        border: 0;
+        border-radius: 12px;
+        background: var(--ink);
+        color: var(--paper);
+        cursor: pointer;
+      }
+      button:disabled { opacity: 0.5; cursor: default; }
+      .err {
+        font-size: 0.85rem;
+        color: var(--accent);
+        min-height: 1.2em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="logo" aria-hidden="true"></div>
+      <div style="text-align: center;">
+        <h1>Japan Trip 2026</h1>
+        <p class="sub">PIN gir</p>
+      </div>
+      <form id="pin-form">
+        <input
+          id="pin"
+          type="password"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          autocomplete="current-password"
+          autofocus
+          maxlength="8"
+          aria-label="PIN"
+        />
+        <button id="submit" type="submit">Giriş</button>
+        <div class="err" id="err" role="alert"></div>
+      </form>
+    </main>
+    <script>
+      const form = document.getElementById("pin-form");
+      const pin = document.getElementById("pin");
+      const submit = document.getElementById("submit");
+      const err = document.getElementById("err");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        err.textContent = "";
+        submit.disabled = true;
+        submit.textContent = "Kontrol ediliyor…";
+        try {
+          const r = await fetch("/api/auth", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ pin: pin.value }),
+          });
+          if (r.ok) {
+            location.href = "/";
+            return;
+          }
+          if (r.status === 401) {
+            err.textContent = "Yanlış PIN.";
+          } else {
+            err.textContent = "Hata: " + r.status;
+          }
+        } catch (e) {
+          err.textContent = "Bağlantı hatası.";
+        }
+        pin.value = "";
+        pin.focus();
+        submit.disabled = false;
+        submit.textContent = "Giriş";
+      });
+    </script>
+  </body>
+</html>
