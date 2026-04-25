@@ -1,0 +1,2700 @@
+[
+  {
+    "id": "day-1",
+    "dayNumber": 1,
+    "dateRaw": "18 Mayıs 2026 Pazartesi",
+    "title": "Narita → Ginza Varış",
+    "fixed": [
+      {
+        "time": "19:45",
+        "place": "Narita T1",
+        "action": "Uçak iniş (KE713 ICN→NRT)",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": "Uçuş süresi 2s 30dk"
+      },
+      {
+        "time": "20:15",
+        "place": "Narita T1",
+        "action": "Pasaport + bagaj + gümrük çıkış",
+        "transport": "—",
+        "duration": "30-45dk",
+        "cost": null,
+        "note": "Visit Japan Web QR kodunu hazır tut"
+      },
+      {
+        "time": "20:30",
+        "place": "Narita → Higashi-Ginza",
+        "action": "Keisei Access Express",
+        "transport": "Tren",
+        "duration": "68dk",
+        "cost": {
+          "min": 1420,
+          "max": 1420,
+          "raw": "1420"
+        },
+        "note": "⚠️ Son sefer ~22:30. A1 çıkışını kullan"
+      },
+      {
+        "time": "21:45",
+        "place": "Sotetsu Fresa Inn Ginza-Nanachome",
+        "action": "Check-in + yerleşme",
+        "transport": "Yürüyüş 5dk",
+        "duration": "15-20dk",
+        "cost": null,
+        "note": "Cashless only. Simmons yatak"
+      }
+    ],
+    "main": [
+      {
+        "time": "22:45",
+        "place": "Kabukiza Tiyatrosu (dış cephe)",
+        "action": "Gece fotoğraf yürüyüşü — ışıklandırma",
+        "transport": "Yürüyüş 3-4dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "İlk fotoğraf noktası. Ginza Chuo-dori da göz at"
+      },
+      {
+        "time": "23:15",
+        "place": "Shinamen Hashigo Ginza Hon-ten",
+        "action": "Geç gece tantanmen ramen",
+        "transport": "Yürüyüş 6dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 1200,
+          "max": 1200,
+          "raw": "1200"
+        },
+        "note": "Pzt 05:00'e kadar açık. Paikou Tantanmen önerilir"
+      },
+      {
+        "time": "00:00",
+        "place": "Otel",
+        "action": "Geri dön ve uyu",
+        "transport": "Yürüyüş 6dk",
+        "duration": "—",
+        "cost": null,
+        "note": "⚠️ 07:00 alarm — yarın NOA CAFE 08:00"
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "22:00 ▸",
+        "place": "Otel odası",
+        "action": "Konbiniyi atla, odada dinlen",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": "Çok yorgunsan yarın sabaha bırak"
+      },
+      {
+        "time": "22:45 ▸",
+        "place": "Hanatsubaki-dori sokağı",
+        "action": "10dk kısa tur, Ginza arka sokakları",
+        "transport": "Yürüyüş 1dk",
+        "duration": "15dk",
+        "cost": null,
+        "note": "Kabukiza'ya kadar yürümek fazla geliyorsa"
+      },
+      {
+        "time": "23:15 ▸",
+        "place": "Otelin 1F Konbini",
+        "action": "Nikuman / oden / famichiki — odada ye",
+        "transport": "Asansör",
+        "duration": "15dk",
+        "cost": {
+          "min": 600,
+          "max": 600,
+          "raw": "600"
+        },
+        "note": "Ramen'e çıkmak istemezsen"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Geç Akşam",
+        "place": "Shinamen Hashigo Ginza Hon-ten",
+        "action": "Paikou Tantanmen + bedava pirinç",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 1200,
+          "max": 1200,
+          "raw": "1200"
+        },
+        "note": "Ginza 6-3-5. Counter-only, hızlı servis"
+      },
+      {
+        "time": "Alternatif",
+        "place": "Otelin 1F Konbini",
+        "action": "Onigiri + karaage-kun + melon pan",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 600,
+          "max": 600,
+          "raw": "600"
+        },
+        "note": "7/24 açık"
+      }
+    ],
+    "budgetSummary": "💰 Gün 1 Bütçe: Ulaşım ¥1.420 | Yemek ~¥1.200 | Aktivite ¥0 | Alışveriş ¥0 | TOPLAM ~¥2.620"
+  },
+  {
+    "id": "day-2",
+    "dayNumber": 2,
+    "dateRaw": "19 Mayıs 2026 Salı",
+    "title": "Tsukiji → Ginza → Shibuya → Shinjuku",
+    "fixed": [
+      {
+        "time": "11:50",
+        "place": "Asics Tokyo Ginza (8-2-7)",
+        "action": "Gel Kayano 32 alımı — gait analysis + tax-free",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": {
+          "min": 22000,
+          "max": 22000,
+          "raw": "22000"
+        },
+        "note": "⚠️ Pasaport şart. Kutuyu çantana sığdır"
+      },
+      {
+        "time": "18:45",
+        "place": "Uniqlo Shinjuku",
+        "action": "Grafik tişört ×2, basic ×2, çorap seti",
+        "transport": "JR Yamanote (¥170)",
+        "duration": "45dk",
+        "cost": {
+          "min": 13000,
+          "max": 21000,
+          "raw": "13K-21K"
+        },
+        "note": "Tax-free ayrı kasa"
+      }
+    ],
+    "main": [
+      {
+        "time": "07:00",
+        "place": "Otel",
+        "action": "Alarm & hazırlık",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Dün 00:00 yatış"
+      },
+      {
+        "time": "07:30",
+        "place": "Otel → Tsukiji",
+        "action": "Metro ile geçiş",
+        "transport": "Metro",
+        "duration": "30dk",
+        "cost": {
+          "min": 180,
+          "max": 180,
+          "raw": "180"
+        },
+        "note": ""
+      },
+      {
+        "time": "08:00",
+        "place": "Tsukiji Dış Pazar",
+        "action": "Kahvaltı + sokak keşfi — tamagoyaki, maguro don, menchi katsu",
+        "transport": "Yürüyüş",
+        "duration": "90dk",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": "Tezgahtan tezgaha ye. Nakit hazır tut"
+      },
+      {
+        "time": "09:30",
+        "place": "Tsukiji → Hama-rikyū",
+        "action": "Yürüyüş ile geçiş",
+        "transport": "Yürüyüş",
+        "duration": "10dk",
+        "cost": null,
+        "note": "Pazar arka sokaklarından"
+      },
+      {
+        "time": "09:40",
+        "place": "Hama-rikyū Bahçeleri",
+        "action": "Edo bahçesi + matcha molası",
+        "transport": "—",
+        "duration": "60dk",
+        "cost": {
+          "min": 810,
+          "max": 810,
+          "raw": "810"
+        },
+        "note": "Giriş ¥300 + matcha ¥510. Tokyo Körfezi manzarası"
+      },
+      {
+        "time": "10:40",
+        "place": "Hama-rikyū → Yurakucho",
+        "action": "Shiodome cam kuleleri arasından yürüyüş",
+        "transport": "Yürüyüş",
+        "duration": "20dk",
+        "cost": null,
+        "note": "Mimari fotoğraf fırsatı"
+      },
+      {
+        "time": "11:00",
+        "place": "ICI Ishii Sports Yurakucho",
+        "action": "Sırt çantası alımı — etiketleri kopar, eşyaları aktar",
+        "transport": "Yürüyüş",
+        "duration": "40dk",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "15K-25K"
+        },
+        "note": "⚠️ Hemen al, gün boyu kullan"
+      },
+      {
+        "time": "11:40",
+        "place": "Yurakucho → Ginza",
+        "action": "Ginza Chuo-dori üzerinden yürüyüş",
+        "transport": "Yürüyüş",
+        "duration": "10dk",
+        "cost": null,
+        "note": "Vitrin fotoğrafları"
+      },
+      {
+        "time": "[SABİT] 11:50",
+        "place": "Asics Tokyo Ginza",
+        "action": "Gel Kayano 32",
+        "transport": "—",
+        "duration": "45dk",
+        "cost": {
+          "min": 22000,
+          "max": 22000,
+          "raw": "22000"
+        },
+        "note": ""
+      },
+      {
+        "time": "12:35",
+        "place": "Ginza Kagari",
+        "action": "Öğle — Tori Paitan Soba (Michelin Bib Gourmand)",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 12000,
+          "max": 18000,
+          "raw": "1.2K-1.8K"
+        },
+        "note": "Kuyruk ~15-20dk ama hızlı. Counter seating"
+      },
+      {
+        "time": "13:35",
+        "place": "Ginza caddesi",
+        "action": "Mimari fotoğraf — Ginza Six terası, Mikimoto, Hermès, Kabuki-za",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "14:20",
+        "place": "Ginza → Shibuya",
+        "action": "Metro Ginza Hattı (aktarmasız)",
+        "transport": "Metro",
+        "duration": "30dk",
+        "cost": {
+          "min": 200,
+          "max": 200,
+          "raw": "200"
+        },
+        "note": ""
+      },
+      {
+        "time": "14:50",
+        "place": "Shibuya",
+        "action": "Hachiko + Crossing + Center-gai",
+        "transport": "Yürüyüş",
+        "duration": "40dk",
+        "cost": null,
+        "note": "Magnet by Shibuya 109 terası — en iyi crossing fotoğraf açısı"
+      },
+      {
+        "time": "15:30",
+        "place": "About Life Coffee Brewers",
+        "action": "Kafe molası — pour-over specialty",
+        "transport": "Yürüyüş 3dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 500,
+          "max": 800,
+          "raw": "500-800"
+        },
+        "note": "Stand-up kahveci. Yorgunluk kırma"
+      },
+      {
+        "time": "16:00",
+        "place": "Miyashita Park",
+        "action": "Rooftop park — çimde uzan, vintage dükkanlar",
+        "transport": "Yürüyüş 5dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Shibuya skyline fotoğrafı"
+      },
+      {
+        "time": "16:30",
+        "place": "Shibuya Sky",
+        "action": "Gözlem katı — gündüz + golden hour + günbatımı (~18:40)",
+        "transport": "Yürüyüş 10dk",
+        "duration": "120dk",
+        "cost": {
+          "min": 2000,
+          "max": 2000,
+          "raw": "2000"
+        },
+        "note": "Açık teras rüzgarlı — hafif ceket al. Tripod yasak"
+      },
+      {
+        "time": "18:30",
+        "place": "Shibuya → Shinjuku",
+        "action": "JR Yamanote",
+        "transport": "JR",
+        "duration": "15dk",
+        "cost": {
+          "min": 170,
+          "max": 170,
+          "raw": "170"
+        },
+        "note": ""
+      },
+      {
+        "time": "[SABİT] 18:45",
+        "place": "Uniqlo Shinjuku",
+        "action": "Alışveriş",
+        "transport": "—",
+        "duration": "45dk",
+        "cost": {
+          "min": 13000,
+          "max": 21000,
+          "raw": "13K-21K"
+        },
+        "note": ""
+      },
+      {
+        "time": "19:30",
+        "place": "Fuunji (風雲児)",
+        "action": "Akşam — Tsukemen (soğuk noodle + sıcak sos)",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "Tokyo'nun en meşhur tsukemen'i. Oomori (büyük) ücretsiz"
+      },
+      {
+        "time": "20:30",
+        "place": "Omoide Yokochō",
+        "action": "Yakitori tadımı + sokak fotoğrafçılığı",
+        "transport": "Yürüyüş 5dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": "2-3 şiş + 1 bira. En fotojenik saat 20:00-22:00"
+      },
+      {
+        "time": "21:00",
+        "place": "Golden Gai",
+        "action": "Bar sokağı — 1 bar deneyimi",
+        "transport": "Yürüyüş 8dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 800,
+          "max": 15000,
+          "raw": "800-1.5K"
+        },
+        "note": "Kapı ücreti ¥300-500, bira ¥500-800. Solo dostu"
+      },
+      {
+        "time": "21:45",
+        "place": "Kabukichō / Godzilla Road",
+        "action": "Neon fotoğraf + Godzilla heykeli",
+        "transport": "Yürüyüş 5dk",
+        "duration": "15dk",
+        "cost": null,
+        "note": "Toho Cinemas üstünde, gece dramatik"
+      },
+      {
+        "time": "22:00",
+        "place": "Shinjuku → Otel",
+        "action": "Dönüş",
+        "transport": "Metro/JR",
+        "duration": "—",
+        "cost": {
+          "min": 200,
+          "max": 200,
+          "raw": "200"
+        },
+        "note": "Erken yat — yorgunluk birikmesin"
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "09:40 ▸",
+        "place": "Tsukiji Hongwanji Tapınağı",
+        "action": "Hint-Japon mimarisi, ücretsiz, iç mekanda pipe organ",
+        "transport": "Yürüyüş 3dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Hama-rikyū yerine — normal tapınağa benzemeyen cephe"
+      },
+      {
+        "time": "11:00 ▸",
+        "place": "Montbell Shinjuku",
+        "action": "Sırt çantası alımını akşama ertele",
+        "transport": "Yürüyüş",
+        "duration": "30dk",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "15K-25K"
+        },
+        "note": "Uniqlo sonrası. Dezavantaj: gün boyu eski çanta"
+      },
+      {
+        "time": "13:35 ▸",
+        "place": "Itoya Ginza (伊東屋)",
+        "action": "12 katlı kırtasiye — washi kağıdı, el yapımı defter",
+        "transport": "Yürüyüş 3dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 0,
+          "max": 3000,
+          "raw": "0-3K"
+        },
+        "note": "Ginza mimari tur yerine"
+      },
+      {
+        "time": "14:50 ▸",
+        "place": "Harajuku (Takeshita + Ura-Harajuku)",
+        "action": "Genç kültür + vintage mağazalar",
+        "transport": "Metro 1 durak",
+        "duration": "50dk",
+        "cost": null,
+        "note": "Shibuya sokak keşfi yerine"
+      },
+      {
+        "time": "16:00 ▸",
+        "place": "Shibuya Stream",
+        "action": "Nehir kenarı modern mimari + kafe",
+        "transport": "Yürüyüş 5dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Miyashita Park yerine — daha sakin"
+      },
+      {
+        "time": "20:30 ▸",
+        "place": "Shinjuku Nishiguchi sokakları",
+        "action": "Sessiz arka sokak + yerel izakaya",
+        "transport": "Yürüyüş 5dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Omoide Yokochō kalabalıksa"
+      },
+      {
+        "time": "21:00 ▸",
+        "place": "Nonbei Yokochō (Shibuya)",
+        "action": "Daha küçük bar sokağı, daha az turist",
+        "transport": "JR (¥170)",
+        "duration": "45dk",
+        "cost": {
+          "min": 800,
+          "max": 15000,
+          "raw": "800-1.5K"
+        },
+        "note": "Golden Gai yerine — Shibuya'ya dönüş gerekir"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Kahvaltı",
+        "place": "Tsukiji Dış Pazar",
+        "action": "Tamagoyaki (Marutake), maguro don, menchi katsu",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": "Tezgahtan tezgaha. Nakit ¥5K hazır tut"
+      },
+      {
+        "time": "Öğle",
+        "place": "Ginza Kagari (銀座篝)",
+        "action": "Tori Paitan Soba — kremalı tavuk ramen",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 12000,
+          "max": 18000,
+          "raw": "1.2K-1.8K"
+        },
+        "note": "Michelin Bib Gourmand. Kuyruk ~15dk"
+      },
+      {
+        "time": "Ara",
+        "place": "About Life Coffee Brewers",
+        "action": "Pour-over + tatlı",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 800,
+          "raw": "500-800"
+        },
+        "note": "Shibuya, stand-up kahveci"
+      },
+      {
+        "time": "Akşam",
+        "place": "Fuunji (風雲児)",
+        "action": "Tsukemen — Oomori ücretsiz",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "Shinjuku, kuyruk ~20-30dk ama değer"
+      },
+      {
+        "time": "Gece",
+        "place": "Omoide Yokochō",
+        "action": "Yakitori 2-3 şiş + bira",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": "Tadımlık, tam öğün değil"
+      }
+    ],
+    "budgetSummary": "💰 Gün 2 Bütçe: Ulaşım ¥750 | Yemek ~¥5.2K-7.6K | Aktivite ¥2.300 | Alışveriş ¥50K-68K | TOPLAM ~¥58K-79K"
+  },
+  {
+    "id": "day-3",
+    "dayNumber": 3,
+    "dateRaw": "20 Mayıs 2026 Çarşamba",
+    "title": "Shinjuku rahat sabah → Nozomi 11:09 → Kyoto (Gion) öğleden sonra",
+    "fixed": [
+      {
+        "time": "09:00",
+        "place": "Anshin Oyado Shinjuku",
+        "action": "Ücretsiz curry kahvaltı + check-out",
+        "transport": "—",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Bagajı hazırla, tek çanta düzeninde çık"
+      },
+      {
+        "time": "10:15",
+        "place": "Shinjuku → Tokyo İst.",
+        "action": "JR Chuo Rapid",
+        "transport": "JR",
+        "duration": "18dk",
+        "cost": {
+          "min": 260,
+          "max": 260,
+          "raw": "260"
+        },
+        "note": ""
+      },
+      {
+        "time": "10:45",
+        "place": "Tokyo İstasyonu",
+        "action": "Shinkansen biniş hazırlık",
+        "transport": "Yürüyüş",
+        "duration": "15dk",
+        "cost": null,
+        "note": "Platform 14-19. Ekiben almak istersen bu ara"
+      },
+      {
+        "time": "11:09",
+        "place": "Tokyo İst. → Kyoto İst.",
+        "action": "Nozomi 371 — Car 12, Seat 10-E (Fuji tarafı)",
+        "transport": "Shinkansen",
+        "duration": "129dk",
+        "cost": {
+          "min": 12430,
+          "max": 12430,
+          "raw": "12430"
+        },
+        "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable"
+      },
+      {
+        "time": "~13:21",
+        "place": "Kyoto İstasyonu",
+        "action": "Varış — Karasuma (kuzey) çıkışı",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "~13:30",
+        "place": "Kyoto İst. → Gion",
+        "action": "Metro Karasuma → Shijo + yürüyüş",
+        "transport": "Metro",
+        "duration": "17dk",
+        "cost": {
+          "min": 230,
+          "max": 230,
+          "raw": "230"
+        },
+        "note": "Metro daha güvenilir, otobüs kalabalık"
+      }
+    ],
+    "main": [
+      {
+        "time": "~14:00",
+        "place": "Otel",
+        "action": "Bagajı bırak (check-in 15:00)",
+        "transport": "Yürüyüş",
+        "duration": "10dk",
+        "cost": null,
+        "note": "'nimotsu wo azuketai' de"
+      },
+      {
+        "time": "~14:30",
+        "place": "Ekiben (trende) / Yatsuhashi Chaya",
+        "action": "Öğle — trende ekiben yi veya Gion'da hafif yatsuhashi + matcha",
+        "transport": "Yürüyüş 3dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 800,
+          "max": 12000,
+          "raw": "800-1.2K"
+        },
+        "note": "Shinkansen'de istasyonda ekiben al. Gion'da ~14:30'da hafif mola"
+      },
+      {
+        "time": "~15:00",
+        "place": "Kennin-ji Tapınağı (建仁寺)",
+        "action": "En eski Zen tapınağı — İkiz Ejderha tavan, karesansui bahçe",
+        "transport": "Yürüyüş 5dk",
+        "duration": "75dk",
+        "cost": {
+          "min": 500,
+          "max": 500,
+          "raw": "500"
+        },
+        "note": "10:00-17:00. Tatami üstünde otur, bahçeye bak"
+      },
+      {
+        "time": "~16:30",
+        "place": "Hanamikoji Caddesi (花見小路)",
+        "action": "Gion ana caddesi — machiya, çay evleri, fotoğraf",
+        "transport": "Yürüyüş 3dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Elektrik kablosuz korumalı sokak. Geiko görürsen yolunu kesme"
+      },
+      {
+        "time": "~17:00",
+        "place": "Otel",
+        "action": "Check-in + kısa mola — duş, dinlen",
+        "transport": "Yürüyüş",
+        "duration": "30dk",
+        "cost": null,
+        "note": "15dk dinlen, akşam için enerji topla"
+      },
+      {
+        "time": "~17:30",
+        "place": "Yasaka Tapınağı (八坂神社)",
+        "action": "Gion'un kalbi — ana salon, fenerler, omamori",
+        "transport": "Yürüyüş 8dk",
+        "duration": "40dk",
+        "cost": null,
+        "note": "24 saat açık, ücretsiz. Kırmızı torii fotoğraf noktası"
+      },
+      {
+        "time": "~18:00",
+        "place": "Maruyama Parkı (円山公園)",
+        "action": "Japon bahçesi, havuz, dinlenme",
+        "transport": "Yürüyüş 2dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Mayıs'ta yeşillik harika. Bankta otur"
+      },
+      {
+        "time": "~19:00",
+        "place": "Shirakawa Bölgesi (白川)",
+        "action": "Söğüt ağaçlı kanal, Tatsumi Köprüsü",
+        "transport": "Yürüyüş 8dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Hanamikoji'den daha sakin. Klasik fotoğraf noktası"
+      },
+      {
+        "time": "~19:30",
+        "place": "Kamogawa Nehri kıyısı",
+        "action": "Shijo → Sanjo Köprüsü arası yürüyüş",
+        "transport": "Yürüyüş 5dk",
+        "duration": "20dk",
+        "cost": null,
+        "note": "Gün batımı saati. Nehir kenarı Kyoto atmosferi"
+      },
+      {
+        "time": "~20:00",
+        "place": "Pontocho Sokağı (先斗町)",
+        "action": "Fener ışığında dar sokak + akşam yemeği",
+        "transport": "Yürüyüş 3dk",
+        "duration": "90dk",
+        "cost": null,
+        "note": "Yürü, menülere bak, atmosferi kok. Yemek: YEMEK bölümüne bak"
+      },
+      {
+        "time": "~21:30",
+        "place": "Gion gece yürüyüşü",
+        "action": "Hanamikoji + Yasaka fenerli gece",
+        "transport": "Yürüyüş 10dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Gece bambaşka — fenerler, geiko görme şansı en yüksek"
+      },
+      {
+        "time": "~22:30",
+        "place": "Otel",
+        "action": "Dönüş + dinlenme",
+        "transport": "Yürüyüş 10dk",
+        "duration": "—",
+        "cost": null,
+        "note": "⚠️ Yarın Toji pazarı — erken kalkış"
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "12:15 ▸",
+        "place": "Gion Yorozuya (祇園萬屋)",
+        "action": "Negi udon — Michelin Bib Gourmand, Kujo soğanlı",
+        "transport": "Yürüyüş 5dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 900,
+          "max": 14000,
+          "raw": "900-1.4K"
+        },
+        "note": "Okaru'da sıra uzunsa"
+      },
+      {
+        "time": "18:45 ▸",
+        "place": "Kiyamachi Caddesi (木屋町通)",
+        "action": "Pontocho'ya paralel — kanal boyuncu izakaya/ramen",
+        "transport": "Yürüyüş 2dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Pontocho kalabalık/pahalıysa"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Öğle",
+        "place": "Ekiben (trende) / Yatsuhashi Chaya",
+        "action": "Öğle — trende ekiben yi veya Gion'da hafif yatsuhashi + matcha",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 800,
+          "max": 12000,
+          "raw": "800-1.2K"
+        },
+        "note": "Shinkansen'de istasyonda ekiben al. Gion'da ~14:30'da hafif mola"
+      },
+      {
+        "time": "Ara",
+        "place": "Saryo Tsujiri / machiya cafe",
+        "action": "Matcha latte veya parfait + mochi",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 600,
+          "max": 900,
+          "raw": "600-900"
+        },
+        "note": "Uji çayı kullanıyor"
+      },
+      {
+        "time": "Akşam",
+        "place": "Ponto (ぽんと) — Pontocho",
+        "action": "Obanzai seti + bira, kawayuka (nehir platformu)",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 3000,
+          "max": 4000,
+          "raw": "3K-4K"
+        },
+        "note": "Rez.suz girilebilir. Kamogawa manzarası. Solo bar ideal"
+      },
+      {
+        "time": "Akşam alt.",
+        "place": "Kushiyaki Manten",
+        "action": "Yakitori + bira, tezgah önü",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 2000,
+          "max": 35000,
+          "raw": "2K-3.5K"
+        },
+        "note": "Daha casual. Pontocho içi"
+      }
+    ],
+    "budgetSummary": "💰 Gün 3 Bütçe: Ulaşım ¥12.690 (Chuo ¥260 + Nozomi ¥12.430 + Metro ¥230) | Yemek ~¥4.5K | Aktivite ¥500 | TOPLAM ~¥17.7K-19.3K"
+  },
+  {
+    "id": "day-4",
+    "dayNumber": 4,
+    "dateRaw": "21 Mayıs 2026 Perşembe",
+    "title": "Toji Pazarı + Nishiki + Kiyomizu-dera",
+    "fixed": [
+      {
+        "time": "08:00-12:00",
+        "place": "Toji Kobo-ichi (弘法市)",
+        "action": "Antika, seramik, vintage — ~1.200 tezgah + sokak yemeği",
+        "transport": "206 hat (¥230) + yürüyüş 14dk",
+        "duration": "3.5 saat",
+        "cost": {
+          "min": 5000,
+          "max": 30000,
+          "raw": "5K-30K"
+        },
+        "note": "En canlı 09-12. Nakit + pazarlık: 'chotto makete kudasai'"
+      },
+      {
+        "time": "12:00-12:45",
+        "place": "Gion Oteli",
+        "action": "Kırılgan alışverişleri bırak, seramikleri paketle",
+        "transport": "Yürüyüş + 206 hat (¥230)",
+        "duration": "45dk",
+        "cost": {
+          "min": 230,
+          "max": 230,
+          "raw": "230"
+        },
+        "note": "⚠️ ZORUNLU — seramiklerle gezme"
+      },
+      {
+        "time": "14:45",
+        "place": "Kyukyodo (鳩居堂)",
+        "action": "10 kalem, kalem kutusu, 2 yelpaze",
+        "transport": "Nishiki'den yürüyüş 3dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 18000,
+          "max": 28000,
+          "raw": "18K-28K"
+        },
+        "note": "10:00-18:00. Yelpazeleri carry-on'a al"
+      }
+    ],
+    "main": [
+      {
+        "time": "08:00",
+        "place": "Toji Kobo-ichi",
+        "action": "[SABİT] Pazar + sokak yemeği (yakisoba, taiyaki, mochi)",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": "Sabah atıştırma burada"
+      },
+      {
+        "time": "12:00",
+        "place": "Gion Oteli",
+        "action": "[SABİT] Kırılgan eşyaları bırak",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 230,
+          "max": 230,
+          "raw": "230"
+        },
+        "note": ""
+      },
+      {
+        "time": "12:45",
+        "place": "Gogyo (五行)",
+        "action": "Öğle — Kogashi miso ramen (kavrulmuş, dumanlı)",
+        "transport": "Yürüyüş 12dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "Kyoto'nun en özgün rameni. Hafta içi sıra kısa"
+      },
+      {
+        "time": "13:45",
+        "place": "Nishiki Market (錦市場)",
+        "action": "Kyoto'nun Mutfağı — 130+ tezgah tadımlık tur",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "Tako tamago, dashimaki, matcha mochi. Tezgah yanında ye"
+      },
+      {
+        "time": "14:45",
+        "place": "Kyukyodo",
+        "action": "[SABİT] Kırtasiye alışverişi",
+        "transport": "Yürüyüş 3dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 18000,
+          "max": 28000,
+          "raw": "18K-28K"
+        },
+        "note": ""
+      },
+      {
+        "time": "15:30",
+        "place": "Ninenzaka / Sannenzaka",
+        "action": "Tarihi taş sokaklar, machiya evler, fotoğraf",
+        "transport": "Yürüyüş 25dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Starbucks Ninenzaka (machiya) ilginç durak"
+      },
+      {
+        "time": "16:15",
+        "place": "Kiyomizu-dera (清水寺)",
+        "action": "UNESCO — ahşap platform, panorama, Otowa Şelalesi",
+        "transport": "Yürüyüş 10dk (yokuş)",
+        "duration": "75dk",
+        "cost": {
+          "min": 500,
+          "max": 500,
+          "raw": "500"
+        },
+        "note": "06:00-18:00. 3 akarsu — birini seç. Altın saat fotoğraf"
+      },
+      {
+        "time": "17:30",
+        "place": "Sannenzaka → Gion dönüş",
+        "action": "Yokuş aşağı sokak keşfi, akşam ışığı fotoğraf",
+        "transport": "Yürüyüş 20-25dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Rahat tempo"
+      },
+      {
+        "time": "18:30",
+        "place": "Gion obanzai restoran",
+        "action": "Akşam — Kyoto ev yemekleri seti (7-8 tabak)",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 25000,
+          "max": 35000,
+          "raw": "2.5K-3.5K"
+        },
+        "note": "'おばんざい' tabelası ara. Dün Pontocho, bugün Gion"
+      },
+      {
+        "time": "19:30",
+        "place": "Kamogawa nehir kenarı",
+        "action": "Akşam yürüyüşü, Shijo Köprüsü",
+        "transport": "Yürüyüş 5dk",
+        "duration": "30-60dk",
+        "cost": null,
+        "note": "⚠️ Yarın Kobe — 21:00'e kadar otelde ol"
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "12:45 ▸",
+        "place": "Mimikou (ミミコウ)",
+        "action": "Curry udon — Yasaka yakını",
+        "transport": "Yürüyüş 5dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "Gogyo yerine"
+      },
+      {
+        "time": "13:45 ▸",
+        "place": "Teramachi Pasajı",
+        "action": "Kapalı çarşı, vintage, kitapçı. Yağmur planı",
+        "transport": "Yürüyüş 5-10dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Nishiki kalabalıksa"
+      },
+      {
+        "time": "15:30 ▸",
+        "place": "Ninenzaka matcha + Yasaka Pagoda fotoğraf",
+        "action": "Kiyomizu'yu atla, rahat geç + matcha",
+        "transport": "Yürüyüş 20dk",
+        "duration": "90dk",
+        "cost": {
+          "min": 800,
+          "max": 12000,
+          "raw": "800-1.2K"
+        },
+        "note": "Fiziksel olarak hafif B planı"
+      },
+      {
+        "time": "18:30 ▸",
+        "place": "Gion Kappa (ぎおん河童)",
+        "action": "Kappo/izakaya — sashimi, tempura",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 3000,
+          "max": 4000,
+          "raw": "3K-4K"
+        },
+        "note": "Obanzai doluysa"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Sabah",
+        "place": "Toji sokak yemekleri",
+        "action": "Yakisoba, taiyaki, mochi, dango",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": "Nakit şart"
+      },
+      {
+        "time": "Öğle",
+        "place": "Gogyo (五行)",
+        "action": "Kogashi miso ramen + gyoza",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "Kavrulmuş miso — yoğun umami"
+      },
+      {
+        "time": "Atıştırma",
+        "place": "Nishiki Market",
+        "action": "Tako tamago, dashimaki, matcha mochi",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "Tezgah yanında ye"
+      },
+      {
+        "time": "Akşam",
+        "place": "Gion obanzai restoran",
+        "action": "7-8 tabak seti, mevsim sebze, tofu, miso",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 25000,
+          "max": 35000,
+          "raw": "2.5K-3.5K"
+        },
+        "note": "Alt: Gion Kappa"
+      }
+    ],
+    "budgetSummary": "💰 Gün 4 Bütçe: Ulaşım ¥460 | Yemek ~¥5K-7.5K | Aktivite ¥500 | Alışveriş ¥23K-58K | TOPLAM ~¥29K-66.5K"
+  },
+  {
+    "id": "day-5",
+    "dayNumber": 5,
+    "dateRaw": "22 Mayıs 2026 Cuma",
+    "title": "Kyoto → Kinosaki Onsen (Shinonomesou)",
+    "fixed": [
+      {
+        "time": "09:25",
+        "place": "Kyoto İst.",
+        "action": "Ltd. Exp. Kinosaki No.3 — KİNOSAKİ TRENİ",
+        "transport": "Tren",
+        "duration": "146dk",
+        "cost": {
+          "min": 5370,
+          "max": 5370,
+          "raw": "5370"
+        },
+        "note": "⚠️ Ön rez. şart. e5489.jr-odekake.net (22 Nisan'dan açık)"
+      },
+      {
+        "time": "~11:51",
+        "place": "Kinosaki Onsen İst.",
+        "action": "Varış",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": "İstasyon haritasından açık onsenleri teyit et"
+      },
+      {
+        "time": "~12:05",
+        "place": "Shinonomesou",
+        "action": "Bavul bırak (check-in 14:00)",
+        "transport": "Yürüyüş 13dk / shuttle",
+        "duration": "15dk",
+        "cost": null,
+        "note": "✅ REZERVE (Trip.com). Kaiseki + kahvaltı dahil"
+      },
+      {
+        "time": "~14:00",
+        "place": "Shinonomesou",
+        "action": "Resmi check-in — Yumepa bilezik al",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "~18:00",
+        "place": "Shinonomesou",
+        "action": "Kaiseki akşam yemeği (DAHİL)",
+        "transport": "—",
+        "duration": "90dk",
+        "cost": null,
+        "note": "Tajima eti + deniz ürünleri + mevsim sebze"
+      }
+    ],
+    "main": [
+      {
+        "time": "07:30",
+        "place": "Gion Oteli",
+        "action": "Check-out — sırt çantasına geç, bavulları al",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "08:00",
+        "place": "Gion → Kyoto İst.",
+        "action": "Bus 206 veya taksi",
+        "transport": "Otobüs/Taksi",
+        "duration": "20dk",
+        "cost": {
+          "min": 230,
+          "max": 230,
+          "raw": "230"
+        },
+        "note": "Bavulla taksi daha rahat (~¥1.200)"
+      },
+      {
+        "time": "08:30",
+        "place": "Kyoto İst.",
+        "action": "Son kahvaltı — Yodobashi Kyoto B1 konbini/ekiben",
+        "transport": "Yürüyüş",
+        "duration": "40dk",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": ""
+      },
+      {
+        "time": "[SABİT] 09:25",
+        "place": "Kyoto İst.",
+        "action": "Kinosaki treni",
+        "transport": "Tren",
+        "duration": "146dk",
+        "cost": {
+          "min": 5370,
+          "max": 5370,
+          "raw": "5370"
+        },
+        "note": ""
+      },
+      {
+        "time": "12:30",
+        "place": "Irori Dining Mikuni",
+        "action": "Öğle — Tajima Beef Steak/Curry Set",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 15000,
+          "max": 3000,
+          "raw": "1.5K-3K"
+        },
+        "note": "Kobe beef'in kökeni Tajima eti"
+      },
+      {
+        "time": "13:45",
+        "place": "Kinosaki Ropeway (城崎温泉ロープウェイ)",
+        "action": "Teleferik — Daishi Dağı zirvesi",
+        "transport": "Yürüyüş 15dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 910,
+          "max": 910,
+          "raw": "910"
+        },
+        "note": "Son yukarı 16:10. Kawarake ritüeli"
+      },
+      {
+        "time": "14:30",
+        "place": "Onsenji Tapınağı (温泉寺)",
+        "action": "738 yılı — koruyucu tapınak, ara istasyon",
+        "transport": "Teleferik",
+        "duration": "30dk",
+        "cost": null,
+        "note": "1300 yıllık"
+      },
+      {
+        "time": "[SABİT] ~14:00",
+        "place": "Shinonomesou",
+        "action": "Check-in + Yumepa + yukata",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Geta ile çıplak ayak — çorapla kayarsın"
+      },
+      {
+        "time": "15:45",
+        "place": "Kono-yu (鴻の湯)",
+        "action": "1. onsen — orman manzaralı rotemburo",
+        "transport": "Yürüyüş 3dk",
+        "duration": "40dk",
+        "cost": null,
+        "note": "07:00-23:00. Kapalı: Salı"
+      },
+      {
+        "time": "16:30",
+        "place": "Goshono-yu (御所の湯)",
+        "action": "2. onsen — Kyoto Sarayı ilhamlı",
+        "transport": "Yürüyüş 5dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Şelale + buhar saunası. Kapalı: Perşembe"
+      },
+      {
+        "time": "17:20",
+        "place": "Otani Nehri kanalı",
+        "action": "Yukata ile kasaba yürüyüşü",
+        "transport": "Yürüyüş",
+        "duration": "30dk",
+        "cost": null,
+        "note": "7 taş köprü"
+      },
+      {
+        "time": "[SABİT] ~18:00",
+        "place": "Shinonomesou",
+        "action": "Kaiseki akşam yemeği",
+        "transport": "—",
+        "duration": "90dk",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "20:00",
+        "place": "Ichino-yu (一の湯)",
+        "action": "3. onsen — mağara banyosu",
+        "transport": "Yürüyüş 10dk",
+        "duration": "40dk",
+        "cost": null,
+        "note": "15:00-23:00. Kapalı: Perşembe"
+      },
+      {
+        "time": "20:45",
+        "place": "Mandara-yu (まんだら湯)",
+        "action": "4. onsen — seramik küvetler, dağ manzarası",
+        "transport": "Yürüyüş 5dk",
+        "duration": "35dk",
+        "cost": null,
+        "note": "15:00-23:00. Kapalı: Çarşamba"
+      },
+      {
+        "time": "21:30",
+        "place": "Kasaba gece yürüyüşü",
+        "action": "Fener ışığında kanal",
+        "transport": "Yürüyüş",
+        "duration": "20dk",
+        "cost": null,
+        "note": "Kısa tut"
+      },
+      {
+        "time": "22:00",
+        "place": "Shinonomesou",
+        "action": "Ryokan iç onseni / uyku",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "12:30 ▸",
+        "place": "Okesho Sengyo Kaichuen",
+        "action": "Kaisendon (deniz ürünü bowl)",
+        "transport": "Yürüyüş 3dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": "Popüler, sıra olabilir"
+      },
+      {
+        "time": "13:45 ▸",
+        "place": "Mugiwara Zaiku Müzesi",
+        "action": "Buğday sapı el sanatları + atölye",
+        "transport": "Yürüyüş 8dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 400,
+          "max": 12000,
+          "raw": "400-1.2K"
+        },
+        "note": "Yağmur planı"
+      },
+      {
+        "time": "15:45 ▸",
+        "place": "Jizo-yu (地蔵湯)",
+        "action": "Fener bina, geniş iç mekan + jakuzi",
+        "transport": "Yürüyüş 8dk",
+        "duration": "35dk",
+        "cost": null,
+        "note": "Açık durumunu varışta teyit et"
+      },
+      {
+        "time": "20:00 ▸",
+        "place": "Yanagi-yu (柳湯)",
+        "action": "En küçük, en sıcak, selvi küveti",
+        "transport": "Yürüyüş 5dk",
+        "duration": "25dk",
+        "cost": null,
+        "note": "Yavaş gir"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Kahvaltı",
+        "place": "Kyoto İst. konbini/ekiben",
+        "action": "Son Kyoto kahvaltısı",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": "Hafif tut"
+      },
+      {
+        "time": "Öğle",
+        "place": "Irori Dining Mikuni",
+        "action": "Tajima Beef Steak/Curry Set",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 15000,
+          "max": 3000,
+          "raw": "1.5K-3K"
+        },
+        "note": "Alt: Okesho Kaisendon"
+      },
+      {
+        "time": "Atıştırma",
+        "place": "GubiGabu + sokak",
+        "action": "Craft bira + onsen tamago + korokke",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": ""
+      },
+      {
+        "time": "Akşam",
+        "place": "Shinonomesou kaiseki",
+        "action": "DAHİL — çok kaplı geleneksel ziyafet",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "Sabah (Gün 6)",
+        "place": "Shinonomesou",
+        "action": "Japon kahvaltısı — DAHİL",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "budgetSummary": "💰 Gün 5 Bütçe: Ulaşım ¥6.510 (Bus ¥230 + Kinosaki ¥5.370 + Ropeway ¥910) | Yemek ~¥3K | Konaklama+Yemek DAHİL | TOPLAM ~¥9.5K"
+  },
+  {
+    "id": "day-6",
+    "dayNumber": 6,
+    "dateRaw": "23 Mayıs 2026 Cumartesi",
+    "title": "Kinosaki → Osaka (Namba)",
+    "fixed": [
+      {
+        "time": "07:00",
+        "place": "Shinonomesou",
+        "action": "Son sabah onseni",
+        "transport": "Ryokan içi",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Sakin, keyfini çıkar"
+      },
+      {
+        "time": "08:00",
+        "place": "Shinonomesou",
+        "action": "Japon kahvaltısı (DAHİL)",
+        "transport": "Ryokan içi",
+        "duration": "60dk",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "~10:00",
+        "place": "Shinonomesou",
+        "action": "Check-out",
+        "transport": "—",
+        "duration": "15dk",
+        "cost": null,
+        "note": "ありがとうございました"
+      },
+      {
+        "time": "~11:30",
+        "place": "Kinosaki → Osaka (Umeda)",
+        "action": "Ltd. Exp. Kounotori",
+        "transport": "Tren",
+        "duration": "170dk",
+        "cost": {
+          "min": 5900,
+          "max": 5900,
+          "raw": "5900"
+        },
+        "note": "⚠️ e5489'dan alınacak (23 Nisan'dan açık)"
+      },
+      {
+        "time": "~14:20",
+        "place": "Osaka İst. → Namba",
+        "action": "Metro Midosuji",
+        "transport": "Metro",
+        "duration": "9dk",
+        "cost": {
+          "min": 240,
+          "max": 240,
+          "raw": "240"
+        },
+        "note": ""
+      },
+      {
+        "time": "~14:45",
+        "place": "Osaka Namba Oteli",
+        "action": "Check-in — 3 gece (Gün 6-7-8)",
+        "transport": "Yürüyüş 5dk",
+        "duration": "15dk",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "main": [
+      {
+        "time": "15:30",
+        "place": "Hozenji Yokocho (法善寺横丁)",
+        "action": "Fener ışıklı dar sokak + Mizukake Fudo",
+        "transport": "Yürüyüş 3dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Dotonbori güneyi ama bambaşka atmosfer"
+      },
+      {
+        "time": "16:15",
+        "place": "Dotonbori kanal yürüyüşü",
+        "action": "Ebisubashi → Glico Man, dev 3D tabelalar, fotoğraf",
+        "transport": "Yürüyüş",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Altın saat + gece neon iki farklı ışıkta çek"
+      },
+      {
+        "time": "17:15",
+        "place": "Akaoni (赤鬼) takoyaki",
+        "action": "Michelin Bib Gourmand — chapu-chapu (dashi suyunda)",
+        "transport": "Yürüyüş 2dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 600,
+          "max": 800,
+          "raw": "600-800"
+        },
+        "note": "Sıra hızlı. Domuz/dana yok — saf ahtapot"
+      },
+      {
+        "time": "18:00",
+        "place": "Tombori River Cruise",
+        "action": "20dk kanal turu — neon'u su seviyesinden",
+        "transport": "İskele",
+        "duration": "45dk",
+        "cost": {
+          "min": 1000,
+          "max": 1000,
+          "raw": "1000"
+        },
+        "note": "Gün batımı öncesi bin"
+      },
+      {
+        "time": "19:00",
+        "place": "Okonomiyaki Mizuno (美津の)",
+        "action": "Akşam — Yamaimo-yaki (unsuz)",
+        "transport": "Yürüyüş 2dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 12000,
+          "max": 18000,
+          "raw": "1.2K-1.8K"
+        },
+        "note": "1945. Michelin Bib. Sıra uzun"
+      },
+      {
+        "time": "20:15",
+        "place": "Ura Namba (裏なんば)",
+        "action": "Arka sokak — küçük izakaya, yerel barlar",
+        "transport": "Yürüyüş 5dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Turistik olmayan Osaka"
+      },
+      {
+        "time": "21:00",
+        "place": "Pablo Dotonbori",
+        "action": "Tatlı — baked cheese tart",
+        "transport": "Yürüyüş 3dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 300,
+          "max": 500,
+          "raw": "300-500"
+        },
+        "note": ""
+      },
+      {
+        "time": "21:30",
+        "place": "Otele dönüş",
+        "action": "",
+        "transport": "Yürüyüş 5-7dk",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "15:30 ▸",
+        "place": "Namba Yasaka Shrine",
+        "action": "Dev aslan ağzı sahne — fotoğrafçılık ikonu",
+        "transport": "Yürüyüş 10dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "16:15 ▸",
+        "place": "Amerikamura",
+        "action": "Street art, vintage, genç kültür",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Alışveriş yapma"
+      },
+      {
+        "time": "19:00 ▸",
+        "place": "Fukutaro (福太郎)",
+        "action": "Okonomiyaki negiyaki, daha az turistik",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": ""
+      },
+      {
+        "time": "20:15 ▸",
+        "place": "Shinsekai",
+        "action": "Retro Showa + Tsutenkaku + kushikatsu",
+        "transport": "Metro 2 durak",
+        "duration": "45dk",
+        "cost": {
+          "min": 190,
+          "max": 190,
+          "raw": "190"
+        },
+        "note": ""
+      }
+    ],
+    "meals": [
+      {
+        "time": "Kahvaltı",
+        "place": "Shinonomesou",
+        "action": "Japon kahvaltısı — DAHİL",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "Öğle (tren)",
+        "place": "Kinosaki İst. ekiben",
+        "action": "Tajima Gyu bento / kani-meshi",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 800,
+          "max": 12000,
+          "raw": "800-1.2K"
+        },
+        "note": ""
+      },
+      {
+        "time": "Ara",
+        "place": "Akaoni takoyaki",
+        "action": "Chapu-chapu (Michelin)",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 600,
+          "max": 800,
+          "raw": "600-800"
+        },
+        "note": ""
+      },
+      {
+        "time": "Akşam",
+        "place": "Mizuno (美津の)",
+        "action": "Yamaimo-yaki okonomiyaki",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 12000,
+          "max": 18000,
+          "raw": "1.2K-1.8K"
+        },
+        "note": "Alt: Fukutaro"
+      }
+    ],
+    "budgetSummary": "💰 Gün 6 Bütçe: Ulaşım ¥6.140 | Yemek ~¥3.5K | Aktivite ¥1K | TOPLAM ~¥10.6K"
+  },
+  {
+    "id": "day-7",
+    "dayNumber": 7,
+    "dateRaw": "24 Mayıs 2026 Pazar",
+    "title": "Osaka Rahat Gün + Lokal Keşif",
+    "fixed": [],
+    "main": [
+      {
+        "time": "10:30",
+        "place": "千日前道具屋筋 (Doguyasuji)",
+        "action": "Mutfak aletleri çarşısı — food sample, bıçaklar",
+        "transport": "Yürüyüş 3dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Osaka Kitchen Town"
+      },
+      {
+        "time": "11:45",
+        "place": "Kuromon Ichiba Pazarı (黒門市場)",
+        "action": "Osaka'nın Mutfağı — taze deniz ürünü, meyve",
+        "transport": "Yürüyüş 8dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 1000,
+          "max": 2000,
+          "raw": "1K-2K"
+        },
+        "note": "Sokak yemeği: istiridye, wagyu skewer"
+      },
+      {
+        "time": "13:00",
+        "place": "Tennoji Park + Keitakuen Bahçesi",
+        "action": "Japon bahçesi + park — sakin mola",
+        "transport": "Metro Midosuji (¥240)",
+        "duration": "90dk",
+        "cost": {
+          "min": 150,
+          "max": 300,
+          "raw": "150-300"
+        },
+        "note": "Lokal halk pazar günü parka gelir. Bahçe giriş ¥150"
+      },
+      {
+        "time": "15:00",
+        "place": "Shinsekai (新世界)",
+        "action": "Retro Showa atmosferi — Tsutenkaku dış, Janjan Yokocho",
+        "transport": "Yürüyüş 10dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Kushikatsu sokağı, neon, pachinko"
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "11:45 ▸",
+        "place": "Nakazakicho (中崎町)",
+        "action": "Hipster mahallesi — indie kafe, vintage, sanat galerileri",
+        "transport": "Metro Umeda (¥240)",
+        "duration": "90dk",
+        "cost": null,
+        "note": "Osaka'nın Harajuku'su, lokal"
+      },
+      {
+        "time": "13:00 ▸",
+        "place": "Sumiyoshi Taisha",
+        "action": "Tokyo'daki Meiji-jingu'ya benzer — Osaka'nın en önemli şinto tapınağı",
+        "transport": "Nankai Line",
+        "duration": "90dk",
+        "cost": {
+          "min": 210,
+          "max": 210,
+          "raw": "210"
+        },
+        "note": ""
+      },
+      {
+        "time": "16:30 ▸",
+        "place": "Nakanoshima Bölgesi",
+        "action": "Nehir arası modern mimari + Osaka Science Museum",
+        "transport": "Metro (¥240)",
+        "duration": "60dk",
+        "cost": {
+          "min": 0,
+          "max": 600,
+          "raw": "0-600"
+        },
+        "note": "Yorgunsa iç aktivite"
+      },
+      {
+        "time": "18:30 ▸",
+        "place": "Namba Izakaya sokak",
+        "action": "Ura Namba'da lokal izakaya — sade akşam",
+        "transport": "Yürüyüş",
+        "duration": "75dk",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": ""
+      }
+    ],
+    "meals": [
+      {
+        "time": "Sabah",
+        "place": "丸福珈琲店",
+        "action": "Koyu kahve + hot cake set, 1934",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 600,
+          "max": 900,
+          "raw": "600-900"
+        },
+        "note": "Osaka kissaten"
+      },
+      {
+        "time": "Öğle (Kuromon)",
+        "place": "Kuromon Ichiba tezgahları",
+        "action": "Istiridye, wagyu skewer, meyve",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 1000,
+          "max": 2000,
+          "raw": "1K-2K"
+        },
+        "note": "Tezgah yanında ye"
+      },
+      {
+        "time": "Akşam",
+        "place": "Kushikatsu Daruma",
+        "action": "Kushikatsu çeşitleri — 2 kez sos yasak!",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": "Daruma klasiği Shinsekai"
+      },
+      {
+        "time": "Gece",
+        "place": "Ura Namba izakaya",
+        "action": "Küçük bir şey — beer + edamame/yakitori",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 15000,
+          "raw": "500-1.5K"
+        },
+        "note": ""
+      }
+    ],
+    "budgetSummary": "💰 Gün 7 Bütçe: Ulaşım ¥720-960 | Yemek ~¥3.5K-6.5K | Aktivite ¥150-300 | TOPLAM ~¥4.5K-7.8K"
+  },
+  {
+    "id": "day-8",
+    "dayNumber": 8,
+    "dateRaw": "25 Mayıs 2026 Pazartesi",
+    "title": "Osaka Mega Alışveriş + Lokal Keşif",
+    "fixed": [],
+    "main": [
+      {
+        "time": "09:15",
+        "place": "Otel",
+        "action": "Pasaport kontrol, çanta hazırla",
+        "transport": "Yürüyüş",
+        "duration": "15dk",
+        "cost": null,
+        "note": "Tax-free için pasaport şart"
+      },
+      {
+        "time": "09:50",
+        "place": "Montbell なんばCITY南館B1F",
+        "action": "UV gömlek, bug net, eldiven, şapka, Sock-on Sandal",
+        "transport": "Yürüyüş",
+        "duration": "40dk",
+        "cost": {
+          "min": 5000,
+          "max": 10000,
+          "raw": "5K-10K"
+        },
+        "note": "10:00 açılış. Tax-free"
+      },
+      {
+        "time": "10:45",
+        "place": "心斎橋筋商店街 yürüyüşü",
+        "action": "Arcade'e yürü, mağaza yerlerini not al",
+        "transport": "Yürüyüş 10dk",
+        "duration": "15dk",
+        "cost": null,
+        "note": "11'e kadar nispeten sakin"
+      },
+      {
+        "time": "12:20",
+        "place": "Öğle yemeği",
+        "action": "Hafif — Meoto Zenzai veya yakın udon",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": "Alışveriş arası ağır yemek yeme"
+      },
+      {
+        "time": "19:00",
+        "place": "串カツ二色 (Kushikatsu Nishiki)",
+        "action": "Akşam — lokal kushikatsu tezgahı",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": "Showa dönemi. 1串 ~¥100-150. Bira + 10-15 şiş"
+      },
+      {
+        "time": "20:15",
+        "place": "南地中筋 / Namba arka sokaklar",
+        "action": "Akşam yürüyüşü — lokal izakaya sokağı",
+        "transport": "Yürüyüş",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Eski çiçek mahallesi. Neon, küçük barlar"
+      },
+      {
+        "time": "20:45",
+        "place": "Otele dönüş",
+        "action": "Yamato paketleme başla",
+        "transport": "Yürüyüş",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "08:00 ▸",
+        "place": "丸福珈琲店 千日前本店",
+        "action": "Kahvaltı alt. — 1934, koyu kahve, morning set",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": {
+          "min": 500,
+          "max": 800,
+          "raw": "500-800"
+        },
+        "note": ""
+      },
+      {
+        "time": "14:30 ▸",
+        "place": "地蔵尊横丁",
+        "action": "Doguyasuji yanı gizli geçit, Jizo heykeli",
+        "transport": "Yürüyüş",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Hozenji yerine"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Öğle",
+        "place": "法善寺 夫婦善哉 / udon",
+        "action": "Zenzai (tatlı fasulye) veya kitsune udon",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": "Hafif tut"
+      }
+    ],
+    "budgetSummary": "💰 Gün 8 Bütçe: Ulaşım ¥720 | Yemek ~¥3K-5K | Alışveriş ~¥93K-145K | TOPLAM ~¥97K-151K"
+  },
+  {
+    "id": "day-9",
+    "dayNumber": 9,
+    "dateRaw": "26 Mayıs 2026 Salı",
+    "title": "Osaka → Tokyo (Direkt Nozomi) → Akihabara",
+    "fixed": [
+      {
+        "time": "07:30",
+        "place": "Otel / konbini",
+        "action": "Yamato Ta-Q-Bin — 2 valiz Tokyo oteline gönder",
+        "transport": "Yürüyüş",
+        "duration": "20dk",
+        "cost": {
+          "min": 5000,
+          "max": 5000,
+          "raw": "5000"
+        },
+        "note": "⚠️ Form: otel adı + 'Check-in: 28 May' + Motobarai"
+      },
+      {
+        "time": "~10:00",
+        "place": "Shin-Osaka İst.",
+        "action": "Nozomi Shinkansen → Tokyo",
+        "transport": "Metro + tren",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Namba → Shin-Osaka metro Midosuji (¥280, ~12dk)"
+      },
+      {
+        "time": "~10:30",
+        "place": "Shin-Osaka → Tokyo",
+        "action": "Nozomi (Hayatoku-21 hedef)",
+        "transport": "Shinkansen",
+        "duration": "155dk",
+        "cost": {
+          "min": 12430,
+          "max": 12430,
+          "raw": "12430"
+        },
+        "note": "⚠️ SmartEX'ten alınacak (26 Nisan'dan açık)"
+      },
+      {
+        "time": "~13:05",
+        "place": "Tokyo İst. → Akihabara",
+        "action": "JR Yamanote",
+        "transport": "JR",
+        "duration": "4dk",
+        "cost": {
+          "min": 150,
+          "max": 150,
+          "raw": "150"
+        },
+        "note": ""
+      },
+      {
+        "time": "~13:15",
+        "place": "Akihabara Oteli",
+        "action": "Check-in — 4 gece",
+        "transport": "Yürüyüş",
+        "duration": "15dk",
+        "cost": null,
+        "note": "Bavul yok (Yamato!), sadece sırt çantası"
+      }
+    ],
+    "main": [
+      {
+        "time": "08:30",
+        "place": "丸福珈琲店 千日前本店 (Marufuku)",
+        "action": "Osaka son kahvaltı — 1934, koyu kahve + hot cake",
+        "transport": "Yürüyüş 5dk",
+        "duration": "35dk",
+        "cost": {
+          "min": 600,
+          "max": 900,
+          "raw": "600-900"
+        },
+        "note": "Osaka kissaten vedası"
+      },
+      {
+        "time": "09:30",
+        "place": "Shin-Osaka'ya metro",
+        "action": "Midosuji Line Namba → Shin-Osaka",
+        "transport": "Metro",
+        "duration": "12dk",
+        "cost": {
+          "min": 280,
+          "max": 280,
+          "raw": "280"
+        },
+        "note": ""
+      },
+      {
+        "time": "09:50",
+        "place": "Shin-Osaka İst.",
+        "action": "Ekiben al — son Osaka yemeği",
+        "transport": "Yürüyüş",
+        "duration": "40dk",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": "551 Horai buta-man meşhur"
+      },
+      {
+        "time": "14:00",
+        "place": "Akihabara bölgesi",
+        "action": "Öğleden sonra serbest — hafif keşif",
+        "transport": "Yürüyüş",
+        "duration": "120dk",
+        "cost": null,
+        "note": "Yorgunluk — dinlenme önceliği"
+      },
+      {
+        "time": "16:00",
+        "place": "Otel — kısa mola",
+        "action": "Dinlen, duş, şarj",
+        "transport": "—",
+        "duration": "60dk",
+        "cost": null,
+        "note": ""
+      },
+      {
+        "time": "18:00",
+        "place": "四文屋 秋葉原店 (Shimonnya)",
+        "action": "Akşam — yakiton izakaya, ¥100-200/şiş",
+        "transport": "Showa-dori 5dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": "Ura-Akihabara. Salaryman cenneti"
+      },
+      {
+        "time": "19:30",
+        "place": "Akihabara arka sokak yürüyüşü",
+        "action": "Chuo-dori neon + Don Quijote keşif",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Asıl keşif Gün 10"
+      },
+      {
+        "time": "20:30",
+        "place": "Otel",
+        "action": "Dinlen",
+        "transport": "Yürüyüş",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "08:30 ▸",
+        "place": "珈琲艇キャビン (Coffee-tei Cabin)",
+        "action": "Dotonbori altı gemi temalı kissaten",
+        "transport": "Yürüyüş",
+        "duration": "35dk",
+        "cost": {
+          "min": 500,
+          "max": 700,
+          "raw": "500-700"
+        },
+        "note": ""
+      },
+      {
+        "time": "08:30 ▸",
+        "place": "南海パーラー (Nankai Parlor)",
+        "action": "Namba ist. 2F morning set ¥530",
+        "transport": "Yürüyüş",
+        "duration": "25dk",
+        "cost": {
+          "min": 400,
+          "max": 530,
+          "raw": "400-530"
+        },
+        "note": "En pratik"
+      },
+      {
+        "time": "18:00 ▸",
+        "place": "青島食堂 (Aoshima Shokudo)",
+        "action": "Niigata shōga shōyu ramen, counter",
+        "transport": "Yürüyüş 6dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 900,
+          "max": 11000,
+          "raw": "900-1.1K"
+        },
+        "note": "Yakiton yerine hafif ramen"
+      },
+      {
+        "time": "18:00 ▸",
+        "place": "中華そば糸 (Chūka Soba Ito)",
+        "action": "Düşük sodyum shoyu ramen, mideye nazik",
+        "transport": "Yürüyüş 5dk",
+        "duration": "40dk",
+        "cost": {
+          "min": 1000,
+          "max": 12000,
+          "raw": "1K-1.2K"
+        },
+        "note": "Yorgun günde en hafif"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Sabah",
+        "place": "丸福珈琲店",
+        "action": "Hot cake + demlenmiş kahve",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 600,
+          "max": 900,
+          "raw": "600-900"
+        },
+        "note": "1934 Osaka kissaten vedası"
+      },
+      {
+        "time": "Öğle (tren)",
+        "place": "Shin-Osaka ekiben",
+        "action": "551 Horai buta-man / Osaka bento",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 1000,
+          "max": 15000,
+          "raw": "1K-1.5K"
+        },
+        "note": ""
+      },
+      {
+        "time": "Akşam",
+        "place": "四文屋 (Shimonnya)",
+        "action": "Yakiton + hoppy/highball",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 15000,
+          "max": 25000,
+          "raw": "1.5K-2.5K"
+        },
+        "note": "Ura-Akihabara lokal"
+      }
+    ],
+    "budgetSummary": "💰 Gün 9 Bütçe: Ulaşım ¥17.860 (Yamato ¥5K + Metro ¥280 + Nozomi ¥12.430 + Yamanote ¥150) | Yemek ~¥3K | TOPLAM ~¥21K"
+  },
+  {
+    "id": "day-10",
+    "dayNumber": 10,
+    "dateRaw": "27 Mayıs 2026 Çarşamba",
+    "title": "Ochanomizu + Jimbocho + Yanaka + Akihabara Keyif Günü",
+    "fixed": [],
+    "main": [
+      {
+        "time": "08:30",
+        "place": "喫茶穂高 (Kissa Hotaka, Ochanomizu)",
+        "action": "Sabah — 1955 kissaten, kalın tost + kahve",
+        "transport": "JR 1 durak",
+        "duration": "45dk",
+        "cost": {
+          "min": 950,
+          "max": 950,
+          "raw": "950"
+        },
+        "note": "08:00 açılış. 10:00'a kadar 50¥ indirim"
+      },
+      {
+        "time": "09:30",
+        "place": "Nicolai-do + 楽器通り",
+        "action": "Bizans katedrali + müzik aletleri sokağı",
+        "transport": "Yürüyüş 5dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Japonya'nın en yoğun müzik sokağı"
+      },
+      {
+        "time": "10:15",
+        "place": "Jimbocho 古書店街",
+        "action": "Dünyanın en büyük 2. el kitap bölgesi",
+        "transport": "Yürüyüş 10dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Komiyama Shoten, @WONDER"
+      },
+      {
+        "time": "11:30",
+        "place": "スマトラカレー共栄堂",
+        "action": "Öğle — 1924 Sumatra curry",
+        "transport": "Yürüyüş 3dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 15000,
+          "max": 16000,
+          "raw": "1.5K-1.6K"
+        },
+        "note": "11:30'da git"
+      },
+      {
+        "time": "12:30",
+        "place": "Jimbocho → Yanaka",
+        "action": "Metro Hanzomon → Chiyoda → Sendagi",
+        "transport": "Metro",
+        "duration": "20dk",
+        "cost": {
+          "min": 250,
+          "max": 250,
+          "raw": "250"
+        },
+        "note": ""
+      },
+      {
+        "time": "12:50",
+        "place": "Yanaka (谷中) mahalle keşfi",
+        "action": "Savaşta yıkılmamış eski Tokyo — ahşap evler, tapınaklar",
+        "transport": "Yürüyüş",
+        "duration": "90dk",
+        "cost": null,
+        "note": "Sessiz, lokal. Fotoğraf cenneti"
+      },
+      {
+        "time": "14:20",
+        "place": "谷中銀座商店街",
+        "action": "170m shotengai — menchi-katsu, kedi donut",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": {
+          "min": 500,
+          "max": 500,
+          "raw": "500"
+        },
+        "note": "Yūyake Dandan merdivenleri"
+      },
+      {
+        "time": "15:15",
+        "place": "Yanaka → Akihabara",
+        "action": "JR Nippori → Akihabara",
+        "transport": "JR",
+        "duration": "10dk",
+        "cost": {
+          "min": 170,
+          "max": 170,
+          "raw": "170"
+        },
+        "note": ""
+      },
+      {
+        "time": "15:45",
+        "place": "Otel — kısa mola",
+        "action": "Dinlen, şarj, su",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Opsiyonel"
+      },
+      {
+        "time": "16:15",
+        "place": "Mandarake Complex (まんだらけ)",
+        "action": "8 katlı otaku cenneti",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Vintage için 7F ve B1F"
+      },
+      {
+        "time": "17:15",
+        "place": "Radio Kaikan + Amiami Figure Tower",
+        "action": "Kaiyodo 5F + Amiami 8 kat",
+        "transport": "Yürüyüş 3dk",
+        "duration": "60dk",
+        "cost": {
+          "min": 0,
+          "max": 20000,
+          "raw": "0-20K"
+        },
+        "note": "Brown Dust 2 figürü"
+      },
+      {
+        "time": "18:15",
+        "place": "Akihabara arka sokaklar",
+        "action": "Showa-dori arkası — bağımsız dükkanlar",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Gerçek Akiba"
+      },
+      {
+        "time": "19:00",
+        "place": "Super Potato + Hey! Arcade",
+        "action": "Retro oyun + fighting game",
+        "transport": "Yürüyüş 5dk",
+        "duration": "45dk",
+        "cost": {
+          "min": 500,
+          "max": 500,
+          "raw": "500"
+        },
+        "note": "¥100/oyun nostalji"
+      },
+      {
+        "time": "19:45",
+        "place": "Akşam yemeği",
+        "action": "Tonkatsu veya Kanda guard-shita izakaya",
+        "transport": "Yürüyüş",
+        "duration": "60dk",
+        "cost": {
+          "min": 15000,
+          "max": 22000,
+          "raw": "1.5K-2.2K"
+        },
+        "note": "⚠️ 神田まつや Çrş kapalı"
+      },
+      {
+        "time": "21:00",
+        "place": "Gece Akihabara yürüyüşü",
+        "action": "Neon fotoğrafçılığı, DQ keşif",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Hafta içi daha sakin"
+      },
+      {
+        "time": "21:45",
+        "place": "Otel",
+        "action": "Yarın mega alışveriş — erken yat",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "08:30 ▸",
+        "place": "かめや (Kameya)",
+        "action": "Tachigui soba — ayakta, 5dk, ¥550",
+        "transport": "JR 1 durak",
+        "duration": "15dk",
+        "cost": {
+          "min": 550,
+          "max": 550,
+          "raw": "550"
+        },
+        "note": "Salaryman sabah sobası"
+      },
+      {
+        "time": "10:15 ▸",
+        "place": "Ueno Ameyoko",
+        "action": "Açık hava pazarı",
+        "transport": "JR 1 durak",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Jimbocho yerine"
+      },
+      {
+        "time": "12:50 ▸",
+        "place": "Kanda Myojin",
+        "action": "Anime × gelenek tapınağı",
+        "transport": "Yürüyüş 7dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Yanaka'ya gidemezsen"
+      },
+      {
+        "time": "16:15 ▸",
+        "place": "Kotobukiya 秋葉原館",
+        "action": "3 katlı figür — yeni figür odaklı",
+        "transport": "Yürüyüş 3dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Mandarake kalabalıksa"
+      }
+    ],
+    "meals": [
+      {
+        "time": "Sabah",
+        "place": "喫茶穂高 (Kissa Hotaka)",
+        "action": "Kalın tost + kahve, 1955 kissaten",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 950,
+          "max": 950,
+          "raw": "950"
+        },
+        "note": "Alt: かめや ¥550"
+      },
+      {
+        "time": "Öğle",
+        "place": "スマトラカレー共栄堂",
+        "action": "1924 Sumatra curry + patates çorbası",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 15000,
+          "max": 16000,
+          "raw": "1.5K-1.6K"
+        },
+        "note": ""
+      },
+      {
+        "time": "Atıştırma",
+        "place": "谷中銀座",
+        "action": "Menchi-katsu + kedi donut",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 500,
+          "raw": "500"
+        },
+        "note": ""
+      },
+      {
+        "time": "Akşam",
+        "place": "丸五 (Marugo) VEYA Kanda guard-shita",
+        "action": "Tonkatsu / JR Kanda altı yakitori",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 15000,
+          "max": 22000,
+          "raw": "1.5K-2.2K"
+        },
+        "note": "⚠️ 神田まつや Çrş KAPALI"
+      }
+    ],
+    "budgetSummary": "💰 Gün 10 Bütçe: Ulaşım ~¥800 | Yemek ~¥4.5K | Aktivite ~¥500 | Figür 0-20K | TOPLAM ~¥5.8K-25.8K"
+  },
+  {
+    "id": "day-11",
+    "dayNumber": 11,
+    "dateRaw": "28 Mayıs 2026 Perşembe",
+    "title": "Yodobashi Mega Alışveriş + Kappabashi",
+    "fixed": [],
+    "main": [],
+    "alternatives": [
+      {
+        "time": "08:00 ▸",
+        "place": "のものキッチン (Nonomono)",
+        "action": "JR ist. içi Tohoku onigiri set ¥390",
+        "transport": "İst. içi",
+        "duration": "20dk",
+        "cost": {
+          "min": 390,
+          "max": 390,
+          "raw": "390"
+        },
+        "note": "Chopin kapalıysa"
+      },
+      {
+        "time": "13:50 ▸",
+        "place": "神田明神 + Yushima arka sokak",
+        "action": "Kappabashi yerine — tapınak + dar sokaklar, daha az yorucu",
+        "transport": "Yürüyüş 5dk",
+        "duration": "60dk",
+        "cost": null,
+        "note": ""
+      }
+    ],
+    "meals": [
+      {
+        "time": "Sabah",
+        "place": "珈琲ショパン",
+        "action": "Cheese toast + cafe au lait, 1933",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 750,
+          "max": 750,
+          "raw": "750"
+        },
+        "note": "Alt: のものキッチン ¥390"
+      }
+    ],
+    "budgetSummary": "💰 Gün 11 Bütçe: Ulaşım ¥400 | Yemek ~¥2.9K | Alışveriş ~¥259K-269K | TOPLAM ~¥262K-272K"
+  },
+  {
+    "id": "day-12",
+    "dayNumber": 12,
+    "dateRaw": "29 Mayıs 2026 Cuma",
+    "title": "Kaneko Ginza Teslim + Shimokitazawa Vintage + Son Gece Paketleme",
+    "fixed": [],
+    "main": [],
+    "alternatives": [
+      {
+        "time": "12:20 ▸",
+        "place": "茄子おやじ (Nasu Oyaji)",
+        "action": "Shimokitazawa efsane karesi, 40+ yıl",
+        "transport": "Yürüyüş 4dk",
+        "duration": "40dk",
+        "cost": {
+          "min": 900,
+          "max": 12000,
+          "raw": "900-1.2K"
+        },
+        "note": ""
+      },
+      {
+        "time": "13:10 ▸",
+        "place": "CIRCULABLE SUPPLY",
+        "action": "Modern Japon marka ikinci el, 2025 açılış",
+        "transport": "Yürüyüş 5dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Vintage yerine"
+      },
+      {
+        "time": "15:20 ▸",
+        "place": "喫茶ネグラ (Kissa Negura)",
+        "action": "Showa retro kafe, cream soda",
+        "transport": "Yürüyüş",
+        "duration": "30dk",
+        "cost": {
+          "min": 600,
+          "max": 800,
+          "raw": "600-800"
+        },
+        "note": "Bear Pond kapalıysa"
+      }
+    ],
+    "meals": [],
+    "budgetSummary": "💰 Gün 12 Bütçe: Ulaşım ¥1.1K | Yemek ~¥3.5K | Alışveriş ~¥10K | Skyliner ¥2.5K | TOPLAM ~¥17.1K"
+  },
+  {
+    "id": "day-13",
+    "dayNumber": 13,
+    "dateRaw": "30 Mayıs 2026 Cumartesi",
+    "title": "Ueno Keşif → Narita → ICN Transit",
+    "fixed": [],
+    "main": [
+      {
+        "time": "12:15",
+        "place": "上野恩賜公園 (Ueno Park)",
+        "action": "Son park yürüyüşü — Shinobazu Gölet, Bentendo",
+        "transport": "Yürüyüş 5dk",
+        "duration": "45dk",
+        "cost": null,
+        "note": "Sakin bir veda. Lotus manzarası"
+      }
+    ],
+    "alternatives": [],
+    "meals": [
+      {
+        "time": "Sabah",
+        "place": "珈琲王城",
+        "action": "Tost + kahve, 1975 Showa kissaten",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 800,
+          "max": 1000,
+          "raw": "800-1K"
+        },
+        "note": "Son kissaten"
+      },
+      {
+        "time": "Atıştırma",
+        "place": "アメ横",
+        "action": "Çikolatalı muz, meyve, kalamar",
+        "transport": "—",
+        "duration": "—",
+        "cost": {
+          "min": 500,
+          "max": 1000,
+          "raw": "500-1K"
+        },
+        "note": ""
+      }
+    ],
+    "budgetSummary": "💰 Gün 13 Bütçe: Ulaşım ¥3.1K | Yemek ¥4K + ₩25K | Bagaj ¥8K | Alışveriş ¥13K-17K | ICN otel 0-₩100K | TOPLAM ~¥28K-36K + ₩",
+    "transit": [
+      {
+        "time": "23:25",
+        "place": "Incheon T2 varış",
+        "action": "Transit alanına geç (bagaj almayacaksın)",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Gate 252 civarı"
+      },
+      {
+        "time": "09:00",
+        "place": "T2 Food Court + Duty-Free",
+        "action": "Bibimbap kahvaltı + K-beauty alışveriş",
+        "transport": "3F",
+        "duration": "120dk",
+        "cost": {
+          "min": 0,
+          "max": 0,
+          "raw": "₩15K-25K"
+        },
+        "note": "Lotte/Shilla Duty-Free"
+      }
+    ]
+  }
+]

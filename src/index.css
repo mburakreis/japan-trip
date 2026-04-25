@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: theme("colors.paper");
+  color: theme("colors.ink.DEFAULT");
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-feature-settings: "ss01", "cv11";
+}

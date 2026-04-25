@@ -1,0 +1,12 @@
+{
+  "title": "Japan Trip 2026",
+  "subtitle": "13 gün — Tokyo · Kyoto · Kinosaki · Osaka · Tokyo",
+  "startDate": "2026-05-18",
+  "endDate": "2026-05-30",
+  "fx": {
+    "from": "JPY",
+    "to": "TRY",
+    "rate": 0.24,
+    "asOf": "2026-03"
+  }
+}
