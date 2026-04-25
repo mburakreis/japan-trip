@@ -12,7 +12,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": "Uçuş süresi 2s 30dk"
+        "note": "Uçuş süresi 2s 30dk",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:15",
@@ -21,7 +23,9 @@
         "transport": "—",
         "duration": "30-45dk",
         "cost": null,
-        "note": "Visit Japan Web QR kodunu hazır tut"
+        "note": "Visit Japan Web QR kodunu hazır tut",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:30",
@@ -34,7 +38,9 @@
           "max": 1420,
           "raw": "1420"
         },
-        "note": "⚠️ Son sefer ~22:30. A1 çıkışını kullan"
+        "note": "⚠️ Son sefer ~22:30. A1 çıkışını kullan",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:45",
@@ -43,7 +49,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "15-20dk",
         "cost": null,
-        "note": "Cashless only. Simmons yatak"
+        "note": "Cashless only. Simmons yatak",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -54,7 +62,9 @@
         "transport": "Yürüyüş 3-4dk",
         "duration": "30dk",
         "cost": null,
-        "note": "İlk fotoğraf noktası. Ginza Chuo-dori da göz at"
+        "note": "İlk fotoğraf noktası. Ginza Chuo-dori da göz at",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "23:15",
@@ -67,7 +77,9 @@
           "max": 1200,
           "raw": "1200"
         },
-        "note": "Pzt 05:00'e kadar açık. Paikou Tantanmen önerilir"
+        "note": "Pzt 05:00'e kadar açık. Paikou Tantanmen önerilir",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "00:00",
@@ -76,7 +88,9 @@
         "transport": "Yürüyüş 6dk",
         "duration": "—",
         "cost": null,
-        "note": "⚠️ 07:00 alarm — yarın NOA CAFE 08:00"
+        "note": "⚠️ 07:00 alarm — yarın NOA CAFE 08:00",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -87,7 +101,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": "Çok yorgunsan yarın sabaha bırak"
+        "note": "Çok yorgunsan yarın sabaha bırak",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "22:45 ▸",
@@ -96,7 +112,9 @@
         "transport": "Yürüyüş 1dk",
         "duration": "15dk",
         "cost": null,
-        "note": "Kabukiza'ya kadar yürümek fazla geliyorsa"
+        "note": "Kabukiza'ya kadar yürümek fazla geliyorsa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "23:15 ▸",
@@ -109,7 +127,9 @@
           "max": 600,
           "raw": "600"
         },
-        "note": "Ramen'e çıkmak istemezsen"
+        "note": "Ramen'e çıkmak istemezsen",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -124,7 +144,9 @@
           "max": 1200,
           "raw": "1200"
         },
-        "note": "Ginza 6-3-5. Counter-only, hızlı servis"
+        "note": "Ginza 6-3-5. Counter-only, hızlı servis",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Alternatif",
@@ -137,7 +159,9 @@
           "max": 600,
           "raw": "600"
         },
-        "note": "7/24 açık"
+        "note": "7/24 açık",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 1 Bütçe: Ulaşım ¥1.420 | Yemek ~¥1.200 | Aktivite ¥0 | Alışveriş ¥0 | TOPLAM ~¥2.620"
@@ -159,7 +183,9 @@
           "max": 22000,
           "raw": "22000"
         },
-        "note": "⚠️ Pasaport şart. Kutuyu çantana sığdır"
+        "note": "⚠️ Pasaport şart. Kutuyu çantana sığdır",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:45",
@@ -172,7 +198,9 @@
           "max": 21000,
           "raw": "13K-21K"
         },
-        "note": "Tax-free ayrı kasa"
+        "note": "Tax-free ayrı kasa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -183,7 +211,9 @@
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": "Dün 00:00 yatış"
+        "note": "Dün 00:00 yatış",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "07:30",
@@ -196,7 +226,9 @@
           "max": 180,
           "raw": "180"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "08:00",
@@ -209,7 +241,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": "Tezgahtan tezgaha ye. Nakit hazır tut"
+        "note": "Tezgahtan tezgaha ye. Nakit hazır tut",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "09:30",
@@ -218,7 +252,9 @@
         "transport": "Yürüyüş",
         "duration": "10dk",
         "cost": null,
-        "note": "Pazar arka sokaklarından"
+        "note": "Pazar arka sokaklarından",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "09:40",
@@ -231,7 +267,9 @@
           "max": 810,
           "raw": "810"
         },
-        "note": "Giriş ¥300 + matcha ¥510. Tokyo Körfezi manzarası"
+        "note": "Giriş ¥300 + matcha ¥510. Tokyo Körfezi manzarası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "10:40",
@@ -240,7 +278,9 @@
         "transport": "Yürüyüş",
         "duration": "20dk",
         "cost": null,
-        "note": "Mimari fotoğraf fırsatı"
+        "note": "Mimari fotoğraf fırsatı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "11:00",
@@ -253,7 +293,9 @@
           "max": 25000,
           "raw": "15K-25K"
         },
-        "note": "⚠️ Hemen al, gün boyu kullan"
+        "note": "⚠️ Hemen al, gün boyu kullan",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "11:40",
@@ -262,7 +304,9 @@
         "transport": "Yürüyüş",
         "duration": "10dk",
         "cost": null,
-        "note": "Vitrin fotoğrafları"
+        "note": "Vitrin fotoğrafları",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "[SABİT] 11:50",
@@ -275,7 +319,9 @@
           "max": 22000,
           "raw": "22000"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:35",
@@ -288,7 +334,9 @@
           "max": 18000,
           "raw": "1.2K-1.8K"
         },
-        "note": "Kuyruk ~15-20dk ama hızlı. Counter seating"
+        "note": "Kuyruk ~15-20dk ama hızlı. Counter seating",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:35",
@@ -297,7 +345,9 @@
         "transport": "Yürüyüş",
         "duration": "45dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:20",
@@ -310,7 +360,9 @@
           "max": 200,
           "raw": "200"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:50",
@@ -319,7 +371,9 @@
         "transport": "Yürüyüş",
         "duration": "40dk",
         "cost": null,
-        "note": "Magnet by Shibuya 109 terası — en iyi crossing fotoğraf açısı"
+        "note": "Magnet by Shibuya 109 terası — en iyi crossing fotoğraf açısı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:30",
@@ -332,7 +386,9 @@
           "max": 800,
           "raw": "500-800"
         },
-        "note": "Stand-up kahveci. Yorgunluk kırma"
+        "note": "Stand-up kahveci. Yorgunluk kırma",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:00",
@@ -341,7 +397,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Shibuya skyline fotoğrafı"
+        "note": "Shibuya skyline fotoğrafı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:30",
@@ -354,7 +412,9 @@
           "max": 2000,
           "raw": "2000"
         },
-        "note": "Açık teras rüzgarlı — hafif ceket al. Tripod yasak"
+        "note": "Açık teras rüzgarlı — hafif ceket al. Tripod yasak",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:30",
@@ -367,7 +427,9 @@
           "max": 170,
           "raw": "170"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "[SABİT] 18:45",
@@ -380,7 +442,9 @@
           "max": 21000,
           "raw": "13K-21K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:30",
@@ -393,7 +457,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Tokyo'nun en meşhur tsukemen'i. Oomori (büyük) ücretsiz"
+        "note": "Tokyo'nun en meşhur tsukemen'i. Oomori (büyük) ücretsiz",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:30",
@@ -406,7 +472,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": "2-3 şiş + 1 bira. En fotojenik saat 20:00-22:00"
+        "note": "2-3 şiş + 1 bira. En fotojenik saat 20:00-22:00",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:00",
@@ -419,7 +487,9 @@
           "max": 15000,
           "raw": "800-1.5K"
         },
-        "note": "Kapı ücreti ¥300-500, bira ¥500-800. Solo dostu"
+        "note": "Kapı ücreti ¥300-500, bira ¥500-800. Solo dostu",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:45",
@@ -428,7 +498,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "15dk",
         "cost": null,
-        "note": "Toho Cinemas üstünde, gece dramatik"
+        "note": "Toho Cinemas üstünde, gece dramatik",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "22:00",
@@ -441,7 +513,9 @@
           "max": 200,
           "raw": "200"
         },
-        "note": "Erken yat — yorgunluk birikmesin"
+        "note": "Erken yat — yorgunluk birikmesin",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -452,7 +526,9 @@
         "transport": "Yürüyüş 3dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Hama-rikyū yerine — normal tapınağa benzemeyen cephe"
+        "note": "Hama-rikyū yerine — normal tapınağa benzemeyen cephe",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "11:00 ▸",
@@ -465,7 +541,9 @@
           "max": 25000,
           "raw": "15K-25K"
         },
-        "note": "Uniqlo sonrası. Dezavantaj: gün boyu eski çanta"
+        "note": "Uniqlo sonrası. Dezavantaj: gün boyu eski çanta",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:35 ▸",
@@ -478,7 +556,9 @@
           "max": 3000,
           "raw": "0-3K"
         },
-        "note": "Ginza mimari tur yerine"
+        "note": "Ginza mimari tur yerine",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:50 ▸",
@@ -487,7 +567,9 @@
         "transport": "Metro 1 durak",
         "duration": "50dk",
         "cost": null,
-        "note": "Shibuya sokak keşfi yerine"
+        "note": "Shibuya sokak keşfi yerine",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:00 ▸",
@@ -496,7 +578,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Miyashita Park yerine — daha sakin"
+        "note": "Miyashita Park yerine — daha sakin",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:30 ▸",
@@ -505,7 +589,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Omoide Yokochō kalabalıksa"
+        "note": "Omoide Yokochō kalabalıksa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:00 ▸",
@@ -518,7 +604,9 @@
           "max": 15000,
           "raw": "800-1.5K"
         },
-        "note": "Golden Gai yerine — Shibuya'ya dönüş gerekir"
+        "note": "Golden Gai yerine — Shibuya'ya dönüş gerekir",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -533,7 +621,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": "Tezgahtan tezgaha. Nakit ¥5K hazır tut"
+        "note": "Tezgahtan tezgaha. Nakit ¥5K hazır tut",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Öğle",
@@ -546,7 +636,9 @@
           "max": 18000,
           "raw": "1.2K-1.8K"
         },
-        "note": "Michelin Bib Gourmand. Kuyruk ~15dk"
+        "note": "Michelin Bib Gourmand. Kuyruk ~15dk",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Ara",
@@ -559,7 +651,9 @@
           "max": 800,
           "raw": "500-800"
         },
-        "note": "Shibuya, stand-up kahveci"
+        "note": "Shibuya, stand-up kahveci",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -572,7 +666,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Shinjuku, kuyruk ~20-30dk ama değer"
+        "note": "Shinjuku, kuyruk ~20-30dk ama değer",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Gece",
@@ -585,7 +681,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": "Tadımlık, tam öğün değil"
+        "note": "Tadımlık, tam öğün değil",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 2 Bütçe: Ulaşım ¥750 | Yemek ~¥5.2K-7.6K | Aktivite ¥2.300 | Alışveriş ¥50K-68K | TOPLAM ~¥58K-79K"
@@ -603,7 +701,9 @@
         "transport": "—",
         "duration": "60dk",
         "cost": null,
-        "note": "Bagajı hazırla, tek çanta düzeninde çık"
+        "note": "Bagajı hazırla, tek çanta düzeninde çık",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "10:15",
@@ -616,7 +716,9 @@
           "max": 260,
           "raw": "260"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "10:45",
@@ -625,7 +727,9 @@
         "transport": "Yürüyüş",
         "duration": "15dk",
         "cost": null,
-        "note": "Platform 14-19. Ekiben almak istersen bu ara"
+        "note": "Platform 14-19. Ekiben almak istersen bu ara",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "11:09",
@@ -638,7 +742,9 @@
           "max": 12430,
           "raw": "12430"
         },
-        "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable"
+        "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~13:21",
@@ -647,7 +753,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~13:30",
@@ -660,7 +768,9 @@
           "max": 230,
           "raw": "230"
         },
-        "note": "Metro daha güvenilir, otobüs kalabalık"
+        "note": "Metro daha güvenilir, otobüs kalabalık",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -671,7 +781,9 @@
         "transport": "Yürüyüş",
         "duration": "10dk",
         "cost": null,
-        "note": "'nimotsu wo azuketai' de"
+        "note": "'nimotsu wo azuketai' de",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~14:30",
@@ -684,7 +796,9 @@
           "max": 12000,
           "raw": "800-1.2K"
         },
-        "note": "Shinkansen'de istasyonda ekiben al. Gion'da ~14:30'da hafif mola"
+        "note": "Shinkansen'de istasyonda ekiben al. Gion'da ~14:30'da hafif mola",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~15:00",
@@ -697,7 +811,9 @@
           "max": 500,
           "raw": "500"
         },
-        "note": "10:00-17:00. Tatami üstünde otur, bahçeye bak"
+        "note": "10:00-17:00. Tatami üstünde otur, bahçeye bak",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~16:30",
@@ -706,7 +822,9 @@
         "transport": "Yürüyüş 3dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Elektrik kablosuz korumalı sokak. Geiko görürsen yolunu kesme"
+        "note": "Elektrik kablosuz korumalı sokak. Geiko görürsen yolunu kesme",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~17:00",
@@ -715,7 +833,9 @@
         "transport": "Yürüyüş",
         "duration": "30dk",
         "cost": null,
-        "note": "15dk dinlen, akşam için enerji topla"
+        "note": "15dk dinlen, akşam için enerji topla",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~17:30",
@@ -724,7 +844,9 @@
         "transport": "Yürüyüş 8dk",
         "duration": "40dk",
         "cost": null,
-        "note": "24 saat açık, ücretsiz. Kırmızı torii fotoğraf noktası"
+        "note": "24 saat açık, ücretsiz. Kırmızı torii fotoğraf noktası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~18:00",
@@ -733,7 +855,9 @@
         "transport": "Yürüyüş 2dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Mayıs'ta yeşillik harika. Bankta otur"
+        "note": "Mayıs'ta yeşillik harika. Bankta otur",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~19:00",
@@ -742,7 +866,9 @@
         "transport": "Yürüyüş 8dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Hanamikoji'den daha sakin. Klasik fotoğraf noktası"
+        "note": "Hanamikoji'den daha sakin. Klasik fotoğraf noktası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~19:30",
@@ -751,7 +877,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "20dk",
         "cost": null,
-        "note": "Gün batımı saati. Nehir kenarı Kyoto atmosferi"
+        "note": "Gün batımı saati. Nehir kenarı Kyoto atmosferi",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~20:00",
@@ -760,7 +888,9 @@
         "transport": "Yürüyüş 3dk",
         "duration": "90dk",
         "cost": null,
-        "note": "Yürü, menülere bak, atmosferi kok. Yemek: YEMEK bölümüne bak"
+        "note": "Yürü, menülere bak, atmosferi kok. Yemek: YEMEK bölümüne bak",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~21:30",
@@ -769,7 +899,9 @@
         "transport": "Yürüyüş 10dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Gece bambaşka — fenerler, geiko görme şansı en yüksek"
+        "note": "Gece bambaşka — fenerler, geiko görme şansı en yüksek",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~22:30",
@@ -778,7 +910,9 @@
         "transport": "Yürüyüş 10dk",
         "duration": "—",
         "cost": null,
-        "note": "⚠️ Yarın Toji pazarı — erken kalkış"
+        "note": "⚠️ Yarın Toji pazarı — erken kalkış",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -793,7 +927,9 @@
           "max": 14000,
           "raw": "900-1.4K"
         },
-        "note": "Okaru'da sıra uzunsa"
+        "note": "Okaru'da sıra uzunsa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:45 ▸",
@@ -802,7 +938,9 @@
         "transport": "Yürüyüş 2dk",
         "duration": "60dk",
         "cost": null,
-        "note": "Pontocho kalabalık/pahalıysa"
+        "note": "Pontocho kalabalık/pahalıysa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -817,7 +955,9 @@
           "max": 12000,
           "raw": "800-1.2K"
         },
-        "note": "Shinkansen'de istasyonda ekiben al. Gion'da ~14:30'da hafif mola"
+        "note": "Shinkansen'de istasyonda ekiben al. Gion'da ~14:30'da hafif mola",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Ara",
@@ -830,7 +970,9 @@
           "max": 900,
           "raw": "600-900"
         },
-        "note": "Uji çayı kullanıyor"
+        "note": "Uji çayı kullanıyor",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -843,7 +985,9 @@
           "max": 4000,
           "raw": "3K-4K"
         },
-        "note": "Rez.suz girilebilir. Kamogawa manzarası. Solo bar ideal"
+        "note": "Rez.suz girilebilir. Kamogawa manzarası. Solo bar ideal",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam alt.",
@@ -856,7 +1000,9 @@
           "max": 35000,
           "raw": "2K-3.5K"
         },
-        "note": "Daha casual. Pontocho içi"
+        "note": "Daha casual. Pontocho içi",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 3 Bütçe: Ulaşım ¥12.690 (Chuo ¥260 + Nozomi ¥12.430 + Metro ¥230) | Yemek ~¥4.5K | Aktivite ¥500 | TOPLAM ~¥17.7K-19.3K"
@@ -878,7 +1024,9 @@
           "max": 30000,
           "raw": "5K-30K"
         },
-        "note": "En canlı 09-12. Nakit + pazarlık: 'chotto makete kudasai'"
+        "note": "En canlı 09-12. Nakit + pazarlık: 'chotto makete kudasai'",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:00-12:45",
@@ -891,7 +1039,9 @@
           "max": 230,
           "raw": "230"
         },
-        "note": "⚠️ ZORUNLU — seramiklerle gezme"
+        "note": "⚠️ ZORUNLU — seramiklerle gezme",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:45",
@@ -904,7 +1054,9 @@
           "max": 28000,
           "raw": "18K-28K"
         },
-        "note": "10:00-18:00. Yelpazeleri carry-on'a al"
+        "note": "10:00-18:00. Yelpazeleri carry-on'a al",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -915,7 +1067,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": "Sabah atıştırma burada"
+        "note": "Sabah atıştırma burada",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:00",
@@ -928,7 +1082,9 @@
           "max": 230,
           "raw": "230"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:45",
@@ -941,7 +1097,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Kyoto'nun en özgün rameni. Hafta içi sıra kısa"
+        "note": "Kyoto'nun en özgün rameni. Hafta içi sıra kısa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:45",
@@ -954,7 +1112,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Tako tamago, dashimaki, matcha mochi. Tezgah yanında ye"
+        "note": "Tako tamago, dashimaki, matcha mochi. Tezgah yanında ye",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:45",
@@ -967,7 +1127,9 @@
           "max": 28000,
           "raw": "18K-28K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:30",
@@ -976,7 +1138,9 @@
         "transport": "Yürüyüş 25dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Starbucks Ninenzaka (machiya) ilginç durak"
+        "note": "Starbucks Ninenzaka (machiya) ilginç durak",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:15",
@@ -989,7 +1153,9 @@
           "max": 500,
           "raw": "500"
         },
-        "note": "06:00-18:00. 3 akarsu — birini seç. Altın saat fotoğraf"
+        "note": "06:00-18:00. 3 akarsu — birini seç. Altın saat fotoğraf",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "17:30",
@@ -998,7 +1164,9 @@
         "transport": "Yürüyüş 20-25dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Rahat tempo"
+        "note": "Rahat tempo",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:30",
@@ -1011,7 +1179,9 @@
           "max": 35000,
           "raw": "2.5K-3.5K"
         },
-        "note": "'おばんざい' tabelası ara. Dün Pontocho, bugün Gion"
+        "note": "'おばんざい' tabelası ara. Dün Pontocho, bugün Gion",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:30",
@@ -1020,7 +1190,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "30-60dk",
         "cost": null,
-        "note": "⚠️ Yarın Kobe — 21:00'e kadar otelde ol"
+        "note": "⚠️ Yarın Kobe — 21:00'e kadar otelde ol",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -1035,7 +1207,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Gogyo yerine"
+        "note": "Gogyo yerine",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:45 ▸",
@@ -1044,7 +1218,9 @@
         "transport": "Yürüyüş 5-10dk",
         "duration": "60dk",
         "cost": null,
-        "note": "Nishiki kalabalıksa"
+        "note": "Nishiki kalabalıksa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:30 ▸",
@@ -1057,7 +1233,9 @@
           "max": 12000,
           "raw": "800-1.2K"
         },
-        "note": "Fiziksel olarak hafif B planı"
+        "note": "Fiziksel olarak hafif B planı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:30 ▸",
@@ -1070,7 +1248,9 @@
           "max": 4000,
           "raw": "3K-4K"
         },
-        "note": "Obanzai doluysa"
+        "note": "Obanzai doluysa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -1085,7 +1265,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": "Nakit şart"
+        "note": "Nakit şart",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Öğle",
@@ -1098,7 +1280,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Kavrulmuş miso — yoğun umami"
+        "note": "Kavrulmuş miso — yoğun umami",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Atıştırma",
@@ -1111,7 +1295,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Tezgah yanında ye"
+        "note": "Tezgah yanında ye",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -1124,7 +1310,9 @@
           "max": 35000,
           "raw": "2.5K-3.5K"
         },
-        "note": "Alt: Gion Kappa"
+        "note": "Alt: Gion Kappa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 4 Bütçe: Ulaşım ¥460 | Yemek ~¥5K-7.5K | Aktivite ¥500 | Alışveriş ¥23K-58K | TOPLAM ~¥29K-66.5K"
@@ -1146,7 +1334,9 @@
           "max": 5370,
           "raw": "5370"
         },
-        "note": "⚠️ Ön rez. şart. e5489.jr-odekake.net (22 Nisan'dan açık)"
+        "note": "⚠️ Ön rez. şart. e5489.jr-odekake.net (22 Nisan'dan açık)",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~11:51",
@@ -1155,7 +1345,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": "İstasyon haritasından açık onsenleri teyit et"
+        "note": "İstasyon haritasından açık onsenleri teyit et",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~12:05",
@@ -1164,7 +1356,9 @@
         "transport": "Yürüyüş 13dk / shuttle",
         "duration": "15dk",
         "cost": null,
-        "note": "✅ REZERVE (Trip.com). Kaiseki + kahvaltı dahil"
+        "note": "✅ REZERVE (Trip.com). Kaiseki + kahvaltı dahil",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~14:00",
@@ -1173,7 +1367,9 @@
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~18:00",
@@ -1182,7 +1378,9 @@
         "transport": "—",
         "duration": "90dk",
         "cost": null,
-        "note": "Tajima eti + deniz ürünleri + mevsim sebze"
+        "note": "Tajima eti + deniz ürünleri + mevsim sebze",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -1193,7 +1391,9 @@
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "08:00",
@@ -1206,7 +1406,9 @@
           "max": 230,
           "raw": "230"
         },
-        "note": "Bavulla taksi daha rahat (~¥1.200)"
+        "note": "Bavulla taksi daha rahat (~¥1.200)",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "08:30",
@@ -1219,7 +1421,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "[SABİT] 09:25",
@@ -1232,7 +1436,9 @@
           "max": 5370,
           "raw": "5370"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:30",
@@ -1245,7 +1451,9 @@
           "max": 3000,
           "raw": "1.5K-3K"
         },
-        "note": "Kobe beef'in kökeni Tajima eti"
+        "note": "Kobe beef'in kökeni Tajima eti",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:45",
@@ -1258,7 +1466,9 @@
           "max": 910,
           "raw": "910"
         },
-        "note": "Son yukarı 16:10. Kawarake ritüeli"
+        "note": "Son yukarı 16:10. Kawarake ritüeli",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:30",
@@ -1267,7 +1477,9 @@
         "transport": "Teleferik",
         "duration": "30dk",
         "cost": null,
-        "note": "1300 yıllık"
+        "note": "1300 yıllık",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "[SABİT] ~14:00",
@@ -1276,7 +1488,9 @@
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": "Geta ile çıplak ayak — çorapla kayarsın"
+        "note": "Geta ile çıplak ayak — çorapla kayarsın",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:45",
@@ -1285,7 +1499,9 @@
         "transport": "Yürüyüş 3dk",
         "duration": "40dk",
         "cost": null,
-        "note": "07:00-23:00. Kapalı: Salı"
+        "note": "07:00-23:00. Kapalı: Salı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:30",
@@ -1294,7 +1510,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Şelale + buhar saunası. Kapalı: Perşembe"
+        "note": "Şelale + buhar saunası. Kapalı: Perşembe",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "17:20",
@@ -1303,7 +1521,9 @@
         "transport": "Yürüyüş",
         "duration": "30dk",
         "cost": null,
-        "note": "7 taş köprü"
+        "note": "7 taş köprü",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "[SABİT] ~18:00",
@@ -1312,7 +1532,9 @@
         "transport": "—",
         "duration": "90dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:00",
@@ -1321,7 +1543,9 @@
         "transport": "Yürüyüş 10dk",
         "duration": "40dk",
         "cost": null,
-        "note": "15:00-23:00. Kapalı: Perşembe"
+        "note": "15:00-23:00. Kapalı: Perşembe",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:45",
@@ -1330,7 +1554,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "35dk",
         "cost": null,
-        "note": "15:00-23:00. Kapalı: Çarşamba"
+        "note": "15:00-23:00. Kapalı: Çarşamba",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:30",
@@ -1339,7 +1565,9 @@
         "transport": "Yürüyüş",
         "duration": "20dk",
         "cost": null,
-        "note": "Kısa tut"
+        "note": "Kısa tut",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "22:00",
@@ -1348,7 +1576,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -1363,7 +1593,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": "Popüler, sıra olabilir"
+        "note": "Popüler, sıra olabilir",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:45 ▸",
@@ -1376,7 +1608,9 @@
           "max": 12000,
           "raw": "400-1.2K"
         },
-        "note": "Yağmur planı"
+        "note": "Yağmur planı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:45 ▸",
@@ -1385,7 +1619,9 @@
         "transport": "Yürüyüş 8dk",
         "duration": "35dk",
         "cost": null,
-        "note": "Açık durumunu varışta teyit et"
+        "note": "Açık durumunu varışta teyit et",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:00 ▸",
@@ -1394,7 +1630,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "25dk",
         "cost": null,
-        "note": "Yavaş gir"
+        "note": "Yavaş gir",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -1409,7 +1647,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": "Hafif tut"
+        "note": "Hafif tut",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Öğle",
@@ -1422,7 +1662,9 @@
           "max": 3000,
           "raw": "1.5K-3K"
         },
-        "note": "Alt: Okesho Kaisendon"
+        "note": "Alt: Okesho Kaisendon",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Atıştırma",
@@ -1435,7 +1677,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -1444,7 +1688,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Sabah (Gün 6)",
@@ -1453,7 +1699,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 5 Bütçe: Ulaşım ¥6.510 (Bus ¥230 + Kinosaki ¥5.370 + Ropeway ¥910) | Yemek ~¥3K | Konaklama+Yemek DAHİL | TOPLAM ~¥9.5K"
@@ -1471,7 +1719,9 @@
         "transport": "Ryokan içi",
         "duration": "60dk",
         "cost": null,
-        "note": "Sakin, keyfini çıkar"
+        "note": "Sakin, keyfini çıkar",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "08:00",
@@ -1480,7 +1730,9 @@
         "transport": "Ryokan içi",
         "duration": "60dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~10:00",
@@ -1489,7 +1741,9 @@
         "transport": "—",
         "duration": "15dk",
         "cost": null,
-        "note": "ありがとうございました"
+        "note": "ありがとうございました",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~11:30",
@@ -1502,7 +1756,9 @@
           "max": 5900,
           "raw": "5900"
         },
-        "note": "⚠️ e5489'dan alınacak (23 Nisan'dan açık)"
+        "note": "⚠️ e5489'dan alınacak (23 Nisan'dan açık)",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~14:20",
@@ -1515,7 +1771,9 @@
           "max": 240,
           "raw": "240"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~14:45",
@@ -1524,7 +1782,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "15dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -1535,7 +1795,9 @@
         "transport": "Yürüyüş 3dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Dotonbori güneyi ama bambaşka atmosfer"
+        "note": "Dotonbori güneyi ama bambaşka atmosfer",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:15",
@@ -1544,7 +1806,9 @@
         "transport": "Yürüyüş",
         "duration": "60dk",
         "cost": null,
-        "note": "Altın saat + gece neon iki farklı ışıkta çek"
+        "note": "Altın saat + gece neon iki farklı ışıkta çek",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "17:15",
@@ -1557,7 +1821,9 @@
           "max": 800,
           "raw": "600-800"
         },
-        "note": "Sıra hızlı. Domuz/dana yok — saf ahtapot"
+        "note": "Sıra hızlı. Domuz/dana yok — saf ahtapot",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:00",
@@ -1570,7 +1836,9 @@
           "max": 1000,
           "raw": "1000"
         },
-        "note": "Gün batımı öncesi bin"
+        "note": "Gün batımı öncesi bin",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:00",
@@ -1583,7 +1851,9 @@
           "max": 18000,
           "raw": "1.2K-1.8K"
         },
-        "note": "1945. Michelin Bib. Sıra uzun"
+        "note": "1945. Michelin Bib. Sıra uzun",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:15",
@@ -1592,7 +1862,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Turistik olmayan Osaka"
+        "note": "Turistik olmayan Osaka",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:00",
@@ -1605,7 +1877,9 @@
           "max": 500,
           "raw": "300-500"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:30",
@@ -1614,7 +1888,9 @@
         "transport": "Yürüyüş 5-7dk",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -1625,7 +1901,9 @@
         "transport": "Yürüyüş 10dk",
         "duration": "30dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:15 ▸",
@@ -1634,7 +1912,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "60dk",
         "cost": null,
-        "note": "Alışveriş yapma"
+        "note": "Alışveriş yapma",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:00 ▸",
@@ -1647,7 +1927,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:15 ▸",
@@ -1660,7 +1942,9 @@
           "max": 190,
           "raw": "190"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -1671,7 +1955,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Öğle (tren)",
@@ -1684,7 +1970,9 @@
           "max": 12000,
           "raw": "800-1.2K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Ara",
@@ -1697,7 +1985,9 @@
           "max": 800,
           "raw": "600-800"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -1710,7 +2000,9 @@
           "max": 18000,
           "raw": "1.2K-1.8K"
         },
-        "note": "Alt: Fukutaro"
+        "note": "Alt: Fukutaro",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 6 Bütçe: Ulaşım ¥6.140 | Yemek ~¥3.5K | Aktivite ¥1K | TOPLAM ~¥10.6K"
@@ -1729,7 +2021,9 @@
         "transport": "Yürüyüş 3dk",
         "duration": "60dk",
         "cost": null,
-        "note": "Osaka Kitchen Town"
+        "note": "Osaka Kitchen Town",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "11:45",
@@ -1742,7 +2036,9 @@
           "max": 2000,
           "raw": "1K-2K"
         },
-        "note": "Sokak yemeği: istiridye, wagyu skewer"
+        "note": "Sokak yemeği: istiridye, wagyu skewer",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:00",
@@ -1755,7 +2051,9 @@
           "max": 300,
           "raw": "150-300"
         },
-        "note": "Lokal halk pazar günü parka gelir. Bahçe giriş ¥150"
+        "note": "Lokal halk pazar günü parka gelir. Bahçe giriş ¥150",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:00",
@@ -1764,7 +2062,9 @@
         "transport": "Yürüyüş 10dk",
         "duration": "60dk",
         "cost": null,
-        "note": "Kushikatsu sokağı, neon, pachinko"
+        "note": "Kushikatsu sokağı, neon, pachinko",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -1775,7 +2075,9 @@
         "transport": "Metro Umeda (¥240)",
         "duration": "90dk",
         "cost": null,
-        "note": "Osaka'nın Harajuku'su, lokal"
+        "note": "Osaka'nın Harajuku'su, lokal",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:00 ▸",
@@ -1788,7 +2090,9 @@
           "max": 210,
           "raw": "210"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:30 ▸",
@@ -1801,7 +2105,9 @@
           "max": 600,
           "raw": "0-600"
         },
-        "note": "Yorgunsa iç aktivite"
+        "note": "Yorgunsa iç aktivite",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:30 ▸",
@@ -1814,7 +2120,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -1829,7 +2137,9 @@
           "max": 900,
           "raw": "600-900"
         },
-        "note": "Osaka kissaten"
+        "note": "Osaka kissaten",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Öğle (Kuromon)",
@@ -1842,7 +2152,9 @@
           "max": 2000,
           "raw": "1K-2K"
         },
-        "note": "Tezgah yanında ye"
+        "note": "Tezgah yanında ye",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -1855,7 +2167,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": "Daruma klasiği Shinsekai"
+        "note": "Daruma klasiği Shinsekai",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Gece",
@@ -1868,7 +2182,9 @@
           "max": 15000,
           "raw": "500-1.5K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 7 Bütçe: Ulaşım ¥720-960 | Yemek ~¥3.5K-6.5K | Aktivite ¥150-300 | TOPLAM ~¥4.5K-7.8K"
@@ -1887,7 +2203,9 @@
         "transport": "Yürüyüş",
         "duration": "15dk",
         "cost": null,
-        "note": "Tax-free için pasaport şart"
+        "note": "Tax-free için pasaport şart",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "09:50",
@@ -1900,7 +2218,9 @@
           "max": 10000,
           "raw": "5K-10K"
         },
-        "note": "10:00 açılış. Tax-free"
+        "note": "10:00 açılış. Tax-free",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "10:45",
@@ -1909,7 +2229,9 @@
         "transport": "Yürüyüş 10dk",
         "duration": "15dk",
         "cost": null,
-        "note": "11'e kadar nispeten sakin"
+        "note": "11'e kadar nispeten sakin",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:20",
@@ -1922,7 +2244,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": "Alışveriş arası ağır yemek yeme"
+        "note": "Alışveriş arası ağır yemek yeme",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:00",
@@ -1935,7 +2259,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": "Showa dönemi. 1串 ~¥100-150. Bira + 10-15 şiş"
+        "note": "Showa dönemi. 1串 ~¥100-150. Bira + 10-15 şiş",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:15",
@@ -1944,7 +2270,9 @@
         "transport": "Yürüyüş",
         "duration": "30dk",
         "cost": null,
-        "note": "Eski çiçek mahallesi. Neon, küçük barlar"
+        "note": "Eski çiçek mahallesi. Neon, küçük barlar",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:45",
@@ -1953,7 +2281,9 @@
         "transport": "Yürüyüş",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -1968,7 +2298,9 @@
           "max": 800,
           "raw": "500-800"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:30 ▸",
@@ -1977,7 +2309,9 @@
         "transport": "Yürüyüş",
         "duration": "30dk",
         "cost": null,
-        "note": "Hozenji yerine"
+        "note": "Hozenji yerine",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -1992,7 +2326,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": "Hafif tut"
+        "note": "Hafif tut",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 8 Bütçe: Ulaşım ¥720 | Yemek ~¥3K-5K | Alışveriş ~¥93K-145K | TOPLAM ~¥97K-151K"
@@ -2014,7 +2350,9 @@
           "max": 5000,
           "raw": "5000"
         },
-        "note": "⚠️ Form: otel adı + 'Check-in: 28 May' + Motobarai"
+        "note": "⚠️ Form: otel adı + 'Check-in: 28 May' + Motobarai",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~10:00",
@@ -2023,7 +2361,9 @@
         "transport": "Metro + tren",
         "duration": "30dk",
         "cost": null,
-        "note": "Namba → Shin-Osaka metro Midosuji (¥280, ~12dk)"
+        "note": "Namba → Shin-Osaka metro Midosuji (¥280, ~12dk)",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~10:30",
@@ -2036,7 +2376,9 @@
           "max": 12430,
           "raw": "12430"
         },
-        "note": "⚠️ SmartEX'ten alınacak (26 Nisan'dan açık)"
+        "note": "⚠️ SmartEX'ten alınacak (26 Nisan'dan açık)",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~13:05",
@@ -2049,7 +2391,9 @@
           "max": 150,
           "raw": "150"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "~13:15",
@@ -2058,7 +2402,9 @@
         "transport": "Yürüyüş",
         "duration": "15dk",
         "cost": null,
-        "note": "Bavul yok (Yamato!), sadece sırt çantası"
+        "note": "Bavul yok (Yamato!), sadece sırt çantası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "main": [
@@ -2073,7 +2419,9 @@
           "max": 900,
           "raw": "600-900"
         },
-        "note": "Osaka kissaten vedası"
+        "note": "Osaka kissaten vedası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "09:30",
@@ -2086,7 +2434,9 @@
           "max": 280,
           "raw": "280"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "09:50",
@@ -2099,7 +2449,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "551 Horai buta-man meşhur"
+        "note": "551 Horai buta-man meşhur",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:00",
@@ -2108,7 +2460,9 @@
         "transport": "Yürüyüş",
         "duration": "120dk",
         "cost": null,
-        "note": "Yorgunluk — dinlenme önceliği"
+        "note": "Yorgunluk — dinlenme önceliği",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:00",
@@ -2117,7 +2471,9 @@
         "transport": "—",
         "duration": "60dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:00",
@@ -2130,7 +2486,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": "Ura-Akihabara. Salaryman cenneti"
+        "note": "Ura-Akihabara. Salaryman cenneti",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:30",
@@ -2139,7 +2497,9 @@
         "transport": "Yürüyüş",
         "duration": "45dk",
         "cost": null,
-        "note": "Asıl keşif Gün 10"
+        "note": "Asıl keşif Gün 10",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "20:30",
@@ -2148,7 +2508,9 @@
         "transport": "Yürüyüş",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -2163,7 +2525,9 @@
           "max": 700,
           "raw": "500-700"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "08:30 ▸",
@@ -2176,7 +2540,9 @@
           "max": 530,
           "raw": "400-530"
         },
-        "note": "En pratik"
+        "note": "En pratik",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:00 ▸",
@@ -2189,7 +2555,9 @@
           "max": 11000,
           "raw": "900-1.1K"
         },
-        "note": "Yakiton yerine hafif ramen"
+        "note": "Yakiton yerine hafif ramen",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:00 ▸",
@@ -2202,7 +2570,9 @@
           "max": 12000,
           "raw": "1K-1.2K"
         },
-        "note": "Yorgun günde en hafif"
+        "note": "Yorgun günde en hafif",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -2217,7 +2587,9 @@
           "max": 900,
           "raw": "600-900"
         },
-        "note": "1934 Osaka kissaten vedası"
+        "note": "1934 Osaka kissaten vedası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Öğle (tren)",
@@ -2230,7 +2602,9 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -2243,7 +2617,9 @@
           "max": 25000,
           "raw": "1.5K-2.5K"
         },
-        "note": "Ura-Akihabara lokal"
+        "note": "Ura-Akihabara lokal",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 9 Bütçe: Ulaşım ¥17.860 (Yamato ¥5K + Metro ¥280 + Nozomi ¥12.430 + Yamanote ¥150) | Yemek ~¥3K | TOPLAM ~¥21K"
@@ -2266,7 +2642,9 @@
           "max": 950,
           "raw": "950"
         },
-        "note": "08:00 açılış. 10:00'a kadar 50¥ indirim"
+        "note": "08:00 açılış. 10:00'a kadar 50¥ indirim",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "09:30",
@@ -2275,7 +2653,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "30dk",
         "cost": null,
-        "note": "Japonya'nın en yoğun müzik sokağı"
+        "note": "Japonya'nın en yoğun müzik sokağı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "10:15",
@@ -2284,7 +2664,9 @@
         "transport": "Yürüyüş 10dk",
         "duration": "60dk",
         "cost": null,
-        "note": "Komiyama Shoten, @WONDER"
+        "note": "Komiyama Shoten, @WONDER",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "11:30",
@@ -2297,7 +2679,9 @@
           "max": 16000,
           "raw": "1.5K-1.6K"
         },
-        "note": "11:30'da git"
+        "note": "11:30'da git",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:30",
@@ -2310,7 +2694,9 @@
           "max": 250,
           "raw": "250"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:50",
@@ -2319,7 +2705,9 @@
         "transport": "Yürüyüş",
         "duration": "90dk",
         "cost": null,
-        "note": "Sessiz, lokal. Fotoğraf cenneti"
+        "note": "Sessiz, lokal. Fotoğraf cenneti",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "14:20",
@@ -2332,7 +2720,9 @@
           "max": 500,
           "raw": "500"
         },
-        "note": "Yūyake Dandan merdivenleri"
+        "note": "Yūyake Dandan merdivenleri",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:15",
@@ -2345,7 +2735,9 @@
           "max": 170,
           "raw": "170"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:45",
@@ -2354,7 +2746,9 @@
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": "Opsiyonel"
+        "note": "Opsiyonel",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:15",
@@ -2363,7 +2757,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "60dk",
         "cost": null,
-        "note": "Vintage için 7F ve B1F"
+        "note": "Vintage için 7F ve B1F",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "17:15",
@@ -2376,7 +2772,9 @@
           "max": 20000,
           "raw": "0-20K"
         },
-        "note": "Brown Dust 2 figürü"
+        "note": "Brown Dust 2 figürü",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "18:15",
@@ -2385,7 +2783,9 @@
         "transport": "Yürüyüş",
         "duration": "45dk",
         "cost": null,
-        "note": "Gerçek Akiba"
+        "note": "Gerçek Akiba",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:00",
@@ -2398,7 +2798,9 @@
           "max": 500,
           "raw": "500"
         },
-        "note": "¥100/oyun nostalji"
+        "note": "¥100/oyun nostalji",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "19:45",
@@ -2411,7 +2813,9 @@
           "max": 22000,
           "raw": "1.5K-2.2K"
         },
-        "note": "⚠️ 神田まつや Çrş kapalı"
+        "note": "⚠️ 神田まつや Çrş kapalı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:00",
@@ -2420,7 +2824,9 @@
         "transport": "Yürüyüş",
         "duration": "45dk",
         "cost": null,
-        "note": "Hafta içi daha sakin"
+        "note": "Hafta içi daha sakin",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "21:45",
@@ -2429,7 +2835,9 @@
         "transport": "—",
         "duration": "—",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [
@@ -2444,7 +2852,9 @@
           "max": 550,
           "raw": "550"
         },
-        "note": "Salaryman sabah sobası"
+        "note": "Salaryman sabah sobası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "10:15 ▸",
@@ -2453,7 +2863,9 @@
         "transport": "JR 1 durak",
         "duration": "60dk",
         "cost": null,
-        "note": "Jimbocho yerine"
+        "note": "Jimbocho yerine",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "12:50 ▸",
@@ -2462,7 +2874,9 @@
         "transport": "Yürüyüş 7dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Yanaka'ya gidemezsen"
+        "note": "Yanaka'ya gidemezsen",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "16:15 ▸",
@@ -2471,7 +2885,9 @@
         "transport": "Yürüyüş 3dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Mandarake kalabalıksa"
+        "note": "Mandarake kalabalıksa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -2486,7 +2902,9 @@
           "max": 950,
           "raw": "950"
         },
-        "note": "Alt: かめや ¥550"
+        "note": "Alt: かめや ¥550",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Öğle",
@@ -2499,7 +2917,9 @@
           "max": 16000,
           "raw": "1.5K-1.6K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Atıştırma",
@@ -2512,7 +2932,9 @@
           "max": 500,
           "raw": "500"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Akşam",
@@ -2525,7 +2947,9 @@
           "max": 22000,
           "raw": "1.5K-2.2K"
         },
-        "note": "⚠️ 神田まつや Çrş KAPALI"
+        "note": "⚠️ 神田まつや Çrş KAPALI",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 10 Bütçe: Ulaşım ~¥800 | Yemek ~¥4.5K | Aktivite ~¥500 | Figür 0-20K | TOPLAM ~¥5.8K-25.8K"
@@ -2549,7 +2973,9 @@
           "max": 390,
           "raw": "390"
         },
-        "note": "Chopin kapalıysa"
+        "note": "Chopin kapalıysa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:50 ▸",
@@ -2558,7 +2984,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "60dk",
         "cost": null,
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [
@@ -2573,7 +3001,9 @@
           "max": 750,
           "raw": "750"
         },
-        "note": "Alt: のものキッチン ¥390"
+        "note": "Alt: のものキッチン ¥390",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 11 Bütçe: Ulaşım ¥400 | Yemek ~¥2.9K | Alışveriş ~¥259K-269K | TOPLAM ~¥262K-272K"
@@ -2597,7 +3027,9 @@
           "max": 12000,
           "raw": "900-1.2K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "13:10 ▸",
@@ -2606,7 +3038,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Vintage yerine"
+        "note": "Vintage yerine",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "15:20 ▸",
@@ -2619,7 +3053,9 @@
           "max": 800,
           "raw": "600-800"
         },
-        "note": "Bear Pond kapalıysa"
+        "note": "Bear Pond kapalıysa",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "meals": [],
@@ -2639,7 +3075,9 @@
         "transport": "Yürüyüş 5dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Sakin bir veda. Lotus manzarası"
+        "note": "Sakin bir veda. Lotus manzarası",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [],
@@ -2655,7 +3093,9 @@
           "max": 1000,
           "raw": "800-1K"
         },
-        "note": "Son kissaten"
+        "note": "Son kissaten",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "Atıştırma",
@@ -2668,7 +3108,9 @@
           "max": 1000,
           "raw": "500-1K"
         },
-        "note": ""
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "budgetSummary": "💰 Gün 13 Bütçe: Ulaşım ¥3.1K | Yemek ¥4K + ₩25K | Bagaj ¥8K | Alışveriş ¥13K-17K | ICN otel 0-₩100K | TOPLAM ~¥28K-36K + ₩",
@@ -2680,7 +3122,9 @@
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": "Gate 252 civarı"
+        "note": "Gate 252 civarı",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
         "time": "09:00",
@@ -2693,7 +3137,9 @@
           "max": 0,
           "raw": "₩15K-25K"
         },
-        "note": "Lotte/Shilla Duty-Free"
+        "note": "Lotte/Shilla Duty-Free",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ]
   }

@@ -3,11 +3,32 @@
 @tailwind utilities;
 
 html {
-  background: theme("colors.paper");
+  background: theme("colors.paper.DEFAULT");
   color: theme("colors.ink.DEFAULT");
   -webkit-tap-highlight-color: transparent;
 }
 
+html.dark {
+  background: theme("colors.ink.DEFAULT");
+  color: theme("colors.paper.DEFAULT");
+  color-scheme: dark;
+}
+
 body {
   font-feature-settings: "ss01", "cv11";
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-xl;
+  }
+  .card-hover {
+    @apply hover:bg-black/[0.02] dark:hover:bg-white/[0.07] transition-colors;
+  }
+  .chip {
+    @apply inline-flex items-center text-[11px] font-medium px-1.5 py-0.5 rounded;
+  }
+  .divide-default > * + * {
+    @apply border-t border-black/5 dark:border-white/10;
+  }
 }

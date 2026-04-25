@@ -2,8 +2,12 @@
 """
 One-shot importer: raw/*.csv  -->  src/data/*.json
 
-After the initial run, edit the JSON files directly (LLM-friendly). The CSVs
-are kept as a source archive but the app only reads from src/data/.
+Cross-references all data via `dayIds: string[]` so the UI can show, for
+day N: which reservations are active, which shopping items are planned,
+which budget rows fall on that day. Hidden train/activity reservations
+embedded in days.json activity notes ("✅ REZERVE …") are extracted as
+proper Reservation records, eliminating the days/reservations drift the
+old importer had.
 """
 
 from __future__ import annotations
@@ -18,6 +22,10 @@ RAW = ROOT / "raw"
 OUT = ROOT / "src" / "data"
 OUT.mkdir(parents=True, exist_ok=True)
 
+# Trip starts on May 18, 2026. Day N → May (17 + N).
+TRIP_START_DAY_OF_MAY = 18  # day-1
+TRIP_DAYS = 13
+
 
 # ----------------------------- helpers --------------------------------------
 
@@ -29,13 +37,13 @@ def slug(s: str) -> str:
 
 
 def parse_money_jpy(s: str) -> dict | None:
-    """Parse strings like '¥22.000', '22000', '5K-30K', '1K-1.5K' → {min,max}."""
     if not s or s.strip() in {"—", "-", "0", "Dahil", "TBD"}:
         return None
     raw = s.strip()
-    cleaned = raw.replace("¥", "").replace("₺", "").replace(",", "").replace(".", "").replace(" ", "")
-    # ranges like 5K-30K  /  1.2K-1.8K  /  500-800
-    m = re.match(r"^(\d+(?:_\d+)?)([KkMm]?)-(\d+(?:_\d+)?)([KkMm]?)$", cleaned.replace(".", ""))
+    cleaned = (
+        raw.replace("¥", "").replace("₺", "").replace(",", "").replace(".", "").replace(" ", "")
+    )
+    m = re.match(r"^(\d+)([KkMm]?)-(\d+)([KkMm]?)$", cleaned)
     if m:
         a, ka, b, kb = m.groups()
         a = int(a) * (1000 if ka.lower() == "k" else 1)
@@ -54,12 +62,51 @@ def read_csv(name: str) -> list[list[str]]:
         return [row for row in csv.reader(f)]
 
 
+def parse_day_refs(text: str) -> list[str]:
+    """Extract dayIds from text containing 'Gün N', 'Gün N-M', or '<day> May'.
+
+    Returns sorted list of unique 'day-N' strings (e.g. ['day-3', 'day-4']).
+    """
+    if not text:
+        return []
+    days: set[int] = set()
+
+    # 'Gün 6-8' or 'Gün 2-3'
+    for m in re.finditer(r"Gün\s*(\d{1,2})\s*[-–]\s*(\d{1,2})", text):
+        a, b = int(m.group(1)), int(m.group(2))
+        if 1 <= a <= TRIP_DAYS and 1 <= b <= TRIP_DAYS and a <= b:
+            for n in range(a, b + 1):
+                days.add(n)
+
+    # 'Gün 2'
+    for m in re.finditer(r"Gün\s*(\d{1,2})(?!\s*[-–])", text):
+        n = int(m.group(1))
+        if 1 <= n <= TRIP_DAYS:
+            days.add(n)
+
+    # '20-21 May' / '20-21 Mayıs'
+    for m in re.finditer(r"(\d{1,2})\s*[-–]\s*(\d{1,2})\s*(?:May|Mayıs)", text):
+        a, b = int(m.group(1)), int(m.group(2))
+        for d in range(a, b + 1):
+            n = d - TRIP_START_DAY_OF_MAY + 1
+            if 1 <= n <= TRIP_DAYS:
+                days.add(n)
+
+    # '18 May' / '18 Mayıs'
+    for m in re.finditer(r"(?<![\d-])(\d{1,2})\s*(?:May|Mayıs)", text):
+        d = int(m.group(1))
+        n = d - TRIP_START_DAY_OF_MAY + 1
+        if 1 <= n <= TRIP_DAYS:
+            days.add(n)
+
+    return [f"day-{n}" for n in sorted(days)]
+
+
 # ----------------------------- konaklama ------------------------------------
 
 
 def import_konaklama() -> list[dict]:
     rows = read_csv("konaklama.csv")
-    header = rows[0]
     out = []
     for i, r in enumerate(rows[1:], start=1):
         if not any(r):
@@ -67,7 +114,6 @@ def import_konaklama() -> list[dict]:
         tarih, gece, sehir, otel, fiyat, durum, not_ = (r + [""] * 7)[:7]
         status = "research"
         platform = ""
-        durum_clean = durum
         if "REZERVE" in durum:
             status = "booked"
             m = re.search(r"\(([^)]+)\)", durum)
@@ -77,6 +123,7 @@ def import_konaklama() -> list[dict]:
             status = "research"
         else:
             status = "pending"
+        day_ids = parse_day_refs(tarih)
         out.append({
             "id": f"acc-{i}",
             "type": "accommodation",
@@ -90,6 +137,7 @@ def import_konaklama() -> list[dict]:
             "email": "",
             "priceRaw": fiyat,
             "note": not_,
+            "dayIds": day_ids,
         })
     return out
 
@@ -112,14 +160,12 @@ def import_alisveris() -> list[dict]:
             "priceRaw": fiyat,
             "day": gun,
             "note": not_,
+            "dayIds": parse_day_refs(gun),
         })
     return out
 
 
 # ----------------------------- butce ----------------------------------------
-
-
-SECTION_RE = re.compile(r"^[\s🔋🛍️🏨🍜🚄💰]+\s*BÖLÜM\s*\d*\s*[—-]?\s*(.+)$")
 
 
 def import_butce() -> dict:
@@ -131,7 +177,6 @@ def import_butce() -> dict:
         if not any(c.strip() for c in r):
             continue
         cell0 = r[0].strip()
-        # Section header
         if any(cell0.startswith(emoji) for emoji in ("🔋", "🛍️", "🏨", "🍜", "🚄", "💰")):
             if "GENEL TOPLAM" in cell0:
                 current = None
@@ -140,7 +185,6 @@ def import_butce() -> dict:
             current = {"id": slug(title.split("|")[0]), "title": title.replace("|", "—").strip(), "items": []}
             sections.append(current)
             continue
-        # Subtotal
         if cell0.startswith("▶"):
             if current is not None:
                 kategori, mn, mx, birim = (r + [""] * 7)[1:5]
@@ -173,6 +217,7 @@ def import_butce() -> dict:
             "currency": birim,
             "when": ne_zaman,
             "note": not_,
+            "dayIds": parse_day_refs(ne_zaman) or parse_day_refs(not_),
         })
     return {"fxNote": fx_note, "sections": sections}
 
@@ -209,7 +254,6 @@ def import_gunluk() -> list[dict]:
             continue
         c0 = r[0].strip()
 
-        # Day header
         if c0.startswith("📅"):
             m = DAY_HEADER_RE.search(c0)
             if m:
@@ -229,18 +273,15 @@ def import_gunluk() -> list[dict]:
                 current_section = "main"
                 continue
 
-        # Final farewell row
         if c0.startswith("🇯🇵"):
             continue
 
-        # Section header
         if "──" in c0:
             sect = is_section_header(c0)
             if sect:
                 current_section = sect
                 continue
 
-        # Budget summary row
         if c0.startswith("💰") and current_day is not None:
             current_day["budgetSummary"] = c0
             continue
@@ -248,14 +289,11 @@ def import_gunluk() -> list[dict]:
         if current_day is None:
             continue
 
-        # Activity row
         saat, mekan, aksiyon, ulasim, sure, ucret, not_ = (r + [""] * 7)[:7]
         if not (saat.strip() or mekan.strip() or aksiyon.strip()):
             continue
 
-        cost = None
-        if ucret.strip():
-            cost = parse_money_jpy(ucret)
+        cost = parse_money_jpy(ucret) if ucret.strip() else None
 
         item = {
             "time": saat.strip(),
@@ -265,6 +303,8 @@ def import_gunluk() -> list[dict]:
             "duration": sure.strip(),
             "cost": cost,
             "note": not_.strip(),
+            "mapsUrl": "",
+            "tabelogUrl": "",
         }
         if current_section == "transit":
             current_day.setdefault("transit", []).append(item)
@@ -273,15 +313,124 @@ def import_gunluk() -> list[dict]:
     return days
 
 
+# ----------------------- extract embedded reservations ----------------------
+
+
+RES_PLATFORM_RE = re.compile(r"REZERVE\s*\(([^)]+)\)")
+RES_PLATFORM_HINT_RE = re.compile(
+    r"\b(SmartEX|e5489|Trip\.com|Agoda|Klook|Booking|Yamato|Ta-Q-Bin|Skyliner)\b",
+    re.IGNORECASE,
+)
+PENDING_VERB_RE = re.compile(
+    r"(rez\.|alınacak|açık|açılış|bookable|ön rez)", re.IGNORECASE
+)
+
+
+def extract_reservations_from_days(
+    days: list[dict], existing_accs: list[dict]
+) -> list[dict]:
+    """Scan day activities and extract transport/activity reservations.
+
+    Booked: "✅ REZERVE (Platform)" anywhere in the note.
+    Pending: "⚠️" + known booking platform mention + a pending verb (alınacak,
+             açık, rez., etc.).
+    Skips activities whose place matches an already-tracked accommodation.
+    """
+    out: list[dict] = []
+    seq = len(existing_accs)
+
+    acc_titles = {a["title"].lower() for a in existing_accs if a.get("title")}
+
+    def classify(activity: dict) -> tuple[str, str] | None:
+        note = activity.get("note", "")
+        if not note:
+            return None
+        if "✅" in note and "REZERVE" in note:
+            m = RES_PLATFORM_RE.search(note)
+            return ("booked", m.group(1).strip() if m else "")
+        if "⚠️" in note:
+            plat = RES_PLATFORM_HINT_RE.search(note)
+            verb = PENDING_VERB_RE.search(note)
+            if plat and verb:
+                return ("pending", plat.group(1))
+        return None
+
+    def is_transport(activity: dict) -> bool:
+        blob = (
+            (activity.get("action") or "")
+            + " "
+            + (activity.get("transport") or "")
+            + " "
+            + (activity.get("place") or "")
+        ).lower()
+        return any(
+            k in blob
+            for k in (
+                "shinkansen",
+                "tren",
+                "ltd. exp",
+                "nozomi",
+                "ropeway",
+                "yamato",
+                "ta-q-bin",
+                "skyliner",
+                "ekiben",
+                "kounotori",
+                "keisei",
+            )
+        )
+
+    for day in days:
+        for section in ("fixed", "main"):
+            for act in day.get(section, []):
+                hit = classify(act)
+                if not hit:
+                    continue
+                status, platform = hit
+                place = act.get("place", "")
+                action = act.get("action", "")
+
+                # Dedup against accommodation by place
+                place_lc = place.lower()
+                if place_lc and (place_lc in acc_titles or any(t in place_lc for t in acc_titles)):
+                    continue
+
+                # Title selection: route-style place wins, else descriptive action
+                if "→" in place or "->" in place:
+                    title = place
+                elif action and (is_transport(act) or len(action) > len(place)):
+                    title = action
+                else:
+                    title = place or action or "Rezervasyon"
+
+                kind = "transport" if is_transport(act) else "activity"
+                seq += 1
+                out.append({
+                    "id": f"res-{seq}",
+                    "type": kind,
+                    "title": title,
+                    "city": "",
+                    "dateRaw": f"{day['dateRaw']} {act.get('time', '')}".strip(),
+                    "nights": None,
+                    "status": status,
+                    "platform": platform,
+                    "manageLink": "",
+                    "email": "",
+                    "priceRaw": (act.get("cost") or {}).get("raw", "") if act.get("cost") else "",
+                    "note": act.get("note", ""),
+                    "dayIds": [day["id"]],
+                })
+    return out
+
+
 # ----------------------------- main -----------------------------------------
 
 
 def main() -> None:
     konaklama = import_konaklama()
-    transport_reservations = []  # could parse from days, future work
-    reservations = konaklama + transport_reservations
-
     days = import_gunluk()
+    extracted = extract_reservations_from_days(days, konaklama)
+    reservations = konaklama + extracted
 
     trip = {
         "title": "Japan Trip 2026",
@@ -306,6 +455,7 @@ def main() -> None:
         print(f"  {name}  {size:>7} bytes")
 
     print(f"\nWrote {len(files)} files to {OUT}/")
+    print(f"Reservations: {len(konaklama)} accommodation + {len(extracted)} extracted")
 
 
 if __name__ == "__main__":

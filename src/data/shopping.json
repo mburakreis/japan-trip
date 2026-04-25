@@ -6,7 +6,10 @@
     "where": "Asics Ginza (8-2-7)",
     "priceRaw": "¥22.000",
     "day": "Gün 2 — Tokyo",
-    "note": "Gait analysis"
+    "note": "Gait analysis",
+    "dayIds": [
+      "day-2"
+    ]
   },
   {
     "id": "shop-2",
@@ -15,7 +18,10 @@
     "where": "Montbell Ginza",
     "priceRaw": "¥22-25K",
     "day": "Gün 2 — Tokyo",
-    "note": "45L 3-way, 1010g, eski sırt atılacak"
+    "note": "45L 3-way, 1010g, eski sırt atılacak",
+    "dayIds": [
+      "day-2"
+    ]
   },
   {
     "id": "shop-3",
@@ -24,7 +30,10 @@
     "where": "Uniqlo Shinjuku",
     "priceRaw": "¥4-7K",
     "day": "Gün 2 — Tokyo",
-    "note": ""
+    "note": "",
+    "dayIds": [
+      "day-2"
+    ]
   },
   {
     "id": "shop-4",
@@ -33,7 +42,10 @@
     "where": "Uniqlo Shinjuku",
     "priceRaw": "¥4-6K",
     "day": "Gün 2 — Tokyo",
-    "note": ""
+    "note": "",
+    "dayIds": [
+      "day-2"
+    ]
   },
   {
     "id": "shop-5",
@@ -42,7 +54,10 @@
     "where": "Uniqlo Shinjuku",
     "priceRaw": "¥5-8K",
     "day": "Gün 2 — Tokyo",
-    "note": ""
+    "note": "",
+    "dayIds": [
+      "day-2"
+    ]
   },
   {
     "id": "shop-6",
@@ -51,7 +66,10 @@
     "where": "Teramachi Sanjo, Kyoto",
     "priceRaw": "¥18-28K",
     "day": "Gün 4 — Kyoto",
-    "note": "Carry-on"
+    "note": "Carry-on",
+    "dayIds": [
+      "day-4"
+    ]
   },
   {
     "id": "shop-7",
@@ -60,7 +78,10 @@
     "where": "Toji Kobo-ichi",
     "priceRaw": "¥5-30K",
     "day": "Gün 4 — Kyoto",
-    "note": "Kırılgan — giysilerle sar, Valiz #1"
+    "note": "Kırılgan — giysilerle sar, Valiz #1",
+    "dayIds": [
+      "day-4"
+    ]
   },
   {
     "id": "shop-8",
@@ -69,7 +90,10 @@
     "where": "Kinosaki Onsen",
     "priceRaw": "Dahil",
     "day": "Gün 6",
-    "note": "Konaklama ile"
+    "note": "Konaklama ile",
+    "dayIds": [
+      "day-6"
+    ]
   },
   {
     "id": "shop-9",
@@ -78,7 +102,10 @@
     "where": "Montbell Osaka",
     "priceRaw": "¥5-10K",
     "day": "Gün 8 — Osaka",
-    "note": "Valiz #1"
+    "note": "Valiz #1",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-10",
@@ -87,7 +114,10 @@
     "where": "ABC Mart Shinsaibashi",
     "priceRaw": "TBD",
     "day": "Gün 8 — Osaka",
-    "note": "Valiz #1"
+    "note": "Valiz #1",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-11",
@@ -96,7 +126,10 @@
     "where": "Matsumoto Kiyoshi Osaka",
     "priceRaw": "¥2-6K",
     "day": "Gün 8 — Osaka",
-    "note": "Valiz #1"
+    "note": "Valiz #1",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-12",
@@ -105,7 +138,10 @@
     "where": "Matsumoto Kiyoshi Osaka",
     "priceRaw": "¥1.8-2K",
     "day": "Gün 8 — Osaka",
-    "note": "Valiz #1"
+    "note": "Valiz #1",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-13",
@@ -114,7 +150,10 @@
     "where": "Matsumoto Kiyoshi Osaka",
     "priceRaw": "¥1.3-2K",
     "day": "Gün 8 — Osaka",
-    "note": "Valiz #1"
+    "note": "Valiz #1",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-14",
@@ -123,7 +162,10 @@
     "where": "Matsumoto Kiyoshi / DQ",
     "priceRaw": "¥5-15K",
     "day": "Gün 8 — Osaka",
-    "note": "Valiz #1"
+    "note": "Valiz #1",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-15",
@@ -132,7 +174,10 @@
     "where": "Matsumoto Kiyoshi Osaka",
     "priceRaw": "¥15-20K",
     "day": "Gün 8 — Osaka",
-    "note": "Valiz #1"
+    "note": "Valiz #1",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-16",
@@ -141,7 +186,10 @@
     "where": "Yodobashi Umeda",
     "priceRaw": "¥42-47K",
     "day": "Gün 8 — Osaka",
-    "note": "Tax-free. PP siyah. Yamato → Tokyo"
+    "note": "Tax-free. PP siyah. Yamato → Tokyo",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-17",
@@ -150,7 +198,10 @@
     "where": "Muji Shinsaibashi",
     "priceRaw": "¥1-2K",
     "day": "Gün 8 — Osaka",
-    "note": "Personal item: Kaneko + Kobo + cüzdan"
+    "note": "Personal item: Kaneko + Kobo + cüzdan",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-18",
@@ -159,7 +210,10 @@
     "where": "Muji Shinsaibashi + Tokyo",
     "priceRaw": "¥5-12K",
     "day": "Gün 8+12",
-    "note": ""
+    "note": "",
+    "dayIds": [
+      "day-8"
+    ]
   },
   {
     "id": "shop-19",
@@ -168,7 +222,10 @@
     "where": "Mandarake / Akihabara",
     "priceRaw": "¥10-20K",
     "day": "Gün 10 — Tokyo",
-    "note": "Keyif alışverişi, ¥35K tavan"
+    "note": "Keyif alışverişi, ¥35K tavan",
+    "dayIds": [
+      "day-10"
+    ]
   },
   {
     "id": "shop-20",
@@ -177,7 +234,10 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥139.980",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. Valiz #2"
+    "note": "Tax-free. Valiz #2",
+    "dayIds": [
+      "day-11"
+    ]
   },
   {
     "id": "shop-21",
@@ -186,7 +246,10 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥10-12K",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. Valiz #2"
+    "note": "Tax-free. Valiz #2",
+    "dayIds": [
+      "day-11"
+    ]
   },
   {
     "id": "shop-22",
@@ -195,7 +258,10 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥17.8-18K",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. Valiz #2"
+    "note": "Tax-free. Valiz #2",
+    "dayIds": [
+      "day-11"
+    ]
   },
   {
     "id": "shop-23",
@@ -204,7 +270,10 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥30-40K",
     "day": "Gün 11 — Tokyo",
-    "note": "Carry-on (Muji pouch)"
+    "note": "Carry-on (Muji pouch)",
+    "dayIds": [
+      "day-11"
+    ]
   },
   {
     "id": "shop-24",
@@ -213,7 +282,10 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥42-47K",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. PP siyah. Check-in"
+    "note": "Tax-free. PP siyah. Check-in",
+    "dayIds": [
+      "day-11"
+    ]
   },
   {
     "id": "shop-25",
@@ -222,7 +294,10 @@
     "where": "Kappabashi-dori",
     "priceRaw": "¥5-15K",
     "day": "Gün 11 — Tokyo",
-    "note": "Hediye. Valiz #1"
+    "note": "Hediye. Valiz #1",
+    "dayIds": [
+      "day-11"
+    ]
   },
   {
     "id": "shop-26",
@@ -231,7 +306,10 @@
     "where": "Kaneko Ginza",
     "priceRaw": "Sipariş Gün 2",
     "day": "Gün 12 — Tokyo",
-    "note": "Carry-on (Muji pouch)"
+    "note": "Carry-on (Muji pouch)",
+    "dayIds": [
+      "day-12"
+    ]
   },
   {
     "id": "shop-27",
@@ -240,7 +318,10 @@
     "where": "Shimokitazawa vintage",
     "priceRaw": "¥6-10K",
     "day": "Gün 12 — Tokyo",
-    "note": "Valiz #2"
+    "note": "Valiz #2",
+    "dayIds": [
+      "day-12"
+    ]
   },
   {
     "id": "shop-28",
@@ -249,6 +330,9 @@
     "where": "Narita Duty-Free",
     "priceRaw": "¥5-10K",
     "day": "Gün 13 — Narita",
-    "note": "Son bagaj kapasitesi"
+    "note": "Son bagaj kapasitesi",
+    "dayIds": [
+      "day-13"
+    ]
   }
 ]
