@@ -1,72 +1,96 @@
-import { useEffect, useState } from "react";
-import data from "../data/shopping.json";
+import { useEffect, useRef } from "react";
+import { shopping } from "../lib/derive";
 import type { ShoppingItem } from "../types";
+import { useShoppingState, toggleShopping } from "../lib/shoppingState";
+import { DayChips } from "../components/DayChip";
 
-const items = data as ShoppingItem[];
+type NavFn = (next: { tab: "days" | "reservations" | "budget" | "shopping"; focusId?: string }) => void;
 
-const STORAGE_KEY = "japan-trip:shopping:v1";
-
-function loadChecked(): Record<string, boolean> {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (raw) return JSON.parse(raw);
-  } catch {
-    /* ignore */
-  }
-  return Object.fromEntries(items.map((i) => [i.id, i.checked]));
+function matches(s: ShoppingItem, q: string): boolean {
+  if (!q) return true;
+  return [s.item, s.where, s.day, s.note]
+    .join(" ")
+    .toLowerCase()
+    .includes(q.toLowerCase());
 }
 
-export function ShoppingView() {
-  const [checked, setChecked] = useState<Record<string, boolean>>(loadChecked);
+export function ShoppingView({
+  focusId,
+  navigate,
+  query,
+}: {
+  focusId?: string;
+  navigate: NavFn;
+  query: string;
+}) {
+  const checked = useShoppingState();
+  const focusRef = useRef<HTMLLIElement>(null);
 
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(checked));
-  }, [checked]);
+    if (focusId) {
+      requestAnimationFrame(() => {
+        focusRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    }
+  }, [focusId]);
 
-  const total = items.length;
-  const done = items.filter((i) => checked[i.id]).length;
+  const visible = shopping.filter((s) => matches(s, query));
+  const total = shopping.length;
+  const done = shopping.filter((i) => checked[i.id]).length;
 
   return (
-    <div className="mt-2">
-      <div className="bg-white rounded-xl border border-black/5 px-4 py-3 mb-3 flex items-center justify-between">
+    <div className="mt-3">
+      <div className="card px-4 py-3 mb-3 flex items-center justify-between">
         <span className="text-sm">
           {done} / {total} tamamlandı
         </span>
-        <div className="w-28 h-1.5 bg-black/5 rounded-full overflow-hidden">
+        <div className="w-28 h-1.5 bg-black/5 dark:bg-white/10 rounded-full overflow-hidden">
           <div
             className="h-full bg-accent transition-all"
             style={{ width: `${total ? (done / total) * 100 : 0}%` }}
           />
         </div>
       </div>
-      <ul className="bg-white rounded-xl border border-black/5 divide-y divide-black/5 overflow-hidden">
-        {items.map((it) => {
+      <ul className="card divide-default overflow-hidden">
+        {visible.map((it) => {
           const isChecked = !!checked[it.id];
           return (
-            <li key={it.id}>
-              <button
-                onClick={() => setChecked((s) => ({ ...s, [it.id]: !s[it.id] }))}
-                className="w-full text-left px-4 py-3 flex items-start gap-3"
-              >
-                <span
+            <li key={it.id} ref={it.id === focusId ? focusRef : undefined}>
+              <div className={`px-4 py-3 flex items-start gap-3 ${it.id === focusId ? "bg-accent/5" : ""}`}>
+                <button
+                  type="button"
+                  onClick={() => toggleShopping(it.id)}
                   className={`mt-0.5 w-5 h-5 rounded-md border flex items-center justify-center shrink-0 ${
-                    isChecked ? "bg-ink border-ink text-white" : "border-black/20 bg-white"
+                    isChecked
+                      ? "bg-ink border-ink text-paper dark:bg-paper dark:border-paper dark:text-ink"
+                      : "border-black/20 dark:border-white/20 bg-white dark:bg-white/5"
                   }`}
+                  aria-label={isChecked ? "Kaldır" : "İşaretle"}
                 >
                   {isChecked && <span className="text-[11px]">✓</span>}
-                </span>
+                </button>
                 <div className="min-w-0 flex-1">
-                  <p className={`text-sm leading-snug ${isChecked ? "line-through text-ink-muted" : ""}`}>
+                  <p
+                    className={`text-sm leading-snug ${
+                      isChecked ? "line-through text-ink-muted dark:text-paper-muted" : ""
+                    }`}
+                  >
                     {it.item}
                   </p>
-                  <p className="text-[11px] text-ink-muted mt-0.5">
+                  <p className="text-[11px] text-ink-muted dark:text-paper-muted mt-0.5">
                     {it.where}
                     {it.priceRaw ? ` · ${it.priceRaw}` : ""}
-                    {it.day ? ` · ${it.day}` : ""}
                   </p>
-                  {it.note && <p className="text-[11px] text-ink-muted mt-0.5">{it.note}</p>}
+                  <div className="flex items-center gap-2 mt-1">
+                    <DayChips dayIds={it.dayIds} navigate={navigate} />
+                    {it.note && (
+                      <span className="text-[11px] text-ink-muted dark:text-paper-muted">
+                        {it.note}
+                      </span>
+                    )}
+                  </div>
                 </div>
-              </button>
+              </div>
             </li>
           );
         })}

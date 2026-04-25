@@ -1,0 +1,17 @@
+{
+  "name": "Japan Trip 2026",
+  "short_name": "Japan 2026",
+  "start_url": "/japan-trip/",
+  "scope": "/japan-trip/",
+  "display": "standalone",
+  "background_color": "#fafaf7",
+  "theme_color": "#fafaf7",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

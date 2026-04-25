@@ -12,6 +12,8 @@ export type Activity = {
   duration: string;
   cost: Money | null;
   note: string;
+  mapsUrl?: string;
+  tabelogUrl?: string;
 };
 
 export type Day = {
@@ -42,6 +44,7 @@ export type Reservation = {
   email: string;
   priceRaw: string;
   note: string;
+  dayIds: string[];
 };
 
 export type ShoppingItem = {
@@ -52,6 +55,7 @@ export type ShoppingItem = {
   priceRaw: string;
   day: string;
   note: string;
+  dayIds: string[];
 };
 
 export type BudgetItem = {
@@ -62,6 +66,7 @@ export type BudgetItem = {
   currency: string;
   when: string;
   note: string;
+  dayIds: string[];
 };
 
 export type BudgetSection = {
@@ -84,3 +89,5 @@ export type Trip = {
   endDate: string;
   fx: { from: string; to: string; rate: number; asOf: string };
 };
+
+export type Tab = "days" | "reservations" | "budget" | "shopping";

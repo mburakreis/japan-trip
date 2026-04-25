@@ -11,7 +11,10 @@
     "manageLink": "",
     "email": "",
     "priceRaw": "",
-    "note": "Daha önce alınmıştı"
+    "note": "Daha önce alınmıştı",
+    "dayIds": [
+      "day-1"
+    ]
   },
   {
     "id": "acc-2",
@@ -25,7 +28,10 @@
     "manageLink": "",
     "email": "",
     "priceRaw": "₺2.572",
-    "note": "Room Assigned at Check-In, kahvaltı dahil, non-refundable"
+    "note": "Room Assigned at Check-In, kahvaltı dahil, non-refundable",
+    "dayIds": [
+      "day-2"
+    ]
   },
   {
     "id": "acc-3",
@@ -39,7 +45,11 @@
     "manageLink": "",
     "email": "",
     "priceRaw": "₺10.400 (2 gece)",
-    "note": "Standart Çift (14 m²), kahvaltı dahil değil. Risksiz: ücretsiz iptal 18 May'a kadar, ödeme 15 May'a kadar yok. Adres: Dojisha-cho 160, Shimogyo-ku. Shijo (metro) / Karasuma (Hankyu) 2-3 dk yürüme. Kyoto İst. metro 4 dk, Nishiki Market 7 dk yürüme, Gion-Shijo 5-8 dk (Hankyu 1 durak), Toji pazarı Kujo üzerinden 14 dk."
+    "note": "Standart Çift (14 m²), kahvaltı dahil değil. Risksiz: ücretsiz iptal 18 May'a kadar, ödeme 15 May'a kadar yok. Adres: Dojisha-cho 160, Shimogyo-ku. Shijo (metro) / Karasuma (Hankyu) 2-3 dk yürüme. Kyoto İst. metro 4 dk, Nishiki Market 7 dk yürüme, Gion-Shijo 5-8 dk (Hankyu 1 durak), Toji pazarı Kujo üzerinden 14 dk.",
+    "dayIds": [
+      "day-3",
+      "day-4"
+    ]
   },
   {
     "id": "acc-4",
@@ -53,7 +63,10 @@
     "manageLink": "",
     "email": "",
     "priceRaw": "",
-    "note": "Kaiseki + kahvaltı dahil. Check-in 14:00, check-out 23 May 10:00"
+    "note": "Kaiseki + kahvaltı dahil. Check-in 14:00, check-out 23 May 10:00",
+    "dayIds": [
+      "day-5"
+    ]
   },
   {
     "id": "acc-5",
@@ -67,7 +80,12 @@
     "manageLink": "",
     "email": "",
     "priceRaw": "",
-    "note": "3 gece (Kinosaki 1 gün öne çekildi)"
+    "note": "3 gece (Kinosaki 1 gün öne çekildi)",
+    "dayIds": [
+      "day-6",
+      "day-7",
+      "day-8"
+    ]
   },
   {
     "id": "acc-6",
@@ -81,7 +99,13 @@
     "manageLink": "",
     "email": "",
     "priceRaw": "",
-    "note": "Yamato valizleri 28 May buraya"
+    "note": "Yamato valizleri 28 May buraya",
+    "dayIds": [
+      "day-9",
+      "day-10",
+      "day-11",
+      "day-12"
+    ]
   },
   {
     "id": "acc-7",
@@ -95,6 +119,77 @@
     "manageLink": "",
     "email": "",
     "priceRaw": "~₩100K / ₺0",
-    "note": "Terminal içi, pasaport gerekmez"
+    "note": "Terminal içi, pasaport gerekmez",
+    "dayIds": [
+      "day-13"
+    ]
+  },
+  {
+    "id": "res-8",
+    "type": "transport",
+    "title": "Tokyo İst. → Kyoto İst.",
+    "city": "",
+    "dateRaw": "20 Mayıs 2026 Çarşamba 11:09",
+    "nights": null,
+    "status": "booked",
+    "platform": "SmartEX Hayatoku-21",
+    "manageLink": "",
+    "email": "",
+    "priceRaw": "12430",
+    "note": "✅ REZERVE (SmartEX Hayatoku-21). Non-refundable",
+    "dayIds": [
+      "day-3"
+    ]
+  },
+  {
+    "id": "res-9",
+    "type": "transport",
+    "title": "Ltd. Exp. Kinosaki No.3 — KİNOSAKİ TRENİ",
+    "city": "",
+    "dateRaw": "22 Mayıs 2026 Cuma 09:25",
+    "nights": null,
+    "status": "pending",
+    "platform": "e5489",
+    "manageLink": "",
+    "email": "",
+    "priceRaw": "5370",
+    "note": "⚠️ Ön rez. şart. e5489.jr-odekake.net (22 Nisan'dan açık)",
+    "dayIds": [
+      "day-5"
+    ]
+  },
+  {
+    "id": "res-10",
+    "type": "transport",
+    "title": "Kinosaki → Osaka (Umeda)",
+    "city": "",
+    "dateRaw": "23 Mayıs 2026 Cumartesi ~11:30",
+    "nights": null,
+    "status": "pending",
+    "platform": "e5489",
+    "manageLink": "",
+    "email": "",
+    "priceRaw": "5900",
+    "note": "⚠️ e5489'dan alınacak (23 Nisan'dan açık)",
+    "dayIds": [
+      "day-6"
+    ]
+  },
+  {
+    "id": "res-11",
+    "type": "transport",
+    "title": "Shin-Osaka → Tokyo",
+    "city": "",
+    "dateRaw": "26 Mayıs 2026 Salı ~10:30",
+    "nights": null,
+    "status": "pending",
+    "platform": "SmartEX",
+    "manageLink": "",
+    "email": "",
+    "priceRaw": "12430",
+    "note": "⚠️ SmartEX'ten alınacak (26 Nisan'dan açık)",
+    "dayIds": [
+      "day-9"
+    ]
   }
 ]

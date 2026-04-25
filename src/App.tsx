@@ -1,49 +1,37 @@
-import { useEffect, useState } from "react";
-import { Nav, type Tab } from "./components/Nav";
+import { useState } from "react";
+import { Nav } from "./components/Nav";
+import { Header } from "./components/Header";
+import { SearchBar } from "./components/SearchBar";
 import { DaysView } from "./views/DaysView";
 import { ReservationsView } from "./views/ReservationsView";
 import { BudgetView } from "./views/BudgetView";
 import { ShoppingView } from "./views/ShoppingView";
-import trip from "./data/trip.json";
-
-function readHashTab(): Tab {
-  const h = window.location.hash.replace("#/", "").replace("#", "");
-  if (h === "reservations" || h === "budget" || h === "shopping") return h;
-  return "days";
-}
+import { useRoute, useTheme } from "./state";
 
 export function App() {
-  const [tab, setTab] = useState<Tab>(readHashTab());
-
-  useEffect(() => {
-    const handler = () => setTab(readHashTab());
-    window.addEventListener("hashchange", handler);
-    return () => window.removeEventListener("hashchange", handler);
-  }, []);
-
-  useEffect(() => {
-    const target = `#/${tab}`;
-    if (window.location.hash !== target) window.location.hash = target;
-  }, [tab]);
+  const [route, navigate] = useRoute();
+  const [theme, toggleTheme] = useTheme();
+  const [query, setQuery] = useState("");
 
   return (
-    <div className="min-h-screen pb-24">
-      <header className="px-4 pt-6 pb-3 max-w-3xl mx-auto">
-        <h1 className="text-2xl font-semibold tracking-tight">{trip.title}</h1>
-        <p className="text-sm text-ink-muted mt-0.5">{trip.subtitle}</p>
-        <p className="text-xs text-ink-muted mt-1">
-          {trip.startDate} → {trip.endDate} · ¥1 ≈ ₺{trip.fx.rate}
-        </p>
-      </header>
-
+    <div className="min-h-screen pb-24 bg-paper text-ink dark:bg-ink dark:text-paper transition-colors">
+      <Header theme={theme} onToggleTheme={toggleTheme} />
       <main className="max-w-3xl mx-auto px-4">
-        {tab === "days" && <DaysView />}
-        {tab === "reservations" && <ReservationsView />}
-        {tab === "budget" && <BudgetView />}
-        {tab === "shopping" && <ShoppingView />}
+        <SearchBar value={query} onChange={setQuery} />
+        {route.tab === "days" && (
+          <DaysView focusId={route.focusId} navigate={navigate} query={query} />
+        )}
+        {route.tab === "reservations" && (
+          <ReservationsView focusId={route.focusId} navigate={navigate} query={query} />
+        )}
+        {route.tab === "budget" && (
+          <BudgetView focusId={route.focusId} navigate={navigate} query={query} />
+        )}
+        {route.tab === "shopping" && (
+          <ShoppingView focusId={route.focusId} navigate={navigate} query={query} />
+        )}
       </main>
-
-      <Nav tab={tab} onChange={setTab} />
+      <Nav tab={route.tab} onChange={(tab) => navigate({ tab })} />
     </div>
   );
 }
