@@ -3,9 +3,7 @@ import { useState } from "react";
 export function ObfuscatedEmail({ email }: { email: string }) {
   const [copied, setCopied] = useState(false);
   const at = email.indexOf("@");
-  if (at < 1) return <span className="text-xs text-ink-muted">({email})</span>;
-  const local = email.slice(0, at);
-  const domain = email.slice(at + 1);
+  const prefix = at > 0 ? email.slice(0, at) : email;
 
   const copy = async () => {
     try {
@@ -21,14 +19,11 @@ export function ObfuscatedEmail({ email }: { email: string }) {
     <button
       type="button"
       onClick={copy}
-      title="Kopyala"
-      className="text-xs text-ink-muted hover:text-ink"
+      title={copied ? "kopyalandı" : "Tam adresi kopyala"}
+      className="text-xs text-ink-muted dark:text-paper-muted hover:text-ink dark:hover:text-paper"
     >
-      ({local}
-      <span aria-hidden="true"> [at] </span>
-      <span className="sr-only">@</span>
-      {domain})
-      {copied && <span className="ml-1 text-emerald-600">✓ kopyalandı</span>}
+      ({prefix})
+      {copied && <span className="ml-1 text-emerald-600">✓</span>}
     </button>
   );
 }
