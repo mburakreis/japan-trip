@@ -1,5 +1,5 @@
-import { budget, budgetTotalsByCurrency, shopping } from "../lib/derive";
-import { useShoppingState } from "../lib/shoppingState";
+import { budget, budgetTotalsByCurrency } from "../lib/derive";
+import { useShoppingState, mergedItems } from "../lib/shoppingState";
 import type { Budget } from "../types";
 import { DayChips } from "../components/DayChip";
 
@@ -25,18 +25,21 @@ export function BudgetView({
   query: string;
 }) {
   const totals = budgetTotalsByCurrency();
-  const checked = useShoppingState();
+  const state = useShoppingState();
+  const merged = mergedItems(state).filter((it) => !it.hidden);
 
-  // Confirmed shopping (price.min/.max where checked)
+  // Confirmed shopping spend: sum from checked items.
+  // Prefer actualPriceRaw if user typed one, otherwise use planned priceRaw.
   let confirmedMin = 0;
   let confirmedMax = 0;
-  for (const item of shopping) {
-    if (!checked[item.id]) continue;
-    const m = item.priceRaw.match(/(\d[\d.,]*)\s*-?\s*(\d[\d.,]*)?/);
+  for (const item of merged) {
+    if (!item.checked) continue;
+    const source = item.actualPriceRaw || item.priceRaw;
+    const m = source.match(/(\d[\d.,]*)\s*-?\s*(\d[\d.,]*)?/);
     if (m) {
       const a = parseInt(m[1].replace(/[.,]/g, "")) || 0;
       const b = m[2] ? parseInt(m[2].replace(/[.,]/g, "")) || a : a;
-      const looksThousand = /K/i.test(item.priceRaw);
+      const looksThousand = /K/i.test(source);
       confirmedMin += looksThousand ? a * 1000 : a;
       confirmedMax += looksThousand ? b * 1000 : b;
     }

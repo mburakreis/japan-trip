@@ -45,6 +45,8 @@ export type Reservation = {
   priceRaw: string;
   note: string;
   dayIds: string[];
+  address?: string;
+  mapsUrl?: string;
 };
 
 export type ShoppingItem = {
