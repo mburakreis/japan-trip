@@ -13,7 +13,7 @@
         "duration": "—",
         "cost": null,
         "note": "Uçuş süresi 2s 30dk",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.7636035,140.3859353",
         "tabelogUrl": ""
       },
       {
@@ -24,7 +24,7 @@
         "duration": "30-45dk",
         "cost": null,
         "note": "Visit Japan Web QR kodunu hazır tut",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.7636035,140.3859353",
         "tabelogUrl": ""
       },
       {
@@ -50,7 +50,7 @@
         "duration": "15-20dk",
         "cost": null,
         "note": "Cashless only. Simmons yatak",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6681821,139.7632573",
         "tabelogUrl": ""
       }
     ],
@@ -63,7 +63,7 @@
         "duration": "30dk",
         "cost": null,
         "note": "İlk fotoğraf noktası. Ginza Chuo-dori da göz at",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6694253,139.7677446",
         "tabelogUrl": ""
       },
       {
@@ -78,7 +78,7 @@
           "raw": "1200"
         },
         "note": "Pzt 05:00'e kadar açık. Paikou Tantanmen önerilir",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6676032,139.7621598",
         "tabelogUrl": ""
       },
       {
@@ -113,7 +113,7 @@
         "duration": "15dk",
         "cost": null,
         "note": "Kabukiza'ya kadar yürümek fazla geliyorsa",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6688109,139.7617578",
         "tabelogUrl": ""
       },
       {
@@ -145,7 +145,7 @@
           "raw": "1200"
         },
         "note": "Ginza 6-3-5. Counter-only, hızlı servis",
-        "mapsUrl": "",
+        "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=35.6676032,139.7621598",
         "tabelogUrl": ""
       },
       {

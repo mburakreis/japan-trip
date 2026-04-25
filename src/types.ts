@@ -58,6 +58,7 @@ export type ShoppingItem = {
   day: string;
   note: string;
   dayIds: string[];
+  mapsUrl?: string;
 };
 
 export type BudgetItem = {

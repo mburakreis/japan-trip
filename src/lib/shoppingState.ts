@@ -18,6 +18,7 @@ export type UserShoppingItem = {
   dayIds: string[];
   actualPriceRaw: string;
   checked: boolean;
+  mapsUrl?: string;
 };
 
 type State = {
@@ -183,6 +184,7 @@ export type MergedItem = {
   checked: boolean;
   actualPriceRaw: string;
   hidden: boolean;
+  mapsUrl?: string;
 };
 
 export function mergedItems(state: State): MergedItem[] {
@@ -200,6 +202,7 @@ export function mergedItems(state: State): MergedItem[] {
       checked: o.checked,
       actualPriceRaw: o.actualPriceRaw,
       hidden: state.hidden.includes(p.id),
+      mapsUrl: p.mapsUrl,
     };
   });
   const user: MergedItem[] = state.added.map((u) => ({
@@ -214,6 +217,7 @@ export function mergedItems(state: State): MergedItem[] {
     checked: u.checked,
     actualPriceRaw: u.actualPriceRaw,
     hidden: false,
+    mapsUrl: u.mapsUrl,
   }));
   return [...plan, ...user];
 }

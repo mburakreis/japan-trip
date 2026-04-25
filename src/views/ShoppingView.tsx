@@ -228,6 +228,17 @@ function Row({
           </p>
           <div className="flex items-center gap-2 mt-1 flex-wrap">
             <DayChips dayIds={it.dayIds} navigate={navigate} />
+            {it.mapsUrl && (
+              <a
+                href={it.mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="text-[11px] text-ink-muted dark:text-paper-muted hover:text-accent"
+                onClick={(e) => e.stopPropagation()}
+              >
+                🗺 Yol tarifi
+              </a>
+            )}
             {it.note && (
               <span className="text-[11px] text-ink-muted dark:text-paper-muted">{it.note}</span>
             )}
