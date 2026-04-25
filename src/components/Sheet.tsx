@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { X } from "lucide-react";
 
 export function Sheet({
   open,
@@ -35,10 +36,10 @@ export function Sheet({
           <button
             type="button"
             onClick={onClose}
-            className="text-ink-muted dark:text-paper-muted text-xl leading-none p-1 -m-1"
+            className="text-ink-muted dark:text-paper-muted p-1 -m-1"
             aria-label="Kapat"
           >
-            ×
+            <X size={18} strokeWidth={1.75} />
           </button>
         </header>
         <div className="p-4">{children}</div>

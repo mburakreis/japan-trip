@@ -1,3 +1,4 @@
+import { Moon, Sun } from "lucide-react";
 import trip from "../data/trip.json";
 import { tripStatus } from "../lib/countdown";
 import type { Trip } from "../types";
@@ -22,9 +23,9 @@ export function Header({ theme, onToggleTheme }: { theme: "light" | "dark"; onTo
           type="button"
           onClick={onToggleTheme}
           aria-label="Toggle theme"
-          className="text-base p-2 -m-2 rounded-lg hover:bg-black/5 dark:hover:bg-white/10"
+          className="p-2 -m-2 rounded-lg hover:bg-black/5 dark:hover:bg-white/10 text-ink dark:text-paper"
         >
-          {theme === "dark" ? "☀️" : "🌙"}
+          {theme === "dark" ? <Sun size={18} strokeWidth={1.75} /> : <Moon size={18} strokeWidth={1.75} />}
         </button>
       </div>
       <div className="flex items-center gap-2 mt-2 flex-wrap">

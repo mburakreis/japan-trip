@@ -1,3 +1,4 @@
+import { CheckCircle2, Clock, Search, type LucideIcon } from "lucide-react";
 import type { ReservationStatus } from "../types";
 
 export const STATUS_LABEL: Record<ReservationStatus, string> = {
@@ -12,16 +13,17 @@ const CLASS: Record<ReservationStatus, string> = {
   research: "bg-zinc-100 text-zinc-700 dark:bg-zinc-700/40 dark:text-zinc-200",
 };
 
-const ICON: Record<ReservationStatus, string> = {
-  booked: "✅",
-  pending: "⏳",
-  research: "🔍",
+const ICON: Record<ReservationStatus, LucideIcon> = {
+  booked: CheckCircle2,
+  pending: Clock,
+  research: Search,
 };
 
 export function StatusBadge({ status }: { status: ReservationStatus }) {
+  const Icon = ICON[status];
   return (
-    <span className={`chip uppercase tracking-wider ${CLASS[status]}`}>
-      <span className="mr-1">{ICON[status]}</span>
+    <span className={`chip uppercase tracking-wider gap-1 ${CLASS[status]}`}>
+      <Icon size={11} strokeWidth={2} />
       {STATUS_LABEL[status]}
     </span>
   );
