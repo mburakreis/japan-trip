@@ -166,24 +166,6 @@
     ]
   },
   {
-    "id": "acc-7",
-    "type": "accommodation",
-    "title": "Transit Hotel / Nap Zone",
-    "city": "Seul (ICN Transit)",
-    "dateRaw": "30 May Cmt",
-    "nights": 1,
-    "status": "pending",
-    "platform": "",
-    "manageLink": "",
-    "email": "",
-    "priceRaw": "~₩100K / ₺0",
-    "note": "Terminal içi, pasaport gerekmez",
-    "dayIds": [
-      "day-13"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Incheon%20Airport%20Terminal%202%20Transit%20Hotel"
-  },
-  {
     "id": "res-8",
     "type": "transport",
     "title": "Tokyo İst. → Kyoto İst.",

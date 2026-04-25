@@ -1,5 +1,71 @@
 [
   {
+    "id": "day-0",
+    "dayNumber": 0,
+    "dateRaw": "17 Mayıs 2026 Pazar",
+    "title": "İstanbul → İncheon → Tokyo Yola Çıkış",
+    "fixed": [],
+    "main": [
+      {
+        "time": "16:50",
+        "place": "Ev",
+        "action": "Havalimanına çıkış",
+        "transport": "TBD",
+        "duration": "1s 30dk",
+        "cost": null,
+        "note": "Evden IST'e yaklaşık 1.5 saat yol"
+      },
+      {
+        "time": "18:20",
+        "place": "İstanbul Havalimanı (IST)",
+        "action": "Check-in + pasaport kontrol + güvenlik",
+        "transport": "—",
+        "duration": "~3 saat",
+        "cost": null,
+        "note": "KE956 Economy Saver — Booking: FCBDSF"
+      },
+      {
+        "time": "21:20",
+        "place": "IST → ICN",
+        "action": "KE956 kalkış",
+        "transport": "Uçak",
+        "duration": "10s 5dk",
+        "cost": null,
+        "note": "Economy Class(U). Incheon T2'ye iner."
+      },
+      {
+        "time": "13:25 (+1)",
+        "place": "Incheon T2 (ICN)",
+        "action": "Varış — airside transit bekleme",
+        "transport": "—",
+        "duration": "~3s 50dk",
+        "cost": null,
+        "note": "Pasaport kontrolü yok, airside kal. T2 Food Court + Duty-Free"
+      },
+      {
+        "time": "17:15",
+        "place": "ICN → NRT",
+        "action": "KE713 kalkış",
+        "transport": "Uçak",
+        "duration": "2s 30dk",
+        "cost": null,
+        "note": "Economy Class(U). Narita T1'e iner."
+      },
+      {
+        "time": "19:45",
+        "place": "Narita T1 (NRT)",
+        "action": "KE713 iniş — Japonya'ya hoş geldin",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": "Japonya topraklarında ilk adım"
+      }
+    ],
+    "alternatives": [],
+    "meals": [],
+    "budgetSummary": "💰 Gün 0 Bütçe: Ulaşım TBD (havalimanı transfer) | Yemek ~₩15K-25K (ICN transit) | TOPLAM TBD"
+  },
+  {
     "id": "day-1",
     "dayNumber": 1,
     "dateRaw": "17-18 Mayıs 2026 Pzr-Pzt",
@@ -25,17 +91,6 @@
         "cost": null,
         "note": "Online check-in 24 saat öncesinden açık. Outlet, yemek için zaman ayır. Boarding 20:30 civarı.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport%20IST",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "19:45",
-        "place": "Narita T1",
-        "action": "Uçak iniş (KE713 ICN→NRT)",
-        "transport": "—",
-        "duration": "—",
-        "cost": null,
-        "note": "Uçuş süresi 2s 30dk",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.7636035,140.3859353",
         "tabelogUrl": ""
       },
       {
