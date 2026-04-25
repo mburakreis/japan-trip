@@ -68,31 +68,9 @@
   {
     "id": "day-1",
     "dayNumber": 1,
-    "dateRaw": "17-18 Mayıs 2026 Pzr-Pzt",
+    "dateRaw": "18 Mayıs 2026 Pazartesi",
     "title": "Narita → Ginza Varış",
     "fixed": [
-      {
-        "time": "16:50",
-        "place": "Üsküdar Burhaniye",
-        "action": "Evden çıkış — IST Havalimanına yolculuk",
-        "transport": "M11 metro / Havaist",
-        "duration": "1s 30dk",
-        "cost": null,
-        "note": "17 May Pzr. KE956 21:20 için 18:20'de terminalde olma hedefi (3 saat önce). Pasaport + valizler + Visit Japan Web QR hazır.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Burhaniye%20Mahallesi%20%C3%9Csk%C3%BCdar%20%C4%B0stanbul",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "18:20",
-        "place": "İstanbul Havalimanı (IST)",
-        "action": "Terminal varış + check-in / bagaj teslim",
-        "transport": "—",
-        "duration": "~3 saat",
-        "cost": null,
-        "note": "Online check-in 24 saat öncesinden açık. Outlet, yemek için zaman ayır. Boarding 20:30 civarı.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport%20IST",
-        "tabelogUrl": ""
-      },
       {
         "time": "20:15",
         "place": "Narita T1",

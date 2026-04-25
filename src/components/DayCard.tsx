@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   Banknote,
   Bookmark,
@@ -7,7 +7,7 @@ import {
   ChevronRight,
   Clock,
   ExternalLink,
-  Map,
+  Map as MapIcon,
   Pin,
   ShoppingBag,
   Train,
@@ -30,46 +30,52 @@ import { StatusBadge, STATUS_LABEL } from "./StatusBadge";
 type NavFn = (next: { tab: "days" | "reservations" | "shopping"; focusId?: string }) => void;
 
 type Source = "fixed" | "main" | "meals" | "alternatives";
-type TimedItem = Activity & { _source: Source; _time: number };
+type TimedItem = Activity & { _source: Source };
+type ToggleEntry = { primary: TimedItem; alternative?: Activity };
 
-const SOURCE_ORDER: Record<Source, number> = { fixed: 0, main: 1, meals: 2, alternatives: 3 };
-
-function parseTimeMin(t: string): number {
-  if (!t) return Number.MAX_SAFE_INTEGER;
-  const cleaned = t
+function normalizeTime(t: string): string {
+  return t
     .replace(/\[SABİT\]\s*/i, "")
     .replace(/^~/, "")
     .replace(/\s*▸\s*$/, "")
     .trim();
-  const m = cleaned.match(/^(\d{1,2}):(\d{2})/);
-  if (m) return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
-  const lc = cleaned.toLowerCase();
-  if (/^(kahvalt|sabah)/.test(lc)) return 7 * 60;
-  if (/^öğle/.test(lc)) return 12 * 60 + 30;
-  if (/^(ara|atıştırma)/.test(lc)) return 15 * 60;
-  if (/^akşam/.test(lc)) return 19 * 60;
-  if (/^geç akşam/.test(lc)) return 22 * 60;
-  if (/^gece/.test(lc)) return 23 * 60;
-  if (/^alternatif/.test(lc) || /^alt/.test(lc)) return Number.MAX_SAFE_INTEGER - 1;
-  return Number.MAX_SAFE_INTEGER;
 }
 
-function buildTimeline(day: Day): TimedItem[] {
-  const items: TimedItem[] = [];
-  day.fixed.forEach((a) => items.push({ ...a, _source: "fixed", _time: parseTimeMin(a.time) }));
-  day.main.forEach((a) => {
+function buildTimeline(day: Day): {
+  fixedItems: TimedItem[];
+  mainEntries: ToggleEntry[];
+  offTimeAlts: TimedItem[];
+} {
+  const mainTimeToIndex = new Map<string, number>();
+  day.main.forEach((a, i) => {
     if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
-    items.push({ ...a, _source: "main", _time: parseTimeMin(a.time) });
+    const key = normalizeTime(a.time);
+    if (!mainTimeToIndex.has(key)) mainTimeToIndex.set(key, i);
   });
-  day.meals.forEach((a) => items.push({ ...a, _source: "meals", _time: parseTimeMin(a.time) }));
-  day.alternatives.forEach((a) =>
-    items.push({ ...a, _source: "alternatives", _time: parseTimeMin(a.time) }),
-  );
-  items.sort((a, b) => {
-    if (a._time !== b._time) return a._time - b._time;
-    return SOURCE_ORDER[a._source] - SOURCE_ORDER[b._source];
+
+  const matchedAlts = new Map<number, Activity>();
+  const offTimeAlts: TimedItem[] = [];
+  day.alternatives.forEach((alt) => {
+    const idx = mainTimeToIndex.get(normalizeTime(alt.time));
+    if (idx !== undefined && !matchedAlts.has(idx)) {
+      matchedAlts.set(idx, alt);
+    } else {
+      offTimeAlts.push({ ...alt, _source: "alternatives" });
+    }
   });
-  return items;
+
+  const fixedItems: TimedItem[] = day.fixed.map((a) => ({ ...a, _source: "fixed" }));
+
+  const mainEntries: ToggleEntry[] = [];
+  day.main.forEach((a, i) => {
+    if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
+    mainEntries.push({
+      primary: { ...a, _source: "main" },
+      alternative: matchedAlts.get(i),
+    });
+  });
+
+  return { fixedItems, mainEntries, offTimeAlts };
 }
 
 function extractTotal(summary: string): { compact: string; full: string } {
@@ -99,8 +105,8 @@ export function DayCard({
   const userShoppingForDay = shoppingState.added.filter((u) => u.dayIds.includes(day.id));
   const visiblePlanShoppingCount = shopping.filter((p) => !shoppingState.hidden.includes(p.id)).length;
   const totalShoppingForDay = visiblePlanShoppingCount + userShoppingForDay.length;
-  const timeline = buildTimeline(day);
-  const totalActs = timeline.length;
+  const { fixedItems, mainEntries, offTimeAlts } = buildTimeline(day);
+  const totalActs = fixedItems.length + mainEntries.length;
 
   useEffect(() => {
     if (open && ref.current) {
@@ -148,7 +154,13 @@ export function DayCard({
             <LinkedReservations reservations={reservations} navigate={navigate} />
           )}
           <LinkedShopping dayId={day.id} items={shopping} navigate={navigate} />
-          {timeline.length > 0 && <Timeline items={timeline} />}
+          {(fixedItems.length > 0 || mainEntries.length > 0 || offTimeAlts.length > 0) && (
+            <Timeline
+              fixedItems={fixedItems}
+              mainEntries={mainEntries}
+              offTimeAlts={offTimeAlts}
+            />
+          )}
           <DayNote dayId={day.id} />
         </div>
       )}
@@ -352,22 +364,78 @@ function ShoppingRow({
   );
 }
 
-function Timeline({ items }: { items: TimedItem[] }) {
+function Timeline({
+  fixedItems,
+  mainEntries,
+  offTimeAlts,
+}: {
+  fixedItems: TimedItem[];
+  mainEntries: ToggleEntry[];
+  offTimeAlts: TimedItem[];
+}) {
+  const [showAlts, setShowAlts] = useState(false);
   return (
     <section className="px-4 py-3 border-t border-black/5 dark:border-white/10">
       <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-2">
         Plan
       </h3>
       <ul className="space-y-3">
-        {items.map((a, i) => (
-          <TimelineRow key={i} a={a} />
+        {fixedItems.map((a, i) => (
+          <TimelineRow key={`f-${i}`} a={a} />
+        ))}
+        {mainEntries.map((entry, i) => (
+          <ToggleableRow key={`m-${i}`} entry={entry} />
         ))}
       </ul>
+      {offTimeAlts.length > 0 && (
+        <div className="mt-3">
+          <button
+            type="button"
+            onClick={() => setShowAlts((s) => !s)}
+            className="inline-flex items-center gap-1 text-xs text-ink-muted dark:text-paper-muted hover:text-accent"
+          >
+            {showAlts ? <ChevronDown size={13} strokeWidth={1.75} /> : <ChevronRight size={13} strokeWidth={1.75} />}
+            Alternatifler ({offTimeAlts.length})
+          </button>
+          {showAlts && (
+            <ul className="mt-2 space-y-3">
+              {offTimeAlts.map((a, i) => (
+                <TimelineRow key={`o-${i}`} a={a} />
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
     </section>
   );
 }
 
-function TimelineRow({ a }: { a: TimedItem }) {
+function ToggleableRow({ entry }: { entry: ToggleEntry }) {
+  const [showB, setShowB] = useState(false);
+  const showing: TimedItem =
+    showB && entry.alternative
+      ? { ...entry.alternative, _source: "alternatives" }
+      : entry.primary;
+
+  const toggle = entry.alternative ? (
+    <button
+      type="button"
+      onClick={() => setShowB((s) => !s)}
+      className={`shrink-0 self-start mt-0.5 w-7 h-7 rounded-full border text-[11px] font-mono font-medium transition ${
+        showB
+          ? "bg-amber-100 border-amber-300 text-amber-800 dark:bg-amber-900/40 dark:border-amber-700 dark:text-amber-200"
+          : "border-black/10 dark:border-white/10 text-ink-muted dark:text-paper-muted hover:border-accent hover:text-accent"
+      }`}
+      aria-label={showB ? "Ana plana dön" : "B planını göster"}
+    >
+      {showB ? "A" : "B"}
+    </button>
+  ) : null;
+
+  return <TimelineRow a={showing} rightSlot={toggle} />;
+}
+
+function TimelineRow({ a, rightSlot }: { a: TimedItem; rightSlot?: React.ReactNode }) {
   const displayTime = a.time.replace(/\[SABİT\]\s*/i, "").replace(/\s*▸\s*$/, "").trim();
   const isFixed = a._source === "fixed";
   const isMeal = a._source === "meals";
@@ -380,11 +448,6 @@ function TimelineRow({ a }: { a: TimedItem }) {
         <span className="font-mono text-xs text-ink-muted dark:text-paper-muted">
           {displayTime || "—"}
         </span>
-        {isAlt && (
-          <span className="chip bg-amber-100 text-amber-800 dark:bg-amber-900/40 dark:text-amber-200 text-[9px]">
-            B
-          </span>
-        )}
       </div>
       <div className="min-w-0 flex-1">
         <p className="font-medium leading-snug inline-flex items-center gap-1.5">
@@ -418,7 +481,7 @@ function TimelineRow({ a }: { a: TimedItem }) {
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-1 hover:text-accent"
             >
-              <Map size={11} strokeWidth={1.75} /> Haritada gör
+              <MapIcon size={11} strokeWidth={1.75} /> Haritada gör
             </a>
           )}
           {a.tabelogUrl && (
@@ -438,6 +501,7 @@ function TimelineRow({ a }: { a: TimedItem }) {
           </p>
         )}
       </div>
+      {rightSlot}
     </li>
   );
 }
