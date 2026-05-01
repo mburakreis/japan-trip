@@ -1178,7 +1178,7 @@
           "max": 460,
           "raw": "230×2"
         },
-        "note": "IC kartla 2 ayrı biniş. Karmaşık görünür ama en hızlı rota.",
+        "note": "IC kartla 2 ayrı biniş.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -1204,7 +1204,7 @@
           "max": 500,
           "raw": "500"
         },
-        "note": "⚠️ Kapanış 18:00 — 17:06 girişiyle 44dk var. Platform + şelale öncelikli, tüm alanı gezme. Çıkış 17:50 hedefle.",
+        "note": "⚠️ Kapanış 18:00 — 17:06 girişiyle 44dk var. Platform + şelale öncelikli. Çıkış 17:50 hedefle.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9946662,135.784661",
         "tabelogUrl": ""
       },
@@ -1252,7 +1252,7 @@
         "transport": "Yürüyüş 14dk",
         "duration": "—",
         "cost": null,
-        "note": "Varış ~20:12. Yarın 11:25 treni için Kyoto İst.'da 11:00'de olman gerek — bavulu topla.",
+        "note": "Varış ~20:12. Yarın 11:25 treni için Kyoto İst.'da 10:43 hedefi — bavulu topla.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Kyoto-Shijokarasuma",
         "tabelogUrl": ""
       }
