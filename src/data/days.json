@@ -228,22 +228,22 @@
     "title": "Tsukiji → Ginza → Shibuya → Shinjuku",
     "fixed": [
       {
-        "time": "11:50",
+        "time": "~12:15",
         "place": "Asics Tokyo Ginza (8-2-7)",
         "action": "Gel Kayano 32 alımı — gait analysis + tax-free",
         "transport": "Yürüyüş",
-        "duration": "45dk",
+        "duration": "~60dk",
         "cost": {
           "min": 22000,
           "max": 22000,
           "raw": "22000"
         },
-        "note": "⚠️ Pasaport şart. Kutuyu çantana sığdır",
+        "note": "⚠️ Pasaport şart. Gait analysis ~25-30dk dahil. Kaneko bitiş kaymasına bağlı başlangıç. Kutuyu çantana sığdır.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6697955,139.7600068",
         "tabelogUrl": ""
       },
       {
-        "time": "18:45",
+        "time": "~19:15",
         "place": "Uniqlo Shinjuku",
         "action": "Grafik tişört ×2, basic ×2, çorap seti",
         "transport": "JR Yamanote (¥170)",
@@ -253,7 +253,7 @@
           "max": 21000,
           "raw": "13K-21K"
         },
-        "note": "Tax-free ayrı kasa",
+        "note": "Tax-free ayrı kasa. Kapanış 21:00.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6913489,139.7030056",
         "tabelogUrl": ""
       }
@@ -330,10 +330,14 @@
         "time": "10:40",
         "place": "Hama-rikyū → Ginza",
         "action": "Ginza'ya geçiş",
-        "transport": "Yürüyüş",
-        "duration": "15dk",
-        "cost": null,
-        "note": "Mimari fotoğraf fırsatı",
+        "transport": "Metro (Shimbashi → Ginza, Ginza hattı, ¥180)",
+        "duration": "13dk",
+        "cost": {
+          "min": 180,
+          "max": 180,
+          "raw": "180"
+        },
+        "note": "Yürüyüş 22-25dk — 11:00 Kaneko'yu kaçırır. Hama-rikyū doğu çıkışı → Shimbashi 5dk yürüyüş.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -342,12 +346,14 @@
         "place": "Kaneko Optical Ginza (金子眼鏡店)",
         "action": "Gözlük siparişi — ölçü al, çerçeve seç",
         "transport": "Yürüyüş 5dk",
-        "duration": "45dk",
+        "duration": "~70dk",
         "cost": null,
-        "note": "Sipariş bugün, teslim Gün 12"
+        "note": "Çerçeve seçimi + ölçü + sipariş + tax-free + çeviri uygulaması → 60-75dk öngör. Sipariş bugün, teslim Gün 12.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
-        "time": "12:35",
+        "time": "~13:15",
         "place": "Ginza Kagari",
         "action": "Öğle — Tori Paitan Soba (Michelin Bib Gourmand)",
         "transport": "Yürüyüş 5dk",
@@ -357,21 +363,27 @@
           "max": 18000,
           "raw": "1.2K-1.8K"
         },
-        "note": "Kuyruk ~15-20dk ama hızlı. Counter seating",
+        "note": "Kuyruk ~15-20dk dahil, oturma ~13:35 hedef. Counter seating.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6712019,139.7613315",
         "tabelogUrl": ""
       },
       {
-        "time": "13:35",
+        "time": "~14:35",
         "place": "Montbell Ginza",
         "action": "Tri-Pack 45 sırt çantası alımı — tax-free",
         "transport": "Yürüyüş 3dk",
         "duration": "40dk",
-        "cost": { "min": 23000, "max": 25000, "raw": "23K-25K" },
-        "note": "Etiketleri kopar, eşyaları aktar. Tax-free için pasaport"
+        "cost": {
+          "min": 23000,
+          "max": 25000,
+          "raw": "23K-25K"
+        },
+        "note": "Etiketleri kopar, eşyaları aktar. Tax-free için pasaport.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       },
       {
-        "time": "14:30",
+        "time": "~15:20",
         "place": "Ginza → Shibuya",
         "action": "Metro Ginza Hattı (aktarmasız)",
         "transport": "Metro",
@@ -386,59 +398,59 @@
         "tabelogUrl": ""
       },
       {
-        "time": "14:50",
+        "time": "~15:50",
         "place": "Shibuya",
         "action": "Hachiko + Crossing + Center-gai",
         "transport": "Yürüyüş",
-        "duration": "40dk",
+        "duration": "30dk",
         "cost": null,
-        "note": "Magnet by Shibuya 109 terası — en iyi crossing fotoğraf açısı",
+        "note": "Magnet by Shibuya 109 terası — en iyi crossing fotoğraf açısı. Shibuya Sky'a yetişmek için tempo tut.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6590579,139.7006293",
         "tabelogUrl": ""
       },
       {
-        "time": "15:30",
+        "time": "~16:20",
         "place": "About Life Coffee Brewers",
         "action": "Kafe molası — pour-over specialty",
         "transport": "Yürüyüş 3dk",
-        "duration": "30dk",
+        "duration": "15dk",
         "cost": {
           "min": 500,
           "max": 800,
           "raw": "500-800"
         },
-        "note": "Stand-up kahveci. Yorgunluk kırma",
+        "note": "Sky öncesi hızlı takeaway al, içeride oturma — Shibuya Sky'a yetişmek için kısalt.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6567022,139.6958093",
         "tabelogUrl": ""
       },
       {
-        "time": "16:00",
+        "time": "~16:35",
         "place": "Miyashita Park",
-        "action": "Rooftop park — çimde uzan, vintage dükkanlar",
+        "action": "Rooftop park — hızlı geçiş, vintage dükkanlar",
         "transport": "Yürüyüş 5dk",
-        "duration": "30dk",
+        "duration": "15dk",
         "cost": null,
-        "note": "Shibuya skyline fotoğrafı",
+        "note": "Shibuya Sky'a yetişmek için kısalt. Skyline fotoğrafı kapıdan.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.661791,139.7018507",
         "tabelogUrl": ""
       },
       {
-        "time": "16:30",
+        "time": "~16:50",
         "place": "Shibuya Sky",
         "action": "Gözlem katı — gündüz + golden hour + günbatımı (~18:40)",
         "transport": "Yürüyüş 10dk",
-        "duration": "120dk",
+        "duration": "110dk",
         "cost": {
           "min": 2000,
           "max": 2000,
           "raw": "2000"
         },
-        "note": "Açık teras rüzgarlı — hafif ceket al. Tripod yasak",
+        "note": "Açık teras rüzgarlı — hafif ceket al. Tripod yasak. Sunset 18:40 — 110dk kalış ile golden hour tam yakalanır.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6586719,139.7019848",
         "tabelogUrl": ""
       },
       {
-        "time": "18:30",
+        "time": "~18:45",
         "place": "Shibuya → Shinjuku",
         "action": "JR Yamanote",
         "transport": "JR",
@@ -453,22 +465,18 @@
         "tabelogUrl": ""
       },
       {
-        "time": "[SABİT] 18:45",
-        "place": "Uniqlo Shinjuku",
-        "action": "Alışveriş",
-        "transport": "—",
-        "duration": "45dk",
-        "cost": {
-          "min": 13000,
-          "max": 21000,
-          "raw": "13K-21K"
-        },
-        "note": "",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6913489,139.7030056",
+        "time": "~19:00",
+        "place": "Anshin Oyado Tokyo Man Shinjuku",
+        "action": "Check-in + bavul bırak",
+        "transport": "Yürüyüş",
+        "duration": "15dk",
+        "cost": null,
+        "note": "Kahvaltı dahil. Uniqlo öncesi bavulu bırak.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anshin%20Oyado%20Tokyo%20Shinjuku",
         "tabelogUrl": ""
       },
       {
-        "time": "19:30",
+        "time": "~20:05",
         "place": "Fuunji (風雲児)",
         "action": "Akşam — Tsukemen (soğuk noodle + sıcak sos)",
         "transport": "Yürüyüş 5dk",
@@ -478,27 +486,27 @@
           "max": 15000,
           "raw": "1K-1.5K"
         },
-        "note": "Tokyo'nun en meşhur tsukemen'i. Oomori (büyük) ücretsiz",
+        "note": "Akşam kuyruğu ~20-25dk bekleme dahil, oturma ~20:25 hedef. Oomori (büyük) ücretsiz.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6868343,139.6966393",
         "tabelogUrl": ""
       },
       {
-        "time": "20:30",
+        "time": "~21:25",
         "place": "Omoide Yokochō",
         "action": "Yakitori tadımı + sokak fotoğrafçılığı",
         "transport": "Yürüyüş 5dk",
-        "duration": "30dk",
+        "duration": "20dk",
         "cost": {
           "min": 500,
-          "max": 1000,
-          "raw": "500-1K"
+          "max": 800,
+          "raw": "500-800"
         },
-        "note": "2-3 şiş + 1 bira. En fotojenik saat 20:00-22:00",
+        "note": "Fuunji sonrası tok olunacak — 1 bira + atmosfer, yemek değil. En fotojenik saat 20:00-22:00.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6927011,139.6995778",
         "tabelogUrl": ""
       },
       {
-        "time": "21:00",
+        "time": "~21:50",
         "place": "Golden Gai",
         "action": "Bar sokağı — 1 bar deneyimi",
         "transport": "Yürüyüş 8dk",
@@ -508,24 +516,24 @@
           "max": 15000,
           "raw": "800-1.5K"
         },
-        "note": "Kapı ücreti ¥300-500, bira ¥500-800. Solo dostu",
+        "note": "Kapı ücreti ¥300-500, bira ¥500-800. Solo dostu.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6941118,139.7047611",
         "tabelogUrl": ""
       },
       {
-        "time": "21:45",
+        "time": "~22:40",
         "place": "Kabukichō / Godzilla Road",
         "action": "Neon fotoğraf + Godzilla heykeli",
         "transport": "Yürüyüş 5dk",
         "duration": "15dk",
         "cost": null,
-        "note": "Toho Cinemas üstünde, gece dramatik",
+        "note": "Toho Cinemas üstünde, gece dramatik.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6950521,139.7019117",
         "tabelogUrl": ""
       },
       {
-        "time": "22:00",
-        "place": "Shinjuku → Otel",
+        "time": "~23:00",
+        "place": "Otel",
         "action": "Dönüş",
         "transport": "Metro/JR",
         "duration": "—",
@@ -534,7 +542,7 @@
           "max": 200,
           "raw": "200"
         },
-        "note": "Erken yat — yorgunluk birikmesin",
+        "note": "Erken yat — yorgunluk birikmesin.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
