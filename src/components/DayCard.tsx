@@ -32,6 +32,9 @@ type NavFn = (next: { tab: "days" | "reservations" | "shopping"; focusId?: strin
 type Source = "fixed" | "main" | "meals" | "alternatives";
 type TimedItem = Activity & { _source: Source };
 type ToggleEntry = { primary: TimedItem; alternative?: Activity };
+type RowEntry =
+  | { kind: "fixed"; item: TimedItem; _time: number }
+  | { kind: "main"; entry: ToggleEntry; _time: number };
 
 function normalizeTime(t: string): string {
   return t
@@ -41,11 +44,33 @@ function normalizeTime(t: string): string {
     .trim();
 }
 
+function parseTimeMin(t: string): number {
+  if (!t) return Number.MAX_SAFE_INTEGER;
+  const cleaned = t
+    .replace(/\[SABİT\]\s*/i, "")
+    .replace(/^~/, "")
+    .replace(/\s*▸\s*$/, "")
+    .replace(/\s*\(\+\d+\).*$/, "")
+    .trim();
+  const m = cleaned.match(/^(\d{1,2}):(\d{2})/);
+  if (m) return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+  const lc = cleaned.toLowerCase();
+  if (/^(kahvalt|sabah)/.test(lc)) return 7 * 60;
+  if (/^öğle/.test(lc)) return 12 * 60 + 30;
+  if (/^(ara|atıştırma)/.test(lc)) return 15 * 60;
+  if (/^akşam/.test(lc)) return 19 * 60;
+  if (/^geç akşam/.test(lc)) return 22 * 60;
+  if (/^gece/.test(lc)) return 23 * 60;
+  return Number.MAX_SAFE_INTEGER;
+}
+
 function buildTimeline(day: Day): {
-  fixedItems: TimedItem[];
-  mainEntries: ToggleEntry[];
+  rows: RowEntry[];
   offTimeAlts: TimedItem[];
 } {
+  // Days with (+1) times span midnight — preserve JSON order instead of sorting
+  const hasNextDay = [...day.fixed, ...day.main].some((a) => /\(\+\d+\)/.test(a.time));
+
   const mainTimeToIndex = new Map<string, number>();
   day.main.forEach((a, i) => {
     if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
@@ -64,18 +89,26 @@ function buildTimeline(day: Day): {
     }
   });
 
-  const fixedItems: TimedItem[] = day.fixed.map((a) => ({ ...a, _source: "fixed" }));
+  const rows: RowEntry[] = [];
 
-  const mainEntries: ToggleEntry[] = [];
+  day.fixed.forEach((a) => {
+    rows.push({ kind: "fixed", item: { ...a, _source: "fixed" }, _time: parseTimeMin(a.time) });
+  });
+
   day.main.forEach((a, i) => {
     if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
-    mainEntries.push({
-      primary: { ...a, _source: "main" },
-      alternative: matchedAlts.get(i),
+    rows.push({
+      kind: "main",
+      entry: { primary: { ...a, _source: "main" }, alternative: matchedAlts.get(i) },
+      _time: parseTimeMin(a.time),
     });
   });
 
-  return { fixedItems, mainEntries, offTimeAlts };
+  if (!hasNextDay) {
+    rows.sort((a, b) => a._time - b._time);
+  }
+
+  return { rows, offTimeAlts };
 }
 
 function extractTotal(summary: string): { compact: string; full: string } {
@@ -105,8 +138,8 @@ export function DayCard({
   const userShoppingForDay = shoppingState.added.filter((u) => u.dayIds.includes(day.id));
   const visiblePlanShoppingCount = shopping.filter((p) => !shoppingState.hidden.includes(p.id)).length;
   const totalShoppingForDay = visiblePlanShoppingCount + userShoppingForDay.length;
-  const { fixedItems, mainEntries, offTimeAlts } = buildTimeline(day);
-  const totalActs = fixedItems.length + mainEntries.length;
+  const { rows, offTimeAlts } = buildTimeline(day);
+  const totalActs = rows.length;
 
   useEffect(() => {
     if (open && ref.current) {
@@ -154,10 +187,9 @@ export function DayCard({
             <LinkedReservations reservations={reservations} navigate={navigate} />
           )}
           <LinkedShopping dayId={day.id} items={shopping} navigate={navigate} />
-          {(fixedItems.length > 0 || mainEntries.length > 0 || offTimeAlts.length > 0) && (
+          {(rows.length > 0 || offTimeAlts.length > 0) && (
             <Timeline
-              fixedItems={fixedItems}
-              mainEntries={mainEntries}
+              rows={rows}
               offTimeAlts={offTimeAlts}
             />
           )}
@@ -365,12 +397,10 @@ function ShoppingRow({
 }
 
 function Timeline({
-  fixedItems,
-  mainEntries,
+  rows,
   offTimeAlts,
 }: {
-  fixedItems: TimedItem[];
-  mainEntries: ToggleEntry[];
+  rows: RowEntry[];
   offTimeAlts: TimedItem[];
 }) {
   const [showAlts, setShowAlts] = useState(false);
@@ -380,12 +410,11 @@ function Timeline({
         Plan
       </h3>
       <ul className="space-y-3">
-        {fixedItems.map((a, i) => (
-          <TimelineRow key={`f-${i}`} a={a} />
-        ))}
-        {mainEntries.map((entry, i) => (
-          <ToggleableRow key={`m-${i}`} entry={entry} />
-        ))}
+        {rows.map((row, i) =>
+          row.kind === "fixed"
+            ? <TimelineRow key={`f-${i}`} a={row.item} />
+            : <ToggleableRow key={`m-${i}`} entry={row.entry} />
+        )}
       </ul>
       {offTimeAlts.length > 0 && (
         <div className="mt-3">
