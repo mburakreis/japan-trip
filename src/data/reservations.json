@@ -36,22 +36,34 @@
     ]
   },
   {
-    "id": "tr-ke-return",
+    "id": "tr-ke714",
     "type": "transport",
-    "title": "KE: Tokyo (Narita) → Seoul (Incheon)",
+    "title": "KE714: Tokyo (Narita) → Seoul (Incheon)",
     "city": "NRT → ICN",
-    "dateRaw": "30 May 20:55 → 23:25",
-    "nights": null,
+    "dateRaw": "30 May Cmt 20:55 → 23:25",
     "status": "booked",
     "platform": "Korean Air",
     "manageLink": "",
     "email": "",
     "priceRaw": "",
-    "note": "2s 30dk · Day-13 son uçuş, sonra ICN transit (Day-13 transit planına bağlı)",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Incheon%20International%20Airport%20ICN",
-    "dayIds": [
-      "day-13"
-    ]
+    "note": "Boeing 737-8 · Economy Saver · 2s 30dk · Booking: FCBDSF",
+    "dayIds": ["day-13"],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20International%20Airport%20Terminal%201"
+  },
+  {
+    "id": "tr-ke955",
+    "type": "transport",
+    "title": "KE955: Seoul (Incheon) → İstanbul",
+    "city": "ICN → IST",
+    "dateRaw": "31 May Paz 13:40 → 19:40",
+    "status": "booked",
+    "platform": "Korean Air",
+    "manageLink": "",
+    "email": "",
+    "priceRaw": "",
+    "note": "Boeing 787-9 · Economy Saver · 12s 0dk · Booking: FCBDSF",
+    "dayIds": [],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Incheon%20International%20Airport%20ICN"
   },
   {
     "id": "acc-1",
