@@ -1083,151 +1083,177 @@
         "time": "08:00-12:00",
         "place": "Toji Kobo-ichi (弘法市)",
         "action": "Antika, seramik, vintage — ~1.200 tezgah + sokak yemeği",
-        "transport": "206 hat (¥230) + yürüyüş 14dk",
+        "transport": "Bus 207: Shijo-Karasuma → Kujo Omiya (15dk) + yürüyüş 4dk — toplam 22dk",
         "duration": "3.5 saat",
         "cost": {
           "min": 5000,
           "max": 30000,
           "raw": "5K-30K"
         },
-        "note": "En canlı 09-12. Nakit + pazarlık: 'chotto makete kudasai'",
+        "note": "En canlı 09-12. Nakit + pazarlık: 'chotto makete kudasai'. Giriş ¥230.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9803395,135.7476935",
         "tabelogUrl": ""
       },
       {
-        "time": "12:00-12:45",
-        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
-        "action": "Kırılgan alışverişleri bırak, seramikleri paketle",
-        "transport": "Yürüyüş + 206 hat (¥230)",
-        "duration": "45dk",
+        "time": "12:00-12:43",
+        "place": "Toji → Sotetsu Fresa Inn Kyoto-Shijokarasuma",
+        "action": "Otele dön + kırılgan alışverişleri paketle",
+        "transport": "Bus 207 geri: Kujo Omiya → Shijo-Karasuma (15dk) + yürüyüş 3dk — toplam 23dk",
+        "duration": "43dk",
         "cost": {
           "min": 230,
           "max": 230,
           "raw": "230"
         },
-        "note": "⚠️ ZORUNLU — seramiklerle gezme",
+        "note": "⚠️ ZORUNLU — seramiklerle gezme. Varış ~12:23, paketleme ~20dk.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
     ],
     "main": [
       {
-        "time": "08:00",
-        "place": "Toji Kobo-ichi",
-        "action": "[SABİT] Pazar + sokak yemeği (yakisoba, taiyaki, mochi)",
-        "transport": "—",
-        "duration": "—",
+        "time": "07:35",
+        "place": "Sotetsu Fresa Inn → Bus 207 durağı",
+        "action": "Toji için erken çıkış",
+        "transport": "Yürüyüş 3dk",
+        "duration": "3dk",
         "cost": null,
-        "note": "Sabah atıştırma burada",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9803395,135.7476935",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "12:00",
-        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
-        "action": "[SABİT] Kırılgan eşyaları bırak",
-        "transport": "—",
-        "duration": "—",
-        "cost": {
-          "min": 230,
-          "max": 230,
-          "raw": "230"
-        },
-        "note": "",
+        "note": "Shijo-Karasuma durağından Bus 207 (Toji-michi yönü). 08:00 pazar açılışına yetişmek için 07:35 çık.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "12:45",
+        "time": "~13:01",
         "place": "Gogyo (五行)",
         "action": "Öğle — Kogashi miso ramen (kavrulmuş, dumanlı)",
-        "transport": "Yürüyüş 12dk",
+        "transport": "Yürüyüş 18dk",
         "duration": "45dk",
         "cost": {
           "min": 1000,
-          "max": 15000,
+          "max": 1500,
           "raw": "1K-1.5K"
         },
-        "note": "Kyoto'nun en özgün rameni. Hafta içi sıra kısa",
+        "note": "Kyoto'nun en özgün rameni. Hafta içi sıra kısa.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "13:45",
+        "time": "~13:55",
         "place": "Nishiki Market (錦市場)",
         "action": "Kyoto'nun Mutfağı — 130+ tezgah tadımlık tur",
-        "transport": "Yürüyüş 5dk",
+        "transport": "Yürüyüş 9dk",
         "duration": "60dk",
         "cost": {
           "min": 1000,
-          "max": 15000,
+          "max": 1500,
           "raw": "1K-1.5K"
         },
-        "note": "Tako tamago, dashimaki, matcha mochi. Tezgah yanında ye",
+        "note": "Tako tamago, dashimaki, matcha mochi. BATI/Teramachi çıkışından çık → Kyukyodo kapı komşusu.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0050258,135.764723",
         "tabelogUrl": ""
       },
       {
-        "time": "15:30",
+        "time": "~14:58",
+        "place": "Kyukyodo (鳩居堂 京都店)",
+        "action": "Kırtasiye alışverişi (kalem, kutu, yelpaze) — Teramachi Sanjo",
+        "transport": "Yürüyüş 3dk (Nishiki batı çıkışından)",
+        "duration": "45dk",
+        "cost": {
+          "min": 18000,
+          "max": 28000,
+          "raw": "18-28K"
+        },
+        "note": "10:00-18:00. Nishiki'den çıkınca hemen köşede. Yelpazeleri carry-on'a al.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0099747,135.7670682",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~15:43",
+        "place": "Kyukyodo → Ninenzaka",
+        "action": "2 bus bağlantısı ile Higashiyama'ya geçiş",
+        "transport": "Bus 五条通5: Kyoto Shiyakusho-mae → Higashiyama Sanjo (5dk) + 3dk yürüyüş + Bus 206: Higashiyama Sanjo → Higashiyama Yasui (4dk) + 8dk yürüyüş — toplam 29dk",
+        "duration": "29dk",
+        "cost": {
+          "min": 460,
+          "max": 460,
+          "raw": "230×2"
+        },
+        "note": "IC kartla 2 ayrı biniş. Karmaşık görünür ama en hızlı rota.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~16:12",
         "place": "Ninenzaka / Sannenzaka",
         "action": "Tarihi taş sokaklar, machiya evler, fotoğraf",
-        "transport": "Yürüyüş 25dk",
+        "transport": "—",
         "duration": "45dk",
         "cost": null,
-        "note": "Starbucks Ninenzaka (machiya) ilginç durak",
+        "note": "Starbucks Ninenzaka (machiya) ilginç durak. Sannenzaka'dan çıkarken Kiyomizu yönüne yürü.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9966644,135.781008",
         "tabelogUrl": ""
       },
       {
-        "time": "16:15",
+        "time": "~17:06",
         "place": "Kiyomizu-dera (清水寺)",
         "action": "UNESCO — ahşap platform, panorama, Otowa Şelalesi",
-        "transport": "Yürüyüş 10dk (yokuş)",
-        "duration": "75dk",
+        "transport": "Yürüyüş 9dk",
+        "duration": "44dk",
         "cost": {
           "min": 500,
           "max": 500,
           "raw": "500"
         },
-        "note": "06:00-18:00. 3 akarsu — birini seç. Altın saat fotoğraf",
+        "note": "⚠️ Kapanış 18:00 — 17:06 girişiyle 44dk var. Platform + şelale öncelikli, tüm alanı gezme. Çıkış 17:50 hedefle.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=34.9946662,135.784661",
         "tabelogUrl": ""
       },
       {
-        "time": "17:30",
-        "place": "Sannenzaka → Gion dönüş",
-        "action": "Yokuş aşağı sokak keşfi, akşam ışığı fotoğraf",
-        "transport": "Yürüyüş 20-25dk",
-        "duration": "45dk",
+        "time": "~18:05",
+        "place": "Yasaka Pagoda (八坂の塔)",
+        "action": "Fotoğraf durağı — 5 katlı pagoda",
+        "transport": "Yürüyüş 15dk (Kiyomizu'dan inerken doğal güzergah)",
+        "duration": "10dk",
         "cost": null,
-        "note": "Rahat tempo",
+        "note": "Kiyomizu'dan Gion'a inerken güzergah üstünde. Ayrı ziyaret değil, geçiş fotoğrafı.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "18:30",
+        "time": "~18:27",
         "place": "Gion obanzai restoran",
         "action": "Akşam — Kyoto ev yemekleri seti (7-8 tabak)",
-        "transport": "Yürüyüş 5dk",
+        "transport": "Yürüyüş 12dk (Yasaka Pagoda'dan)",
         "duration": "60dk",
         "cost": {
           "min": 25000,
           "max": 35000,
           "raw": "2.5K-3.5K"
         },
-        "note": "'おばんざい' tabelası ara. Dün Pontocho, bugün Gion",
+        "note": "'おばんざい' tabelası ara. Dün Pontocho, bugün Gion.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "19:30",
+        "time": "~19:38",
         "place": "Kamogawa nehir kenarı",
         "action": "Akşam yürüyüşü, Shijo Köprüsü",
-        "transport": "Yürüyüş 5dk",
-        "duration": "30-60dk",
+        "transport": "Yürüyüş 11dk",
+        "duration": "20dk",
         "cost": null,
-        "note": "⚠️ Yarın Kinosaki — 21:00'e kadar otelde ol",
+        "note": "⚠️ Yarın Kinosaki — 21:00'e kadar otelde ol. Kısa tut.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.0038394,135.7715331",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~19:58",
+        "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
+        "action": "Dönüş + Kinosaki hazırlık",
+        "transport": "Yürüyüş 14dk",
+        "duration": "—",
+        "cost": null,
+        "note": "Varış ~20:12. Yarın 11:25 treni için Kyoto İst.'da 11:00'de olman gerek — bavulu topla.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Kyoto-Shijokarasuma",
         "tabelogUrl": ""
       }
     ],
