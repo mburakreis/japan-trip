@@ -53,7 +53,11 @@ function parseTimeMin(t: string): number {
     .replace(/\s*\(\+\d+\).*$/, "")
     .trim();
   const m = cleaned.match(/^(\d{1,2}):(\d{2})/);
-  if (m) return parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+  if (m) {
+    const mins = parseInt(m[1], 10) * 60 + parseInt(m[2], 10);
+    // 00:00–05:59 is next-day (after-midnight), sort after late-evening
+    return mins < 6 * 60 ? mins + 24 * 60 : mins;
+  }
   const lc = cleaned.toLowerCase();
   if (/^(kahvalt|sabah)/.test(lc)) return 7 * 60;
   if (/^öğle/.test(lc)) return 12 * 60 + 30;
