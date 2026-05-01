@@ -1412,24 +1412,13 @@
         "tabelogUrl": ""
       },
       {
-        "time": "~12:05",
+        "time": "~14:02",
         "place": "Shinonomesou",
         "action": "Bavul bırak (check-in 14:00)",
         "transport": "Yürüyüş 13dk / shuttle",
         "duration": "15dk",
         "cost": null,
-        "note": "✅ REZERVE (Trip.com). Kaiseki + kahvaltı dahil",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "~14:00",
-        "place": "Shinonomesou",
-        "action": "Resmi check-in — Yumepa bilezik al",
-        "transport": "—",
-        "duration": "30dk",
-        "cost": null,
-        "note": "",
+        "note": "'nimotsu wo azuketai' de. Check-in 14:00 — hemen girebilirsin.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       },
@@ -1462,28 +1451,28 @@
         "tabelogUrl": ""
       },
       {
-        "time": "10:15",
+        "time": "10:00",
         "place": "Sotetsu Fresa Inn Kyoto-Shijokarasuma",
         "action": "Check-out + bavulu topla",
         "transport": "—",
         "duration": "20dk",
         "cost": null,
-        "note": "",
+        "note": "10:20'de çıkış hedefle — bilet basma deadline'ı 11:00.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Kyoto-Shijokarasuma",
         "tabelogUrl": ""
       },
       {
-        "time": "10:40",
+        "time": "10:20",
         "place": "Otel → Kyoto İst.",
-        "action": "Bavullu — taksi (~¥1.000-1.200) veya metro Karasuma 4dk; ardından e5489 yeşil otomattan bilet bastır",
-        "transport": "Taksi/Metro",
-        "duration": "30dk",
+        "action": "Metro Karasuma (Shijo → Kyoto İst, 2 durak) + e5489 kiosk",
+        "transport": "Yürüyüş 3dk + Metro 5dk",
+        "duration": "35dk",
         "cost": {
           "min": 230,
-          "max": 1200,
-          "raw": "230-1.2K"
+          "max": 230,
+          "raw": "230"
         },
-        "note": "11:00'a kadar fiziksel bilet basılmalı. 11:10'da ekiben + içecek al, platform: San'in Hattı (山陰本線)",
+        "note": "10:28'de istasyonda. Kiosk ~15dk (kuyruk olabilir, QR hazır tut). 10:43 hedef bitiş — 11:00 deadline'dan 17dk önce. Ekiben + içecek kiosk sonrası al.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station",
         "tabelogUrl": ""
       },
@@ -1503,7 +1492,7 @@
         "tabelogUrl": ""
       },
       {
-        "time": "12:30",
+        "time": "~14:12",
         "place": "Irori Dining Mikuni",
         "action": "Öğle — Tajima Beef Steak/Curry Set",
         "transport": "Yürüyüş 5dk",
@@ -1513,132 +1502,128 @@
           "max": 3000,
           "raw": "1.5K-3K"
         },
-        "note": "Kobe beef'in kökeni Tajima eti",
+        "note": "Bavul bıraktıktan hemen sonra. Dönüşte resmi check-in yapılacak.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.625295,134.812875",
         "tabelogUrl": ""
       },
       {
-        "time": "13:45",
-        "place": "Kinosaki Ropeway (城崎温泉ロープウェイ)",
-        "action": "Teleferik — Daishi Dağı zirvesi",
-        "transport": "Yürüyüş 15dk",
-        "duration": "30dk",
-        "cost": {
-          "min": 910,
-          "max": 910,
-          "raw": "910"
-        },
-        "note": "Son yukarı 16:10. Kawarake ritüeli",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6252276,134.8038768",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "14:30",
-        "place": "Onsenji Tapınağı (温泉寺)",
-        "action": "738 yılı — koruyucu tapınak, ara istasyon",
-        "transport": "Teleferik",
-        "duration": "30dk",
-        "cost": null,
-        "note": "1300 yıllık",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6240679,134.8003212",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "[SABİT] ~14:00",
+        "time": "~15:12",
         "place": "Shinonomesou",
-        "action": "Check-in + Yumepa + yukata",
-        "transport": "—",
+        "action": "Resmi check-in — Yumepa bilezik + yukata",
+        "transport": "Yürüyüş",
         "duration": "30dk",
         "cost": null,
-        "note": "Geta ile çıplak ayak — çorapla kayarsın",
+        "note": "Geta ile çıplak ayak — çorapla kayarsın.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       },
       {
-        "time": "15:45",
+        "time": "~15:40",
+        "place": "Onsen hazırlık",
+        "action": "Yumepa + pratik protokol hatırlatma",
+        "transport": "—",
+        "duration": "5dk",
+        "cost": null,
+        "note": "GİRİŞ: Yumepa'yı kapıda okut → ayakkabı dolabına bırak → locker seç → her şeyi çıkar (iç çamaşır dahil) → küçük havluyla banyo. BANYO: Önce duş istasyonunda otur (taburede), sabun+şampuan mevcut → iyice durula → küvete gir, havlu suya girmez → 10-15dk. TELEFON: Locker'a bırak, banyo alanında tutma. SONRA: Çıkışta mutlaka bir şeyler iç (vending machine veya kaynak suyu çeşmesi).",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~15:45",
         "place": "Kono-yu (鴻の湯)",
         "action": "1. onsen — orman manzaralı rotemburo",
         "transport": "Yürüyüş 3dk",
         "duration": "40dk",
         "cost": null,
-        "note": "07:00-23:00. Kapalı: Salı",
+        "note": "İlk onsen için ideal: kasabanın batı ucunda, en sakin. Panoramik cam pencereden orman + dış taş havuz. Leyleğin yaralarını iyileştirdiği efsaneli yer. Çıkışta vending machine'den su veya coffee milk al. 07:00-23:00 | Kapalı: Salı | Cuma: AÇIK ✓",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.626154,134.8045277",
         "tabelogUrl": ""
       },
       {
-        "time": "16:30",
+        "time": "~16:30",
         "place": "Goshono-yu (御所の湯)",
-        "action": "2. onsen — Kyoto Sarayı ilhamlı",
+        "action": "2. onsen — Kyoto Sarayı ilhamlı, şelale + buhar saunası",
         "transport": "Yürüyüş 5dk",
         "duration": "45dk",
         "cost": null,
-        "note": "Şelale + buhar saunası. Kapalı: Perşembe",
+        "note": "Deneyim bloglarının 1 numarası. Dev sedir kirişler + cam çatı, şelaleye bakan çok katlı dış havuz + buhar sauna. Çıkışta kasaba yürüyüşü — ışık değişimi fotoğraf molası. 07:00-23:00 | Kapalı: 1. ve 3. Perşembe | Cuma: AÇIK ✓",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6259467,134.8073683",
         "tabelogUrl": ""
       },
       {
-        "time": "17:20",
+        "time": "~17:20",
         "place": "Otani Nehri kanalı",
         "action": "Yukata ile kasaba yürüyüşü",
         "transport": "Yürüyüş",
         "duration": "30dk",
         "cost": null,
-        "note": "7 taş köprü",
+        "note": "7 taş köprü.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "[SABİT] ~18:00",
+        "time": "~17:42",
         "place": "Shinonomesou",
-        "action": "Kaiseki akşam yemeği",
-        "transport": "—",
-        "duration": "90dk",
+        "action": "Kaiseki öncesi dönüş + hazırlık",
+        "transport": "Yürüyüş 5dk",
+        "duration": "15dk",
         "cost": null,
-        "note": "",
+        "note": "Yukata düzenle.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       },
       {
-        "time": "20:00",
+        "time": "~18:00",
+        "place": "Shinonomesou",
+        "action": "Kaiseki akşam yemeği (DAHİL) [SABİT]",
+        "transport": "—",
+        "duration": "90dk",
+        "cost": null,
+        "note": "Tajima eti + deniz ürünleri + mevsim sebze.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~19:35",
         "place": "Ichino-yu (一の湯)",
-        "action": "3. onsen — mağara banyosu",
+        "action": "3. onsen — mağara banyosu, gece atmosferi",
         "transport": "Yürüyüş 10dk",
         "duration": "40dk",
         "cost": null,
-        "note": "15:00-23:00. Kapalı: Perşembe",
+        "note": "Gece çok daha atmosferik — doğal kayalar + loş ışık. Edo dönemi doktorunun 'Japonya'nın 1 numarası' dediği yer. Kabuki tiyatrosu cephesiyle kasabanın ikonik yapısı. Çıkışta fener ışıklarında gece yürüyüşü. 07:00-23:00 | Kapalı: Perşembe | Cuma: AÇIK ✓",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6261765,134.8094851",
         "tabelogUrl": ""
       },
       {
-        "time": "20:45",
+        "time": "~20:20",
         "place": "Mandara-yu (まんだら湯)",
-        "action": "4. onsen — seramik küvetler, dağ manzarası",
+        "action": "4. onsen — seramik küvetler, kapanış onseni",
         "transport": "Yürüyüş 5dk",
         "duration": "35dk",
         "cost": null,
-        "note": "15:00-23:00. Kapalı: Çarşamba",
+        "note": "Ana yoldan 1 sokak içeride, sakin ve lokal hissettiren kapanış. Kinosaki'nin ilk sıcak kaynak noktası — rahip 1000 gün dua ettikten sonra su burada fışkırdı. İki küçük seramik açık hava küveti. 15:00-23:00 | Kapalı: Çarşamba | Cuma: AÇIK ✓",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6244801,134.8057161",
         "tabelogUrl": ""
       },
       {
-        "time": "21:30",
+        "time": "~21:00",
         "place": "Kasaba gece yürüyüşü",
         "action": "Fener ışığında kanal",
         "transport": "Yürüyüş",
         "duration": "20dk",
         "cost": null,
-        "note": "Kısa tut",
+        "note": "Kısa tut.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "22:00",
+        "time": "~21:20",
         "place": "Shinonomesou",
         "action": "Ryokan iç onseni / uyku",
-        "transport": "—",
+        "transport": "Yürüyüş 5dk",
         "duration": "—",
         "cost": null,
-        "note": "",
+        "note": "İç onsen 24 saat. Yarın check-out 10:00.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6271108,134.8116644",
         "tabelogUrl": ""
       }
@@ -1657,6 +1642,21 @@
         },
         "note": "Popüler, sıra olabilir",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6251304,134.8126564",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "B-PLAN ▸",
+        "place": "Kinosaki Ropeway (城崎温泉ロープウェイ)",
+        "action": "Teleferik — Daishi Dağı zirvesi + Onsenji Tapınağı",
+        "transport": "Yürüyüş",
+        "duration": "60dk (gidiş-dönüş)",
+        "cost": {
+          "min": 910,
+          "max": 910,
+          "raw": "910"
+        },
+        "note": "Son yukarı 16:10. Onsen sayısını 2'ye indirip öğleden sonra 15:00-16:10 arasına sığdırılabilir. Ana planda onsen öncelikli.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6252276,134.8038768",
         "tabelogUrl": ""
       },
       {
@@ -1781,7 +1781,7 @@
         "transport": "Ryokan içi",
         "duration": "60dk",
         "cost": null,
-        "note": "Sakin, keyfini çıkar",
+        "note": "Sakin, keyfini çıkar. Yumepa checkout 13:00'e kadar geçerli — Goshono-yu veya Kono-yu sabah 07:00'de açık, bonus onsen mümkün.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
