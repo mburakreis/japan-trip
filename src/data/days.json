@@ -83,7 +83,7 @@
         "tabelogUrl": ""
       },
       {
-        "time": "20:30",
+        "time": "~20:45",
         "place": "Narita → Higashi-Ginza",
         "action": "Keisei Access Express",
         "transport": "Tren",
@@ -93,36 +93,36 @@
           "max": 1420,
           "raw": "1420"
         },
-        "note": "⚠️ Son sefer ~22:30. A1 çıkışını kullan",
+        "note": "Carry-on only + VJW gümrük kiosk → çıkış ~20:35, platform ~20:40. Gerçekçi kalkış ~20:45. Son sefer ~22:30. A1 çıkışını kullan.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "21:45",
+        "time": "~22:00",
         "place": "Sotetsu Fresa Inn Ginza-Nanachome",
         "action": "Check-in + yerleşme",
         "transport": "Yürüyüş 5dk",
         "duration": "15-20dk",
         "cost": null,
-        "note": "Cashless only. Simmons yatak",
+        "note": "Cashless only. Simmons yatak. (~20:45 kalkıştan 68dk yolculuk + 5dk yürüyüş)",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6681821,139.7632573",
         "tabelogUrl": ""
       }
     ],
     "main": [
       {
-        "time": "22:45",
+        "time": "~22:25",
         "place": "Kabukiza Tiyatrosu (dış cephe)",
         "action": "Gece fotoğraf yürüyüşü — ışıklandırma",
         "transport": "Yürüyüş 3-4dk",
         "duration": "30dk",
         "cost": null,
-        "note": "İlk fotoğraf noktası. Ginza Chuo-dori da göz at",
+        "note": "İlk fotoğraf noktası. Ginza Chuo-dori da göz at. Yorgunluğa göre karar ver.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6694253,139.7677446",
         "tabelogUrl": ""
       },
       {
-        "time": "23:15",
+        "time": "~23:00",
         "place": "Shinamen Hashigo Ginza Hon-ten",
         "action": "Geç gece tantanmen ramen",
         "transport": "Yürüyüş 6dk",
@@ -132,12 +132,12 @@
           "max": 1200,
           "raw": "1200"
         },
-        "note": "Pzt 05:00'e kadar açık. Paikou Tantanmen önerilir",
+        "note": "Pzt 05:00'e kadar açık. Paikou Tantanmen önerilir.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.6676032,139.7621598",
         "tabelogUrl": ""
       },
       {
-        "time": "00:00",
+        "time": "~23:35",
         "place": "Otel",
         "action": "Geri dön ve uyu",
         "transport": "Yürüyüş 6dk",
