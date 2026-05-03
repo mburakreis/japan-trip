@@ -47,7 +47,9 @@
     "email": "",
     "priceRaw": "",
     "note": "Boeing 737-8 · Economy Saver · 2s 30dk · Booking: FCBDSF",
-    "dayIds": ["day-13"],
+    "dayIds": [
+      "day-13"
+    ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20International%20Airport%20Terminal%201"
   },
   {
@@ -141,41 +143,43 @@
   {
     "id": "acc-5",
     "type": "accommodation",
-    "title": "TBD",
-    "city": "Osaka (Namba)",
-    "dateRaw": "23-25 May Cmt-Pzt",
-    "nights": 3,
+    "title": "TBD — Sakae bölgesi (Hotel Androoms / Dormy Inn Premium / The b nagoya)",
+    "city": "Nagoya (Sakae)",
+    "dateRaw": "23-24 May Cmt-Paz",
+    "nights": 2,
     "status": "research",
     "platform": "",
     "manageLink": "",
     "email": "",
     "priceRaw": "",
-    "note": "3 gece (Kinosaki 1 gün öne çekildi)",
+    "note": "2 gece (Cmt-Paz). Osaka atlandı, Kinosaki'den direkt Nagoya. Sakae merkezli — drugstore + buluşma + tren çıkışı için ideal. Check-out 11:00 olan otel tercih edilmeli (Pzt sabah Tokyo'ya geçiş). Refundable rate.",
     "dayIds": [
       "day-6",
-      "day-7",
-      "day-8"
-    ]
+      "day-7"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakae%20Nagoya"
   },
   {
     "id": "acc-6",
     "type": "accommodation",
     "title": "TBD",
     "city": "Tokyo (Akihabara)",
-    "dateRaw": "26-29 May Sal-Cum",
-    "nights": 4,
+    "dateRaw": "25-29 May Pzt-Cum",
+    "nights": 5,
     "status": "research",
     "platform": "",
     "manageLink": "",
     "email": "",
     "priceRaw": "",
-    "note": "Yamato valizleri 28 May buraya",
+    "note": "5 gece (Pzt-Cum). Nagoya'dan Pzt 25 May ~14:00 varış. Yamato kullanılmıyor — bavul yanında. Check-out Cmt 30 May (uçuş günü).",
     "dayIds": [
+      "day-8",
       "day-9",
       "day-10",
       "day-11",
       "day-12"
-    ]
+    ],
+    "mapsUrl": ""
   },
   {
     "id": "res-8",
@@ -214,42 +218,6 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station"
   },
   {
-    "id": "res-10",
-    "type": "transport",
-    "title": "Kinosaki → Osaka (Umeda)",
-    "city": "",
-    "dateRaw": "23 Mayıs 2026 Cumartesi ~11:30",
-    "nights": null,
-    "status": "pending",
-    "platform": "e5489",
-    "manageLink": "",
-    "email": "",
-    "priceRaw": "5900",
-    "note": "⚠️ e5489'dan alınacak (23 Nisan'dan açık)",
-    "dayIds": [
-      "day-6"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kinosaki%20Onsen%20Station"
-  },
-  {
-    "id": "res-11",
-    "type": "transport",
-    "title": "Shin-Osaka → Tokyo",
-    "city": "",
-    "dateRaw": "26 Mayıs 2026 Salı ~10:30",
-    "nights": null,
-    "status": "pending",
-    "platform": "SmartEX",
-    "manageLink": "",
-    "email": "",
-    "priceRaw": "12430",
-    "note": "⚠️ SmartEX'ten alınacak (26 Nisan'dan açık)",
-    "dayIds": [
-      "day-9"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shin-Osaka%20Station"
-  },
-  {
     "id": "res-vjw",
     "type": "activity",
     "title": "Visit Japan Web (giriş QR)",
@@ -265,5 +233,59 @@
     "dayIds": [
       "day-1"
     ]
+  },
+  {
+    "id": "res-kinosaki-kyoto",
+    "type": "transport",
+    "title": "Ltd. Exp. Kinosaki No.12 — Kinosaki Onsen → Kyoto",
+    "city": "Kinosaki → Kyoto",
+    "dateRaw": "23 Mayıs 2026 Cumartesi 10:34",
+    "nights": null,
+    "status": "pending",
+    "platform": "JR-WEST Online (e5489)",
+    "manageLink": "https://e5489.jr-odekake.net/",
+    "email": "m.burakreis",
+    "priceRaw": "¥3.990",
+    "note": "⚠️ e5489'dan rezerve edilecek (bu hafta — Cmt LtdExp 5 sefer/gün, doluluk YÜKSEK). 10:34→13:06 (2sa32dk). Hozukyo geçidi için D koltuk (sağ pencere) tercih. Kinosaki Onsen istasyonunda kiosk var, sabah orada bilet bastır (~10:15 hedef).",
+    "dayIds": [
+      "day-6"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kinosaki%20Onsen%20Station"
+  },
+  {
+    "id": "res-kyoto-nagoya",
+    "type": "transport",
+    "title": "Nozomi No.94 — Kyoto → Nagoya",
+    "city": "Kyoto → Nagoya",
+    "dateRaw": "23 Mayıs 2026 Cumartesi 13:45",
+    "nights": null,
+    "status": "pending",
+    "platform": "SmartEX",
+    "manageLink": "https://smart-ex.jp/",
+    "email": "",
+    "priceRaw": "¥5.940",
+    "note": "⚠️ SmartEX'ten rezerve edilecek. 13:45→14:01 (16dk). Kyoto'da 13:06 LtdExp varışı sonrası 39dk aktarma — Shinkansen katına yürüyüş ~12-15dk + ekiben payı. Cumartesi öğleden sonra koltuk doluluğu orta-yüksek, önceden ayrılmış koltuk al.",
+    "dayIds": [
+      "day-6"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station"
+  },
+  {
+    "id": "res-nagoya-tokyo",
+    "type": "transport",
+    "title": "Nozomi No.14 — Nagoya → Tokyo",
+    "city": "Nagoya → Tokyo",
+    "dateRaw": "25 Mayıs 2026 Pazartesi 11:57",
+    "nights": null,
+    "status": "pending",
+    "platform": "SmartEX",
+    "manageLink": "https://smart-ex.jp/",
+    "email": "",
+    "priceRaw": "¥10.560",
+    "note": "⚠️ SmartEX'ten rezerve edilecek. 11:57→13:54 (1sa57dk). Otel check-out 11:00 + 15dk istasyon + ekiben payı. Mt. Fuji manzarası için E koltuk (sağ pencere, 2+3 düzeninde sağ tarafın pencere koltuğu) tercih — Shizuoka yakınında ~50dk sonra görünür.",
+    "dayIds": [
+      "day-8"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagoya%20Station"
   }
 ]
