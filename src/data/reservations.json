@@ -241,12 +241,12 @@
     "city": "Kinosaki → Kyoto",
     "dateRaw": "23 Mayıs 2026 Cumartesi 10:34",
     "nights": null,
-    "status": "pending",
+    "status": "booked",
     "platform": "JR-WEST Online (e5489)",
     "manageLink": "https://e5489.jr-odekake.net/",
     "email": "m.burakreis",
     "priceRaw": "¥3.990",
-    "note": "⚠️ e5489'dan rezerve edilecek (bu hafta — Cmt LtdExp 5 sefer/gün, doluluk YÜKSEK). 10:34→13:06 (2sa32dk). Hozukyo geçidi için D koltuk (sağ pencere) tercih. Kinosaki Onsen istasyonunda kiosk var, sabah orada bilet bastır (~10:15 hedef).",
+    "note": "✅ REZERVE (JR-West e5489). 10:34→13:06 (2sa32dk). Car 3, Seat 6D (sol pencere, Hozukyo geçidi manzarası — Sonobe-Kameoka arası). Rez No: 44384. Kinosaki Onsen istasyonunda kiosk var, sabah orada bilet bastır (~10:15 hedef).",
     "dayIds": [
       "day-6"
     ],
