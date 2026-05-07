@@ -29,7 +29,7 @@ export type Day = {
   budgetSummary: string;
 };
 
-export type ReservationStatus = "booked" | "pending" | "research";
+export type ReservationStatus = "booked" | "pending" | "research" | "cancelled";
 
 export type Reservation = {
   id: string;
