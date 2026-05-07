@@ -1903,18 +1903,18 @@
         "tabelogUrl": ""
       },
       {
-        "time": "[ANCHOR] 19:30",
+        "time": "19:00",
         "place": "空ノウエ (Sora no Ue), Kanayama",
-        "action": "Rina ile akşam yemeği — kaiseki tarzı sake odaklı izakaya. 食べログ百名店. Önceden TableCheck rezervasyon",
-        "transport": "ANA Crowne Plaza'dan 7 dk yürüme",
-        "duration": "2-2.5 saat",
+        "action": "Rina ile akşam — 10 çeşit mevsimsel kaiseki + 47 il sake nomihoudai (res-soranoue)",
+        "transport": "ANA Crowne Plaza'dan 7dk yürüyüş",
+        "duration": "2.5 saat (koltuk limiti)",
         "cost": {
-          "min": 6000,
-          "max": 10000,
-          "raw": "¥6.000-10.000/kişi (¥12.000-20.000 toplam)"
+          "min": 21000,
+          "max": 21000,
+          "raw": "¥21.000 (2 kişi, nomihoudai dahil)"
         },
-        "note": "Aylık değişen mevsimsel kaiseki, geniş sake listesi. Özel oda istenebilir. Tel: 052-228-6160",
-        "mapsUrl": "https://maps.app.goo.gl/SoranoueKanayama",
+        "note": "✅ REZERVE (Rez No: 47VK4V). Koltuk tercihi için ara önceden. İptal son: 22 May 22:00 JST.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Soranoue%20Kanayama%20Nagoya",
         "tabelogUrl": "https://tabelog.com/aichi/A2301/A230101/23074850/"
       },
       {
@@ -2145,43 +2145,69 @@
         "tabelogUrl": ""
       },
       {
+        "time": "~18:30",
+        "place": "Yurakucho Mullion",
+        "action": "Shu ile buluşma + Kafe Planetaria girişi",
+        "transport": "Akihabara → Yurakucho JR Yamanote ~5dk",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Planetaria resepsiyonunda buluş. Lobi kafe otur, Galaxy Seat rezervasyon var.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yurakucho%20Mullion%20Tokyo",
+        "tabelogUrl": ""
+      },
+      {
         "time": "[SABİT] 19:45",
-        "place": "Yurakucho Mullion 9F — Konica Minolta Planetaria Tokyo",
-        "action": "Shu ile buluşma — 銀河シート Galaxy Seat couple seans. Online rezervasyon ÖNCEDEN ŞART",
-        "transport": "Akihabara → Yurakucho JR Yamanote ~5 dk",
-        "duration": "1 saat (40 dk gösterim + giriş/çıkış)",
+        "place": "Konica Minolta Planetaria Tokyo, Yurakucho Mullion 9F",
+        "action": "Galaxy Seat (銀河シート) couple seans — 40dk gösterim. Online rezervasyon ÖNCEDEN ŞART",
+        "transport": "—",
+        "duration": "40dk gösterim + giriş/çıkış",
         "cost": {
           "min": 8400,
           "max": 8400,
           "raw": "¥4.200×2 = ¥8.400 (Galaxy Seat)"
         },
-        "note": "Sadece 6 çift koltuk var. https://ticket-planetarium.konicaminolta.jp",
+        "note": "Sadece 6 çift koltuk. https://ticket-planetarium.konicaminolta.jp",
         "mapsUrl": "https://maps.app.goo.gl/PlanetariaTokyoYurakucho",
         "tabelogUrl": ""
       },
       {
-        "time": "~21:00",
-        "place": "Ginza — restoran + bar",
-        "action": "Shu ile akşam yemeği + içki. Romantik Ginza atmosferi",
-        "transport": "Yürüyüş Yurakucho → Ginza",
-        "duration": "2.5-3 saat",
-        "cost": {
-          "min": 15000,
-          "max": 30000,
-          "raw": "¥15.000-30.000 (yemek + içki, 2 kişi)"
-        },
-        "note": "Yer önceden seçilmeli. Ginza wine bar veya intim restoran.",
-        "mapsUrl": "",
+        "time": "~20:15",
+        "place": "Yurakucho Mullion → Ginza Obi (銀座 帯)",
+        "action": "Yürüyüş Higashi-Ginza'ya — Kabukiza arkası ~10dk",
+        "transport": "Yürüyüş",
+        "duration": "10-12dk",
+        "cost": null,
+        "note": "Ginza Obi: VORT銀座イースト2 B1F. 20:30 rezervasyona yeterli süre.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza%20Obi%20Tokyo%20Higashi-Ginza",
         "tabelogUrl": ""
       },
       {
-        "time": "~23:30",
-        "place": "Akihabara → NOHGA",
-        "action": "Shu trenle Saitama'ya, sen otele",
-        "transport": "Yamanote son tren ~23:40",
-        "duration": "20 dk",
-        "cost": null,
-        "note": "",
+        "time": "20:30",
+        "place": "Ginza Obi (銀座 帯), Higashi-Ginza",
+        "action": "Shu ile akşam — 8 çeşit Wa-French mevsimsel course (res-ginza-obi)",
+        "transport": "—",
+        "duration": "2 saat (yemek LO 22:00)",
+        "cost": {
+          "min": 22000,
+          "max": 26000,
+          "raw": "¥22.000-26.000 (içki dahil, 2 kişi)"
+        },
+        "note": "✅ REZERVE (Rez No: WFSPER9DZX). 9.000¥/kişi course + %10 servis + içki. Pay at venue. Tabelog 3.39.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza%20Obi%20Tokyo%20Higashi-Ginza",
+        "tabelogUrl": "https://tabelog.com/en/tokyo/A1301/A130101/13257454/"
+      },
+      {
+        "time": "~22:30",
+        "place": "Ginza Obi → Higashi-Ginza İst.",
+        "action": "Shu son trenle Saitama'ya ayrılır — sen Hibiya Line Akihabara yönü",
+        "transport": "Hibiya Line: Higashi-Ginza → Akihabara",
+        "duration": "25dk",
+        "cost": {
+          "min": 200,
+          "max": 200,
+          "raw": "¥200"
+        },
+        "note": "Son tren 23:30 civarı. NOHGA Hotel'e dön.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
