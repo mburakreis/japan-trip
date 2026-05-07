@@ -1867,50 +1867,39 @@
       },
       {
         "time": "~14:01",
-        "place": "Nagoya İst → Sakae oteli",
-        "action": "Otele geçiş (Higashiyama hattı 1 durak veya yürüyüş)",
-        "transport": "Metro",
-        "duration": "20dk",
+        "place": "Nagoya İst → Kanayama (ANA Crowne Plaza)",
+        "action": "Otele geçiş — JR Tokaido veya Meitetsu, 1 durak güney",
+        "transport": "JR / Meitetsu",
+        "duration": "10dk",
         "cost": {
-          "min": 210,
-          "max": 210,
-          "raw": "210"
+          "min": 200,
+          "max": 200,
+          "raw": "200"
         },
-        "note": "",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakae%20Nagoya",
+        "note": "Nagoya → Kanayama 3dk tren + 1dk yürüme. Yürüme alternatifi: Tri-Pack 45 ile 25-30dk.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kanayama%20Station%20Nagoya",
         "tabelogUrl": ""
       },
       {
         "time": "~14:30",
-        "place": "Sakae oteli",
+        "place": "ANA Crowne Plaza Kanayama",
         "action": "Check-in + dinlenme",
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": "Carry-on (Tri-Pack 45) yerleştir, kırılgan eşyaları kontrol et.",
+        "note": "Carry-on (Tri-Pack 45) yerleştir, kırılgan eşyaları kontrol et. Premium Queen 35m² oda.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
         "time": "~16:00",
-        "place": "Sakae kısa keşif",
-        "action": "Mirai Tower + Oasis 21 + Hisaya Odori Park yürüyüşü",
-        "transport": "Yürüyüş",
-        "duration": "90dk",
+        "place": "Atsuta Jingu (熱田神宮)",
+        "action": "Atsuta Jingu ziyareti — Japonya'nın en önemli 2. Şintō tapınağı, Kusanagi kılıcı (Üç Kutsal Hazineden biri) burada",
+        "transport": "Kanayama'dan yürüme veya Meitetsu Jingu-mae 1 durak",
+        "duration": "90-120dk",
         "cost": null,
-        "note": "İlk Nagoya izlenimi, fotoğraf.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mirai%20Tower%20Nagoya",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "~20:00",
-        "place": "Sakae oteli",
-        "action": "Otele dön, erken yat",
-        "transport": "Yürüyüş",
-        "duration": "—",
-        "cost": null,
-        "note": "Yarın arkadaşla full gün, dinlen.",
-        "mapsUrl": "",
+        "note": "Sessiz orman, 2000 yıllık tarih. Kapanış 17:00 ana salon ama bahçe akşam geç saate kadar açık. İlk Nagoya izlenimi olarak ruhsal başlangıç.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Atsuta%20Jingu%20Shrine",
         "tabelogUrl": ""
       },
       {
@@ -1949,19 +1938,7 @@
     "dayNumber": 7,
     "dateRaw": "24 Mayıs 2026 Pazar",
     "title": "Nagoya — Arkadaş Günü — Sakae",
-    "fixed": [
-      {
-        "time": "[SABİT] TBD",
-        "place": "Buluşma noktası — Mirai Tower / Oasis 21 girişi",
-        "action": "Japon arkadaşla buluşma (saat onunla netleştirilecek)",
-        "transport": "—",
-        "duration": "tüm gün",
-        "cost": null,
-        "note": "⚠️ Saati arkadaşla netleştir. Tipik buluşma 10:30-11:30 (lunch odaklı). Punctuality kritik — 5dk erken ol.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mirai%20Tower%20Nagoya",
-        "tabelogUrl": ""
-      }
-    ],
+    "fixed": [],
     "main": [
       {
         "time": "[SABİT] 12:00",
@@ -2080,38 +2057,38 @@
     "main": [
       {
         "time": "09:30",
-        "place": "Sakae oteli",
+        "place": "ANA Crowne Plaza Kanayama",
         "action": "Yavaş kalk, kahvaltı, eşyaları topla (Tri-Pack + tote)",
         "transport": "—",
         "duration": "90dk",
         "cost": null,
-        "note": "Drugstore poşetlerini tote'a yerleştir.",
+        "note": "Drugstore poşetlerini tote'a yerleştir. Sun dinlenme bonusu — tüm gün Rina ile yorgun düşeceksin.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
         "time": "10:55",
-        "place": "Sakae oteli",
+        "place": "ANA Crowne Plaza Kanayama",
         "action": "Check-out",
         "transport": "—",
         "duration": "10dk",
         "cost": null,
-        "note": "11:00 deadline.",
+        "note": "11:00 deadline. Tesiste ödeme — Booking.com'a kayıtlı kart ile.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
         "time": "11:15",
-        "place": "Otel → Nagoya İst.",
-        "action": "Metro/yürüyüş",
-        "transport": "Metro",
+        "place": "Kanayama → Nagoya İst.",
+        "action": "JR Tokaido veya Meitetsu — 1 durak kuzey, 3dk",
+        "transport": "JR / Meitetsu",
         "duration": "15dk",
         "cost": {
-          "min": 210,
-          "max": 210,
-          "raw": "210"
+          "min": 200,
+          "max": 200,
+          "raw": "200"
         },
-        "note": "",
+        "note": "Shinkansen ekiben katına yeterli süre, telaşa gerek yok.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagoya%20Station",
         "tabelogUrl": ""
       },
@@ -2165,32 +2142,6 @@
         "cost": null,
         "note": "Yorgunluğa göre — uzun tren günü sonrası.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Akihabara",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "~19:00",
-        "place": "Akihabara akşam yemeği",
-        "action": "Ramen — light dinner",
-        "transport": "Yürüyüş",
-        "duration": "45dk",
-        "cost": {
-          "min": 1000,
-          "max": 1500,
-          "raw": "1K-1.5K"
-        },
-        "note": "Yorgunluk varsa otel yakını, light kal.",
-        "mapsUrl": "",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "~20:30",
-        "place": "Otel",
-        "action": "Erken yat — yarın Yodobashi PS5 günü",
-        "transport": "—",
-        "duration": "—",
-        "cost": null,
-        "note": "",
-        "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
@@ -2355,6 +2306,28 @@
     "title": "Tokyo — Solo Alışveriş Günü — Ginza→Yurakucho→Akiba",
     "fixed": [],
     "main": [
+      {
+        "time": "09:00",
+        "place": "NOHGA Hotel Akihabara",
+        "action": "Check-out + bagajı yeni otele transfer",
+        "transport": "Yürüme",
+        "duration": "60dk",
+        "cost": null,
+        "note": "11:00 NOHGA check-out deadline. acc-7'ye geç — luggage hold opsiyonu kullan, oda 15:00 sonrası hazır olur. Akihabara'da kalıyorsan yürüme ile transfer.",
+        "mapsUrl": "https://maps.app.goo.gl/NOHGAAkihabara",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "10:00",
+        "place": "acc-7 (Tokyo ikinci otel — TBD)",
+        "action": "Bagaj bırak (luggage hold) + check-in işlemi başlat",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Oda 15:00'a kadar hazır olmazsa bagajı bırakıp Ginza'ya geç. acc-7 booking henüz yapılmadı — JR East Hotel Mets Premier Akihabara güçlü aday.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
       {
         "time": "[ANCHOR] sabah",
         "place": "Kaneko Optical Ginza",
