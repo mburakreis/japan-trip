@@ -260,6 +260,17 @@
     ],
     "main": [
       {
+        "time": "[KRİTİK] 12:00 JST",
+        "place": "Online — Konica Minolta Planetaria Tokyo",
+        "action": "Galaxy Seat (銀河シート) önceden rezervasyon — May 25 19:45 seansı (day-8) için",
+        "transport": "—",
+        "duration": "5dk",
+        "cost": null,
+        "note": "Bilet açılış: ayın 19'unda 12:00 JST. Sadece 6 çift koltuk — hızlı ol. https://ticket-planetarium.konicaminolta.jp — Shu ile day-8 akşam için kritik. Rezerve edemezsen day-8 Galaxy Seat entry'sini iptal et, Yurakucho'da yürüyüş + Ginza Obi 20:30'a direkt geç.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
         "time": "07:00",
         "place": "Otel",
         "action": "Alarm & hazırlık",
@@ -2135,7 +2146,7 @@
       },
       {
         "time": "~16:00",
-        "place": "Akihabara çevresi",
+        "place": "Akihabara/Kanda çevresi",
         "action": "Light keşif yürüyüşü — neighborhood tanışma",
         "transport": "Yürüyüş",
         "duration": "120dk",
@@ -2207,7 +2218,7 @@
           "max": 200,
           "raw": "¥200"
         },
-        "note": "Son tren 23:30 civarı. NOHGA Hotel'e dön.",
+        "note": "Son tren 23:30 civarı. Sotetsu Fresa Inn Kanda'ya dön.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
@@ -2220,103 +2231,151 @@
     "id": "day-9",
     "dayNumber": 9,
     "dateRaw": "26 Mayıs 2026 Salı",
-    "title": "Tokyo — Yodobashi PS5 Günü",
+    "title": "Tokyo — Yodobashi Mega Alışveriş + Shu Date 2",
     "fixed": [],
     "main": [
       {
-        "time": "[ANCHOR] sabah",
+        "time": "09:00",
+        "place": "Sotetsu Fresa Inn Kanda",
+        "action": "Kalk, kahvaltı (konbini), pasaport hazırla",
+        "transport": "—",
+        "duration": "60dk",
+        "cost": null,
+        "note": "Pasaport tax-free için zorunlu.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[ANCHOR] 10:00",
         "place": "Yodobashi Akihabara",
-        "action": "Tek tax-free transaction — Samsonite UPSCAPE 104L + PS5 Pro + DualSense ×2 + Sony PULSE Elite + Kobo Libra Color",
-        "transport": "Yürüyüş (otelden)",
-        "duration": "2-3sa",
+        "action": "Tek tax-free transaction — PS5 Pro + DualSense ×1 + Sony PULSE Elite + Kobo Libra Color + Samsonite UPSCAPE 104L valiz",
+        "transport": "Yürüyüş (otelden ~10dk)",
+        "duration": "2.5-3sa",
         "cost": {
-          "min": 240000,
-          "max": 270000,
-          "raw": "240K-270K"
+          "min": 235000,
+          "max": 250000,
+          "raw": "235K-250K"
         },
-        "note": "shop-20, shop-21, shop-22, shop-23, shop-24. Pasaport şart. Tek transaction tax-free için hepsini birleştir. ¥5.000 üstü tax-free.",
+        "note": "shop-20, shop-21, shop-22, shop-23, shop-24. Pasaport şart. Hepsini birleştir tax-free için. ¥5.000 üstü tax-free.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba",
         "tabelogUrl": ""
       },
       {
-        "time": "[ANCHOR] öğle",
-        "place": "Akihabara oteli",
-        "action": "Yodobashi alımları otele götür, valize yerleştir, kutuları aç",
-        "transport": "—",
-        "duration": "90-120dk",
+        "time": "13:00",
+        "place": "Sotetsu Fresa Inn Kanda",
+        "action": "Otele dön — alışverişleri getir",
+        "transport": "Yürüyüş (~10dk)",
+        "duration": "15dk",
         "cost": null,
-        "note": "PS5 + DualSense + PULSE kutularını aç, içeriği valize yerleştir, kutuları otele bırak (atılır). Hacim kazanç ~25-30L.",
+        "note": "Kanda'da 5 gece otelden 8-10dk Yodobashi.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "[ANCHOR] öğleden sonra",
-        "place": "Kappabashi-dori",
-        "action": "Bıçak hediyesi alımı (shop-25)",
-        "transport": "Metro/yürüyüş (Akihabara → Tawaramachi)",
+        "time": "13:30",
+        "place": "Sotetsu Fresa Inn Kanda — oda",
+        "action": "Eşyaları aç, kutuları parçala, Samsonite valize organize",
+        "transport": "—",
+        "duration": "90dk",
+        "cost": null,
+        "note": "PS5 + DualSense + PULSE + Kobo kutularını aç, valize yerleştir, kutuları otel çöpüne. ~25-30L hacim kazanç.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "15:00",
+        "place": "Otel oda",
+        "action": "Duş + dinlenme + Shu için hazırlık",
+        "transport": "—",
         "duration": "60-90dk",
-        "cost": {
-          "min": 5000,
-          "max": 15000,
-          "raw": "5K-15K"
-        },
-        "note": "Akihabara'dan 1 metro durağı. Mutfak gereçleri sokağı.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "[SABİT] 19:30",
-        "place": "Sunshine City, Ikebukuro — Sunshine 60 Observatory",
-        "action": "Shu ile buluşma. 60. kattan Tokyo gece manzarası",
-        "transport": "Akihabara → Ikebukuro Yamanote ~16 dk",
-        "duration": "45 dk-1 saat",
-        "cost": {
-          "min": 1400,
-          "max": 1800,
-          "raw": "¥700-900×2 (hafta içi)"
-        },
-        "note": "Son giriş 21:00. Sunshine 60 Building 60F",
+        "cost": null,
+        "note": "Yorgun günü sonrası reset. Shu için temiz kıyafet.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "[ANCHOR] ~20:30",
-        "place": "NAMJATOWN, Sunshine City 2F",
-        "action": "Themed sokaklar + AR avlama + Gyoza Stadium. Anime kolaborasyonları",
-        "transport": "Aynı bina (asansör)",
-        "duration": "1.5-2 saat",
+        "time": "16:30",
+        "place": "Otel/Akihabara çevresi",
+        "action": "Boş zaman — light keşif veya odada dinlenme",
+        "transport": "—",
+        "duration": "120dk",
+        "cost": null,
+        "note": "Esnek. Konbini kahve, Akiba dolaşma, veya odada.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "18:30",
+        "place": "Akihabara → Ikebukuro",
+        "action": "JR Yamanote — 16dk",
+        "transport": "JR Yamanote",
+        "duration": "20dk",
+        "cost": {
+          "min": 200,
+          "max": 200,
+          "raw": "¥200"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[SABİT] 19:00",
+        "place": "Sunshine City — NAMJATOWN girişi 2F",
+        "action": "Shu ile buluşma + NAMJATOWN giriş",
+        "transport": "—",
+        "duration": "30dk",
         "cost": {
           "min": 6600,
           "max": 7600,
           "raw": "¥3.300×2 (Najatown passport, tüm oyunlar)"
         },
-        "note": "21:00 son giriş, kapanış 21:00 kontrol et. Anime kolaborasyon takvimi: bandainamco-am.co.jp/tp/namja",
+        "note": "Shu Saitama'dan gelir. Sunshine City B1F gate'te buluş.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=NAMJATOWN%20Sunshine%20City",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[ANCHOR] 19:30",
+        "place": "NAMJATOWN — Gyoza Stadium + AR oyunları",
+        "action": "Themed sokaklar + AR avlama + Gyoza Stadium yemek",
+        "transport": "Aynı bina",
+        "duration": "2-2.5 saat",
+        "cost": {
+          "min": 4000,
+          "max": 6000,
+          "raw": "¥4K-6K (yemek + içecek 2 kişi)"
+        },
+        "note": "Gyoza Stadium = yemek burada. Anime kolaborasyon takvimi: bandainamco-am.co.jp/tp/namja. Son giriş 21:00.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "~22:30",
+        "time": "~22:00",
         "place": "Ikebukuro civarı bar",
-        "action": "Shu ile içki - cozy bar (Shu az içici, koruyucu mod). Yer: TBD veya o anki seçim",
+        "action": "Shu ile içki — cozy bar (Shu az içici, koruyucu mod)",
         "transport": "Yürüyüş",
         "duration": "1-1.5 saat",
         "cost": {
           "min": 5000,
           "max": 12000,
-          "raw": "¥5.000-12.000 (cocktail bar, 2 kişi)"
+          "raw": "¥5.000-12.000 (cocktail bar 2 kişi)"
         },
-        "note": "",
+        "note": "Yer o anki seçim — Ikebukuro East kafe-bar zonu.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
         "time": "~23:30",
-        "place": "Ikebukuro → NOHGA",
-        "action": "Shu son trenle Saitama'ya (~23:40), sen Yamanote ile Akihabara",
-        "transport": "JR Yamanote ~16 dk",
-        "duration": "",
-        "cost": null,
-        "note": "",
+        "place": "Ikebukuro → Sotetsu Kanda",
+        "action": "Shu son trenle Saitama'ya, sen JR Yamanote ile Akihabara/Kanda",
+        "transport": "JR Yamanote ~16dk",
+        "duration": "30dk",
+        "cost": {
+          "min": 200,
+          "max": 200,
+          "raw": "¥200"
+        },
+        "note": "Son tren 23:30 civarı kontrol et.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
@@ -2333,25 +2392,18 @@
     "fixed": [],
     "main": [
       {
-        "time": "09:00",
-        "place": "NOHGA Hotel Akihabara",
-        "action": "Check-out + bagajı yeni otele transfer",
-        "transport": "Yürüme",
-        "duration": "60dk",
-        "cost": null,
-        "note": "11:00 NOHGA check-out deadline. acc-7'ye geç — luggage hold opsiyonu kullan, oda 15:00 sonrası hazır olur. Akihabara'da kalıyorsan yürüme ile transfer.",
-        "mapsUrl": "https://maps.app.goo.gl/NOHGAAkihabara",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "10:00",
-        "place": "acc-7 (Tokyo ikinci otel — TBD)",
-        "action": "Bagaj bırak (luggage hold) + check-in işlemi başlat",
-        "transport": "—",
-        "duration": "30dk",
-        "cost": null,
-        "note": "Oda 15:00'a kadar hazır olmazsa bagajı bırakıp Ginza'ya geç. acc-7 booking henüz yapılmadı — JR East Hotel Mets Premier Akihabara güçlü aday.",
-        "mapsUrl": "",
+        "time": "[ANCHOR] sabah",
+        "place": "Kappabashi-dori",
+        "action": "Bıçak hediyesi alımı (shop-25)",
+        "transport": "Metro (Akihabara → Tawaramachi 1 durak)",
+        "duration": "60-90dk",
+        "cost": {
+          "min": 5000,
+          "max": 15000,
+          "raw": "5K-15K"
+        },
+        "note": "Mutfak gereçleri sokağı. Day 9'dan taşındı.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town",
         "tabelogUrl": ""
       },
       {
