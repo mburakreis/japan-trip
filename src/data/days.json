@@ -1903,21 +1903,6 @@
         "tabelogUrl": ""
       },
       {
-        "time": "~18:30",
-        "place": "Yabaton Sakae",
-        "action": "Akşam — Miso katsu (Nagoya meshi başlangıç)",
-        "transport": "Yürüyüş",
-        "duration": "60dk",
-        "cost": {
-          "min": 1500,
-          "max": 2500,
-          "raw": "1.5K-2.5K"
-        },
-        "note": "1947'den beri Nagoya klasiği, İngilizce menü var.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yabaton%20Sakae%20Nagoya",
-        "tabelogUrl": ""
-      },
-      {
         "time": "~20:00",
         "place": "Sakae oteli",
         "action": "Otele dön, erken yat",
@@ -1925,6 +1910,32 @@
         "duration": "—",
         "cost": null,
         "note": "Yarın arkadaşla full gün, dinlen.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[ANCHOR] 19:30",
+        "place": "空ノウエ (Sora no Ue), Kanayama",
+        "action": "Rina ile akşam yemeği — kaiseki tarzı sake odaklı izakaya. 食べログ百名店. Önceden TableCheck rezervasyon",
+        "transport": "ANA Crowne Plaza'dan 7 dk yürüme",
+        "duration": "2-2.5 saat",
+        "cost": {
+          "min": 6000,
+          "max": 10000,
+          "raw": "¥6.000-10.000/kişi (¥12.000-20.000 toplam)"
+        },
+        "note": "Aylık değişen mevsimsel kaiseki, geniş sake listesi. Özel oda istenebilir. Tel: 052-228-6160",
+        "mapsUrl": "https://maps.app.goo.gl/SoranoueKanayama",
+        "tabelogUrl": "https://tabelog.com/aichi/A2301/A230101/23074850/"
+      },
+      {
+        "time": "~22:00",
+        "place": "Higashibetsuin civarı yürüyüş",
+        "action": "Rina'yı Higashibetsuin'e bırak — Otsudori boyunca yürüyüş. Sonrası otele 12 dk yürüme",
+        "transport": "Yürüyüş",
+        "duration": "30-40 dk",
+        "cost": null,
+        "note": "Gece güvenli ana cadde, aydınlık. Romantik tonu sürdüren transfer.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
@@ -1953,74 +1964,74 @@
     ],
     "main": [
       {
-        "time": "TBD",
-        "place": "Sakae — drugstore turu",
-        "action": "Matsumoto Kiyoshi + Don Quijote — drugstore listesi (shop-11/12/13/14/15) + tote (shop-tote)",
-        "transport": "Yürüyüş",
-        "duration": "2-3sa",
+        "time": "[SABİT] 12:00",
+        "place": "ANA Crowne Plaza lobi",
+        "action": "Rina ile buluşma. Sakae'ye birlikte hareket",
+        "transport": "Meijo Line Kanayama → Sakae (~6 dk)",
+        "duration": "30 dk",
         "cost": {
-          "min": 25000,
-          "max": 50000,
-          "raw": "25K-50K"
-        },
-        "note": "Arkadaş güzellik salonu deneyimli — marka önerileri verecek. Tax-free için pasaport. Tote'u Don Quijote'de al.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Sakae%20Nagoya",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "TBD",
-        "place": "Mitsukoshi / LACHIC kozmetik katı (opsiyonel)",
-        "action": "Premium kozmetik — anne+abla için (shop-15)",
-        "transport": "Yürüyüş",
-        "duration": "60dk",
-        "cost": null,
-        "note": "Beauty consultant ile premium Shiseido / SUQQU / Cle de Peau.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mitsukoshi%20Sakae%20Nagoya",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "TBD",
-        "place": "Öğle yemeği — Nagoya meshi",
-        "action": "Hitsumabushi (Maruya Honten Meieki 3-chome) veya arkadaşın önerisi",
-        "transport": "—",
-        "duration": "60-90dk",
-        "cost": {
-          "min": 3500,
-          "max": 5000,
-          "raw": "3.5K-5K"
-        },
-        "note": "Üç şekilde yenen ızgara unagi — Nagoya'ya özel. Sıra olabilir, açılışa git veya numbered ticket.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maruya%20Honten%20Meieki%20Nagoya",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "TBD",
-        "place": "Kafe molası",
-        "action": "Sakae specialty kafe (arkadaş seçer)",
-        "transport": "Yürüyüş",
-        "duration": "60dk",
-        "cost": {
-          "min": 800,
-          "max": 1500,
-          "raw": "800-1.5K"
+          "min": 230,
+          "max": 230,
+          "raw": "¥230 (metro tek yön)"
         },
         "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "TBD",
-        "place": "Akşam yemeği",
-        "action": "Tebasaki (Sekai no Yamachan ana mağaza, Sakae) veya arkadaş önerisi",
+        "time": "[ANCHOR] 13:00",
+        "place": "Sakae alışveriş",
+        "action": "Rina ile Sakae alışveriş — MatsuKiyo (kozmetik), Mitsukoshi (hediyeler), Don Quijote (sevgili+aile), tote",
         "transport": "Yürüyüş",
-        "duration": "90dk",
+        "duration": "3-4 saat",
         "cost": {
-          "min": 2500,
-          "max": 4000,
-          "raw": "2.5K-4K"
+          "min": 8000,
+          "max": 25000,
+          "raw": "¥8.000-25.000 (alışveriş listesine göre)"
         },
-        "note": "Nagoya tarzı tavuk kanat + bira.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sekai%20no%20Yamachan%20Sakae%20Nagoya",
+        "note": "G7 shopping listesi: lip gloss, eyelash curler, Heroine Make, sevgili bakım, anne+abla bakım, tote",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~17:30",
+        "place": "Higashibetsuin civarı (Rina seçimi)",
+        "action": "Rina ile akşam yemeği — yer Rina kararı",
+        "transport": "Yürüyüş veya Meijo Line 1 durak",
+        "duration": "2 saat",
+        "cost": {
+          "min": 5000,
+          "max": 10000,
+          "raw": "¥5.000-10.000/kişi"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[ANCHOR] ~21:00",
+        "place": "ANA Crowne Plaza (oda)",
+        "action": "Otelde 'fashion show' — Sakae'de Rina'nın seçtiği kıyafetlerle + içki",
+        "transport": "Yürüyüş veya taksi",
+        "duration": "2-3 saat",
+        "cost": {
+          "min": 3000,
+          "max": 8000,
+          "raw": "Konbini içki ¥3.000-8.000"
+        },
+        "note": "30. kat Star Gate Bar yedek alternatif. Konbini sake/şarap geniş seçim.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~24:00",
+        "place": "Higashibetsuin yürüme",
+        "action": "Rina'yı evine bırak",
+        "transport": "Yürüyüş ~12 dk",
+        "duration": "30 dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
         "tabelogUrl": ""
       }
     ],
@@ -2181,6 +2192,47 @@
         "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
+      },
+      {
+        "time": "[SABİT] 19:45",
+        "place": "Yurakucho Mullion 9F — Konica Minolta Planetaria Tokyo",
+        "action": "Shu ile buluşma — 銀河シート Galaxy Seat couple seans. Online rezervasyon ÖNCEDEN ŞART",
+        "transport": "Akihabara → Yurakucho JR Yamanote ~5 dk",
+        "duration": "1 saat (40 dk gösterim + giriş/çıkış)",
+        "cost": {
+          "min": 8400,
+          "max": 8400,
+          "raw": "¥4.200×2 = ¥8.400 (Galaxy Seat)"
+        },
+        "note": "Sadece 6 çift koltuk var. https://ticket-planetarium.konicaminolta.jp",
+        "mapsUrl": "https://maps.app.goo.gl/PlanetariaTokyoYurakucho",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~21:00",
+        "place": "Ginza — restoran + bar",
+        "action": "Shu ile akşam yemeği + içki. Romantik Ginza atmosferi",
+        "transport": "Yürüyüş Yurakucho → Ginza",
+        "duration": "2.5-3 saat",
+        "cost": {
+          "min": 15000,
+          "max": 30000,
+          "raw": "¥15.000-30.000 (yemek + içki, 2 kişi)"
+        },
+        "note": "Yer önceden seçilmeli. Ginza wine bar veya intim restoran.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~23:30",
+        "place": "Akihabara → NOHGA",
+        "action": "Shu trenle Saitama'ya, sen otele",
+        "transport": "Yamanote son tren ~23:40",
+        "duration": "20 dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
       }
     ],
     "alternatives": [],
@@ -2233,6 +2285,62 @@
         },
         "note": "Akihabara'dan 1 metro durağı. Mutfak gereçleri sokağı.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[SABİT] 19:30",
+        "place": "Sunshine City, Ikebukuro — Sunshine 60 Observatory",
+        "action": "Shu ile buluşma. 60. kattan Tokyo gece manzarası",
+        "transport": "Akihabara → Ikebukuro Yamanote ~16 dk",
+        "duration": "45 dk-1 saat",
+        "cost": {
+          "min": 1400,
+          "max": 1800,
+          "raw": "¥700-900×2 (hafta içi)"
+        },
+        "note": "Son giriş 21:00. Sunshine 60 Building 60F",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[ANCHOR] ~20:30",
+        "place": "NAMJATOWN, Sunshine City 2F",
+        "action": "Themed sokaklar + AR avlama + Gyoza Stadium. Anime kolaborasyonları",
+        "transport": "Aynı bina (asansör)",
+        "duration": "1.5-2 saat",
+        "cost": {
+          "min": 6600,
+          "max": 7600,
+          "raw": "¥3.300×2 (Najatown passport, tüm oyunlar)"
+        },
+        "note": "21:00 son giriş, kapanış 21:00 kontrol et. Anime kolaborasyon takvimi: bandainamco-am.co.jp/tp/namja",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~22:30",
+        "place": "Ikebukuro civarı bar",
+        "action": "Shu ile içki - cozy bar (Shu az içici, koruyucu mod). Yer: TBD veya o anki seçim",
+        "transport": "Yürüyüş",
+        "duration": "1-1.5 saat",
+        "cost": {
+          "min": 5000,
+          "max": 12000,
+          "raw": "¥5.000-12.000 (cocktail bar, 2 kişi)"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~23:30",
+        "place": "Ikebukuro → NOHGA",
+        "action": "Shu son trenle Saitama'ya (~23:40), sen Yamanote ile Akihabara",
+        "transport": "JR Yamanote ~16 dk",
+        "duration": "",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
         "tabelogUrl": ""
       }
     ],
