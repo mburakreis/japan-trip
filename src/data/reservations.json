@@ -166,12 +166,12 @@
     "city": "Tokyo",
     "dateRaw": "25 May - 27 May 2026",
     "nights": 2,
-    "status": "booked",
+    "status": "cancelled",
     "platform": "Booking.com (free cancellation, pay at hotel)",
     "manageLink": "https://www.booking.com/hotel/jp/nohga-akihabara-tokyo",
     "email": "",
     "priceRaw": "$1,013 / ~¥160,000 (kahvaltı dahil, tesiste ödeme)",
-    "note": "Deluxe İki Yataklı Oda (35m², 2 tek kişilik yatak + küvet). 1 yetişkin. Kahvaltı dahil. Ücretsiz iptal 23 May öncesi. Akihabara JR 6 dk, Yodobashi Akiba 5-7 dk yürüme. Bang & Olufsen / Sony in-room audio. Check-in: 'ベッドをくっつけてもらえますか' iste (Hollywood Twin düzeni).",
+    "note": "İptal 7 May. Yerine acc-7 Sotetsu Fresa Inn Tokyo Kanda.",
     "dayIds": [
       "day-8",
       "day-9"
@@ -181,22 +181,24 @@
   {
     "id": "acc-7",
     "type": "accommodation",
-    "title": "TBD Tokyo Akihabara - Second Stay (3 gece)",
-    "city": "Tokyo",
-    "dateRaw": "27 May - 30 May 2026",
-    "nights": 3,
-    "status": "research",
-    "platform": "",
-    "manageLink": "",
+    "title": "Sotetsu Fresa Inn Tokyo Kanda",
+    "city": "Tokyo (Kanda)",
+    "dateRaw": "25 May - 30 May 2026",
+    "nights": 5,
+    "status": "booked",
+    "platform": "Booking.com",
+    "manageLink": "https://www.booking.com/hotel/jp/sotetsu-fresa-inn-tokyo-kanda.html",
     "email": "",
-    "priceRaw": "",
-    "note": "NOHGA'dan check-out sonrası geçiş. Yodobashi'ye en yakın bütçe-dostu otel aranıyor. Güçlü aday: JR East Hotel Mets Premier Akihabara (Akihabara JR'ın LİTERAL üstünde, Yodobashi 3 dk, küvet+duş ayrı, lobby mini-onsen). G10-G12 kapsar.",
+    "priceRaw": "$565 USD (USD ile ödendi)",
+    "note": "Single Room, kahvaltısız. Akihabara JR 8dk yürüme veya Shin-Nihombashi 1 durak tren. 24h front desk, coin laundry. Free cancel 24 May'a kadar. Checkout sonrası büyük valiz storage için otele ayrıca sor.",
     "dayIds": [
+      "day-8",
+      "day-9",
       "day-10",
       "day-11",
       "day-12"
     ],
-    "mapsUrl": ""
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Tokyo%20Kanda"
   },
   {
     "id": "res-8",
