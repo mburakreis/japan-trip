@@ -4,9 +4,9 @@
     "checked": false,
     "item": "Kaneko Gözlük (sipariş)",
     "where": "Kaneko Optical Ginza",
-    "priceRaw": "TBD",
+    "priceRaw": "¥100K",
     "day": "Gün 2 — Tokyo",
-    "note": "Bugün sipariş ver. Teslim: Gün 12",
+    "note": "Optik + güneş gözlüğü toplam ¥100K bütçe. Sipariş Gün 2, teslim Gün 11.",
     "dayIds": [
       "day-2"
     ],
@@ -43,7 +43,7 @@
     "checked": false,
     "item": "Uniqlo Shinjuku — kendi seçim",
     "where": "Uniqlo Shinjuku Honten",
-    "priceRaw": "¥13-21K",
+    "priceRaw": "¥15K",
     "day": "Gün 2 — Shinjuku",
     "note": "Tişört, çorap, beğendiğin ne varsa. İlk gün giysisi öncelik.",
     "dayIds": [
@@ -69,7 +69,7 @@
     "checked": false,
     "item": "Pazar malzemeleri (Toji seramik)",
     "where": "Toji Kobo-ichi",
-    "priceRaw": "¥5-30K",
+    "priceRaw": "¥25K",
     "day": "Gün 4 — Kyoto",
     "note": "Kırılgan — giysilerle sar, Valiz #1",
     "dayIds": [
@@ -115,71 +115,6 @@
       "day-12"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ABC-MART%20Shibuya"
-  },
-  {
-    "id": "shop-11",
-    "checked": false,
-    "item": "Lip gloss ×3 (VS veya alternatif)",
-    "where": "Matsumoto Kiyoshi Nagoya Sakae",
-    "priceRaw": "¥2-6K",
-    "day": "Gün 7 — Nagoya",
-    "note": "Paz arkadaşla — güzellik salonu deneyimli. ⚠️ Victoria's Secret zinciri Nagoya'da yok, MatsuKiyo'da equivalent (Canmake/Visee/Opera) var.",
-    "dayIds": [
-      "day-7"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Sakae%20Nagoya"
-  },
-  {
-    "id": "shop-12",
-    "checked": false,
-    "item": "Shiseido Eyelash Curler",
-    "where": "Matsumoto Kiyoshi Nagoya Sakae",
-    "priceRaw": "¥1.8-2K",
-    "day": "Gün 7 — Nagoya",
-    "note": "213 model, drugstore-tier. Paz arkadaşla.",
-    "dayIds": [
-      "day-7"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Sakae%20Nagoya"
-  },
-  {
-    "id": "shop-13",
-    "checked": false,
-    "item": "Heroine Make Mascara",
-    "where": "Matsumoto Kiyoshi Nagoya Sakae",
-    "priceRaw": "¥1.3-2K",
-    "day": "Gün 7 — Nagoya",
-    "note": "Paz arkadaşla.",
-    "dayIds": [
-      "day-7"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Sakae%20Nagoya"
-  },
-  {
-    "id": "shop-14",
-    "checked": false,
-    "item": "Bakım — Sevgili",
-    "where": "Matsumoto Kiyoshi / Don Quijote Sakae",
-    "priceRaw": "¥5-15K",
-    "day": "Gün 7 — Nagoya",
-    "note": "Paz arkadaşla — öneri verecek.",
-    "dayIds": [
-      "day-7"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Don%20Quijote%20Sakae%20Nagoya"
-  },
-  {
-    "id": "shop-15",
-    "checked": false,
-    "item": "Bakım — Annem + Abla",
-    "where": "Matsumoto Kiyoshi Sakae + Mitsukoshi/LACHIC kozmetik katı",
-    "priceRaw": "¥15-20K",
-    "day": "Gün 7 — Nagoya",
-    "note": "Paz arkadaşla. Premium Shiseido için Mitsukoshi kozmetik katı, drugstore-tier için MatsuKiyo.",
-    "dayIds": [
-      "day-7"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mitsukoshi%20Sakae%20Nagoya"
   },
   {
     "id": "shop-18",
@@ -325,16 +260,42 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20Airport%20Terminal%201%20Duty%20Free"
   },
   {
-    "id": "shop-tote",
+    "id": "shop-bakim",
     "checked": false,
-    "item": "Katlanır tote / duffel (alışveriş kabı)",
-    "where": "Don Quijote / Loft / Muji Sakae",
-    "priceRaw": "¥1-3K",
+    "item": "Genel bakım kalemi",
+    "where": "Matsumoto Kiyoshi + Don Quijote + Mitsukoshi Sakae",
+    "priceRaw": "¥20K",
     "day": "Gün 7 — Nagoya",
-    "note": "Paz arkadaşla alışveriş ederken al. Tri-Pack'e ek olarak Pzt Tokyo'ya geçişte kullanılacak.",
+    "note": "Sevgili + anne + abla + kendine — karışık bakım/kozmetik. Paz arkadaşla.",
     "dayIds": [
       "day-7"
     ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Don%20Quijote%20Sakae%20Nagoya"
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Sakae%20Nagoya"
+  },
+  {
+    "id": "shop-kiyafet",
+    "checked": false,
+    "item": "Kıyafet alımı",
+    "where": "Sakae (Mitsukoshi, LACHIC, Parco)",
+    "priceRaw": "¥80K",
+    "day": "Gün 7 — Nagoya",
+    "note": "Paz arkadaşla — Sakae moda alışverişi.",
+    "dayIds": [
+      "day-7"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakae%20Nagoya%20shopping"
+  },
+  {
+    "id": "shop-shoes-classic",
+    "checked": false,
+    "item": "Klasik / su geçirmez ayakkabı",
+    "where": "Ginza ABC Mart / Onitsuka Tiger / Doc Martens / Crocs",
+    "priceRaw": "¥30K",
+    "day": "Gün 2 — Tokyo",
+    "note": "Asics performance'a ek. Lifestyle (Onitsuka Tiger, Doc Martens, Birkenstock) veya su geçirmez (Crocs, Salomon).",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ABC-MART%20Ginza"
   }
 ]
