@@ -1,16 +1,17 @@
-import { Calendar, Bookmark, ShoppingBag, type LucideIcon } from "lucide-react";
+import { Calendar, Bookmark, ShoppingBag, LayoutGrid, type LucideIcon } from "lucide-react";
 import type { Tab } from "../types";
 
 const TABS: { id: Tab; label: string; Icon: LucideIcon }[] = [
   { id: "days", label: "Günler", Icon: Calendar },
   { id: "reservations", label: "Rezerve", Icon: Bookmark },
   { id: "shopping", label: "Alışveriş", Icon: ShoppingBag },
+  { id: "overview", label: "Genel", Icon: LayoutGrid },
 ];
 
 export function Nav({ tab, onChange }: { tab: Tab; onChange: (t: Tab) => void }) {
   return (
     <nav className="fixed bottom-0 inset-x-0 bg-white/90 dark:bg-ink/95 backdrop-blur border-t border-black/5 dark:border-white/10 pb-[env(safe-area-inset-bottom)]">
-      <div className="max-w-3xl mx-auto grid grid-cols-3">
+      <div className="max-w-3xl mx-auto grid grid-cols-4">
         {TABS.map((t) => {
           const active = tab === t.id;
           return (
