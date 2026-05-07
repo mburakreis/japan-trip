@@ -259,12 +259,12 @@
     "city": "Kyoto → Nagoya",
     "dateRaw": "23 Mayıs 2026 Cumartesi 13:45",
     "nights": null,
-    "status": "pending",
+    "status": "booked",
     "platform": "SmartEX",
     "manageLink": "https://smart-ex.jp/",
     "email": "",
-    "priceRaw": "¥5.940",
-    "note": "⚠️ SmartEX'ten rezerve edilecek. 13:45→14:01 (16dk). Kyoto'da 13:06 LtdExp varışı sonrası 39dk aktarma — Shinkansen katına yürüyüş ~12-15dk + ekiben payı. Cumartesi öğleden sonra koltuk doluluğu orta-yüksek, önceden ayrılmış koltuk al.",
+    "priceRaw": "¥5,710",
+    "note": "✅ REZERVE (SmartEX, Rez No: 2001). 13:45→14:19 (34dk). Car 14 Seat 8-A. Mastercard ile ödendi. Kyoto'da 13:06 LtdExp varışı sonrası 39dk aktarma — Shinkansen platform'a 12-15dk yürüme + ekiben payı.",
     "dayIds": [
       "day-6"
     ],
@@ -277,12 +277,12 @@
     "city": "Nagoya → Tokyo",
     "dateRaw": "25 Mayıs 2026 Pazartesi 11:57",
     "nights": null,
-    "status": "pending",
+    "status": "booked",
     "platform": "SmartEX",
     "manageLink": "https://smart-ex.jp/",
     "email": "",
-    "priceRaw": "¥10.560",
-    "note": "⚠️ SmartEX'ten rezerve edilecek. 11:57→13:54 (1sa57dk). Otel check-out 11:00 + 15dk istasyon + ekiben payı. Mt. Fuji manzarası için E koltuk (sağ pencere, 2+3 düzeninde sağ tarafın pencere koltuğu) tercih — Shizuoka yakınında ~50dk sonra görünür.",
+    "priceRaw": "¥11,100",
+    "note": "✅ REZERVE (SmartEX, Rez No: 2002). 11:57→13:33 (1sa36dk). Car 15 Seat 9-E (sağ pencere, Mt. Fuji manzarası — Shizuoka civarı ~50dk sonra görünür). Mastercard ile ödendi. Otel 11:00 check-out + Kanayama→Nagoya tren 3-4dk + platform yürüme = ~27dk buffer.",
     "dayIds": [
       "day-8"
     ],
