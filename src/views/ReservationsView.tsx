@@ -12,6 +12,7 @@ const TYPE_LABEL: Record<Reservation["type"], string> = {
   accommodation: "Konaklama",
   transport: "Ulaşım",
   activity: "Aktivite",
+  restaurant: "Yemek",
 };
 
 function matches(r: Reservation, q: string): boolean {

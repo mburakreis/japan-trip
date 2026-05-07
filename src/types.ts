@@ -33,7 +33,7 @@ export type ReservationStatus = "booked" | "pending" | "research" | "cancelled";
 
 export type Reservation = {
   id: string;
-  type: "accommodation" | "transport" | "activity";
+  type: "accommodation" | "transport" | "activity" | "restaurant";
   title: string;
   city: string;
   dateRaw: string;
@@ -69,4 +69,4 @@ export type Trip = {
   fx: { from: string; to: string; rate: number; asOf: string };
 };
 
-export type Tab = "days" | "reservations" | "shopping";
+export type Tab = "days" | "reservations" | "shopping" | "overview";

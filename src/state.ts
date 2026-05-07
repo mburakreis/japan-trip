@@ -6,7 +6,8 @@ type AppRoute = { tab: Tab; focusId?: string };
 function parseHash(): AppRoute {
   const raw = window.location.hash.replace(/^#\/?/, "");
   const [tab, focusId] = raw.split(":");
-  const t: Tab = tab === "reservations" || tab === "shopping" ? tab : "days";
+  const t: Tab =
+    tab === "reservations" || tab === "shopping" || tab === "overview" ? tab : "days";
   return { tab: t, focusId: focusId || undefined };
 }
 
