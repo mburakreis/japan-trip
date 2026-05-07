@@ -160,25 +160,6 @@
     "mapsUrl": "https://maps.app.goo.gl/ANACrownePlazaNagoya"
   },
   {
-    "id": "acc-6",
-    "type": "accommodation",
-    "title": "NOHGA Hotel Akihabara Tokyo",
-    "city": "Tokyo",
-    "dateRaw": "25 May - 27 May 2026",
-    "nights": 2,
-    "status": "cancelled",
-    "platform": "Booking.com (free cancellation, pay at hotel)",
-    "manageLink": "https://www.booking.com/hotel/jp/nohga-akihabara-tokyo",
-    "email": "",
-    "priceRaw": "$1,013 / ~¥160,000 (kahvaltı dahil, tesiste ödeme)",
-    "note": "İptal 7 May. Yerine acc-7 Sotetsu Fresa Inn Tokyo Kanda.",
-    "dayIds": [
-      "day-8",
-      "day-9"
-    ],
-    "mapsUrl": "https://maps.app.goo.gl/NOHGAAkihabara"
-  },
-  {
     "id": "acc-7",
     "type": "accommodation",
     "title": "Sotetsu Fresa Inn Tokyo Kanda",
