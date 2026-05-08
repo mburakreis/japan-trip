@@ -141,25 +141,6 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinonomesou%20Kinosaki%20Onsen"
   },
   {
-    "id": "acc-5",
-    "type": "accommodation",
-    "title": "ANA Crowne Plaza Hotel Grand Court Nagoya",
-    "city": "Nagoya",
-    "dateRaw": "23 May - 25 May 2026",
-    "nights": 2,
-    "status": "booked",
-    "platform": "Booking.com (free cancellation, pay at hotel)",
-    "manageLink": "https://www.booking.com/hotel/jp/ana-crowne-plaza-grand-court-nagoya.html",
-    "email": "",
-    "priceRaw": "$685 / ~¥108,000 (vergi dahil, tesiste ödeme)",
-    "note": "Premium Queen Şehir Manzaralı (35m², 1 büyük çift kişilik yatak). 1 yetişkin. Ücretsiz iptal 22 May 16:00'a kadar. Kanayama Station 1 dk yürüme, Higashibetsuin 12-15 dk yürüme (Otsudori boyunca).",
-    "dayIds": [
-      "day-6",
-      "day-7"
-    ],
-    "mapsUrl": "https://maps.app.goo.gl/ANACrownePlazaNagoya"
-  },
-  {
     "id": "acc-7",
     "type": "accommodation",
     "title": "Sotetsu Fresa Inn Tokyo Kanda",
@@ -287,43 +268,5 @@
       "day-8"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagoya%20Station"
-  },
-  {
-    "id": "res-soranoue",
-    "type": "restaurant",
-    "title": "空ノウエ (Sora no Ue) — Rina ile akşam, 10 çeşit kaiseki + nomihoudai",
-    "city": "Nagoya (Kanayama)",
-    "dateRaw": "23 Mayıs 2026 Cumartesi 19:00",
-    "nights": null,
-    "status": "booked",
-    "platform": "TableCheck",
-    "manageLink": "https://www.tablecheck.com/en/soranoue",
-    "email": "",
-    "priceRaw": "¥10.500/kişi (nomihoudai dahil) — toplam ¥21.000",
-    "note": "✅ REZERVE (TableCheck, Rez No: 47VK4V). 10 çeşit mevsimsel kappo + 47 il sake seçkisi (şarap kadehi). ANA Crowne Plaza Kanayama'dan 7dk yürüme. İptal son: 22 May (Cum) 22:00 JST (16:00 Türkiye). Koltuk tercihi için ara: +81-52-228-6160 — カウンター席希望. Kart + PayPay geçerli.",
-    "dayIds": [
-      "day-6"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Soranoue%20Kanayama%20Nagoya",
-    "tabelogUrl": "https://tabelog.com/aichi/A2301/A230101/23074850/"
-  },
-  {
-    "id": "res-ginza-obi",
-    "type": "restaurant",
-    "title": "Ginza Obi (銀座 帯) — Shu ile akşam, 8 çeşit Wa-French course",
-    "city": "Tokyo (Ginza / Higashi-Ginza)",
-    "dateRaw": "25 Mayıs 2026 Pazartesi 20:30",
-    "nights": null,
-    "status": "booked",
-    "platform": "Tabelog (instant confirm)",
-    "manageLink": "https://tabelog.com/en/tokyo/A1301/A130101/13257454/",
-    "email": "",
-    "priceRaw": "¥9.000/kişi + %10 servis — içkiyle toplam ¥22.000-26.000",
-    "note": "✅ REZERVE (Tabelog, Rez No: WFSPER9DZX). 8 çeşit Wa-French mevsimsel course. VORT銀座イースト2 B1F, Kabukiza arkası. İptal son: 24 May (Paz) 05:59 JST. Koltuk ~2.5 saat, yemek LO 22:00. Yurakucho Planetaria'dan ~10dk yürüme. Pay at venue.",
-    "dayIds": [
-      "day-8"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza%20Obi%20Tokyo%20Higashi-Ginza",
-    "tabelogUrl": "https://tabelog.com/en/tokyo/A1301/A130101/13257454/"
   }
 ]
