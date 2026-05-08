@@ -247,32 +247,6 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20Airport%20Terminal%201%20Duty%20Free"
   },
   {
-    "id": "shop-bakim",
-    "checked": false,
-    "item": "Genel bakım kalemi",
-    "where": "Matsumoto Kiyoshi + Don Quijote + Mitsukoshi Sakae",
-    "priceRaw": "¥20K",
-    "day": "Gün 7 — Nagoya",
-    "note": "Sevgili + anne + abla + kendine — karışık bakım/kozmetik. Paz arkadaşla.",
-    "dayIds": [
-      "day-7"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Matsumoto%20Kiyoshi%20Sakae%20Nagoya"
-  },
-  {
-    "id": "shop-kiyafet",
-    "checked": false,
-    "item": "Kıyafet alımı",
-    "where": "Sakae (Mitsukoshi, LACHIC, Parco)",
-    "priceRaw": "¥80K",
-    "day": "Gün 7 — Nagoya",
-    "note": "Paz arkadaşla — Sakae moda alışverişi.",
-    "dayIds": [
-      "day-7"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakae%20Nagoya%20shopping"
-  },
-  {
     "id": "shop-shoes-classic",
     "checked": false,
     "item": "Klasik / su geçirmez ayakkabı",
