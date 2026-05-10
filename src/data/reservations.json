@@ -145,17 +145,15 @@
     "type": "accommodation",
     "title": "Sotetsu Fresa Inn Tokyo Kanda",
     "city": "Tokyo (Kanda)",
-    "dateRaw": "25 May - 30 May 2026",
-    "nights": 5,
+    "dateRaw": "27 May - 30 May 2026",
+    "nights": 3,
     "status": "booked",
     "platform": "Booking.com",
     "manageLink": "https://www.booking.com/hotel/jp/sotetsu-fresa-inn-tokyo-kanda.html",
     "email": "",
-    "priceRaw": "$565 USD (USD ile ödendi)",
-    "note": "Single Room, kahvaltısız. Akihabara JR 8dk yürüme veya Shin-Nihombashi 1 durak tren. 24h front desk, coin laundry. Free cancel 24 May'a kadar. Checkout sonrası büyük valiz storage için otele ayrıca sor.",
+    "priceRaw": "¥65.580 (3 gece, 23 May'da tahsil)",
+    "note": "✅ REZERVE (yeni booking — eski 25-30 May iptal, Echizen route'a geçildi). 27 May Çr 13:52 Hakutaka Tokyo varış sonrası akşam check-in. Single Room, kahvaltısız. Akihabara JR 8dk yürüme veya Shin-Nihombashi 1 durak tren. 24h front desk, coin laundry. Bıçak storage'a teslim için resepsiyona sor.",
     "dayIds": [
-      "day-8",
-      "day-9",
       "day-10",
       "day-11",
       "day-12"
@@ -240,12 +238,12 @@
     "city": "Kyoto → Nagoya",
     "dateRaw": "23 Mayıs 2026 Cumartesi 13:45",
     "nights": null,
-    "status": "booked",
+    "status": "cancelled",
     "platform": "SmartEX",
     "manageLink": "https://smart-ex.jp/",
     "email": "",
     "priceRaw": "¥5,710",
-    "note": "✅ REZERVE (SmartEX, Rez No: 2001). 13:45→14:19 (34dk). Car 14 Seat 8-A. Mastercard ile ödendi. Kyoto'da 13:06 LtdExp varışı sonrası 39dk aktarma — Shinkansen platform'a 12-15dk yürüme + ekiben payı.",
+    "note": "❌ İPTAL — Echizen route'a geçildi. SmartEX üzerinden refund pending (¥5,710, Rez No 2001).",
     "dayIds": [
       "day-6"
     ],
@@ -258,15 +256,148 @@
     "city": "Nagoya → Tokyo",
     "dateRaw": "25 Mayıs 2026 Pazartesi 11:57",
     "nights": null,
-    "status": "booked",
+    "status": "cancelled",
     "platform": "SmartEX",
     "manageLink": "https://smart-ex.jp/",
     "email": "",
     "priceRaw": "¥11,100",
-    "note": "✅ REZERVE (SmartEX, Rez No: 2002). 11:57→13:33 (1sa36dk). Car 15 Seat 9-E (sağ pencere, Mt. Fuji manzarası — Shizuoka civarı ~50dk sonra görünür). Mastercard ile ödendi. Otel 11:00 check-out + Kanayama→Nagoya tren 3-4dk + platform yürüme = ~27dk buffer.",
+    "note": "❌ İPTAL — Echizen route'a geçildi. SmartEX üzerinden refund pending (¥11,100, Rez No 2002).",
     "dayIds": [
       "day-8"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagoya%20Station"
+  },
+  {
+    "id": "res-kyoto-tsuruga",
+    "type": "transport",
+    "title": "Thunder-Bird 27 — Kyoto → Tsuruga",
+    "city": "Kyoto → Tsuruga",
+    "dateRaw": "23 Mayıs 2026 Cumartesi 14:40",
+    "nights": null,
+    "status": "booked",
+    "platform": "JR-WEST e5489",
+    "manageLink": "https://e5489.jr-odekake.net/",
+    "email": "m.burakreis",
+    "priceRaw": "¥4.710 (Tsurugi 28 ile kombine)",
+    "note": "✅ REZERVE (JR-West e5489, Rez No: 45876). Kyoto 14:40 → Tsuruga 15:33 (53dk). Car 9, Seat 7-A. Tsuruga'da 8dk aktarma → Tsurugi 28. Kinosaki No.12 13:06 Kyoto varışı sonrası 1sa34dk tampon.",
+    "dayIds": [
+      "day-6"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station"
+  },
+  {
+    "id": "res-tsuruga-echizen",
+    "type": "transport",
+    "title": "Tsurugi 28 — Tsuruga → Echizen-Takefu",
+    "city": "Tsuruga → Echizen-Takefu",
+    "dateRaw": "23 Mayıs 2026 Cumartesi 15:41",
+    "nights": null,
+    "status": "booked",
+    "platform": "JR-WEST e5489",
+    "manageLink": "https://e5489.jr-odekake.net/",
+    "email": "m.burakreis",
+    "priceRaw": "Thunder-Bird 27 ile kombine (¥4.710 toplam)",
+    "note": "✅ REZERVE (JR-West e5489, Rez No: 45876). Tsuruga 15:41 → Echizen-Takefu 15:52 (11dk). Car 4, Seat 12-E. 8dk transfer Tsuruga'da, Hokuriku Shinkansen platformuna geç.",
+    "dayIds": [
+      "day-6"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Echizen-Takefu%20Station"
+  },
+  {
+    "id": "acc-echizen",
+    "type": "accommodation",
+    "title": "Hotel Crown Hills Takefu",
+    "city": "Echizen-Takefu (Fukui)",
+    "dateRaw": "23 May - 27 May 2026",
+    "nights": 4,
+    "status": "booked",
+    "platform": "Agoda",
+    "manageLink": "https://www.agoda.com/account/bookings.html",
+    "email": "burakreis61e",
+    "priceRaw": "¥34.620 (4 gece, 19 May'da tahsil)",
+    "note": "✅ REZERVE (Agoda, Booking ID: 658113735). Standard Semi-double Single Non-smoking + Kahvaltı. JR Takefu istasyonu 100m yürüme. NOT: Echizen-Takefu Shinkansen istasyonu otelden 5km — Cmt varış + Çr çıkış + günlük gezilerde taksi (~¥1.500, 10dk). Super Hotel yerine seçildi (Super Hotel'in tüm odaları smoking idi).",
+    "dayIds": [
+      "day-6",
+      "day-7",
+      "day-8",
+      "day-9"
+    ],
+    "address": "福井県越前市 (Takefu, Echizen-shi)",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Crown%20Hills%20Takefu"
+  },
+  {
+    "id": "res-yamaken-knife",
+    "type": "activity",
+    "title": "Yamaken Knife Handle Workshop — Custom knife + maki-e",
+    "city": "Echizen-shi",
+    "dateRaw": "25 Mayıs 2026 Pazartesi 10:00",
+    "nights": null,
+    "status": "booked",
+    "platform": "byFood",
+    "manageLink": "https://www.byfood.com/",
+    "email": "",
+    "priceRaw": "$295.89 USD (~¥45.500)",
+    "note": "✅ REZERVE (byFood). 3 saat (10:00-13:00). Factory Tour + Knife Handle Customization w/ Maki-e Painting (Yamaken Woodworks + Yamamoto Uchi Hamono). 30+ sap çeşidi + iron/stainless blade seç + maki-e lacquer painting. English guide DAHİL. Take-home: custom knife (workshop sonunda hazır). Hotel Crown Hills'ten 10dk araba (taksi).",
+    "dayIds": [
+      "day-8"
+    ],
+    "address": "福井県越前市池ノ上町46-1-10 (Echizen-shi, Ikenoue-cho 46-1-10)",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yamaken%20Woodworks%20Echizen"
+  },
+  {
+    "id": "res-kubota-sake",
+    "type": "activity",
+    "title": "Kubota Sake Tasting — Lacquered Glasses",
+    "city": "Sabae City",
+    "dateRaw": "25 Mayıs 2026 Pazartesi 16:00",
+    "nights": null,
+    "status": "booked",
+    "platform": "Craft Invitation",
+    "manageLink": "https://craftinvitation.com/",
+    "email": "",
+    "priceRaw": "¥5.500",
+    "note": "✅ REZERVE (Craft Invitation, Rez ID: 4884698). 1.5sa (16:00-17:30). Plan: Junmai Sake Tasting (¥2.200) + Junmai & Daiginjo Combo (¥3.300). 4 sake + 2 snack, lacquered glasses ile. ⚠️ İngilizce rehber YOK — Japonca temel hazır ol veya çeviri uygulaması. In-shop only, take-home YOK. JR Sabae 1dk yürüme.",
+    "dayIds": [
+      "day-8"
+    ],
+    "address": "福井県鯖江市旭町1-1-4 (1-1-4 Asahimachi, Sabae City)",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kubota%20Liquor%20Store%20Sabae"
+  },
+  {
+    "id": "res-ryozo-washi",
+    "type": "activity",
+    "title": "RYOZO Paper Mill Washi Tapestry Workshop",
+    "city": "Echizen-shi (Imadate)",
+    "dateRaw": "26 Mayıs 2026 Salı 10:00",
+    "nights": null,
+    "status": "booked",
+    "platform": "Craft Invitation",
+    "manageLink": "https://craftinvitation.com/",
+    "email": "",
+    "priceRaw": "¥50.000 (¥30K solo + ¥20K English guide)",
+    "note": "✅ REZERVE (Craft Invitation, Rez ID: 4884720). 2sa (10:00-12:00). Sukikomi + rakusui techniques + framed tapestry. Yanase Kyoko-san (3rd gen) + husband Yasuhiro-san. English guide DAHİL (kanıt boşluğu nedeniyle güvenlik). Take-home: framed washi tapestry (workshop sonunda hazır). Hotel'den ~15-20dk araba.",
+    "dayIds": [
+      "day-9"
+    ],
+    "address": "福井県越前市今立 (Yanase Ryozo Paper Mill, Imadate area, Echizen-shi)",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yanase%20Ryozo%20Paper%20Mill%20Imadate"
+  },
+  {
+    "id": "res-echizen-tokyo",
+    "type": "transport",
+    "title": "Hakutaka 560 — Echizen-Takefu → Tokyo (direkt)",
+    "city": "Echizen-Takefu → Tokyo",
+    "dateRaw": "27 Mayıs 2026 Çarşamba 10:10",
+    "nights": null,
+    "status": "booked",
+    "platform": "JR-WEST e5489",
+    "manageLink": "https://e5489.jr-odekake.net/",
+    "email": "m.burakreis",
+    "priceRaw": "¥16.360",
+    "note": "✅ REZERVE (e5489, Rez No: 45754). Echizen-Takefu 10:10 → Tokyo 13:52 (3sa42dk). Car 10, Seat 15-E (rows 12-17 boş zone). Ordinary Car (Green Car +¥7.850 atlandı). Tsuruga/Kanazawa AKTARMA YOK (2024 Hokuriku Shinkansen Tsuruga uzantısı sayesinde).",
+    "dayIds": [
+      "day-10"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Echizen-Takefu%20Station"
   }
 ]
