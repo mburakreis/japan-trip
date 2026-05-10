@@ -2537,23 +2537,384 @@
     "id": "day-11",
     "dayNumber": 11,
     "dateRaw": "28 Mayıs 2026 Perşembe",
-    "title": "TBD — yeniden planlanacak",
+    "title": "Tokyo — Solo Alışveriş Günü (Ginza → Akihabara → Nakano → Yurakucho)",
     "fixed": [],
-    "main": [],
+    "main": [
+      {
+        "time": "~09:00",
+        "place": "Sotetsu Fresa Inn Kanda",
+        "action": "Kahvaltı (konbini) + hazırlık — Yodobashi mega gün",
+        "transport": "—",
+        "duration": "1sa",
+        "cost": null,
+        "note": "Pasaport + carry-on çantası al (Yodobashi'da boş valiz alacak, içine PS5 koyacaksın). Tax-free için pasaport şart.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~10:00",
+        "place": "Sotetsu Kanda → Ginza",
+        "action": "JR Yamanote (Kanda → Yurakucho, ~6dk) + yürüyüş",
+        "transport": "JR Yamanote",
+        "duration": "15dk",
+        "cost": {
+          "min": 200,
+          "max": 200,
+          "raw": "¥200"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~10:30",
+        "place": "Kaneko Optical Ginza (金子眼鏡店)",
+        "action": "Gözlük teslim alma — deneme + ayar (shop-kaneko-order)",
+        "transport": "Yürüyüş",
+        "duration": "30-45dk",
+        "cost": null,
+        "note": "Sipariş Gün 2'de yapıldı. Eğer ~9 gün'de teslim edemediyse 999.9 Ginza Flagship backup (5dk yürüme).",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaneko%20Optical%20Ginza",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~11:30",
+        "place": "Ginza → Akihabara",
+        "action": "Tokyo Metro Ginza Hattı (Ginza → Kanda) + JR (~10dk)",
+        "transport": "Metro + JR",
+        "duration": "15dk",
+        "cost": {
+          "min": 200,
+          "max": 300,
+          "raw": "¥200-300"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[ANCHOR] 12:00",
+        "place": "Yodobashi Camera Multimedia Akiba",
+        "action": "Tek tax-free transaction — PS5 Pro + DualSense + PULSE Elite + Kobo Libra Color + Samsonite UPSCAPE 104L",
+        "transport": "—",
+        "duration": "2-3sa",
+        "cost": {
+          "min": 251000,
+          "max": 256000,
+          "raw": "¥251-256K toplam"
+        },
+        "note": "Kalemler: shop-20 (PS5 ¥138K) + shop-21 (DualSense ¥12K) + shop-22 (PULSE ¥19K) + shop-23 (Kobo ¥37K) + shop-24 (Samsonite ¥45-50K). Hepsi AYNI işlemde tax-free. Pasaport + ödeme kartı + en az ¥5K minimum (¥251K bunu aşıyor). Samsonite valizi check-in counter'da boşalt + içine küçükleri yerleştir.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~15:00",
+        "place": "Akihabara — öğle",
+        "action": "Light lunch (curry rice / ramen / kissaten) — Yodobashi sonrası mola",
+        "transport": "Yürüyüş",
+        "duration": "45dk",
+        "cost": {
+          "min": 1500,
+          "max": 2000,
+          "raw": "¥1.5-2K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~15:45",
+        "place": "Mandarake Complex Akihabara",
+        "action": "Figür/manga/retro otaku — shop-19 (¥20K)",
+        "transport": "Yürüyüş",
+        "duration": "1-1.5sa",
+        "cost": {
+          "min": 20000,
+          "max": 20000,
+          "raw": "¥20K"
+        },
+        "note": "Tax-free.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake%20Complex%20Akihabara",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~17:00",
+        "place": "Akihabara → Nakano",
+        "action": "JR Chuo Rapid (Akihabara → Ochanomizu → Chuo Rapid → Nakano, ~15-20dk)",
+        "transport": "JR Chuo",
+        "duration": "20dk",
+        "cost": {
+          "min": 200,
+          "max": 300,
+          "raw": "¥200-300"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~17:30",
+        "place": "Nakano Broadway",
+        "action": "3-4. kat tüm Mandarake mağazaları + niche figür/manga avı — shop-nakano (¥20K)",
+        "transport": "Yürüyüş",
+        "duration": "1.5-2sa",
+        "cost": {
+          "min": 20000,
+          "max": 20000,
+          "raw": "¥20K"
+        },
+        "note": "Akihabara'dan farklı vibe — daha lokal, az turist, koleksiyoncu pazarı. Cool/unknown Pokemon arayışı için en iyi yer.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nakano%20Broadway",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~19:30",
+        "place": "Nakano → Yurakucho",
+        "action": "JR Chuo + Yamanote (~25dk)",
+        "transport": "JR",
+        "duration": "25dk",
+        "cost": {
+          "min": 300,
+          "max": 400,
+          "raw": "¥300-400"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~20:00",
+        "place": "Muji Yurakucho flagship",
+        "action": "Geniş Muji alışverişi — giysi, ev, kırtasiye, gıda. shop-18 (¥20K)",
+        "transport": "Yürüyüş",
+        "duration": "1-1.5sa",
+        "cost": {
+          "min": 20000,
+          "max": 20000,
+          "raw": "¥20K"
+        },
+        "note": "6 katlı flagship — Japonya'nın en büyüğü. Tax-free, akşam saat 21:00'a kadar açık.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MUJI%20Yurakucho%20Tokyo",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~21:30",
+        "place": "Yurakucho → Sotetsu Kanda",
+        "action": "JR Yamanote (Yurakucho → Kanda, ~5dk) + akşam yemek civarda",
+        "transport": "JR + yürüyüş",
+        "duration": "1sa",
+        "cost": {
+          "min": 2000,
+          "max": 3000,
+          "raw": "¥2-3K"
+        },
+        "note": "Kanda yakınında lokal izakaya/soba. Yorgunsan otel içinde konbini.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
     "alternatives": [],
     "meals": [],
-    "budgetSummary": ""
+    "budgetSummary": "💰 Gün 11 Bütçe: Yodobashi mega tax-free PS5+DualSense+PULSE+Kobo+Samsonite ~¥251-256K | Mandarake ¥20K | Nakano ¥20K | Muji ¥20K | Yemek ~¥4-5K | Ulaşım ~¥1-2K | TOPLAM ~¥316-323K"
   },
   {
     "id": "day-12",
     "dayNumber": 12,
     "dateRaw": "29 Mayıs 2026 Cuma",
-    "title": "TBD — yeniden planlanacak",
+    "title": "Tokyo — Shimokitazawa + Shinjuku rotasyonu",
     "fixed": [],
-    "main": [],
+    "main": [
+      {
+        "time": "~09:00",
+        "place": "Sotetsu Fresa Inn Kanda",
+        "action": "Kahvaltı + hazırlık",
+        "transport": "—",
+        "duration": "45dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~10:00",
+        "place": "Sotetsu Kanda → Shimokitazawa",
+        "action": "JR Yamanote (Kanda → Shinjuku, ~12dk) + Odakyu (Shinjuku → Shimokita, ~5dk)",
+        "transport": "JR + Odakyu",
+        "duration": "30dk",
+        "cost": {
+          "min": 400,
+          "max": 500,
+          "raw": "¥400-500"
+        },
+        "note": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Station",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "10:30-13:00",
+        "place": "Shimokitazawa vintage — pantolon hunt + Trefac",
+        "action": "2-3 pantolon + Trefac Shimokitazawa fiziksel mağaza — shop-27 (¥20-30K)",
+        "transport": "Yürüyüş",
+        "duration": "2.5sa",
+        "cost": {
+          "min": 20000,
+          "max": 30000,
+          "raw": "¥20-30K"
+        },
+        "note": "Trefac thrift + diğer vintage mağazalar (Flamingo, New York Joe, Haight & Ashbury). Try-on yap, beden 36 selvedge.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20vintage",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~13:00",
+        "place": "Shimokita — öğle",
+        "action": "Lokal café veya soba — Shimokita kahvaltı kafelerinden biri",
+        "transport": "Yürüyüş",
+        "duration": "1sa",
+        "cost": {
+          "min": 1500,
+          "max": 2000,
+          "raw": "¥1.5-2K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~14:00",
+        "place": "Shimokita → Shinjuku",
+        "action": "Odakyu Express (Shimokita → Shinjuku, ~5dk)",
+        "transport": "Odakyu",
+        "duration": "10dk",
+        "cost": {
+          "min": 170,
+          "max": 170,
+          "raw": "¥170"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "14:30-15:30",
+        "place": "Beams Japan Shinjuku",
+        "action": "Çok katlı select — XL (42) / Beams Plus. shop-beams (¥30K)",
+        "transport": "Yürüyüş",
+        "duration": "1sa",
+        "cost": {
+          "min": 30000,
+          "max": 30000,
+          "raw": "¥30K"
+        },
+        "note": "Tax-free. Türkiye-Japan kültür crossover ürünleri (Beams Japan kuratörlü).",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beams%20Japan%20Shinjuku",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "15:30-16:30",
+        "place": "Porter Shinjuku (Lumine East)",
+        "action": "Tanker Crossbody S/M denenecek + alımı — shop-porter (¥30-40K)",
+        "transport": "Yürüyüş",
+        "duration": "1sa",
+        "cost": {
+          "min": 30000,
+          "max": 40000,
+          "raw": "¥30-40K"
+        },
+        "note": "Beams Japan ile combine olabilir (Porter ürünlerini Beams da satıyor). Tax-free.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Porter%20Lumine%20Shinjuku",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "16:30-17:30",
+        "place": "Sekaido Shinjuku-sanchome",
+        "action": "Daily office stationery flagship — kalem, defter, pen case — shop-sekaido (¥20K)",
+        "transport": "Yürüyüş (Shinjuku-sanchome ~10dk)",
+        "duration": "1sa",
+        "cost": {
+          "min": 20000,
+          "max": 20000,
+          "raw": "¥20K"
+        },
+        "note": "B1-5F. Pilot Frixion/Hi-Tec-C, Uni-ball Jetstream, Kokuyo Campus, MD Notebook, Stalogy 365, Lihit Lab pen case. Az turist, daily prices.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sekaido%20Shinjuku",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "17:30-18:00",
+        "place": "Mont-bell Shinjuku",
+        "action": "Çanta + opsiyonel ek (sandal/UV/eldiven/şapka) — shop-9 (¥5K)",
+        "transport": "Yürüyüş",
+        "duration": "30dk",
+        "cost": {
+          "min": 5000,
+          "max": 5000,
+          "raw": "¥5K"
+        },
+        "note": "Day-2 Ginza Tri-Pack alımına ek. Tax-free.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Shinjuku",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~18:30",
+        "place": "Shinjuku → Asakusa (Kappabashi için)",
+        "action": "Tokyo Metro Marunouchi (Shinjuku → Ginza) + Ginza Hattı (Ginza → Tawaramachi), ~30dk",
+        "transport": "Tokyo Metro",
+        "duration": "30dk",
+        "cost": {
+          "min": 300,
+          "max": 400,
+          "raw": "¥300-400"
+        },
+        "note": "Yorgunsan veya zaman dar ise Kappabashi atla, doğrudan akşam yemek civarda. Kappabashi ↔ Shinjuku coğrafi olarak uzak.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~19:00",
+        "place": "Kappabashi-dori (合羽橋道具街)",
+        "action": "Mutfak gözlemi yürüyüşü — bıçak DIŞI mutfak eşyası (seramik, çubuk, ahşap kase, kalıp). Alış yok, sadece tur.",
+        "transport": "Yürüyüş",
+        "duration": "45-60dk",
+        "cost": null,
+        "note": "Echizen Yamaken bıçağı zaten elinde — Kappabashi sadece atmosfer + ileride kullanışlı bilgi için. Akşam 19:00'a kadar çoğu mağaza açık.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~20:00",
+        "place": "Asakusa — akşam yemek",
+        "action": "Edo dönemi izakaya/soba — Asakusa lokal lezzet",
+        "transport": "Yürüyüş",
+        "duration": "1.5sa",
+        "cost": {
+          "min": 2500,
+          "max": 3500,
+          "raw": "¥2.5-3.5K"
+        },
+        "note": "Asakusa Mugitoro (eski jinenjo soba), Komagata Dozeu (300 yıllık dozeu), veya benzeri.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~22:00",
+        "place": "Asakusa → Sotetsu Kanda",
+        "action": "Tokyo Metro Ginza (Tawaramachi → Kanda, ~12dk)",
+        "transport": "Metro",
+        "duration": "15dk",
+        "cost": {
+          "min": 200,
+          "max": 300,
+          "raw": "¥200-300"
+        },
+        "note": "Yarın 30 May Cmt — Narita uçuş günü. Erken yat.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
     "alternatives": [],
     "meals": [],
-    "budgetSummary": ""
+    "budgetSummary": "💰 Gün 12 Bütçe: Shimokita pantolon ¥20-30K | Beams ¥30K | Porter ¥30-40K | Sekaido ¥20K | Mont-bell ek ¥5K | Yemek ~¥4-5K | Ulaşım ~¥1-2K | TOPLAM ~¥110-130K"
   },
   {
     "id": "day-13",
