@@ -30,7 +30,7 @@
     "checked": false,
     "item": "Montbell Tri-Pack 45 (carry-on)",
     "where": "Montbell Ginza",
-    "priceRaw": "¥22-25K",
+    "priceRaw": "¥19.800",
     "day": "Gün 2 — Tokyo",
     "note": "45L 3-way, 1010g, eski sırt atılacak",
     "dayIds": [
@@ -43,9 +43,9 @@
     "checked": false,
     "item": "Uniqlo Shinjuku — kendi seçim",
     "where": "Uniqlo Shinjuku Honten",
-    "priceRaw": "¥15K",
+    "priceRaw": "¥0-6K",
     "day": "Gün 2 — Shinjuku",
-    "note": "Tişört, çorap, beğendiğin ne varsa. İlk gün giysisi öncelik.",
+    "note": "Tişört, çorap, beğendiğin ne varsa. Opsiyonel — gidersem. İlk gün giysisi öncelik değil.",
     "dayIds": [
       "day-2"
     ],
@@ -56,9 +56,9 @@
     "checked": false,
     "item": "Kyukyodo (kalem, kutu, yelpaze)",
     "where": "Teramachi Sanjo, Kyoto",
-    "priceRaw": "¥18-28K",
+    "priceRaw": "¥15K",
     "day": "Gün 4 — Kyoto",
-    "note": "Carry-on",
+    "note": "Carry-on. Sadece incense + postcards + Marukyu pencil + chiyogami origami. Daily office stationery için Sekaido Tokyo'ya kaydı.",
     "dayIds": [
       "day-4"
     ],
@@ -95,7 +95,7 @@
     "checked": false,
     "item": "Montbell (alışveriş — çanta odaklı, ek olarak istersen sandal/UV/eldiven/şapka)",
     "where": "Montbell Shibuya veya Shinjuku",
-    "priceRaw": "¥3-10K",
+    "priceRaw": "¥5K",
     "day": "Gün 12 — Tokyo",
     "note": "Osaka atlandı. Tek bir Montbell ziyareti — çanta öncelikli. Diğer şeyler isteğe bağlı. Tax-free.",
     "dayIds": [
@@ -108,7 +108,7 @@
     "checked": false,
     "item": "Muji Çeşitli (giysi, ev, kırtasiye)",
     "where": "Muji Yurakucho flagship",
-    "priceRaw": "¥10-20K",
+    "priceRaw": "¥20K",
     "day": "Gün 11 — Tokyo",
     "note": "Yurakucho 6 katlı flagship — Japonya'nın en büyüğü. Solo Alışveriş Günü içinde Kaneko'dan sonra.",
     "dayIds": [
@@ -121,7 +121,7 @@
     "checked": false,
     "item": "Figürler",
     "where": "Mandarake / Akihabara",
-    "priceRaw": "¥10-20K",
+    "priceRaw": "¥20K",
     "day": "Gün 11 — Tokyo",
     "note": "Keyif alışverişi, ¥35K tavan",
     "dayIds": [
@@ -134,7 +134,7 @@
     "checked": false,
     "item": "PS5 Pro",
     "where": "Yodobashi Akihabara",
-    "priceRaw": "¥139.980",
+    "priceRaw": "¥138K",
     "day": "Gün 11 — Tokyo",
     "note": "Tax-free. Valiz #2",
     "dayIds": [
@@ -147,9 +147,9 @@
     "checked": false,
     "item": "DualSense ×1",
     "where": "Yodobashi Akihabara",
-    "priceRaw": "¥6K",
+    "priceRaw": "¥12K",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. Valiz #2",
+    "note": "Tax-free. Valiz #2. App'te yarı fiyat görünmüştü, ¥12K teyit edildi.",
     "dayIds": [
       "day-11"
     ],
@@ -160,7 +160,7 @@
     "checked": false,
     "item": "Sony PULSE Elite",
     "where": "Yodobashi Akihabara",
-    "priceRaw": "¥17.8-18K",
+    "priceRaw": "¥19K",
     "day": "Gün 11 — Tokyo",
     "note": "Tax-free. Valiz #2",
     "dayIds": [
@@ -173,7 +173,7 @@
     "checked": false,
     "item": "Kobo Libra Color",
     "where": "Yodobashi Akihabara",
-    "priceRaw": "¥30-40K",
+    "priceRaw": "¥37K",
     "day": "Gün 11 — Tokyo",
     "note": "Carry-on (Muji pouch)",
     "dayIds": [
@@ -186,7 +186,7 @@
     "checked": false,
     "item": "Samsonite UPSCAPE 104L (tek check-in valizi)",
     "where": "Yodobashi Akihabara",
-    "priceRaw": "¥42-47K",
+    "priceRaw": "¥45-50K",
     "day": "Gün 11 — Tokyo",
     "note": "Tek check-in valizi olarak. PP siyah. Yodobashi PS5 Günü tek tax-free transaction'ın parçası: PS5 + DualSense + PULSE + Kobo + valiz.",
     "dayIds": [
@@ -195,65 +195,26 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba"
   },
   {
-    "id": "shop-25",
-    "checked": false,
-    "item": "Kappabashi Bıçak (hediye)",
-    "where": "Kappabashi-dori",
-    "priceRaw": "¥5-15K",
-    "day": "Gün 12 — Tokyo",
-    "note": "Hediye. Valiz #1",
-    "dayIds": [
-      "day-12"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town"
-  },
-  {
-    "id": "shop-26",
-    "checked": false,
-    "item": "Kaneko Gözlük (teslim)",
-    "where": "Kaneko Ginza",
-    "priceRaw": "Sipariş Gün 2",
-    "day": "Gün 11 — Tokyo",
-    "note": "Carry-on (Muji pouch)",
-    "dayIds": [
-      "day-11"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaneko%20Optical%20Ginza"
-  },
-  {
     "id": "shop-27",
     "checked": false,
     "item": "Pantolon (2-3)",
     "where": "Shimokitazawa vintage",
-    "priceRaw": "¥6-10K",
+    "priceRaw": "¥20-30K",
     "day": "Gün 12 — Tokyo",
-    "note": "Valiz #2",
+    "note": "Valiz #2. 2-3 pantolon + Trefac Shimokitazawa fiziksel mağaza ziyareti dahil — vintage thrift.",
     "dayIds": [
       "day-12"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shimokitazawa%20Station"
   },
   {
-    "id": "shop-28",
-    "checked": false,
-    "item": "Japon Snack Seçkisi",
-    "where": "Narita Duty-Free",
-    "priceRaw": "¥5-10K",
-    "day": "Gün 13 — Narita",
-    "note": "Son bagaj kapasitesi",
-    "dayIds": [
-      "day-13"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20Airport%20Terminal%201%20Duty%20Free"
-  },
-  {
     "id": "shop-hoka",
     "checked": false,
     "item": "Hoka Anacapa 2 Low GTX",
     "where": "Alpen TOKYO Shinjuku",
-    "priceRaw": "¥28-32K",
+    "priceRaw": "¥20-30K",
     "day": "Gün 2 — Tokyo",
-    "note": "29cm Wide. Su geçirmez lifestyle. shop-shoes-classic'i replace ediyor. 4E genişlik dene.",
+    "note": "29cm Wide. Su geçirmez lifestyle. shop-shoes-classic'i replace ediyor. Mayıs sonu indirim ihtimali — Alpen TOKYO + Murasaki Sports Shinjuku karşılaştır.",
     "dayIds": [
       "day-2"
     ],
@@ -264,11 +225,11 @@
     "checked": false,
     "item": "Porter Tanker Crossbody",
     "where": "Beams Japan Shinjuku veya Porter direkt mağaza",
-    "priceRaw": "¥18-25K",
-    "day": "Gün 2 — Tokyo",
-    "note": "S veya M boyut — mağazada elinde dene. Tax-free.",
+    "priceRaw": "¥30-40K",
+    "day": "Gün 12 — Tokyo (Shinjuku rotasyonu)",
+    "note": "S veya M boyut — mağazada elinde dene. Tax-free. Day 12 Shinjuku rotasyonunda (Beams + Sekaido ile).",
     "dayIds": [
-      "day-2"
+      "day-12"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Porter%20Yoshida%20Tokyo"
   },
@@ -277,7 +238,7 @@
     "checked": false,
     "item": "orSlow 105 Selvedge Denim",
     "where": "orSlow Tokyo (Aoyama)",
-    "priceRaw": "¥25-32K",
+    "priceRaw": "¥30K",
     "day": "Gün 2 — Tokyo",
     "note": "W34 (yedek W36). 105 fit gevşek/standart. Try-on yap, uyluk 61cm yapıma uygun.",
     "dayIds": [
@@ -290,9 +251,9 @@
     "checked": false,
     "item": "Sou Sou Tabi SO-SU-U Black",
     "where": "Sou Sou Kyoto (Nakagyo)",
-    "priceRaw": "¥6-8K",
+    "priceRaw": "¥18-22K",
     "day": "Gün 4 — Kyoto",
-    "note": "29cm. SO-SU-U siyah numara desen. Geleneksel tabi sokpat.",
+    "note": "29cm. Geleneksel tabi boots — yüksek bilekli, jika-tabi tarzı.",
     "dayIds": [
       "day-4"
     ],
@@ -303,7 +264,7 @@
     "checked": false,
     "item": "Sou Sou Samue set",
     "where": "Sou Sou Kyoto (Nakagyo)",
-    "priceRaw": "¥18-25K",
+    "priceRaw": "¥25K",
     "day": "Gün 4 — Kyoto",
     "note": "Size 4 (LL). İki parça. Yaz inceliği — ev ve dış giyim.",
     "dayIds": [
@@ -316,7 +277,7 @@
     "checked": false,
     "item": "Sou Sou Jinbei set",
     "where": "Sou Sou Kyoto (Nakagyo)",
-    "priceRaw": "¥15-22K",
+    "priceRaw": "¥25K",
     "day": "Gün 4 — Kyoto",
     "note": "Size 4 (LL). Üst + şort. Geleneksel yaz/onsen sonrası giyim.",
     "dayIds": [
@@ -329,26 +290,13 @@
     "checked": false,
     "item": "Beams Japan Shinjuku — genel",
     "where": "Beams Japan Shinjuku",
-    "priceRaw": "¥10-30K",
-    "day": "Gün 2 — Tokyo",
-    "note": "Çok katlı select. XL (42) / Beams Plus. Tax-free.",
+    "priceRaw": "¥30K",
+    "day": "Gün 12 — Tokyo (Shinjuku rotasyonu)",
+    "note": "Çok katlı select. XL (42) / Beams Plus. Tax-free. Day 12 Shinjuku rotasyonunda.",
     "dayIds": [
-      "day-2"
+      "day-12"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beams%20Japan%20Shinjuku"
-  },
-  {
-    "id": "shop-versalite",
-    "checked": false,
-    "item": "Mont-bell Versalite shell",
-    "where": "Mont-bell Ginza (shop-2 ile combine)",
-    "priceRaw": "¥18-22K",
-    "day": "Gün 2 — Tokyo",
-    "note": "XL. Ultralight rain shell, 165g. Tri-Pack 45 alımı sırasında aynı transaction tax-free.",
-    "dayIds": [
-      "day-2"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza"
   },
   {
     "id": "shop-tabio",
@@ -368,7 +316,7 @@
     "checked": false,
     "item": "Butik mağaza — niche craft",
     "where": "Tokyo (esnek)",
-    "priceRaw": "¥10-25K",
+    "priceRaw": "¥30K",
     "day": "Gün 11 — Tokyo",
     "note": "Yol üstü keşif — Kanda/Yanaka/Daikanyama mahalle butikleri. Esnek slot.",
     "dayIds": [
@@ -414,5 +362,31 @@
       "day-9"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yanase%20Ryozo%20Paper%20Mill%20Imadate"
+  },
+  {
+    "id": "shop-sekaido",
+    "checked": false,
+    "item": "Sekaido — daily office stationery",
+    "where": "Sekaido Shinjuku-sanchome (B1-5F)",
+    "priceRaw": "¥20K",
+    "day": "Gün 12 — Tokyo",
+    "note": "Pro art + stationery flagship, daily prices az turistik. Pilot Frixion/Hi-Tec-C, Uni-ball Jetstream, Kokuyo Campus, MD Notebook, Stalogy 365, Lihit Lab pen case. Mont-bell Shinjuku/Beams Japan ile aynı gün rotasyonu.",
+    "dayIds": [
+      "day-12"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sekaido%20Shinjuku"
+  },
+  {
+    "id": "shop-nakano",
+    "checked": false,
+    "item": "Nakano Broadway — figür/manga ek",
+    "where": "Nakano Broadway (Mandarake flagship complex)",
+    "priceRaw": "¥20K",
+    "day": "Gün 11 — Tokyo",
+    "note": "Mandarake Akihabara'dan ayrı — Nakano Broadway 3-4. kat tüm Mandarake mağazaları. 'Cool, unknown' Pokemon/figür/manga arayışı için ideal.",
+    "dayIds": [
+      "day-11"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nakano%20Broadway"
   }
 ]
