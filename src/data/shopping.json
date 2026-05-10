@@ -6,7 +6,7 @@
     "where": "Kaneko Optical Ginza",
     "priceRaw": "¥100K",
     "day": "Gün 2 — Tokyo",
-    "note": "Optik + güneş gözlüğü toplam ¥100K bütçe. Sipariş Gün 2, teslim Gün 11.",
+    "note": "Optik + güneş gözlüğü toplam ¥100K bütçe. Sipariş Gün 2 (19 May), teslim Gün 11 (28 May, ~9 gün). BACKUP: 999.9 Four Nines Ginza Flagship (Kaneko'ya 5dk yürüme) — Kaneko 9 günde teslim edemezse oraya geç.",
     "dayIds": [
       "day-2"
     ],
@@ -84,7 +84,7 @@
     "where": "Kinosaki Onsen",
     "priceRaw": "Dahil",
     "day": "Gün 6",
-    "note": "Konaklama ile",
+    "note": "Konaklama içinde, bütçe dışı.",
     "dayIds": [
       "day-6"
     ],
@@ -187,10 +187,10 @@
     "item": "Samsonite UPSCAPE 104L (tek check-in valizi)",
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥42-47K",
-    "day": "Gün 9 — Tokyo",
-    "note": "Tek check-in valizi olarak. PP siyah. Yodobashi PS5 Günü tek tax-free transaction'ın parçası: PS5 + DualSense + PULSE + Kobo + valiz + bıçak.",
+    "day": "Gün 11 — Tokyo",
+    "note": "Tek check-in valizi olarak. PP siyah. Yodobashi PS5 Günü tek tax-free transaction'ın parçası: PS5 + DualSense + PULSE + Kobo + valiz.",
     "dayIds": [
-      "day-9"
+      "day-11"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yodobashi%20Camera%20Multimedia%20Akiba"
   },
@@ -200,10 +200,10 @@
     "item": "Kappabashi Bıçak (hediye)",
     "where": "Kappabashi-dori",
     "priceRaw": "¥5-15K",
-    "day": "Gün 10 — Tokyo",
+    "day": "Gün 12 — Tokyo",
     "note": "Hediye. Valiz #1",
     "dayIds": [
-      "day-10"
+      "day-12"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kappabashi%20Kitchen%20Town"
   },
@@ -247,16 +247,172 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20Airport%20Terminal%201%20Duty%20Free"
   },
   {
-    "id": "shop-shoes-classic",
+    "id": "shop-hoka",
     "checked": false,
-    "item": "Klasik / su geçirmez ayakkabı",
-    "where": "Ginza ABC Mart / Onitsuka Tiger / Doc Martens / Crocs",
-    "priceRaw": "¥30K",
+    "item": "Hoka Anacapa 2 Low GTX",
+    "where": "Alpen TOKYO Shinjuku",
+    "priceRaw": "¥28-32K",
     "day": "Gün 2 — Tokyo",
-    "note": "Asics performance'a ek. Lifestyle (Onitsuka Tiger, Doc Martens, Birkenstock) veya su geçirmez (Crocs, Salomon).",
+    "note": "29cm Wide. Su geçirmez lifestyle. shop-shoes-classic'i replace ediyor. 4E genişlik dene.",
     "dayIds": [
       "day-2"
     ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ABC-MART%20Ginza"
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alpen%20TOKYO%20Shinjuku"
+  },
+  {
+    "id": "shop-porter",
+    "checked": false,
+    "item": "Porter Tanker Crossbody",
+    "where": "Beams Japan Shinjuku veya Porter direkt mağaza",
+    "priceRaw": "¥18-25K",
+    "day": "Gün 2 — Tokyo",
+    "note": "S veya M boyut — mağazada elinde dene. Tax-free.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Porter%20Yoshida%20Tokyo"
+  },
+  {
+    "id": "shop-orslow",
+    "checked": false,
+    "item": "orSlow 105 Selvedge Denim",
+    "where": "orSlow Tokyo (Aoyama)",
+    "priceRaw": "¥25-32K",
+    "day": "Gün 2 — Tokyo",
+    "note": "W34 (yedek W36). 105 fit gevşek/standart. Try-on yap, uyluk 61cm yapıma uygun.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=orSlow%20Tokyo"
+  },
+  {
+    "id": "shop-sou-tabi",
+    "checked": false,
+    "item": "Sou Sou Tabi SO-SU-U Black",
+    "where": "Sou Sou Kyoto (Nakagyo)",
+    "priceRaw": "¥6-8K",
+    "day": "Gün 4 — Kyoto",
+    "note": "29cm. SO-SU-U siyah numara desen. Geleneksel tabi sokpat.",
+    "dayIds": [
+      "day-4"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SOU%20SOU%20Kyoto"
+  },
+  {
+    "id": "shop-sou-samue",
+    "checked": false,
+    "item": "Sou Sou Samue set",
+    "where": "Sou Sou Kyoto (Nakagyo)",
+    "priceRaw": "¥18-25K",
+    "day": "Gün 4 — Kyoto",
+    "note": "Size 4 (LL). İki parça. Yaz inceliği — ev ve dış giyim.",
+    "dayIds": [
+      "day-4"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SOU%20SOU%20Kyoto"
+  },
+  {
+    "id": "shop-sou-jinbei",
+    "checked": false,
+    "item": "Sou Sou Jinbei set",
+    "where": "Sou Sou Kyoto (Nakagyo)",
+    "priceRaw": "¥15-22K",
+    "day": "Gün 4 — Kyoto",
+    "note": "Size 4 (LL). Üst + şort. Geleneksel yaz/onsen sonrası giyim.",
+    "dayIds": [
+      "day-4"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SOU%20SOU%20Kyoto"
+  },
+  {
+    "id": "shop-beams",
+    "checked": false,
+    "item": "Beams Japan Shinjuku — genel",
+    "where": "Beams Japan Shinjuku",
+    "priceRaw": "¥10-30K",
+    "day": "Gün 2 — Tokyo",
+    "note": "Çok katlı select. XL (42) / Beams Plus. Tax-free.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beams%20Japan%20Shinjuku"
+  },
+  {
+    "id": "shop-versalite",
+    "checked": false,
+    "item": "Mont-bell Versalite shell",
+    "where": "Mont-bell Ginza (shop-2 ile combine)",
+    "priceRaw": "¥18-22K",
+    "day": "Gün 2 — Tokyo",
+    "note": "XL. Ultralight rain shell, 165g. Tri-Pack 45 alımı sırasında aynı transaction tax-free.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza"
+  },
+  {
+    "id": "shop-tabio",
+    "checked": false,
+    "item": "Tabio merino wool socks 3-pack",
+    "where": "Tabio Tokyo (Lumine, Marunouchi vs.)",
+    "priceRaw": "¥6-8K",
+    "day": "Gün 2 — Tokyo",
+    "note": "29cm ayak için L beden. Merino karışım — yün, hafif, kokmaz.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tabio%20Tokyo"
+  },
+  {
+    "id": "shop-butik",
+    "checked": false,
+    "item": "Butik mağaza — niche craft",
+    "where": "Tokyo (esnek)",
+    "priceRaw": "¥10-25K",
+    "day": "Gün 11 — Tokyo",
+    "note": "Yol üstü keşif — Kanda/Yanaka/Daikanyama mahalle butikleri. Esnek slot.",
+    "dayIds": [
+      "day-11"
+    ],
+    "mapsUrl": ""
+  },
+  {
+    "id": "shop-knife-workshop",
+    "checked": false,
+    "item": "Yamaken Custom Knife — workshop output",
+    "where": "Yamaken Woodworks (Echizen-shi, Ikenoue-cho)",
+    "priceRaw": "$295.89 USD (~¥45.500)",
+    "day": "Gün 8 — Echizen",
+    "note": "byFood booking — workshop ücreti dahil (res-yamaken-knife). Custom handle (30+ çeşit) + iron/stainless blade + maki-e painting. Eve dönen ürün takibi. Türkiye uçuşunda KESİNLİKLE kontrol bagajda.",
+    "dayIds": [
+      "day-8"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yamaken%20Woodworks%20Echizen"
+  },
+  {
+    "id": "shop-sake-kubota",
+    "checked": false,
+    "item": "Kubota Sake Tasting (in-shop)",
+    "where": "Kubota Liquor Store, Sabae",
+    "priceRaw": "¥5.500",
+    "day": "Gün 8 — Echizen (Sabae)",
+    "note": "Craft Invitation booking — Junmai (¥2.200) + Junmai&Daiginjo Combo (¥3.300). 4 sake + 2 snack, lacquered glasses. In-shop only, take-home YOK. Bütçe için tracking.",
+    "dayIds": [
+      "day-8"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kubota%20Liquor%20Store%20Sabae"
+  },
+  {
+    "id": "shop-washi-ryozo",
+    "checked": false,
+    "item": "RYOZO Framed Washi Tapestry — workshop output",
+    "where": "Yanase Ryozo Paper Mill (Imadate)",
+    "priceRaw": "¥50.000 (¥30K solo + ¥20K English guide)",
+    "day": "Gün 9 — Echizen (Imadate)",
+    "note": "Craft Invitation booking — workshop ücreti dahil (res-ryozo-washi). Sukikomi + rakusui techniques. Framed tapestry workshop sonunda alınır. Yanase Kyoko-san + Yasuhiro-san. Carry-on (kırılgan, dikkat).",
+    "dayIds": [
+      "day-9"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yanase%20Ryozo%20Paper%20Mill%20Imadate"
   }
 ]

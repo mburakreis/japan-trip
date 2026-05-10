@@ -1772,7 +1772,7 @@
     "id": "day-6",
     "dayNumber": 6,
     "dateRaw": "23 Mayıs 2026 Cumartesi",
-    "title": "Kinosaki → Kyoto → Nagoya — varış sonrası TBD",
+    "title": "Kinosaki → Echizen-Takefu — varış + Takefu evening",
     "fixed": [
       {
         "time": "[SABİT] 10:34",
@@ -1790,18 +1790,29 @@
         "tabelogUrl": ""
       },
       {
-        "time": "[SABİT] 13:45",
-        "place": "Kyoto → Nagoya",
-        "action": "Nozomi No.94",
-        "transport": "Shinkansen",
-        "duration": "16dk",
+        "time": "[SABİT] 14:40",
+        "place": "Kyoto İst.",
+        "action": "Thunder-Bird 27 — Kyoto → Tsuruga",
+        "transport": "Limited Express",
+        "duration": "53dk",
         "cost": {
-          "min": 5940,
-          "max": 5940,
-          "raw": "5940"
+          "min": 4710,
+          "max": 4710,
+          "raw": "¥4.710 (Tsurugi dahil)"
         },
-        "note": "✅ REZERVE (SmartEX res-kyoto-nagoya). Kyoto 13:06 LtdExp varışı sonrası 39dk aktarma — Shinkansen katına yürüyüş ~12-15dk.",
+        "note": "✅ REZERVE. Car 9 Seat 7-A. Tsuruga 15:33 varış. Rez 45876.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[SABİT] 15:41",
+        "place": "Tsuruga İst.",
+        "action": "Tsurugi 28 — Tsuruga → Echizen-Takefu (Hokuriku Shinkansen)",
+        "transport": "Shinkansen",
+        "duration": "11dk",
+        "cost": null,
+        "note": "✅ REZERVE (Thunder-Bird ile kombine). Car 4 Seat 12-E. 15:52 varış. Tsuruga'da 8dk transfer.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tsuruga%20Station",
         "tabelogUrl": ""
       }
     ],
@@ -1853,82 +1864,674 @@
       {
         "time": "13:06",
         "place": "Kyoto İst.",
-        "action": "Aktarma — Shinkansen platformuna geçiş + ekiben/içecek",
+        "action": "Aktarma — Thunder-Bird platformuna geçiş + kafe/snack (1sa34dk tampon)",
         "transport": "Yürüyüş 12-15dk",
-        "duration": "39dk",
+        "duration": "1sa34dk",
         "cost": {
           "min": 1000,
           "max": 1500,
           "raw": "1K-1.5K"
         },
-        "note": "Ekiben Shinkansen'de yenebilir — Nozomi 94 13:45.",
+        "note": "Kinosaki No.12 13:06 → Thunder-Bird 27 14:40. Bilet zaten rezerve (Rez 45876). Direkt Limited Express platformuna geç.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Station",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~16:00",
+        "place": "Echizen-Takefu Sh. İst. → Hotel Crown Hills Takefu",
+        "action": "Taksi (5km, 10dk) — Shinkansen ist. ≠ JR Takefu",
+        "transport": "Taksi",
+        "duration": "10dk",
+        "cost": {
+          "min": 1500,
+          "max": 1500,
+          "raw": "¥1.500"
+        },
+        "note": "Echizen-Takefu Shinkansen ist. (yeni 2024) JR Takefu'dan 5km ayrı. Otel JR Takefu yanı (100m).",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Crown%20Hills%20Takefu",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~16:30",
+        "place": "Hotel Crown Hills Takefu",
+        "action": "Check-in + bavul bırak",
+        "transport": "—",
+        "duration": "20dk",
+        "cost": null,
+        "note": "Standard Semi-double Single + kahvaltı dahil.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~17:00",
+        "place": "Takefu town walk",
+        "action": "Hafif yürüyüş — istasyon civarı, lokal sokaklar, Hotaru no Sato park",
+        "transport": "Yürüyüş",
+        "duration": "1-1.5sa",
+        "cost": null,
+        "note": "Yorgun yol günü, ağır plan yapma. Mahalleyi tanı.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~18:30",
+        "place": "Takefu lokal izakaya — akşam yemek",
+        "action": "Echizen soba veya lokal balık + lokal sake intro",
+        "transport": "Yürüyüş",
+        "duration": "1.5sa",
+        "cost": {
+          "min": 2500,
+          "max": 3500,
+          "raw": "¥2.5-3.5K"
+        },
+        "note": "Light gece. Erken yat — yarın Tojinbo tam gün.",
+        "mapsUrl": "",
         "tabelogUrl": ""
       }
     ],
     "alternatives": [],
     "meals": [],
-    "budgetSummary": "💰 Gün 6 Bütçe: Ulaşım ¥9.700 (Kinosaki→Kyoto ¥3.990 + Kyoto→Nagoya ¥5.710) | Sonrası TBD"
+    "budgetSummary": "💰 Gün 6 Bütçe: Ulaşım ¥3.990 (Kinosaki No.12) + ¥4.710 (Thunder-Bird+Tsurugi) + ¥1.500 taksi | Yemek ~¥3K | TOPLAM ~¥13K (konaklama Crown Hills ayrı)"
   },
   {
     "id": "day-7",
     "dayNumber": 7,
     "dateRaw": "24 Mayıs 2026 Pazar",
-    "title": "TBD — yeniden planlanacak",
+    "title": "Tojinbo + Echizen Coast — doğa günü (workshops Pazar kapalı)",
     "fixed": [],
-    "main": [],
+    "main": [
+      {
+        "time": "07:30",
+        "place": "Hotel Crown Hills — kahvaltı",
+        "action": "Erken kahvaltı — uzun gün",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "08:30",
+        "place": "Otel → Echizen-Takefu Sh. İst.",
+        "action": "Taksi",
+        "transport": "Taksi",
+        "duration": "10dk",
+        "cost": {
+          "min": 1500,
+          "max": 1500,
+          "raw": "¥1.500"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~09:00",
+        "place": "Echizen-Takefu → Awara-Onsen",
+        "action": "Hokuriku Shinkansen 自由席 (~12dk)",
+        "transport": "Shinkansen",
+        "duration": "12dk",
+        "cost": {
+          "min": 1500,
+          "max": 1500,
+          "raw": "¥1.500"
+        },
+        "note": "Tsuruga/Hakutaka servisi. Tojinbo'ya en hızlı erişim.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~09:30",
+        "place": "Awara-Onsen → Tojinbo",
+        "action": "Keihan bus (~40dk)",
+        "transport": "Bus",
+        "duration": "40dk",
+        "cost": {
+          "min": 770,
+          "max": 770,
+          "raw": "¥770"
+        },
+        "note": "Saatlik sefer. Tojinbo bus terminali son durak.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "10:15-13:00",
+        "place": "Tojinbo (東尋坊)",
+        "action": "Bazaltik altıgen kayalık formasyonları + Japon Denizi panoraması + sahil yürüyüşü + öğle (yengeç/sashimi/ikura don)",
+        "transport": "Yürüyüş",
+        "duration": "2.5-3sa",
+        "cost": {
+          "min": 2500,
+          "max": 3500,
+          "raw": "¥2.5-3.5K"
+        },
+        "note": "Opsiyonel: bot turu (¥1.500, 30dk) — gün içinde bilet alınır, yaz başı kalabalık olabilir. Tateyama Alpleri Mayıs sonu pus.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tojinbo%20Cliffs",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~13:30",
+        "place": "Tojinbo → Awara → Echizen-Takefu",
+        "action": "Bus (40dk) + Hokuriku Shinkansen 自由席 dönüş",
+        "transport": "Bus + Shinkansen",
+        "duration": "1sa",
+        "cost": {
+          "min": 2270,
+          "max": 2270,
+          "raw": "¥2.270"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~15:00",
+        "place": "Echizen Pottery Village (越前焼の里)",
+        "action": "Echizen-cho — 850 yıllık seramik geleneği, atölyeler + müze + shop. Hotel'den ~25dk taksi.",
+        "transport": "Taksi",
+        "duration": "1.5-2sa",
+        "cost": {
+          "min": 1500,
+          "max": 2500,
+          "raw": "¥1.5-2.5K (taksi gidiş)"
+        },
+        "note": "Echizen Coast'un parçası — six-old-kilns, sırlanmamış toprak rengi karakteristik. Müze ¥300, shop'lar açık.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Echizen%20Pottery%20Village",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~17:30",
+        "place": "Echizen Pottery Village → Hotel",
+        "action": "Taksi dönüş",
+        "transport": "Taksi",
+        "duration": "25dk",
+        "cost": {
+          "min": 2000,
+          "max": 2500,
+          "raw": "¥2-2.5K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~19:00",
+        "place": "Takefu — akşam yemek",
+        "action": "Lokal yemek + erken yat (yarın Yamaken 10:00)",
+        "transport": "Yürüyüş",
+        "duration": "1sa",
+        "cost": {
+          "min": 2000,
+          "max": 2500,
+          "raw": "¥2-2.5K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
     "alternatives": [],
     "meals": [],
-    "budgetSummary": ""
+    "budgetSummary": "💰 Gün 7 Bütçe: Ulaşım ~¥5K (Sh.+bus dönüş) + Echizen Pottery taksi ~¥3K | Tojinbo öğle ¥2.5-3.5K | Akşam ¥2.5K | TOPLAM ~¥13-15K"
   },
   {
     "id": "day-8",
     "dayNumber": 8,
     "dateRaw": "25 Mayıs 2026 Pazartesi",
-    "title": "Nagoya → Tokyo + sonrası TBD",
+    "title": "Yamaken Knife Workshop + Sabae Megane + Kubota Sake",
     "fixed": [
       {
-        "time": "[SABİT] 11:57",
-        "place": "Nagoya → Tokyo",
-        "action": "Nozomi No.14 — E koltuk (sağ pencere, Mt. Fuji)",
-        "transport": "Shinkansen",
-        "duration": "1sa57dk",
+        "time": "[SABİT] 10:00",
+        "place": "Yamaken Woodworks (Echizen-shi, Ikenoue-cho)",
+        "action": "Knife Handle Custom Workshop — 3 saat (10:00-13:00)",
+        "transport": "Taksi (otel'den 10dk)",
+        "duration": "3sa",
         "cost": {
-          "min": 10560,
-          "max": 10560,
-          "raw": "10560"
+          "min": 45500,
+          "max": 45500,
+          "raw": "$295.89 USD (~¥45.500)"
         },
-        "note": "✅ REZERVE (SmartEX res-nagoya-tokyo). Mt. Fuji Shizuoka yakınında ~50dk sonra görünür.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagoya%20Station",
+        "note": "✅ REZERVE (byFood). Factory Tour + Handle Custom + Maki-e Painting. Yamaken Woodworks + Yamamoto Uchi Hamono. English guide. Take-home: custom knife (handle + blade seçimi + maki-e desen).",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yamaken%20Woodworks%20Echizen",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "[SABİT] 16:00",
+        "place": "Kubota Liquor Store (Sabae)",
+        "action": "Sake Tasting — 1.5sa (16:00-17:30)",
+        "transport": "Yürüyüş (JR Sabae 1dk)",
+        "duration": "1.5sa",
+        "cost": {
+          "min": 5500,
+          "max": 5500,
+          "raw": "¥5.500"
+        },
+        "note": "✅ REZERVE (Craft Invitation, Rez 4884698). Junmai + Junmai&Daiginjo Combo. 4 sake + 2 snack, lacquered glasses. ⚠️ İngilizce rehber YOK — temel Japonca/çeviri uygulaması.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kubota%20Liquor%20Store%20Sabae",
         "tabelogUrl": ""
       }
     ],
-    "main": [],
+    "main": [
+      {
+        "time": "08:30",
+        "place": "Hotel Crown Hills — kahvaltı",
+        "action": "Sağlam kahvaltı, esnek + temiz kıyafet",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Yamaken'de tam fiziksel iş yok ama 3sa konsantrasyon — şeker yükle.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "09:30",
+        "place": "Otel → Yamaken Woodworks",
+        "action": "Taksi (10dk, ~¥1.500)",
+        "transport": "Taksi",
+        "duration": "10dk",
+        "cost": {
+          "min": 1500,
+          "max": 1500,
+          "raw": "¥1.500"
+        },
+        "note": "Resepsiyondan iste, adres: Echizen-shi, Ikenoue-cho 46-1-10.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~13:15",
+        "place": "Echizen-shi öğle",
+        "action": "Lokal lunch — soba/katsudon/bento. Custom knife teslim alındıktan sonra.",
+        "transport": "Yürüyüş",
+        "duration": "1sa",
+        "cost": {
+          "min": 1500,
+          "max": 2000,
+          "raw": "¥1.5-2K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~14:15",
+        "place": "Echizen-shi → JR Sabae",
+        "action": "Taksi → JR Takefu (5dk) → JR lokal Sabae (10dk)",
+        "transport": "Taksi + JR",
+        "duration": "20dk",
+        "cost": {
+          "min": 700,
+          "max": 1000,
+          "raw": "¥700-1K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "14:30-15:30",
+        "place": "Sabae Megane Museum (めがねミュージアム)",
+        "action": "Browse only — Japonya'nın gözlük başkenti, müze + butik + zanaatkar atölye cam",
+        "transport": "Yürüyüş",
+        "duration": "1sa",
+        "cost": {
+          "min": 500,
+          "max": 500,
+          "raw": "¥500"
+        },
+        "note": "Sadece müze ziyareti. Gözlük alımı yok (Tokyo Kaneko Ginza zaten sipariş edildi). Salı (yarın) müze açık ama o gün RYOZO+Eiheiji dolu.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Megane%20Museum%20Sabae",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~15:45",
+        "place": "Sabae Megane Museum → Kubota Liquor Store",
+        "action": "Yürüyüş — Sabae JR civarı, ~10-15dk",
+        "transport": "Yürüyüş",
+        "duration": "15dk",
+        "cost": null,
+        "note": "Kubota: 1-1-4 Asahimachi, JR Sabae 1dk yürüme.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~17:45",
+        "place": "Sabae → Takefu",
+        "action": "JR lokal dönüş (~10dk)",
+        "transport": "JR lokal",
+        "duration": "10dk",
+        "cost": {
+          "min": 200,
+          "max": 300,
+          "raw": "¥200-300"
+        },
+        "note": "Kubota tasting bitiş 17:30 sonrası, içkili — yumuşak dönüş.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~18:30",
+        "place": "Takefu — akşam yemek",
+        "action": "Lokal izakaya — kutlama (custom knife + sake tasting kombo gün)",
+        "transport": "Yürüyüş",
+        "duration": "1.5sa",
+        "cost": {
+          "min": 2500,
+          "max": 3500,
+          "raw": "¥2.5-3.5K"
+        },
+        "note": "Yarın RYOZO 10:00 + Eiheiji — erken yat. Sake'yi abartma.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
     "alternatives": [],
     "meals": [],
-    "budgetSummary": ""
+    "budgetSummary": "💰 Gün 8 Bütçe: Yamaken ¥45.5K (rezerve) + Kubota ¥5.5K (rezerve) | Tren+taksi ~¥2.5K | Sabae Megane Müze ¥500 | Yemek ~¥4K | TOPLAM ~¥58K"
   },
   {
     "id": "day-9",
     "dayNumber": 9,
     "dateRaw": "26 Mayıs 2026 Salı",
-    "title": "TBD — yeniden planlanacak",
-    "fixed": [],
-    "main": [],
+    "title": "RYOZO Washi Workshop + Eihei-ji Temple",
+    "fixed": [
+      {
+        "time": "[SABİT] 10:00",
+        "place": "Yanase Ryozo Paper Mill (Imadate)",
+        "action": "Washi Tapestry Workshop — 2 saat (10:00-12:00)",
+        "transport": "Taksi (otel'den ~15-20dk)",
+        "duration": "2sa",
+        "cost": {
+          "min": 50000,
+          "max": 50000,
+          "raw": "¥50.000 (¥30K solo + ¥20K guide)"
+        },
+        "note": "✅ REZERVE (Craft Invitation, Rez 4884720). Sukikomi + rakusui techniques. Yanase Kyoko-san (3rd gen) + Yasuhiro-san. English guide DAHİL. Take-home: framed washi tapestry.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yanase%20Ryozo%20Paper%20Mill%20Imadate",
+        "tabelogUrl": ""
+      }
+    ],
+    "main": [
+      {
+        "time": "08:30",
+        "place": "Hotel Crown Hills — kahvaltı",
+        "action": "",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "09:15",
+        "place": "Otel → Yanase Ryozo Paper Mill",
+        "action": "Taksi (~15-20dk)",
+        "transport": "Taksi",
+        "duration": "20dk",
+        "cost": {
+          "min": 2000,
+          "max": 2500,
+          "raw": "¥2-2.5K"
+        },
+        "note": "Imadate area, Echizen-shi.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~12:00",
+        "place": "RYOZO bitiş — framed tapestry alındı",
+        "action": "Tapestry hediye kutusunda paketli — kırılgan, dikkatli taşı",
+        "transport": "—",
+        "duration": "—",
+        "cost": null,
+        "note": "Tokyo'ya kadar carry-on (Crown Hills'den 27 May Çr aldıktan sonra yumuşak yere koy).",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~12:30",
+        "place": "Imadate veya Takefu — öğle",
+        "action": "Lokal soba/lunch",
+        "transport": "Taksi otele veya lokal lunch",
+        "duration": "1sa",
+        "cost": {
+          "min": 1500,
+          "max": 2000,
+          "raw": "¥1.5-2K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~13:30",
+        "place": "JR Takefu → Fukui",
+        "action": "Hapi Line (Hokuriku Honsen) lokal tren (~25dk)",
+        "transport": "JR lokal",
+        "duration": "25dk",
+        "cost": {
+          "min": 700,
+          "max": 800,
+          "raw": "¥700-800"
+        },
+        "note": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fukui%20Station",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~14:00",
+        "place": "Fukui İst. → Eihei-ji",
+        "action": "Eihei-ji Liner bus (~30dk, ¥750)",
+        "transport": "Bus",
+        "duration": "30dk",
+        "cost": {
+          "min": 750,
+          "max": 750,
+          "raw": "¥750"
+        },
+        "note": "Fukui İst. doğu çıkışı — Eihei-ji Liner kalkış noktası işaretli.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "14:30-17:00",
+        "place": "Eihei-ji Tapınağı (永平寺)",
+        "action": "Soto Zen ana tapınağı — 770 yıllık ahşap koridorlar, dağ vadisi konumu, hâlâ aktif manastır",
+        "transport": "Yürüyüş (tapınak içi)",
+        "duration": "2.5sa",
+        "cost": {
+          "min": 700,
+          "max": 700,
+          "raw": "¥700"
+        },
+        "note": "Sessiz dolaş, fotoğraf izinli ama saygı kuralları (sandal çıkar, ses tut). Son giriş 16:30. Drop-in zazen 14:00 oturumu varsa katılma fırsatı — varış zamanlamasına bak.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Eiheiji%20Temple",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~17:00",
+        "place": "Eihei-ji → Fukui → Takefu",
+        "action": "Bus + Hapi Line dönüş",
+        "transport": "Bus + JR",
+        "duration": "1sa",
+        "cost": {
+          "min": 1450,
+          "max": 1550,
+          "raw": "¥1.45-1.55K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~19:00",
+        "place": "Takefu — son akşam yemek",
+        "action": "Echizen lokal yemek + Echizen sake — 4 gecelik kapanış",
+        "transport": "Yürüyüş",
+        "duration": "1.5sa",
+        "cost": {
+          "min": 3000,
+          "max": 4000,
+          "raw": "¥3-4K"
+        },
+        "note": "Yarın 09:00 check-out + 10:10 Hakutaka — erken yat.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
     "alternatives": [],
     "meals": [],
-    "budgetSummary": ""
+    "budgetSummary": "💰 Gün 9 Bütçe: RYOZO ¥50K (rezerve) | Eihei-ji ulaşım ~¥2K + giriş ¥700 | Taksi/JR ~¥3K | Yemek ~¥4K | TOPLAM ~¥60K"
   },
   {
     "id": "day-10",
     "dayNumber": 10,
     "dateRaw": "27 Mayıs 2026 Çarşamba",
-    "title": "TBD — yeniden planlanacak",
-    "fixed": [],
-    "main": [],
+    "title": "Echizen-Takefu → Tokyo (Hakutaka 560 direkt) — Tokyo varış",
+    "fixed": [
+      {
+        "time": "[SABİT] 10:10",
+        "place": "Echizen-Takefu Sh. İst.",
+        "action": "Hakutaka 560 — Echizen-Takefu → Tokyo (direkt, 3sa42dk)",
+        "transport": "Hokuriku Shinkansen",
+        "duration": "3sa42dk",
+        "cost": {
+          "min": 16360,
+          "max": 16360,
+          "raw": "¥16.360"
+        },
+        "note": "✅ REZERVE (e5489 Rez 45754). Car 10 Seat 15-E (rows 12-17 boş zone). Ordinary Car. Tokyo 13:52 varış. AKTARMA YOK.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Echizen-Takefu%20Station",
+        "tabelogUrl": ""
+      }
+    ],
+    "main": [
+      {
+        "time": "~07:30",
+        "place": "Hotel Crown Hills — son kahvaltı",
+        "action": "",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~08:15",
+        "place": "Hotel — eşyaları topla",
+        "action": "Custom knife (Yamaken) + framed washi tapestry (RYOZO) + diğer eşyalar dikkatli paketle",
+        "transport": "—",
+        "duration": "45dk",
+        "cost": null,
+        "note": "BIÇAK KESİNLİKLE KONTROL BAGAJDA. Tapestry kırılgan — yumuşak yere, basınç yapma. Tokyo'da Sotetsu Kanda storage'a teslim et (uçuşa kadar).",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "09:00",
+        "place": "Hotel Crown Hills check-out",
+        "action": "",
+        "transport": "—",
+        "duration": "10dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~09:15",
+        "place": "Otel → Echizen-Takefu Sh. İst.",
+        "action": "Taksi (5km, 10dk)",
+        "transport": "Taksi",
+        "duration": "10dk",
+        "cost": {
+          "min": 1500,
+          "max": 1500,
+          "raw": "¥1.500"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~09:30",
+        "place": "Echizen-Takefu Sh. İst.",
+        "action": "Bento + içecek + kahve — 3sa42dk yolculuğa hazırlık",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": {
+          "min": 1500,
+          "max": 2000,
+          "raw": "¥1.5-2K"
+        },
+        "note": "Hokuriku ekiben'i — Fukui yengeci, sake-tabanlı tatlar.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~13:55",
+        "place": "Tokyo İst.",
+        "action": "Hakutaka varış 13:52 → JR Yamanote ile Akihabara/Kanda (~5dk)",
+        "transport": "JR Yamanote",
+        "duration": "10dk",
+        "cost": {
+          "min": 200,
+          "max": 300,
+          "raw": "¥200-300"
+        },
+        "note": "Akihabara 4dk, Kanda 2dk. Sotetsu Fresa Kanda Akihabara'dan 8dk yürüme veya Kanda 2dk.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Station",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~14:30",
+        "place": "Sotetsu Fresa Inn Tokyo Kanda",
+        "action": "Check-in (yeni 27-30 May booking) + bavul yerleşim + custom knife + tapestry storage'a teslim",
+        "transport": "—",
+        "duration": "30dk",
+        "cost": null,
+        "note": "Single Room. Bıçak kılıfla + tapestry kutuyla — uçuşa kadar storage'da tut, oda küçük.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Tokyo%20Kanda",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~15:30",
+        "place": "Kanda/Akihabara civarı",
+        "action": "Light keşif yürüyüşü — kissaten kahve + Kanda Myojin tapınağı + eski kitapçılar",
+        "transport": "Yürüyüş",
+        "duration": "2-2.5sa",
+        "cost": {
+          "min": 1000,
+          "max": 2000,
+          "raw": "¥1-2K"
+        },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "~19:00",
+        "place": "Kanda — akşam yemek",
+        "action": "Kanda Yabu Soba (Edo dönemi soba evi) veya lokal izakaya",
+        "transport": "Yürüyüş",
+        "duration": "1.5sa",
+        "cost": {
+          "min": 2000,
+          "max": 3000,
+          "raw": "¥2-3K"
+        },
+        "note": "Erken yat — yarın 28 May Tokyo programı (ayrı planlama).",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
     "alternatives": [],
     "meals": [],
-    "budgetSummary": ""
+    "budgetSummary": "💰 Gün 10 Bütçe: Taksi ¥1.500 | Hakutaka ¥16.360 (rezerve) | Bento ¥1.5-2K | Tokyo ulaşım ¥200-300 | Akşam ¥2-3K | TOPLAM ~¥21-23K"
   },
   {
     "id": "day-11",
