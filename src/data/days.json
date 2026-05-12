@@ -604,7 +604,22 @@
         "tabelogUrl": ""
       },
       {
-        "time": "19:45",
+        "time": "18:15-19:30",
+        "place": "Shinjuku Isetan Men's Building B1F",
+        "action": "Wacoal Men + TOOT + Sunspel + Calvin Klein iç çamaşırı karşılaştırma — aynı katta hissederek compare. Tax-free pasaport. Ana hedef Wacoal Men, TOOT en güçlü alternatif (Japon premium).",
+        "transport": "yürüme",
+        "duration": "1s15dk",
+        "cost": {
+          "min": 10000,
+          "max": 15000,
+          "raw": "¥10-15K (tax-free)"
+        },
+        "note": "B1F MEN'S INTIMATE katı. BACKUP eğer Isetan beğenmedi/stok yok: Hankyu Men's Tokyo Yurakucho (Ginza ekseni) veya Ginza Mitsukoshi.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Isetan%20Men%27s%20Shinjuku",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "19:30-19:45",
         "place": "Isetan → Alpen TOKYO Shinjuku",
         "action": "Yasukuni-dori, Shinjuku Sta east",
         "transport": "yürüme",

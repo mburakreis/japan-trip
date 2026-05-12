@@ -71,7 +71,7 @@
     "where": "Toji Kobo-ichi",
     "priceRaw": "¥25K",
     "day": "Gün 4 — Kyoto",
-    "note": "Kırılgan — giysilerle sar, Valiz #1",
+    "note": "Kırılgan — giysilerle sar, Samsonite içinde fragile padding (Day-11 alımı sonrası). Day-3 → Day-10 Mont-bell'de orta katmanda, dikkatli.",
     "dayIds": [
       "day-4"
     ],
@@ -83,10 +83,10 @@
     "item": "Shinonomesou kaiseki",
     "where": "Kinosaki Onsen",
     "priceRaw": "Dahil",
-    "day": "Gün 6",
+    "day": "Gün 5",
     "note": "Konaklama içinde, bütçe dışı.",
     "dayIds": [
-      "day-6"
+      "day-5"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinonomesou%20Kinosaki"
   },
@@ -117,26 +117,13 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MUJI%20Yurakucho%20Tokyo"
   },
   {
-    "id": "shop-19",
-    "checked": false,
-    "item": "Figürler",
-    "where": "Mandarake / Akihabara",
-    "priceRaw": "¥20K",
-    "day": "Gün 11 — Tokyo",
-    "note": "Keyif alışverişi, ¥35K tavan",
-    "dayIds": [
-      "day-11"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mandarake%20Complex%20Akihabara"
-  },
-  {
     "id": "shop-20",
     "checked": false,
     "item": "PS5 Pro",
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥138K",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. Valiz #2",
+    "note": "Tax-free. Yodobashi tek transaction 'menzei matome' (まとめ免税) — Samsonite içinde retail box paket, 26L hacim.",
     "dayIds": [
       "day-11"
     ],
@@ -149,7 +136,7 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥12K",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. Valiz #2. App'te yarı fiyat görünmüştü, ¥12K teyit edildi.",
+    "note": "Tax-free. Yodobashi menzei matome — Samsonite içinde. App'te yarı fiyat görünmüştü, ¥12K teyit edildi.",
     "dayIds": [
       "day-11"
     ],
@@ -162,7 +149,7 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥19K",
     "day": "Gün 11 — Tokyo",
-    "note": "Tax-free. Valiz #2",
+    "note": "Tax-free. Yodobashi menzei matome — Samsonite içinde (kutu).",
     "dayIds": [
       "day-11"
     ],
@@ -175,7 +162,7 @@
     "where": "Yodobashi Akihabara",
     "priceRaw": "¥37K",
     "day": "Gün 11 — Tokyo",
-    "note": "Carry-on (Muji pouch)",
+    "note": "Carry-on (Muji pouch) STOK BELİRSİZ — Yodobashi Akiba'da yoksa Bic Camera Akihabara'ya geç (5dk yürüme). Day-11'de bulunamazsa Day-12 Shinjuku'da Bic Camera Shinjuku East/West dene. Kesin alınacak. Mont-bell 45L cabin — hassas, Muji pouch içinde.",
     "dayIds": [
       "day-11"
     ],
@@ -201,7 +188,7 @@
     "where": "Shimokitazawa vintage",
     "priceRaw": "¥20-30K",
     "day": "Gün 12 — Tokyo",
-    "note": "Valiz #2. 2-3 pantolon + Trefac Shimokitazawa fiziksel mağaza ziyareti dahil — vintage thrift.",
+    "note": "Mont-bell 45L cabin — heavy denim folded compression. 2-3 pantolon W36 + Trefac Shimokitazawa fiziksel mağaza ziyareti dahil — vintage thrift. Cabin 10kg sınırı için max 2-3 pantolon.",
     "dayIds": [
       "day-12"
     ],
@@ -224,12 +211,12 @@
     "id": "shop-porter",
     "checked": false,
     "item": "Porter Tanker Crossbody",
-    "where": "Beams Japan Shinjuku veya Porter direkt mağaza",
+    "where": "Yoshida & Co. Marunouchi (Porter Flagship)",
     "priceRaw": "¥30-40K",
-    "day": "Gün 12 — Tokyo (Shinjuku rotasyonu)",
-    "note": "S veya M boyut — mağazada elinde dene. Tax-free. Day 12 Shinjuku rotasyonunda (Beams + Sekaido ile).",
+    "day": "Gün 2 — Tokyo (Ginza)",
+    "note": "S veya M boyut — mağazada elinde dene. Tax-free. Day 2 Ginza ekseninde Kaneko/Mont-bell/Asics ile aynı gün, Tabio Marunouchi öncesi.",
     "dayIds": [
-      "day-12"
+      "day-2"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Porter%20Yoshida%20Tokyo"
   },
@@ -237,12 +224,12 @@
     "id": "shop-orslow",
     "checked": false,
     "item": "orSlow 105 Selvedge Denim",
-    "where": "orSlow Tokyo (Aoyama)",
+    "where": "orSlow Tokyo Honten (Sendagaya)",
     "priceRaw": "¥30K",
-    "day": "Gün 2 — Tokyo",
+    "day": "Gün 12 — Tokyo (Sendagaya, Shinjuku rotası içinde)",
     "note": "W34 (yedek W36). 105 fit gevşek/standart. Try-on yap, uyluk 61cm yapıma uygun.",
     "dayIds": [
-      "day-2"
+      "day-12"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=orSlow%20Tokyo"
   },
@@ -303,9 +290,9 @@
     "checked": false,
     "item": "Tabio merino wool socks 3-pack",
     "where": "Tabio Tokyo (Lumine, Marunouchi vs.)",
-    "priceRaw": "¥6-8K",
+    "priceRaw": "¥17K",
     "day": "Gün 2 — Tokyo",
-    "note": "29cm ayak için L beden. Merino karışım — yün, hafif, kokmaz.",
+    "note": "29cm L beden. Spesifik liste:\n- 5× Racing Run 5-toe (072120037) ¥2.000 = ¥10.000\n- 2× Racing Run Merino Crew (072140051) ~¥2.750 = ~¥5.500\n- 1× BOOTS SOCKS (062142122 veya 062143776) ¥1.980\nToplam ~¥17.500 (~₺4.600), tax-free ¥5K+ tek transaction.\nURL pattern: tabio.com/jp/detail/[ID]/\nTabio Marunouchi (Maru Bldg veya KITTE) Day-2 Ginza ekseninde.",
     "dayIds": [
       "day-2"
     ],
@@ -381,12 +368,25 @@
     "checked": false,
     "item": "Nakano Broadway — figür/manga ek",
     "where": "Nakano Broadway (Mandarake flagship complex)",
-    "priceRaw": "¥20K",
+    "priceRaw": "¥30-40K",
     "day": "Gün 11 — Tokyo",
-    "note": "Mandarake Akihabara'dan ayrı — Nakano Broadway 3-4. kat tüm Mandarake mağazaları. 'Cool, unknown' Pokemon/figür/manga arayışı için ideal.",
+    "note": "TÜM figür/manga alışverişi burada — Mandarake Akihabara atlandı, sadece Nakano Broadway. 'Cool, unknown' Pokemon/figür/manga. 3-4. kat tüm Mandarake mağazaları + 200+ niche shop maze. Akihabara'nın non-touristy lokal alternatifi.",
     "dayIds": [
       "day-11"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nakano%20Broadway"
+  },
+  {
+    "id": "shop-wacoal",
+    "checked": false,
+    "item": "Wacoal Men + alternatif iç çamaşırı",
+    "where": "Shinjuku Isetan Men's Building B1F (MEN'S INTIMATE)",
+    "priceRaw": "¥10-15K",
+    "day": "Gün 2 — Tokyo (Shinjuku ekseni)",
+    "note": "Wacoal Men ana hedef + TOOT (Japon premium, en güçlü alternatif), Sunspel (İngiliz premium), Calvin Klein. Aynı katta hissederek compare et. Day 2 Shinjuku rotasında Alpen TOKYO sonrası, Anshin Oyado oteline yürüme. BACKUP: Hankyu Men's Tokyo Yurakucho (Ginza ekseni alternatifi) veya Ginza Mitsukoshi.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Isetan%20Men%27s%20Shinjuku"
   }
 ]
