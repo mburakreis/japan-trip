@@ -1,4 +1,5 @@
 import { Download, Moon, Sun } from "lucide-react";
+import JSZip from "jszip";
 import trip from "../data/trip.json";
 import days from "../data/days.json";
 import reservations from "../data/reservations.json";
@@ -11,29 +12,22 @@ function timestamp(d: Date): string {
   return `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}-${pad(d.getHours())}${pad(d.getMinutes())}`;
 }
 
-function downloadJson(name: string, data: unknown, ts: string) {
-  const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
+async function downloadAllData() {
+  const ts = timestamp(new Date());
+  const zip = new JSZip();
+  zip.file("trip.json", JSON.stringify(trip, null, 2));
+  zip.file("days.json", JSON.stringify(days, null, 2));
+  zip.file("reservations.json", JSON.stringify(reservations, null, 2));
+  zip.file("shopping.json", JSON.stringify(shopping, null, 2));
+  const blob = await zip.generateAsync({ type: "blob" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `${name}_${ts}.json`;
+  a.download = `japan-trip_${ts}.zip`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
-}
-
-function downloadAllData() {
-  const ts = timestamp(new Date());
-  const files: Array<{ name: string; data: unknown }> = [
-    { name: "trip", data: trip },
-    { name: "days", data: days },
-    { name: "reservations", data: reservations },
-    { name: "shopping", data: shopping },
-  ];
-  files.forEach((f, i) => {
-    setTimeout(() => downloadJson(f.name, f.data, ts), i * 250);
-  });
 }
 
 export function Header({ theme, onToggleTheme }: { theme: "light" | "dark"; onToggleTheme: () => void }) {
