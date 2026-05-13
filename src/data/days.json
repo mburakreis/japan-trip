@@ -360,362 +360,371 @@
     "id": "day-2",
     "dayNumber": 2,
     "dateRaw": "19 Mayıs 2026 Salı",
-    "title": "Tsukiji + Hama-rikyu + Ginza Shopping Cluster + Shinjuku Gece",
+    "title": "Tokyo Shopping Day — Kıyafet + Gözlük + Backpack + Shinjuku Akşam",
     "fixed": [
       {
-        "time": "[SABİT] 10:00",
+        "time": "[SABİT] 09:00",
         "place": "Sotetsu Fresa Inn Ginza-Nanachome",
-        "action": "Check-out + reception bagaj hold (ücretsiz, akşama dek)",
+        "action": "Check-out, sırt çantası sırtta (bagaj hold YOK — gün boyu sırtta)",
         "transport": "—",
         "duration": "15dk",
         "cost": null,
-        "note": "Bagaj pickup ~17:30 hedef.",
+        "note": "Anshin Oyado check-in gece son saat (~22:05) — gündüz Anshin'e uğrama yok.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Ginza-Nanachome",
         "tabelogUrl": ""
       },
       {
-        "time": "[SABİT] 13:30",
-        "place": "Kaneko Optical Ginza",
-        "action": "Gözlük + güneş sipariş — frame seçimi + lens prescription + delivery date Day-11 May 28 sabah 11:00+ teyit (shop-kaneko-order)",
-        "transport": "yürüme 5dk Kagari'den",
-        "duration": "60dk",
+        "time": "[SABİT] 11:00",
+        "place": "Asics Ginza Honten (NTT Ginza Bldg 1F, 8-2-7 Ginza)",
+        "action": "Açılışın ilk müşterisi — gait analysis + Gel Kayano 32 4E (29cm) try-on + Metaspeed alternatifi browse",
+        "transport": "yürüme 20dk Sotetsu'dan",
+        "duration": "70dk",
         "cost": {
-          "min": 80000,
-          "max": 100000,
-          "raw": "¥80-100K (tax-free)"
+          "min": 22000,
+          "max": 22000,
+          "raw": "¥22.000 (tax-free pasaport)"
         },
-        "note": "KRİTİK ACTION — 9-gün clock başlıyor. Çıkışta delivery confirmation kâğıdı + telefon numarası bırak. Backup 999.9 Ginza Flagship 5dk yürüme.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaneko%20Optical%20Ginza",
+        "note": "KRİTİK timing — açılışta personel rahat, proper consultation. Walk-in (online rez yok).",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Asics%20Ginza%20Honten",
         "tabelogUrl": ""
       },
       {
-        "time": "[SABİT] 18:15",
+        "time": "[SABİT] 18:55",
         "place": "Isetan Men's Shinjuku-sanchome B1F (MEN'S INTIMATE)",
-        "action": "Wacoal + TOOT + Sunspel + CK underwear karşılaştır",
-        "transport": "yürüme 1dk Shinjuku-sanchome Exit B3",
-        "duration": "1.5sa",
+        "action": "Wacoal Men WT3438/3439 XL + TOOT Origin Basic XL karşılaştır",
+        "transport": "yürüme 3dk Shinjuku-sanchome Exit B3",
+        "duration": "60dk",
         "cost": {
           "min": 10000,
           "max": 15000,
           "raw": "¥10-15K (tax-free ¥5K+)"
         },
-        "note": "PRIORITY — Isetan 20:00 kapanış, Burak'ın sıkışmayacağı tek lüks dept B1F window.",
+        "note": "Isetan 20:00 kapanış, son saat sakin. Karar önceden net olsun.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Isetan%20Men's%20Shinjuku",
         "tabelogUrl": ""
       },
       {
-        "time": "[SABİT] ~21:15",
+        "time": "[SABİT] 22:05",
         "place": "Anshin Oyado Tokyo Man Shinjuku (Kabukicho 1-chome)",
-        "action": "Resmi check-in + capsule locker (bagaj zaten ~18:00 partial drop)",
-        "transport": "yürüme 7dk Shinjuku Sta east exit'ten",
-        "duration": "20dk",
+        "action": "Check-in — gün boyu ilk ve tek gidiş, bagaj capsule içine",
+        "transport": "yürüme 8dk Omoide'den",
+        "duration": "25dk",
         "cost": null,
-        "note": "Konaklama PAID (kahvaltı dahil). Capsule küçük locker — 45L Mont-bell sığar, daha büyükse lobi luggage area.",
+        "note": "Konaklama PAID (kahvaltı dahil). Day-3 Nozomi 11:09 için 22:30 uyku → 08:00 wake, ~9.5sa.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anshin%20Oyado%20Tokyo%20Shinjuku",
         "tabelogUrl": ""
       }
     ],
     "main": [
       {
-        "time": "07:00",
+        "time": "08:30",
         "place": "Sotetsu Fresa Ginza-Nanachome",
-        "action": "Uyan + hafif refresh, light bag (pasaport+wallet+phone+kamera)",
+        "action": "Yavaş kalk, refresh (jet lag aktif TR-JP 6sa fark)",
         "transport": "—",
         "duration": "30dk",
         "cost": null,
-        "note": "Ana bagaj odada, akşam pickup.",
+        "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "07:30",
-        "place": "Sotetsu → Tsukiji Outer Market",
-        "action": "Yürüme Showa-dori (12dk) veya Hibiya Line Higashi-Ginza→Tsukiji 1 stop",
+        "time": "09:15",
+        "place": "Konbini (7-Eleven/FamilyMart Ginza-Nanachome civarı)",
+        "action": "Konbini kahvaltı — onigiri + sandviç + sıcak kahve",
         "transport": "yürüme",
-        "duration": "12-15dk",
+        "duration": "25dk",
         "cost": {
-          "min": 0,
-          "max": 180,
-          "raw": "¥0-180"
+          "min": 700,
+          "max": 900,
+          "raw": "¥0.7-0.9K"
         },
-        "note": "Dawn Ginza boş, yürüme önerisi.",
+        "note": "Tsukiji turist hücumundan kaçınmak için bilinçli seçim.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "08:00-09:30",
-        "place": "Tsukiji Outer Market",
-        "action": "Tamagoyaki (Marutake/Yamacho) + kaisendon (Murakami uni-don / Kanni-don) + A5 wagyu skewer + handmade knife shops browsing (Aritsugu görüntü, alım Day-8 Yamaken için)",
+        "time": "09:40",
+        "place": "Ginza Chuo-dori yürüyüş",
+        "action": "Yavaş yürüyüş — Wako binası, Ginza Six dış cephe. Jet lag dağıtma",
         "transport": "yürüme",
-        "duration": "1.5sa",
-        "cost": {
-          "min": 3000,
-          "max": 4500,
-          "raw": "¥3.000-4.500 (kahvaltı + tadımlık)"
-        },
-        "note": "Salı = ideal gün (Çar/Paz kapalı, Pzt değişken). Peak 08:00-10:00, mağazaların yarısı 11:00 öncesi kapanır. Nakit + Suica şart. Walking-eat yasak.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tsukiji%20Outer%20Market",
+        "duration": "50dk",
+        "cost": null,
+        "note": "Sabah Ginza boş, atmosfer.",
+        "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "09:45",
-        "place": "Tsukiji → Hama-rikyu Onshi-Teien",
-        "action": "Yürüme güneye, Tsukiji'nin güney bridge'i",
+        "time": "10:30",
+        "place": "Ginza → Asics Ginza Honten (Shinbashi tarafı)",
+        "action": "Yürüme Asics'e doğru",
+        "transport": "yürüme",
+        "duration": "20dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "10:50",
+        "place": "Asics Ginza Honten — dış",
+        "action": "10dk bekle — 11:00 açılışın ilk müşterisi olmak için",
+        "transport": "—",
+        "duration": "10dk",
+        "cost": null,
+        "note": "Strateji: ilk müşteri = personel boş + proper gait analysis dikkat.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "12:10",
+        "place": "Asics → Afuri Ginza",
+        "action": "Yürüme Afuri Ginza Inz 3",
         "transport": "yürüme",
         "duration": "10dk",
         "cost": null,
-        "note": "Sahile yakın gizli geçiş.",
+        "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "10:00-11:45",
-        "place": "Hama-rikyu Onshi-Teien",
-        "action": "Edo daimyo bahçesi, tide pond Shioiri-no-ike, Mayıs peony + iris peak, Nakajima-no-Ochaya matcha + wagashi 300-year tea house",
-        "transport": "yürüme",
-        "duration": "1.5-2sa",
+        "time": "12:20-13:05",
+        "place": "Afuri Ginza (Ginza Inz 3)",
+        "action": "Yuzu shio premium ramen — hafta içi öğle queue minimum",
+        "transport": "—",
+        "duration": "45dk",
         "cost": {
-          "min": 1150,
-          "max": 1150,
-          "raw": "¥300 entry + ¥850 matcha set"
+          "min": 1500,
+          "max": 1500,
+          "raw": "¥1.500"
         },
-        "note": "Non-touristy oasis. Edo-period elegance + skyline kontrast.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hama-rikyu%20Gardens",
+        "note": "Yuzu citrus light broth, jet lag için hafif.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Afuri%20Ginza",
         "tabelogUrl": ""
       },
       {
-        "time": "11:50",
-        "place": "Hama-rikyu → Ginza Itchome",
-        "action": "Hibiya Line Tsukijishijo→Higashi-Ginza veya yürüme 15-20dk",
-        "transport": "yürüme/tren",
-        "duration": "10-20dk",
-        "cost": {
-          "min": 0,
-          "max": 180,
-          "raw": "¥0-180"
-        },
-        "note": "Hava güzelse yürüme — Tsukiji geri view.",
+        "time": "13:05",
+        "place": "Afuri → Mont-bell Tokyo Kyobashi",
+        "action": "Yürüme Tokyo Square Garden (3-1-1 Kyobashi)",
+        "transport": "yürüme",
+        "duration": "15dk",
+        "cost": null,
+        "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "12:15-13:30",
-        "place": "Ginza Kagari (Ginza Itchome 6-4-12 2F)",
-        "action": "Tori-paitan ramen (white chicken broth, signature dish)",
-        "transport": "yürüme",
-        "duration": "75dk (queue 30-45 + meal 25-30)",
+        "time": "13:20-14:25",
+        "place": "Mont-bell Tokyo Kyobashi (Tokyo Square Garden 1-2F)",
+        "action": "Tri-Pack 45 try-on + opsiyonel UV cap browsing",
+        "transport": "—",
+        "duration": "65dk",
         "cost": {
-          "min": 1300,
-          "max": 1700,
-          "raw": "¥1.300-1.700"
-        },
-        "note": "Açılış 11:00, peak 12:00-14:00. Lokal damak, turist tuzağı değil — Tabelog 3.8+.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ginza%20Kagari%20ramen",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "14:30-15:30",
-        "place": "Asics Ginza Honten (Ginza-Yon-chome 5-7-19)",
-        "action": "3D motion gait analysis + Gel Kayano 32 4E (geniş ayak 29cm) try-on + Metaspeed alt opsiyonel",
-        "transport": "yürüme 5dk Kaneko'dan",
-        "duration": "1sa",
-        "cost": {
-          "min": 22000,
+          "min": 20000,
           "max": 22000,
-          "raw": "¥22.000 (tax-free pasaport)"
+          "raw": "¥20K (+ opsiyonel ¥0-2K)"
         },
-        "note": "Walk-in gait analysis genelde kabul (~20-30dk wait); 4E width Asics Ginza'da stoğu var.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Asics%20Ginza%20Honten",
+        "note": "Flagship Kyobashi geniş stok. Tri-Pack 45 EKSTRA alınıyor — Türkiye sırt çantasını değiştirmiyor, gün boyu sırt çantası sırtta.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mont-bell%20Tokyo%20Kyobashi",
         "tabelogUrl": ""
       },
       {
-        "time": "15:30-16:15",
-        "place": "Mont-bell Ginza (Ginza 4-7-3)",
-        "action": "Tri-Pack 45 carry-on try-on + opsiyonel UV şapka/eldiven",
-        "transport": "yürüme 3dk Asics'ten",
-        "duration": "45dk",
+        "time": "14:25",
+        "place": "Mont-bell → JINS Yurakucho Marui",
+        "action": "Yürüme Yurakucho istasyonu (1dk)",
+        "transport": "yürüme",
+        "duration": "10dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "14:35-15:50",
+        "place": "JINS Yurakucho Marui",
+        "action": "Frame + eye exam + sipariş — aynı gün veya birkaç saat teslim",
+        "transport": "—",
+        "duration": "75dk",
         "cost": {
-          "min": 19800,
-          "max": 22800,
-          "raw": "¥19.800 + opsiyonel ¥0-3K"
+          "min": 10000,
+          "max": 25000,
+          "raw": "¥10-25K"
         },
-        "note": "Tri-Pack 45 stok teyit. Eski sırt çantası bu alımdan sonra atılacak (Sotetsu Ginza'da bırakılabilir veya yan sokak çöp).",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza",
+        "note": "Aynı gün teslim. BACKUP: JINS Ginza LOFT (Velvia-kan 3F, 5dk yürüme).",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JINS%20Yurakucho%20Marui",
         "tabelogUrl": ""
       },
       {
-        "time": "16:15-17:00",
-        "place": "Yoshida & Co. Marunouchi (Porter Flagship)",
-        "action": "Tanker Crossbody S/M try-on, yedek model değerlendirme",
-        "transport": "yürüme 10dk Mont-bell'den",
-        "duration": "45dk",
+        "time": "15:50-16:05",
+        "place": "Doutor Ginza veya Tully's — kafe mola",
+        "action": "Kafe rest — jet lag yönetimi",
+        "transport": "yürüme",
+        "duration": "15dk",
         "cost": {
-          "min": 30000,
-          "max": 40000,
-          "raw": "¥30-40K (tax-free)"
+          "min": 500,
+          "max": 500,
+          "raw": "¥500"
         },
-        "note": "Flagship en geniş Porter selection — Ginza Six 5F department daha küçük; flagship stok yoksa Ginza Six (10dk yürüme).",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yoshida%20Porter%20Marunouchi",
+        "note": "",
+        "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "17:00-17:30",
-        "place": "Tabio Marunouchi (Maru Bldg veya KITTE Marunouchi)",
-        "action": "5× Racing Run 5-toe + 2× Merino Crew + 1× Boots Socks",
-        "transport": "yürüme 1-2dk Yoshida'dan",
+        "time": "16:05",
+        "place": "Kafe → BEAMS Ginza",
+        "action": "Yürüme BEAMS Ginza (6-7-2 Ginza, 2F-3F)",
+        "transport": "yürüme",
+        "duration": "5dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "16:10-17:45",
+        "place": "BEAMS Ginza 2F-3F (6-7-2 Ginza)",
+        "action": "BEAMS PLUS paket — 3× Pocket Tee L (Supima Made in Japan) + 1× Open Collar Shirt L + 1× knit XL + 1× cap (one size/L)",
+        "transport": "—",
+        "duration": "95dk",
+        "cost": {
+          "min": 42000,
+          "max": 50000,
+          "raw": "¥42-50K (tax-free)"
+        },
+        "note": "Tax-free counter aynı katta. BEDEN: tişört kalıbı uzun gövdeli L, gömlek+knit slim Japan L→XL sıçraması mümkün, mağazada birlikte dene. Salı hafta içi öğleden sonra makul yoğunluk. Gerekirse 20:00 kapanışa kadar uzatılabilir.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BEAMS%20Ginza",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "17:45",
+        "place": "BEAMS → Tabio Marunouchi",
+        "action": "Yürüme KITTE Marunouchi veya Maru Bldg",
+        "transport": "yürüme",
+        "duration": "10dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "17:55-18:25",
+        "place": "Tabio Marunouchi (KITTE veya Maru Bldg)",
+        "action": "3× Racing Run 5-toe (072120037) + 2× Merino Crew (072140051) + 1× Boots Socks",
+        "transport": "—",
         "duration": "30dk",
         "cost": {
           "min": 17000,
           "max": 17000,
-          "raw": "¥17.000 (tax-free ¥5K+ tek transaction)"
+          "raw": "¥17.000 (tax-free tek transaction)"
         },
-        "note": "Merino çift Echizen workshop günleri kapalı ayakkabı + uzun pantolon altına ideal.",
+        "note": "BACKUP: Day-3 Kyoto Karasuma Tabio veya Day-12 Tabio Shinjuku Lumine.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tabio%20Marunouchi",
         "tabelogUrl": ""
       },
       {
-        "time": "17:30-17:45",
-        "place": "Marunouchi → Sotetsu Fresa Ginza-Nanachome",
-        "action": "Bagaj pickup (Mont-bell Tri-Pack 45 yeni + eski Türkiye valizi; eski sırt çantası burada terk)",
-        "transport": "yürüme veya Hibiya Line",
-        "duration": "10-15dk",
-        "cost": {
-          "min": 0,
-          "max": 180,
-          "raw": "¥0-180"
-        },
-        "note": "Sotetsu reception bagaj teslim, hızlı.",
+        "time": "18:25",
+        "place": "Tabio → Tokyo Sta",
+        "action": "Yürüme Tokyo istasyonu",
+        "transport": "yürüme",
+        "duration": "5dk",
+        "cost": null,
+        "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "17:50-18:10",
-        "place": "Sotetsu Ginza-Nanachome → Shinjuku-sanchome",
-        "action": "Hibiya Line Higashi-Ginza→Ginza 1 stop transfer Marunouchi Line→Shinjuku-sanchome 5 stop, bagajla",
+        "time": "18:30",
+        "place": "Tokyo Sta → Shinjuku-sanchome",
+        "action": "Marunouchi Line Tokyo → Shinjuku-sanchome (4 stop)",
         "transport": "tren",
-        "duration": "20dk",
+        "duration": "22dk",
         "cost": {
           "min": 210,
           "max": 210,
           "raw": "¥210"
         },
-        "note": "Shinjuku-sanchome Exit B3 Isetan'a 1dk.",
+        "note": "Shinjuku-sanchome Exit B3 Isetan'a 1-3dk.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "18:15-19:30",
-        "place": "Shinjuku Isetan Men's Building B1F",
-        "action": "Wacoal Men + TOOT + Sunspel + Calvin Klein iç çamaşırı karşılaştırma — aynı katta hissederek compare. Tax-free pasaport. Ana hedef Wacoal Men, TOOT en güçlü alternatif (Japon premium).",
-        "transport": "yürüme",
-        "duration": "1s15dk",
-        "cost": {
-          "min": 10000,
-          "max": 15000,
-          "raw": "¥10-15K (tax-free)"
-        },
-        "note": "B1F MEN'S INTIMATE katı. BACKUP eğer Isetan beğenmedi/stok yok: Hankyu Men's Tokyo Yurakucho (Ginza ekseni) veya Ginza Mitsukoshi.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Isetan%20Men%27s%20Shinjuku",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "19:30-19:45",
+        "time": "19:55",
         "place": "Isetan → Alpen TOKYO Shinjuku",
-        "action": "Yasukuni-dori, Shinjuku Sta east",
+        "action": "Yürüme Yasukuni-dori, Shinjuku Sta east",
         "transport": "yürüme",
-        "duration": "12-15dk",
+        "duration": "12dk",
         "cost": null,
-        "note": "Büyük yürüme, atmosphere change kabukicho neon.",
+        "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "20:00-21:00",
+        "time": "20:07-21:02",
         "place": "Alpen TOKYO Shinjuku 9F outdoor section",
-        "action": "Hoka Anacapa 2 Low GTX 29cm Wide try-on + GORE-TEX su geçirmez teyit",
-        "transport": "yürüme",
-        "duration": "1sa",
+        "action": "Hoka Anacapa 2 Low GTX 29cm Wide (4E) try-on + GORE-TEX su geçirmez teyit",
+        "transport": "—",
+        "duration": "55dk",
         "cost": {
           "min": 20000,
           "max": 30000,
           "raw": "¥20-30K (tax-free pasaport)"
         },
-        "note": "Kapanış 22:00. Bedensiz çift varsa 28.5cm Wide alternatif. Mayıs sonu indirim ihtimali — Murasaki Sports Shinjuku 7dk yürüme karşılaştır.",
+        "note": "Kapanış 22:00. Mayıs sonu indirim ihtimali.",
         "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alpen%20TOKYO%20Shinjuku",
         "tabelogUrl": ""
       },
       {
-        "time": "21:00-21:30",
-        "place": "Alpen → Uniqlo Shinjuku Honten",
-        "action": "Yasukuni-dori 5dk yürüme, 11 katlı dünya'nın en büyüğü (opsiyonel hızlı browse)",
+        "time": "21:02",
+        "place": "Alpen → Omoide Yokocho",
+        "action": "Yürüme Shinjuku Sta west exit",
         "transport": "yürüme",
-        "duration": "30dk hızlı",
-        "cost": {
-          "min": 0,
-          "max": 6000,
-          "raw": "¥0-6K"
-        },
-        "note": "Kapanış 22:00 — tempo'ya göre quick browse veya iptal.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Uniqlo%20Shinjuku%20Honten",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "21:45-23:00",
-        "place": "Omoide Yokocho (Shinjuku Sta west exit)",
-        "action": "Yakitori 3-4 şiş + lokal sake/bira + Showa alley atmosphere",
-        "transport": "yürüme ~5dk Anshin'den",
-        "duration": "75dk",
-        "cost": {
-          "min": 2500,
-          "max": 3500,
-          "raw": "¥2.500-3.500"
-        },
-        "note": "Non-touristy lokal kuruluşlar. Her stand 6-8 koltuk, hızlı rotasyon. 'Omoide' = 'anılar'.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho%20Shinjuku",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "23:00-00:00",
-        "place": "Golden Gai (Kabukicho 1-chome)",
-        "action": "2-3 küçük bar hop, Showa-era 200+ bar maze",
-        "transport": "yürüme 5dk Omoide'den",
-        "duration": "1sa",
-        "cost": {
-          "min": 2500,
-          "max": 4500,
-          "raw": "¥2.500-4.500 (cover ¥500-1.000/bar + drink)"
-        },
-        "note": "Her bar 4-8 koltuk. Conversational Japonca premium karşılanır. English-friendly başlangıç 'Champion' veya 'Albatross' — sonra lokal'a geç. Giriş öncesi 'kuvere var mı?' sor.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Golden%20Gai%20Shinjuku",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "00:00-00:30",
-        "place": "Kabukicho + Godzilla Road",
-        "action": "Hotel Gracery Shinjuku üstü Godzilla heykeli — neon nightscape foto walk",
-        "transport": "yürüme",
-        "duration": "30dk",
+        "duration": "10dk",
         "cost": null,
-        "note": "Anshin'e 5dk dönüş. Ana cadde gece yarısı sonrası canlı.",
+        "note": "",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "00:30 (+1)",
+        "time": "21:12-21:57",
+        "place": "Omoide Yokocho (Shinjuku Sta west exit)",
+        "action": "2-3 yakitori şiş + 1 bira — jet lag için hafif tut",
+        "transport": "—",
+        "duration": "45dk",
+        "cost": {
+          "min": 2000,
+          "max": 3000,
+          "raw": "¥2-3K"
+        },
+        "note": "Salaryman peak sonrası, lokal müdavim. Golden Gai Day-11/12'ye taşındı, Day-2'de YOK.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho%20Shinjuku",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "21:57",
+        "place": "Omoide → Anshin Oyado",
+        "action": "Yürüme Kabukicho 1-chome",
+        "transport": "yürüme",
+        "duration": "8dk",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "22:30",
         "place": "Anshin Oyado",
-        "action": "Uyku — Day-3 Nozomi 11:09 için 08:00 wake hedef",
+        "action": "UYKU — Day-3 Nozomi 11:09 için 08:00 wake, ~9.5sa",
         "transport": "—",
         "duration": "",
         "cost": null,
-        "note": "7.5sa uyku kapsamı.",
+        "note": "Erken uyku → Day-3 sabahı kuvvetli.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
     ],
     "alternatives": [
       {
-        "time": "B-PLAN",
-        "place": "Tsukiji turist hücumu fazla → Tsukijishijo Sta. arka caddeleri (Hokyo Bldg, Kyoun area) gizli yan stands",
+        "time": "B-PLAN Asics 4E 29cm stok yok",
+        "place": "(1) Super Sports Xebio Tokyo Sta veya KITTE Marunouchi 10dk. (2) Akşam L-Breath Shinjuku (Lumine 1) — Isetan'a 30dk önce uğra. (3) Murasaki Sports Shinjuku east. (4) SON ÇARE: Asics'in başka stability modeli (Gel-Nimbus 26 veya Novablast 4).",
         "action": "",
         "transport": "—",
         "duration": "",
@@ -725,8 +734,8 @@
         "tabelogUrl": ""
       },
       {
-        "time": "B-PLAN",
-        "place": "Kagari queue 60dk+ → Ginza Hageten tendon veya Ginza Sushi Iwa",
+        "time": "B-PLAN JINS frame stok yok",
+        "place": "5dk yürüme JINS Ginza LOFT (Velvia-kan 3F) yedek. JINS'in Tokyo'da onlarca şubesi var.",
         "action": "",
         "transport": "—",
         "duration": "",
@@ -736,8 +745,8 @@
         "tabelogUrl": ""
       },
       {
-        "time": "B-PLAN",
-        "place": "Hoka stok yok 29cm Wide → L-Breath Shinjuku veya Murasaki Sports Harajuku Day-12'de",
+        "time": "B-PLAN Isetan Wacoal WT3438 XL yok",
+        "place": "TOOT Origin Basic veya Sunspel XL'e geç. Wacoal Men'in başka modeli (BROS by Wacoal Men, PANTS HOLIC).",
         "action": "",
         "transport": "—",
         "duration": "",
@@ -747,8 +756,8 @@
         "tabelogUrl": ""
       },
       {
-        "time": "B-PLAN",
-        "place": "Jet lag ağır → Omoide + Golden Gai Day-11 akşama kaydır, Day-2 erken uyku 22:30",
+        "time": "B-PLAN Hoka Anacapa 2 Low GTX 29cm Wide yok",
+        "place": "(1) Alpen TOKYO içinde Anacapa Mid GTX 29cm Wide. (2) Murasaki Sports Shinjuku veya L-Breath Shinjuku 7dk. (3) Hoka Speedgoat 5 GTX veya Challenger 7 GTX.",
         "action": "",
         "transport": "—",
         "duration": "",
@@ -758,8 +767,19 @@
         "tabelogUrl": ""
       },
       {
-        "time": "B-PLAN",
-        "place": "Isetan beğenmedi → Hankyu Men's Tokyo Yurakucho veya Ginza Mitsukoshi yedek",
+        "time": "B-PLAN BEAMS Ginza kalabalık",
+        "place": "BEAMS Ginza 20:00'a kadar açık. Gerekirse Tabio + Isetan akışını sıkıştırıp BEAMS'e 20-30dk daha ver.",
+        "action": "",
+        "transport": "—",
+        "duration": "",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "B-PLAN Tabio Marunouchi stok yok",
+        "place": "Day-3 Kyoto Karasuma Tabio veya Day-12 Tabio Shinjuku Lumine yedek.",
         "action": "",
         "transport": "—",
         "duration": "",
@@ -771,67 +791,67 @@
     ],
     "meals": [
       {
-        "time": "08:00-09:30",
-        "place": "Tsukiji breakfast",
-        "action": "Kaisendon + tamagoyaki + uni",
+        "time": "09:15",
+        "place": "Konbini (7-Eleven veya FamilyMart Ginza-Nanachome)",
+        "action": "Konbini kahvaltı — onigiri + sandviç + sıcak kahve",
         "transport": "—",
-        "duration": "",
+        "duration": "25dk",
         "cost": {
-          "min": 3000,
-          "max": 4500,
-          "raw": "¥3.000-4.500"
+          "min": 700,
+          "max": 900,
+          "raw": "¥0.7-0.9K"
         },
-        "note": "Balıkçı kahvaltısı, günlük taze tahta tezgah.",
+        "note": "Tsukiji turist hücumu atlama bilinçli seçimi.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "12:15-13:30",
-        "place": "Ginza Kagari",
-        "action": "Tori-paitan ramen",
+        "time": "12:20-13:05",
+        "place": "Afuri Ginza (Ginza Inz 3)",
+        "action": "Yuzu shio premium ramen",
         "transport": "—",
-        "duration": "",
+        "duration": "45dk",
         "cost": {
-          "min": 1300,
-          "max": 1700,
+          "min": 1500,
+          "max": 1500,
           "raw": "¥1.500"
         },
-        "note": "Tokyo non-touristy ramen klasiği, signature white chicken broth.",
-        "mapsUrl": "",
-        "tabelogUrl": "https://tabelog.com/tokyo/A1301/A130101/13146283/"
-      },
-      {
-        "time": "21:45-23:00",
-        "place": "Omoide Yokocho",
-        "action": "Yakitori 3-4 şiş + bira/sake",
-        "transport": "—",
-        "duration": "",
-        "cost": {
-          "min": 2500,
-          "max": 3500,
-          "raw": "¥2.500-3.500"
-        },
-        "note": "Showa-era alley, lokal müdavim.",
+        "note": "Yuzu citrus light broth, jet lag için hafif.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "23:00-00:00",
-        "place": "Golden Gai",
-        "action": "2-3 bar drink",
+        "time": "15:50-16:05",
+        "place": "Doutor Ginza veya Tully's",
+        "action": "Kafe — jet lag rest",
         "transport": "—",
-        "duration": "",
+        "duration": "15dk",
         "cost": {
-          "min": 2500,
-          "max": 4500,
-          "raw": "¥2.500-4.500"
+          "min": 500,
+          "max": 500,
+          "raw": "¥500"
         },
-        "note": "Mikro bar maze, Tokyo gece kültürü.",
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "21:12-21:57",
+        "place": "Omoide Yokocho",
+        "action": "2-3 yakitori şiş + 1 bira",
+        "transport": "—",
+        "duration": "45dk",
+        "cost": {
+          "min": 2000,
+          "max": 3000,
+          "raw": "¥2-3K"
+        },
+        "note": "Salaryman peak sonrası, jet lag için hafif.",
         "mapsUrl": "",
         "tabelogUrl": ""
       }
     ],
-    "budgetSummary": "💰 Day-2 dış harcama: shopping ¥190-225K (Kaneko ¥80-100K + Asics ¥22K + Mont-bell ¥20K + Porter ¥35K + Tabio ¥17K + Isetan ¥12K + Hoka ¥25K) + 4 öğün ¥10-13K + transit ¥600 + Anshin PAID ≈ ¥200-240K (tax-free net ¥182-218K)"
+    "budgetSummary": "💰 Day-2 dış harcama: shopping ¥141-179K (JINS ¥10-25K + BEAMS ¥42-50K + Asics ¥22K + Mont-bell ¥20K + Tabio ¥17K + Isetan ¥10-15K + Hoka ¥20-30K) + 4 öğün ¥4.7-6K + transit ¥400 + Anshin PAID ≈ ¥146-185K (tax-free net ¥133-170K)"
   },
   {
     "id": "day-3",
@@ -3949,21 +3969,6 @@
     "title": "MEGA: Kissaten + Kaneko Pickup + Muji + Yodobashi Tax-Free + Nakano Broadway",
     "fixed": [
       {
-        "time": "[SABİT] 11:00",
-        "place": "Kaneko Optical Ginza — PICKUP",
-        "action": "Gözlük + güneş pickup (Day-2 May 19 → Day-11 May 28 = 9-gün clock ✓) — try-on, nose pad adjustment, balance ödeme",
-        "transport": "—",
-        "duration": "45dk",
-        "cost": {
-          "min": 0,
-          "max": 20000,
-          "raw": "¥0-20K balance"
-        },
-        "note": "CRITICAL — 9-gün clock tamamlandı. Pasaport + Day-2 receipt taşı. Backup 999.9 Ginza fallback 5dk yürüme.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaneko%20Optical%20Ginza",
-        "tabelogUrl": ""
-      },
-      {
         "time": "[SABİT] Yodobashi tax-free TEK transaction",
         "place": "Yodobashi Akihabara",
         "action": "Samsonite UPSCAPE 104L + PS5 Pro + DualSense + PULSE Elite + Kobo Libra Color — TEK transaction tax-free",
@@ -4044,29 +4049,18 @@
         "tabelogUrl": ""
       },
       {
-        "time": "10:45-11:00",
-        "place": "Tricolore → Kaneko Ginza",
-        "action": "Yürüme 5-7dk Ginza içi",
+        "time": "10:45-11:30",
+        "place": "Tricolore → Muji Yurakucho",
+        "action": "Yürüme — Tricolore Ginza'dan Muji Yurakucho flagship'e ~5-8dk + esnek yol",
         "transport": "yürüme",
-        "duration": "5-10dk",
+        "duration": "45dk",
         "cost": null,
         "note": "Kaneko 11:00 açılış anında giriş timing tight ama doable.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "11:45",
-        "place": "Kaneko çıkış → Muji Yurakucho",
-        "action": "Yürüme batı 5-8dk",
-        "transport": "yürüme",
-        "duration": "5-10dk",
-        "cost": null,
-        "note": "Yurakucho Sta yakını.",
-        "mapsUrl": "",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "12:00-13:30",
+        "time": "11:30-13:00",
         "place": "Muji Yurakucho 旗艦店",
         "action": "Japan'ın en büyük 6 katlı Muji flagship (B1-5F) — clothing + stationery + home + furniture + food market (B1F) + cafe",
         "transport": "yürüme",

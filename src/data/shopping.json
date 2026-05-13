@@ -1,18 +1,5 @@
 [
   {
-    "id": "shop-kaneko-order",
-    "checked": false,
-    "item": "Kaneko Gözlük (sipariş)",
-    "where": "Kaneko Optical Ginza",
-    "priceRaw": "¥100K",
-    "day": "Gün 2 — Tokyo",
-    "note": "Optik + güneş gözlüğü toplam ¥100K bütçe. Sipariş Gün 2 (19 May), teslim Gün 11 (28 May, ~9 gün). BACKUP: 999.9 Four Nines Ginza Flagship (Kaneko'ya 5dk yürüme) — Kaneko 9 günde teslim edemezse oraya geç.",
-    "dayIds": [
-      "day-2"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaneko%20Optical%20Ginza"
-  },
-  {
     "id": "shop-1",
     "checked": false,
     "item": "Asics Gel Kayano 32",
@@ -29,10 +16,10 @@
     "id": "shop-2",
     "checked": false,
     "item": "Montbell Tri-Pack 45 (carry-on)",
-    "where": "Montbell Ginza",
+    "where": "Mont-bell Tokyo Kyobashi (Tokyo Square Garden 1-2F, 3-1-1 Kyobashi)",
     "priceRaw": "¥19.800",
     "day": "Gün 2 — Tokyo",
-    "note": "45L 3-way, 1010g, eski sırt atılacak",
+    "note": "45L 3-way, 1010g. Mont-bell Tri-Pack EKSTRA alınıyor — Türkiye sırt çantasını DEĞİŞTİRMİYOR, gün boyu sırt çantası sırtta. Mont-bell Tokyo Kyobashi flagship geniş stok.",
     "dayIds": [
       "day-2"
     ],
@@ -180,19 +167,6 @@
       "day-2"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alpen%20TOKYO%20Shinjuku"
-  },
-  {
-    "id": "shop-porter",
-    "checked": false,
-    "item": "Porter Tanker Crossbody",
-    "where": "Yoshida & Co. Marunouchi (Porter Flagship)",
-    "priceRaw": "¥30-40K",
-    "day": "Gün 2 — Tokyo (Ginza)",
-    "note": "S veya M boyut — mağazada elinde dene. Tax-free. Day 2 Ginza ekseninde Kaneko/Mont-bell/Asics ile aynı gün, Tabio Marunouchi öncesi.",
-    "dayIds": [
-      "day-2"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Porter%20Yoshida%20Tokyo"
   },
   {
     "id": "shop-orslow",
@@ -375,5 +349,18 @@
       "day-12"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=AURALEE%20Aoyama"
+  },
+  {
+    "id": "shop-jins",
+    "checked": false,
+    "item": "JINS Gözlük + güneş gözlüğü",
+    "where": "JINS Yurakucho Marui",
+    "priceRaw": "¥10-25K",
+    "day": "Gün 2 — Tokyo (Yurakucho)",
+    "note": "Frame seçimi + eye exam + sipariş. JINS aynı gün veya birkaç saat teslim — Day-11 pickup gerekmez. BACKUP: JINS Ginza LOFT (Velvia-kan 3F, 5dk yürüme). JINS'in Tokyo'da onlarca şubesi var.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=JINS%20Yurakucho%20Marui"
   }
 ]
