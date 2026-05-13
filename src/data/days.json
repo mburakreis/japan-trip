@@ -4453,8 +4453,8 @@
       },
       {
         "time": "14:00",
-        "place": "Shimokita → orSlow Tokyo Honten Sendagaya",
-        "action": "Inokashira Line Shimokita → Shibuya transfer JR Yamanote Yoyogi + JR Sōbu Yoyogi → Sendagaya",
+        "place": "Shimokita → orSlow Aoyama",
+        "action": "Inokashira Line Shimokita → Shibuya transfer Ginza Line Omotesando, sonra yürüme Aoyama",
         "transport": "tren",
         "duration": "30dk",
         "cost": {
@@ -4468,25 +4468,40 @@
       },
       {
         "time": "14:30-15:30",
-        "place": "orSlow Tokyo Honten Sendagaya",
+        "place": "orSlow Tokyo Aoyama",
         "action": "105 Selvedge Denim W34 try-on + W36 yedek + Japan-made denim/chinos browse",
-        "transport": "yürüme",
+        "transport": "yürüme + metro",
         "duration": "1sa",
         "cost": {
           "min": 30000,
           "max": 30000,
           "raw": "¥30K (tax-free)"
         },
-        "note": "Hours genelde 12:00-20:00 Cuma açık. Flagship en geniş orSlow Japan selection.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=orSlow%20Tokyo",
+        "note": "Aoyama lokasyon — AURALEE Aoyama'ya yürüme mesafesi. Hours genelde 12:00-20:00 Cuma açık.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=orSlow%20Tokyo%20Aoyama",
         "tabelogUrl": ""
       },
       {
-        "time": "15:30-15:50",
-        "place": "Sendagaya → Shinjuku-sanchome",
-        "action": "JR Sōbu + Yamanote → Shinjuku + walk; veya Marunouchi Line Shinjuku → Shinjuku-sanchome",
-        "transport": "tren/yürüme",
-        "duration": "15-20dk",
+        "time": "15:30-16:30",
+        "place": "AURALEE Aoyama Flagship",
+        "action": "Seamless Crewneck T-shirt veya Luster Plaiting T-shirt — Supima premium pamuk, size 4 (XL) try-on",
+        "transport": "yürüme",
+        "duration": "1sa",
+        "cost": {
+          "min": 10000,
+          "max": 15000,
+          "raw": "¥10-15K (tax-free)"
+        },
+        "note": "orSlow'a yürüme mesafesi — aynı turda iki mağaza. 'Tek başına anlamlı parça' Burak'ın stil profilinde.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=AURALEE%20Aoyama",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "16:30-17:00",
+        "place": "Aoyama → Shinjuku-sanchome",
+        "action": "Ginza Line veya Marunouchi Line metro transit, ~15-20dk",
+        "transport": "metro",
+        "duration": "30dk",
         "cost": {
           "min": 210,
           "max": 210,
@@ -4497,7 +4512,7 @@
         "tabelogUrl": ""
       },
       {
-        "time": "15:50-17:10",
+        "time": "17:00-18:30",
         "place": "Sekaido Shinjuku-sanchome 本店 (3-1-1 Shinjuku, 8 katlı)",
         "action": "Pilot/Uni/Kokuyo/Stalogy/Lihit Lab/Maruman/sketch malzeme — dünya'nın en büyük stationery shoplarından",
         "transport": "yürüme",
@@ -4512,44 +4527,7 @@
         "tabelogUrl": ""
       },
       {
-        "time": "17:10-17:20",
-        "place": "Sekaido → Beams Japan Shinjuku",
-        "action": "Yürüme 7-10dk doğu",
-        "transport": "yürüme",
-        "duration": "10dk",
-        "cost": null,
-        "note": "Shinjuku 3-32-6.",
-        "mapsUrl": "",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "17:20-18:30",
-        "place": "Beams Japan Shinjuku (5 katlı flagship)",
-        "action": "Beams Plus + Beams Boy + JAPAN — XL hat + Japan-made apparel",
-        "transport": "yürüme",
-        "duration": "1s10dk",
-        "cost": {
-          "min": 25000,
-          "max": 35000,
-          "raw": "¥25-35K (tax-free)"
-        },
-        "note": "Hours 11:00-20:00. Beams Plus XL hat priority + denemeler.",
-        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beams%20Japan%20Shinjuku",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "18:30-19:00",
-        "place": "Beams çıkış → Shinjuku Sta west exit yürüme",
-        "action": "Mont-bell Shinjuku drop-in ATLAR (Day-2 Mont-bell Ginza yeterli)",
-        "transport": "yürüme",
-        "duration": "15-20dk",
-        "cost": null,
-        "note": "Shinjuku akşam transition.",
-        "mapsUrl": "",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "19:00-20:30",
+        "time": "18:30-20:00",
         "place": "Shinjuku lokal izakaya akşam yemek",
         "action": "Omoide Yokocho 2. tur (Day-2 sevilmişse yeni yakitori stand) veya Tsukemen Gonokami Seisakusho (lokal tsukemen ünlü) veya lokal sushi master Shinjuku 3-chome Tabelog 3.6+",
         "transport": "yürüme",
@@ -4564,7 +4542,7 @@
         "tabelogUrl": ""
       },
       {
-        "time": "20:30-22:00",
+        "time": "20:00-21:30",
         "place": "Opsiyonel Shinjuku gece walk",
         "action": "Yotsuya yan sokakları + opsiyonel Golden Gai 2. tur (Day-2 farklı bar dene) veya kissaten gece Showa atmosphere",
         "transport": "yürüme",
@@ -4579,7 +4557,7 @@
         "tabelogUrl": ""
       },
       {
-        "time": "22:00",
+        "time": "21:30",
         "place": "Shinjuku → Sotetsu Kanda",
         "action": "JR Yamanote Shinjuku → Kanda",
         "transport": "tren",
@@ -4594,7 +4572,7 @@
         "tabelogUrl": ""
       },
       {
-        "time": "22:30-23:30",
+        "time": "22:00-23:30",
         "place": "Sotetsu Kanda oda — Day-13 KRİTİK pack",
         "action": "Samsonite + Mont-bell 45L 2 checked bag organizasyon — Yamaken bıçak Samsonite içinde ✓; RYOZO tapestry Mont-bell içinde kırılgan padding ya da Samsonite içine cardboard box; KE714 Day-13 20:55 NRT için final logistics",
         "transport": "—",
