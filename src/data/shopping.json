@@ -39,19 +39,6 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza"
   },
   {
-    "id": "shop-uniqlo",
-    "checked": false,
-    "item": "Uniqlo Shinjuku — kendi seçim",
-    "where": "Uniqlo Shinjuku Honten",
-    "priceRaw": "¥0-6K",
-    "day": "Gün 2 — Shinjuku",
-    "note": "Tişört, çorap, beğendiğin ne varsa. Opsiyonel — gidersem. İlk gün giysisi öncelik değil.",
-    "dayIds": [
-      "day-2"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UNIQLO%20Shinjuku%20Honten"
-  },
-  {
     "id": "shop-6",
     "checked": false,
     "item": "Kyukyodo (kalem, kutu, yelpaze)",
@@ -89,19 +76,6 @@
       "day-5"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shinonomesou%20Kinosaki"
-  },
-  {
-    "id": "shop-9",
-    "checked": false,
-    "item": "Montbell (alışveriş — çanta odaklı, ek olarak istersen sandal/UV/eldiven/şapka)",
-    "where": "Montbell Shibuya veya Shinjuku",
-    "priceRaw": "¥5K",
-    "day": "Gün 12 — Tokyo",
-    "note": "Osaka atlandı. Tek bir Montbell ziyareti — çanta öncelikli. Diğer şeyler isteğe bağlı. Tax-free.",
-    "dayIds": [
-      "day-12"
-    ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Shibuya"
   },
   {
     "id": "shop-18",
@@ -201,7 +175,7 @@
     "where": "Alpen TOKYO Shinjuku",
     "priceRaw": "¥20-30K",
     "day": "Gün 2 — Tokyo",
-    "note": "29cm Wide. Su geçirmez lifestyle. shop-shoes-classic'i replace ediyor. Mayıs sonu indirim ihtimali — Alpen TOKYO + Murasaki Sports Shinjuku karşılaştır.",
+    "note": "29cm Wide (4E). Su geçirmez lifestyle. shop-shoes-classic'i replace ediyor. Mayıs sonu indirim ihtimali — Alpen TOKYO + Murasaki Sports Shinjuku karşılaştır.",
     "dayIds": [
       "day-2"
     ],
@@ -224,10 +198,10 @@
     "id": "shop-orslow",
     "checked": false,
     "item": "orSlow 105 Selvedge Denim",
-    "where": "orSlow Tokyo Honten (Sendagaya)",
+    "where": "orSlow Tokyo Aoyama",
     "priceRaw": "¥30K",
-    "day": "Gün 12 — Tokyo (Sendagaya, Shinjuku rotası içinde)",
-    "note": "W34 (yedek W36). 105 fit gevşek/standart. Try-on yap, uyluk 61cm yapıma uygun.",
+    "day": "Gün 12 — Tokyo (Aoyama, AURALEE ile aynı tur)",
+    "note": "W34 (yedek W36). 105 fit gevşek/standart. Try-on yap, uyluk 61cm yapıma uygun. Aoyama lokasyon — AURALEE Aoyama'ya yürüme mesafesinde, aynı turda iki mağaza.",
     "dayIds": [
       "day-12"
     ],
@@ -275,15 +249,15 @@
   {
     "id": "shop-beams",
     "checked": false,
-    "item": "Beams Japan Shinjuku — genel",
-    "where": "Beams Japan Shinjuku",
-    "priceRaw": "¥30K",
-    "day": "Gün 12 — Tokyo (Shinjuku rotasyonu)",
-    "note": "Çok katlı select. XL (42) / Beams Plus. Tax-free. Day 12 Shinjuku rotasyonunda.",
+    "item": "BEAMS Ginza paketi (3 tee + 1 shirt + 1 knit + 1 cap)",
+    "where": "BEAMS Ginza 2F-3F",
+    "priceRaw": "¥42-50K",
+    "day": "Gün 2 — Tokyo (Ginza ekseni)",
+    "note": "BEAMS PLUS paket — Made in Japan focus:\n- 3× BEAMS PLUS Pocket Tee (Supima pamuk, Made in Japan) — L beden — ¥19.500 total (¥6.500/adet)\n- 1× BEAMS PLUS Open Collar Shirt veya Work Shirt — L beden — ¥12.000-15.000\n- 1× BEAMS PLUS veya BEAMS HEART knit (hafif crew neck) — XL beden — ¥5.500-10.000\n- 1× BEAMS PLUS Cap (Made in Japan, 6-panel veya military) — one size / L — ¥5.000-7.000\n\nBEDEN NOTU: BEAMS PLUS tişört kalıbı standardın biraz üstünde uzun gövdeli, L ile dene. Gömlek ve knit'te slim Japan kesimi devreye girer, L → XL sıçraması gerekebilir, mağazada birlikte dene.\n\nTax-free pasaport. Day-2 Ginza ekseninde.",
     "dayIds": [
-      "day-12"
+      "day-2"
     ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Beams%20Japan%20Shinjuku"
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BEAMS%20Ginza"
   },
   {
     "id": "shop-tabio",
@@ -383,10 +357,23 @@
     "where": "Shinjuku Isetan Men's Building B1F (MEN'S INTIMATE)",
     "priceRaw": "¥10-15K",
     "day": "Gün 2 — Tokyo (Shinjuku ekseni)",
-    "note": "Wacoal Men ana hedef + TOOT (Japon premium, en güçlü alternatif), Sunspel (İngiliz premium), Calvin Klein. Aynı katta hissederek compare et. Day 2 Shinjuku rotasında Alpen TOKYO sonrası, Anshin Oyado oteline yürüme. BACKUP: Hankyu Men's Tokyo Yurakucho (Ginza ekseni alternatifi) veya Ginza Mitsukoshi.",
+    "note": "XL beden — Wacoal Men WT3438 veya WT3439 modeli ana hedef. + TOOT (Japon premium, en güçlü alternatif), Sunspel (İngiliz premium), Calvin Klein. Aynı katta hissederek compare et. Day 2 Shinjuku rotasında Alpen TOKYO sonrası, Anshin Oyado oteline yürüme. BACKUP: Hankyu Men's Tokyo Yurakucho veya Ginza Mitsukoshi.",
     "dayIds": [
       "day-2"
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Isetan%20Men%27s%20Shinjuku"
+  },
+  {
+    "id": "shop-auralee",
+    "checked": false,
+    "item": "AURALEE T-shirt (Seamless Crewneck veya Luster Plaiting, Supima)",
+    "where": "AURALEE Aoyama Flagship",
+    "priceRaw": "¥10-15K",
+    "day": "Gün 12 — Tokyo (Aoyama)",
+    "note": "Size 4 (XL). 'Seamless Crewneck T-shirt' veya 'Luster Plaiting T-shirt' modeli premium Supima pamuk, ipeksi parlak doku. 'Tek başına anlamlı parça' felsefesine oturur. AURALEE Aoyama orSlow Aoyama'ya yürüme mesafesinde — aynı turda iki mağaza halledilir. Tax-free.",
+    "dayIds": [
+      "day-12"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=AURALEE%20Aoyama"
   }
 ]
