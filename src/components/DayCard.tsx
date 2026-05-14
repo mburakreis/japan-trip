@@ -25,6 +25,7 @@ import { todayDayId } from "../lib/countdown";
 import trip from "../data/trip.json";
 import { useShoppingState, toggleShopping } from "../lib/shoppingState";
 import { useNote } from "../lib/notesState";
+import { useWeather, weatherEmoji } from "../lib/weather";
 import { StatusBadge, STATUS_LABEL } from "./StatusBadge";
 
 type NavFn = (next: { tab: "days" | "reservations" | "shopping"; focusId?: string }) => void;
@@ -144,6 +145,7 @@ export function DayCard({
   const totalShoppingForDay = visiblePlanShoppingCount + userShoppingForDay.length;
   const { rows, offTimeAlts } = buildTimeline(day);
   const totalActs = rows.length;
+  const weather = useWeather(day.id);
 
   useEffect(() => {
     if (open && ref.current) {
@@ -170,6 +172,15 @@ export function DayCard({
               {shortDate(day.dateRaw)}
             </span>
             {isToday && <span className="chip bg-accent text-white">BUGÜN</span>}
+            {weather && (
+              <span className="text-xs text-ink-muted dark:text-paper-muted inline-flex items-center gap-1">
+                <span aria-hidden="true">{weatherEmoji(weather.code)}</span>
+                <span className="font-mono">{weather.tMax}°/{weather.tMin}°</span>
+                {weather.rainProb >= 30 && (
+                  <span className="font-mono opacity-70">{weather.rainProb}%</span>
+                )}
+              </span>
+            )}
           </div>
           <p className="text-sm text-ink-muted dark:text-paper-muted mt-1 line-clamp-2">
             {day.title}
