@@ -26,6 +26,19 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=mont-bell%20Ginza"
   },
   {
+    "id": "shop-versalite",
+    "checked": false,
+    "item": "Mont-bell Versalite shell (ultralight rain shell)",
+    "where": "Mont-bell Tokyo Kyobashi (Tokyo Square Garden 1-2F, 3-1-1 Kyobashi)",
+    "priceRaw": "¥18-22K",
+    "day": "Gün 2 — Tokyo (Kyobashi)",
+    "note": "XL. Ultralight rain shell, 165g. Tri-Pack 45 (shop-2) alımı sırasında aynı transaction tax-free. Day-2 Mont-bell Tokyo Kyobashi ziyaretinde combine.",
+    "dayIds": [
+      "day-2"
+    ],
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mont-bell%20Tokyo%20Kyobashi"
+  },
+  {
     "id": "shop-6",
     "checked": false,
     "item": "Kyukyodo (kalem, kutu, yelpaze)",
