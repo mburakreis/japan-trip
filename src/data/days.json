@@ -2926,7 +2926,7 @@
         "transport": "—",
         "duration": "45dk",
         "cost": null,
-        "note": "",
+        "note": "Yamaken'in sağladığı kabuk içinde (Day-10 Tokyo Asakusa Iriya Sakura Ryokan storage için) + Day-9 RYOZO için kıyafet hazırlama",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -3581,14 +3581,14 @@
         "tabelogUrl": ""
       },
       {
-        "time": "[SABİT] ~14:15",
-        "place": "Sotetsu Fresa Inn Tokyo Kanda check-in (3 gece)",
-        "action": "Sta yanı 3-5dk yürüme",
-        "transport": "—",
+        "time": "[SABİT] ~14:30",
+        "place": "Sakura Ryokan Asakusa Iriya (2-chōme-6-2 Iriya, Taito City)",
+        "action": "Check-in + tatami oda + futon serme (genelde akşam staff yapıyor) + Yamaken bıçak/RYOZO tapestry storage için resepsiyona danış",
+        "transport": "Iriya Sta'dan yürüme 3-5dk veya JR Uguisudani'den yürüme 7-10dk",
         "duration": "35dk",
         "cost": null,
-        "note": "Konaklama PAID (acc-7). Kahvaltı opsiyonel ¥1.100/gün.",
-        "mapsUrl": "",
+        "note": "Konaklama PAID (acc-7). Reception 07:00-23:00, geç dönüş öncesi planla. Ryokan style: footwear lobby'de çıkar, oda anahtarı + yukata. Sabah küçük tea/coffee alanı opsiyonel.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura%20Ryokan%20Asakusa%20Iriya",
         "tabelogUrl": ""
       }
     ],
@@ -3716,39 +3716,43 @@
         "tabelogUrl": ""
       },
       {
-        "time": "14:05",
-        "place": "JR Kanda Sta → Sotetsu Fresa Inn Tokyo Kanda",
-        "action": "Sta yanı 3-5dk yürüme",
-        "transport": "yürüme",
-        "duration": "5dk",
-        "cost": null,
-        "note": "",
+        "time": "14:05-14:30",
+        "place": "Tokyo Sta → Iriya Sta → Sakura Ryokan",
+        "action": "JR Yamanote Tokyo → Ueno (5dk) + Hibiya Line Ueno → Iriya (3dk, 1 stop) + yürüme 3-5dk; bagajlı (Mont-bell + Türkiye sırt) optimal rota",
+        "transport": "tren + yürüme",
+        "duration": "25dk",
+        "cost": {
+          "min": 360,
+          "max": 360,
+          "raw": "¥360"
+        },
+        "note": "Alternatif: taksi Tokyo Sta → Sakura Ryokan ¥2.000-2.500 (10-15dk, bagajla rahat) veya JR Tokyo → JR Uguisudani direct Yamanote, sonra yürüme 7-10dk güney.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "14:45-15:00",
-        "place": "Sotetsu oda freshen",
-        "action": "Light bag (pasaport, wallet, phone, kamera)",
+        "time": "14:55-15:10",
+        "place": "Sakura Ryokan oda — freshen + light bag",
+        "action": "Light bag (pasaport, wallet, phone, kamera) — tatami oda relax kısa",
         "transport": "—",
         "duration": "15dk",
         "cost": null,
-        "note": "Day-10 akşam Kanda/Jimbocho light keşif modu.",
+        "note": "Day-10 akşam programı: Kanda area lokal tour (Jimbocho/Kanda Myojin/Kanda Yabu Soba) — Iriya'dan transit'le.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "15:00",
-        "place": "Sotetsu Kanda → Jimbocho Old Books District",
-        "action": "JR Kanda → JR Ochanomizu (1 stop) veya Marunouchi Line direct, veya yürüme 15-20dk güney",
-        "transport": "yürüme/tren",
-        "duration": "15-20dk",
+        "time": "15:10-15:35",
+        "place": "Sakura Ryokan → Jimbocho Old Books District",
+        "action": "Hibiya Line Iriya → Kasumigaseki transfer Marunouchi Line/Mita Line; veya Iriya → Akihabara (Hibiya 3 stop) + Mita Line Akihabara → Jimbocho 2 stop",
+        "transport": "metro",
+        "duration": "25dk",
         "cost": {
-          "min": 0,
-          "max": 150,
-          "raw": "¥0-150"
+          "min": 210,
+          "max": 210,
+          "raw": "¥210"
         },
-        "note": "Yürüme önerilen — Kanda atmosphere transition.",
+        "note": "Iriya → Jimbocho ~20-25dk metro. Kanda'dan biraz daha uzun ama doable.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -3790,13 +3794,17 @@
         "tabelogUrl": ""
       },
       {
-        "time": "18:00-18:15",
-        "place": "Kanda Myojin → Sotetsu Fresa Kanda",
-        "action": "Yürüme",
-        "transport": "yürüme",
-        "duration": "15dk",
-        "cost": null,
-        "note": "",
+        "time": "18:00-18:30",
+        "place": "Kanda Myojin → Sakura Ryokan dönüş",
+        "action": "JR Akihabara (10dk yürüme) → Hibiya Line Akihabara → Iriya (3 stop, 6dk)",
+        "transport": "yürüme + metro",
+        "duration": "30dk",
+        "cost": {
+          "min": 180,
+          "max": 180,
+          "raw": "¥180"
+        },
+        "note": "Iriya dönüş için Akihabara via Hibiya Line en pratik.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -3849,13 +3857,17 @@
         "tabelogUrl": ""
       },
       {
-        "time": "21:00-21:15",
-        "place": "Yürüme Sotetsu Kanda",
-        "action": "Gece walk lokal Kanda atmosfer",
-        "transport": "yürüme",
-        "duration": "15dk",
-        "cost": null,
-        "note": "",
+        "time": "21:00-21:30",
+        "place": "Akiba → Sakura Ryokan dönüş",
+        "action": "Hibiya Line Akihabara → Iriya (3 stop, 6dk) + yürüme 3-5dk",
+        "transport": "metro + yürüme",
+        "duration": "30dk",
+        "cost": {
+          "min": 180,
+          "max": 180,
+          "raw": "¥180"
+        },
+        "note": "Iriya dönüş — reception 23:00 kapanış öncesi rahat.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -3987,7 +3999,7 @@
     "main": [
       {
         "time": "07:30",
-        "place": "Sotetsu Kanda",
+        "place": "Sakura Ryokan oda — Uyan + duş (communal bath ise sabah erken kullan)",
         "action": "Uyan + duş",
         "transport": "—",
         "duration": "30dk",
@@ -4008,17 +4020,17 @@
         "tabelogUrl": ""
       },
       {
-        "time": "08:30",
-        "place": "Sotetsu → JR Kanda → Yurakucho",
-        "action": "JR Yamanote/Keihin-Tohoku Kanda → Yurakucho 2 stop",
-        "transport": "tren",
-        "duration": "5dk",
+        "time": "08:30-09:00",
+        "place": "Sakura Ryokan → Yurakucho (Tricolore)",
+        "action": "Hibiya Line Iriya → Hibiya (~22dk, 8 stop) + yürüme 3dk Tricolore Ginza'ya",
+        "transport": "metro",
+        "duration": "30dk",
         "cost": {
-          "min": 160,
-          "max": 160,
-          "raw": "¥160"
+          "min": 210,
+          "max": 210,
+          "raw": "¥210"
         },
-        "note": "Yurakucho Ginza-1chome çıkış 1dk Ginza.",
+        "note": "Iriya → Hibiya Line direct, transferless. Kanda'dan biraz daha uzun (~13dk fark) ama yorucu değil.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -4142,43 +4154,43 @@
         "tabelogUrl": ""
       },
       {
-        "time": "17:40",
-        "place": "JR Akihabara → JR Kanda (1 stop)",
-        "action": "Tren bagajlı",
-        "transport": "tren",
-        "duration": "5dk",
-        "cost": {
-          "min": 150,
-          "max": 150,
-          "raw": "¥150"
-        },
-        "note": "Kanda Sta west exit Sotetsu Fresa Kanda 3-5dk yürüme.",
-        "mapsUrl": "",
-        "tabelogUrl": ""
-      },
-      {
-        "time": "17:45-18:00",
-        "place": "Sotetsu Kanda — Samsonite drop oda + Yamaken bıçak Samsonite içine relocate",
-        "action": "Türkiye valizinden Samsonite'a — Day-13 NRT check-in single big checked bag strategy + light refresh",
-        "transport": "—",
+        "time": "17:40-17:55",
+        "place": "Yodobashi Akiba → Sakura Ryokan (Samsonite drop)",
+        "action": "Hibiya Line Akihabara → Iriya (3 stop, 6dk) + yürüme 3-5dk; Samsonite yüklü",
+        "transport": "metro + yürüme",
         "duration": "15dk",
-        "cost": null,
-        "note": "Samsonite ile Nakano dolaşma sürdürülemez — şimdi drop optimum.",
+        "cost": {
+          "min": 180,
+          "max": 180,
+          "raw": "¥180"
+        },
+        "note": "Akihabara Hibiya Line aynı tren — Iriya direkt, transfer yok. Samsonite (~40-45kg loaded) bagaj, dikkatli yürü.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "18:00",
-        "place": "Sotetsu çıkış light bag → Nakano Broadway",
-        "action": "JR Chuo Rapid Kanda → Shinjuku → Nakano transfer veya direct Chuo-Sobu local",
-        "transport": "tren",
-        "duration": "17-22dk",
+        "time": "17:55-18:15",
+        "place": "Sakura Ryokan oda — Samsonite drop + Yamaken bıçak relocate",
+        "action": "Samsonite tatami oda kenarına + Yamaken bıçak Türkiye sırttan Samsonite içine relocate",
+        "transport": "—",
+        "duration": "20dk",
+        "cost": null,
+        "note": "Day-13 NRT check-in single big checked bag stratejisi devam. Ryokan tatami oda kompakt — Samsonite + Türkiye sırt çantası bagaj sınırlı alan, organize tut.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "18:15",
+        "place": "Sakura Ryokan çıkış → Nakano Broadway",
+        "action": "JR Uguisudani veya Hibiya Line Iriya → Ueno + JR Chuo Rapid Ueno → Nakano (~25-30dk) — light bag",
+        "transport": "metro + tren",
+        "duration": "30dk",
         "cost": {
-          "min": 220,
-          "max": 220,
-          "raw": "¥220"
+          "min": 380,
+          "max": 380,
+          "raw": "¥380"
         },
-        "note": "Nakano Sta north exit → Sun Mall arcade → Nakano Broadway 5dk.",
+        "note": "Iriya → Nakano Kanda'dan biraz daha uzun (~5dk fark) ama Hibiya + JR Chuo Rapid kombi ile pratik.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -4214,38 +4226,38 @@
       },
       {
         "time": "20:15",
-        "place": "Sotetsu Kanda area",
-        "action": "Drop minor purchases + freshen",
-        "transport": "—",
+        "place": "Sakura Ryokan area — drop minor purchases + freshen",
+        "action": "Nakano dönüş Iriya'ya — JR Chuo → Ueno + Hibiya Line Ueno → Iriya",
+        "transport": "tren + metro",
         "duration": "15dk",
         "cost": null,
-        "note": "",
+        "note": "Ryokan oda freshen — dinner öncesi.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
-        "time": "20:30-21:30",
-        "place": "Kanda area lokal izakaya akşam yemek",
-        "action": "Yamariki Kanda (motsu-nabe + lokal sake) veya Issa Kanda Soba veya Tonbo Akihabara (kushi-katsu) — mega gün reward dinner",
+        "time": "20:30-22:00",
+        "place": "Asakusa lokal izakaya — Hoppy Street veya Iriya area",
+        "action": "Asakusa Hoppy-dori (Senso-ji batı, 10dk yürüme Iriya'dan) motsu-nikomi + lokal sake; veya Iriya/Uguisudani lokal izakaya (Tabelog 3.5+ filter)",
         "transport": "yürüme",
-        "duration": "1sa",
+        "duration": "1.5sa",
         "cost": {
           "min": 3000,
           "max": 5000,
-          "raw": "¥3.000-5.000"
+          "raw": "¥3-5K"
         },
-        "note": "Day-11 kapanışı.",
-        "mapsUrl": "",
+        "note": "Kanda izakaya alternatifleri (Yamariki/Issa) Iriya'dan 25dk metro. Yerine Asakusa Hoppy Street veya Iriya/Uguisudani lokal — Burak'ın damak profili 'lokal/non-touristy' ile uyumlu, ryokan'a yürüme dönüş. Hoppy Street salaryman + lokal, Showa atmosphere.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hoppy%20Street%20Asakusa",
         "tabelogUrl": ""
       },
       {
-        "time": "21:30-21:45",
-        "place": "Yürüme Sotetsu Kanda",
-        "action": "",
+        "time": "22:00-22:15",
+        "place": "Yürüme Sakura Ryokan dönüş",
+        "action": "Asakusa Hoppy area → Iriya yürüme 10-12dk veya Iriya area lokal'den yürüme 5-8dk",
         "transport": "yürüme",
         "duration": "15dk",
         "cost": null,
-        "note": "",
+        "note": "⚠️ Reception 23:00 kapanış — 22:30 öncesi otelde olmaya dikkat.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -4376,7 +4388,7 @@
     "main": [
       {
         "time": "09:30",
-        "place": "Sotetsu Kanda",
+        "place": "Sakura Ryokan oda — Uyan (relaxed start, Shimokita 11:00 açılışa bekleme yok)",
         "action": "Uyan (relaxed start — Shimokita 11:00 açılış için bekleme yok)",
         "transport": "—",
         "duration": "30dk",
@@ -4401,17 +4413,17 @@
         "tabelogUrl": ""
       },
       {
-        "time": "10:30",
-        "place": "Sotetsu → JR Kanda → Shinjuku → Shimokitazawa",
-        "action": "JR Yamanote Kanda → Shinjuku transfer Inokashira → Shimokitazawa",
-        "transport": "tren",
+        "time": "10:30-11:00",
+        "place": "Sakura Ryokan → Shimokitazawa",
+        "action": "JR Uguisudani (yürüme 7dk) → JR Yamanote Uguisudani → Shinjuku (~17dk) transfer Inokashira → Shimokitazawa (~7dk); alternatif Hibiya Line Iriya → Naka-Meguro transfer JR + Inokashira",
+        "transport": "yürüme + tren",
         "duration": "30dk",
         "cost": {
-          "min": 370,
-          "max": 370,
-          "raw": "¥370"
+          "min": 380,
+          "max": 380,
+          "raw": "¥380"
         },
-        "note": "",
+        "note": "Iriya → Shimokita ~30dk, Kanda'dan ~5dk daha uzun. JR Uguisudani + Yamanote rotası en sade.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -4551,23 +4563,23 @@
         "tabelogUrl": ""
       },
       {
-        "time": "21:30",
-        "place": "Shinjuku → Sotetsu Kanda",
-        "action": "JR Yamanote Shinjuku → Kanda",
-        "transport": "tren",
-        "duration": "20dk",
+        "time": "21:30-22:00",
+        "place": "Shinjuku → Sakura Ryokan dönüş",
+        "action": "JR Yamanote Shinjuku → Uguisudani (~20dk) + yürüme 7dk veya Yamanote → Ueno + Hibiya Iriya",
+        "transport": "tren + yürüme",
+        "duration": "30dk",
         "cost": {
           "min": 210,
           "max": 210,
           "raw": "¥210"
         },
-        "note": "",
+        "note": "⚠️ Reception 23:00 kapanış — 22:30 otelde hedef. Şinjuku'dan rahat zaman.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
       {
         "time": "22:00-23:30",
-        "place": "Sotetsu Kanda oda — Day-13 KRİTİK pack",
+        "place": "Sakura Ryokan oda — Day-13 KRİTİK pack",
         "action": "Samsonite + Mont-bell 45L 2 checked bag organizasyon — Yamaken bıçak Samsonite içinde ✓; RYOZO tapestry Mont-bell içinde kırılgan padding ya da Samsonite içine cardboard box; KE714 Day-13 20:55 NRT için final logistics",
         "transport": "—",
         "duration": "1sa",
@@ -4702,12 +4714,12 @@
     "fixed": [
       {
         "time": "[SABİT] 11:00",
-        "place": "Sotetsu Fresa Inn Tokyo Kanda check-out (3 gece)",
-        "action": "Bagaj front desk hold öğleye dek ücretsiz",
+        "place": "Sakura Ryokan Asakusa Iriya check-out (3 gece)",
+        "action": "Check-out + bagaj resepsiyon hold öğleye dek (ryokan'a sor — küçük lobi alanı)",
         "transport": "—",
         "duration": "15dk",
         "cost": null,
-        "note": "Konaklama PAID.",
+        "note": "Konaklama PAID. Ryokan ücretsiz bagaj hold standart — sabah çıkışı sonrası 14:00'a kadar lobi'de güvenli.",
         "mapsUrl": "",
         "tabelogUrl": ""
       },
@@ -4752,7 +4764,7 @@
     "main": [
       {
         "time": "07:30",
-        "place": "Sotetsu Kanda",
+        "place": "Sakura Ryokan oda — Uyan + son duş (communal bath erken kullan)",
         "action": "Uyan + son duş",
         "transport": "—",
         "duration": "30dk",
@@ -4830,7 +4842,7 @@
       },
       {
         "time": "12:00-12:30",
-        "place": "Sotetsu Kanda dönüş + son items pack",
+        "place": "Sakura Ryokan dönüş + son items pack",
         "action": "Sabah purchases dahil Mont-bell 45L'e",
         "transport": "yürüme",
         "duration": "30dk",
@@ -4856,7 +4868,7 @@
       },
       {
         "time": "13:30-14:00",
-        "place": "Sotetsu Kanda final",
+        "place": "Sakura Ryokan final",
         "action": "Bagaj alma + son items check + lobby exit — Samsonite + Mont-bell 45L 2 checked, küçük day bag cabin",
         "transport": "yürüme",
         "duration": "30dk",

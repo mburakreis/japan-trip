@@ -143,22 +143,22 @@
   {
     "id": "acc-7",
     "type": "accommodation",
-    "title": "Sotetsu Fresa Inn Tokyo Kanda",
-    "city": "Tokyo (Kanda)",
+    "title": "Sakura Ryokan Asakusa Iriya",
+    "city": "Tokyo (Asakusa/Iriya)",
     "dateRaw": "27 May - 30 May 2026",
     "nights": 3,
     "status": "booked",
-    "platform": "Booking.com",
-    "manageLink": "https://www.booking.com/hotel/jp/sotetsu-fresa-inn-tokyo-kanda.html",
+    "platform": "[Burak güncelleyecek]",
+    "manageLink": "[Burak güncelleyecek]",
     "email": "",
-    "priceRaw": "¥65.580 (3 gece, 23 May'da tahsil)",
-    "note": "✅ REZERVE (yeni booking — eski 25-30 May iptal, Echizen route'a geçildi). 27 May Çr 13:52 Hakutaka Tokyo varış sonrası akşam check-in. Single Room, kahvaltısız. Akihabara JR 8dk yürüme veya Shin-Nihombashi 1 durak tren. 24h front desk, coin laundry. Bıçak storage'a teslim için resepsiyona sor.",
+    "priceRaw": "[Burak güncelleyecek — Sotetsu ¥65.580 yerine yeni fiyat]",
+    "note": "✅ REZERVE — Sotetsu Kanda iptal, Sakura Ryokan Asakusa Iriya'ya geçildi. Geleneksel ryokan deneyimi (tatami + futon). Adres: 2-chōme-6-2 Iriya, Taito City. Iriya Sta (Hibiya Line) yürüme mesafesi. Asakusa Senso-ji 10dk yürüme. ⚠️ Reception 07:00-23:00 ONLY (24h değil) — geç dönüşler 23:00 öncesi olmalı. Bazı odalarda private bathroom, communal bath/shower var. Owner küçük tea/coffee sabah alanı sağlıyor. Yamaken bıçak + RYOZO tapestry storage için resepsiyona sor. Day-13 Skyliner Keisei Ueno terminal'e 1 stop Hibiya Line / 10-12dk yürüme — Kanda'dan daha yakın.",
     "dayIds": [
       "day-10",
       "day-11",
       "day-12"
     ],
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sotetsu%20Fresa%20Inn%20Tokyo%20Kanda"
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura%20Ryokan%20Asakusa%20Iriya"
   },
   {
     "id": "res-8",
