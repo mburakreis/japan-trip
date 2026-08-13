@@ -16,7 +16,7 @@ export function ShoppingItemForm({
   initial,
   onSubmit,
   onCancel,
-  submitLabel = "Kaydet",
+  submitLabel = "Save",
 }: {
   initial?: Partial<FormValues>;
   onSubmit: (v: FormValues) => void;
@@ -41,17 +41,17 @@ export function ShoppingItemForm({
       }}
       className="space-y-2.5"
     >
-      <Field label="Ürün *">
+      <Field label="Item *">
         <input
           autoFocus
           value={v.item}
           onChange={(e) => setV({ ...v, item: e.target.value })}
           className={inputCls}
-          placeholder="Örn: Çikolatalı muz"
+          placeholder="E.g.: Chocolate banana"
         />
       </Field>
       <div className="grid grid-cols-2 gap-2">
-        <Field label="Nereden">
+        <Field label="Where">
           <input
             value={v.where}
             onChange={(e) => setV({ ...v, where: e.target.value })}
@@ -59,7 +59,7 @@ export function ShoppingItemForm({
             placeholder="Don Quijote"
           />
         </Field>
-        <Field label="Tahmini fiyat">
+        <Field label="Estimated price">
           <input
             value={v.priceRaw}
             onChange={(e) => setV({ ...v, priceRaw: e.target.value })}
@@ -68,15 +68,15 @@ export function ShoppingItemForm({
           />
         </Field>
       </div>
-      <Field label="Gün/Şehir notu">
+      <Field label="Day/city note">
         <input
           value={v.day}
           onChange={(e) => setV({ ...v, day: e.target.value })}
           className={inputCls}
-          placeholder="Gün 11 — Akihabara"
+          placeholder="Day 11 — Akihabara"
         />
       </Field>
-      <Field label="Hangi günler?">
+      <Field label="Which days?">
         <div className="flex flex-wrap gap-1.5">
           {days.map((d) => (
             <button
@@ -89,12 +89,12 @@ export function ShoppingItemForm({
                   : "bg-white dark:bg-white/5 border-black/10 dark:border-white/10 text-ink-muted dark:text-paper-muted"
               }`}
             >
-              G{d.dayNumber}
+              D{d.dayNumber}
             </button>
           ))}
         </div>
       </Field>
-      <Field label="Not">
+      <Field label="Note">
         <textarea
           value={v.note}
           onChange={(e) => setV({ ...v, note: e.target.value })}
@@ -108,7 +108,7 @@ export function ShoppingItemForm({
           onClick={onCancel}
           className="text-sm px-3 py-1.5 rounded-lg text-ink-muted dark:text-paper-muted"
         >
-          Vazgeç
+          Cancel
         </button>
         <button
           type="submit"

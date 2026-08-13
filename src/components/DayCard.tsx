@@ -39,7 +39,7 @@ type RowEntry =
 
 function normalizeTime(t: string): string {
   return t
-    .replace(/\[SABİT\]\s*/i, "")
+    .replace(/\[FIXED\]\s*/i, "")
     .replace(/^~/, "")
     .replace(/\s*▸\s*$/, "")
     .trim();
@@ -48,7 +48,7 @@ function normalizeTime(t: string): string {
 function parseTimeMin(t: string): number {
   if (!t) return Number.MAX_SAFE_INTEGER;
   const cleaned = t
-    .replace(/\[SABİT\]\s*/i, "")
+    .replace(/\[FIXED\]\s*/i, "")
     .replace(/^~/, "")
     .replace(/\s*▸\s*$/, "")
     .replace(/\s*\(\+\d+\).*$/, "")
@@ -60,12 +60,12 @@ function parseTimeMin(t: string): number {
     return mins < 6 * 60 ? mins + 24 * 60 : mins;
   }
   const lc = cleaned.toLowerCase();
-  if (/^(kahvalt|sabah)/.test(lc)) return 7 * 60;
-  if (/^öğle/.test(lc)) return 12 * 60 + 30;
-  if (/^(ara|atıştırma)/.test(lc)) return 15 * 60;
-  if (/^akşam/.test(lc)) return 19 * 60;
-  if (/^geç akşam/.test(lc)) return 22 * 60;
-  if (/^gece/.test(lc)) return 23 * 60;
+  if (/^(breakfast|morning)/.test(lc)) return 7 * 60;
+  if (/^(noon|lunch)/.test(lc)) return 12 * 60 + 30;
+  if (/^snack/.test(lc)) return 15 * 60;
+  if (/^evening/.test(lc)) return 19 * 60;
+  if (/^late evening/.test(lc)) return 22 * 60;
+  if (/^night/.test(lc)) return 23 * 60;
   return Number.MAX_SAFE_INTEGER;
 }
 
@@ -78,7 +78,7 @@ function buildTimeline(day: Day): {
 
   const mainTimeToIndex = new Map<string, number>();
   day.main.forEach((a, i) => {
-    if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
+    if (/\[FIXED\]/i.test(a.time) || /\[FIXED\]/i.test(a.action)) return;
     const key = normalizeTime(a.time);
     if (!mainTimeToIndex.has(key)) mainTimeToIndex.set(key, i);
   });
@@ -101,7 +101,7 @@ function buildTimeline(day: Day): {
   });
 
   day.main.forEach((a, i) => {
-    if (/\[SABİT\]/i.test(a.time) || /\[SABİT\]/i.test(a.action)) return;
+    if (/\[FIXED\]/i.test(a.time) || /\[FIXED\]/i.test(a.action)) return;
     rows.push({
       kind: "main",
       entry: { primary: { ...a, _source: "main" }, alternative: matchedAlts.get(i) },
@@ -118,8 +118,8 @@ function buildTimeline(day: Day): {
 
 function extractTotal(summary: string): { compact: string; full: string } {
   if (!summary) return { compact: "", full: "" };
-  const cleaned = summary.replace(/^💰\s*Gün\s*\d+\s*Bütçe:\s*/i, "");
-  const m = cleaned.match(/TOPLAM\s*~?\s*([^|]+?)\s*$/i);
+  const cleaned = summary.replace(/^💰\s*Day\s*\d+\s*Budget:\s*/i, "");
+  const m = cleaned.match(/TOTAL\s*~?\s*([^|]+?)\s*$/i);
   return { compact: m ? m[1].trim() : cleaned, full: cleaned };
 }
 
@@ -165,13 +165,13 @@ export function DayCard({
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2 flex-wrap">
             <span className="text-xs font-mono bg-ink dark:bg-paper text-paper dark:text-ink px-1.5 py-0.5 rounded">
-              G{day.dayNumber}
+              D{day.dayNumber}
             </span>
             <span className="font-medium">{inferCity(day)}</span>
             <span className="text-xs text-ink-muted dark:text-paper-muted">
               {shortDate(day.dateRaw)}
             </span>
-            {isToday && <span className="chip bg-accent text-white">BUGÜN</span>}
+            {isToday && <span className="chip bg-accent text-white">TODAY</span>}
             {weather && (
               <span className="text-xs text-ink-muted dark:text-paper-muted inline-flex items-center gap-1">
                 <span aria-hidden="true">{weatherEmoji(weather.code)}</span>
@@ -225,7 +225,7 @@ function TopBudgetMini({ summary }: { summary: string }) {
         <span className="font-medium">{compact}</span>
       </p>
       <p className="text-[11px] text-ink-muted dark:text-paper-muted mt-0.5 leading-snug">
-        {full !== compact ? full : "Çoğu küçük yer cash, otel/depto card"}
+        {full !== compact ? full : "Most small places are cash-only; hotels/department stores take card"}
       </p>
     </div>
   );
@@ -276,7 +276,7 @@ function LinkedReservations({
   return (
     <section className="px-4 py-3 border-t border-black/5 dark:border-white/10 first:border-t-0">
       <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-2">
-        Bu güne bağlı rezervasyonlar
+        Reservations linked to this day
       </h3>
       <ul className="space-y-2">
         {reservations.map((r) => (
@@ -319,7 +319,7 @@ function LinkedShopping({
   return (
     <section className="px-4 py-3 border-t border-black/5 dark:border-white/10">
       <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-2">
-        Bu güne planlı alışveriş
+        Shopping planned for this day
       </h3>
       <ul className="space-y-1.5">
         {planVisible.map((it) => {
@@ -347,7 +347,7 @@ function LinkedShopping({
             checked={u.checked}
             actual={u.actualPriceRaw}
             navigate={navigate}
-            badge="Ekledim"
+            badge="Added by me"
           />
         ))}
       </ul>
@@ -384,7 +384,7 @@ function ShoppingRow({
             ? "bg-ink border-ink text-paper dark:bg-paper dark:border-paper dark:text-ink"
             : "border-black/20 dark:border-white/20 bg-white dark:bg-white/5"
         }`}
-        aria-label={checked ? "Kaldır" : "İşaretle"}
+        aria-label={checked ? "Uncheck" : "Check"}
       >
         {checked && <Check size={12} strokeWidth={2.5} />}
       </button>
@@ -402,7 +402,7 @@ function ShoppingRow({
           )}
         </p>
         <p className="text-[11px] text-ink-muted dark:text-paper-muted">
-          {[where, priceRaw && `Plan ${priceRaw}`, actual && `Gerçek ${actual}`]
+          {[where, priceRaw && `Plan ${priceRaw}`, actual && `Actual ${actual}`]
             .filter(Boolean)
             .join(" · ")}
         </p>
@@ -422,7 +422,7 @@ function Timeline({
   return (
     <section className="px-4 py-3 border-t border-black/5 dark:border-white/10">
       <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-2">
-        Plan
+        Schedule
       </h3>
       <ul className="space-y-3">
         {rows.map((row, i) =>
@@ -439,7 +439,7 @@ function Timeline({
             className="inline-flex items-center gap-1 text-xs text-ink-muted dark:text-paper-muted hover:text-accent"
           >
             {showAlts ? <ChevronDown size={13} strokeWidth={1.75} /> : <ChevronRight size={13} strokeWidth={1.75} />}
-            Alternatifler ({offTimeAlts.length})
+            Alternatives ({offTimeAlts.length})
           </button>
           {showAlts && (
             <ul className="mt-2 space-y-3">
@@ -470,7 +470,7 @@ function ToggleableRow({ entry }: { entry: ToggleEntry }) {
           ? "bg-amber-100 border-amber-300 text-amber-800 dark:bg-amber-900/40 dark:border-amber-700 dark:text-amber-200"
           : "border-black/10 dark:border-white/10 text-ink-muted dark:text-paper-muted hover:border-accent hover:text-accent"
       }`}
-      aria-label={showB ? "Ana plana dön" : "B planını göster"}
+      aria-label={showB ? "Back to primary plan" : "Show plan B"}
     >
       {showB ? "A" : "B"}
     </button>
@@ -480,7 +480,7 @@ function ToggleableRow({ entry }: { entry: ToggleEntry }) {
 }
 
 function TimelineRow({ a, rightSlot }: { a: TimedItem; rightSlot?: React.ReactNode }) {
-  const displayTime = a.time.replace(/\[SABİT\]\s*/i, "").replace(/\s*▸\s*$/, "").trim();
+  const displayTime = a.time.replace(/\[FIXED\]\s*/i, "").replace(/\s*▸\s*$/, "").trim();
   const isFixed = a._source === "fixed";
   const isMeal = a._source === "meals";
   const isAlt = a._source === "alternatives";
@@ -495,8 +495,8 @@ function TimelineRow({ a, rightSlot }: { a: TimedItem; rightSlot?: React.ReactNo
       </div>
       <div className="min-w-0 flex-1">
         <p className="font-medium leading-snug inline-flex items-center gap-1.5">
-          {isFixed && <Pin size={12} strokeWidth={2} className="text-accent shrink-0" aria-label="Sabit" />}
-          {isMeal && <Utensils size={12} strokeWidth={2} className="text-ink-muted dark:text-paper-muted shrink-0" aria-label="Yemek" />}
+          {isFixed && <Pin size={12} strokeWidth={2} className="text-accent shrink-0" aria-label="Fixed" />}
+          {isMeal && <Utensils size={12} strokeWidth={2} className="text-ink-muted dark:text-paper-muted shrink-0" aria-label="Meal" />}
           <span>{placeText}</span>
         </p>
         {a.place && a.action && (
@@ -525,7 +525,7 @@ function TimelineRow({ a, rightSlot }: { a: TimedItem; rightSlot?: React.ReactNo
               rel="noopener noreferrer nofollow"
               className="inline-flex items-center gap-1 hover:text-accent"
             >
-              <MapIcon size={11} strokeWidth={1.75} /> Haritada gör
+              <MapIcon size={11} strokeWidth={1.75} /> View on map
             </a>
           )}
           {a.tabelogUrl && (
@@ -555,12 +555,12 @@ function DayNote({ dayId }: { dayId: string }) {
   return (
     <section className="px-4 py-3 border-t border-black/5 dark:border-white/10">
       <h3 className="text-[10px] uppercase tracking-wider text-ink-muted dark:text-paper-muted mb-1.5">
-        Notlarım <span className="text-ink-muted/60 dark:text-paper-muted/60">(sadece bu cihazda)</span>
+        My notes <span className="text-ink-muted/60 dark:text-paper-muted/60">(this device only)</span>
       </h3>
       <textarea
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Bu gün için kişisel not, gözlem, hatırlatma..."
+        placeholder="Personal note, observation, reminder for this day..."
         rows={2}
         className="w-full text-sm bg-paper dark:bg-white/5 border border-black/5 dark:border-white/10 rounded-lg px-3 py-2 placeholder:text-ink-muted/50 dark:placeholder:text-paper-muted/50 focus:outline-none focus:ring-2 focus:ring-accent/30 resize-y"
       />

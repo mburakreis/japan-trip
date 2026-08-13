@@ -1,6 +1,6 @@
 {
-  "name": "Japan Trip 2026",
-  "short_name": "Japan 2026",
+  "name": "Japan Trip Planner",
+  "short_name": "Trip Planner",
   "start_url": "/japan-trip/",
   "scope": "/japan-trip/",
   "display": "standalone",

@@ -2,10 +2,10 @@ import { Calendar, Bookmark, ShoppingBag, LayoutGrid, type LucideIcon } from "lu
 import type { Tab } from "../types";
 
 const TABS: { id: Tab; label: string; Icon: LucideIcon }[] = [
-  { id: "days", label: "Günler", Icon: Calendar },
-  { id: "reservations", label: "Rezerve", Icon: Bookmark },
-  { id: "shopping", label: "Alışveriş", Icon: ShoppingBag },
-  { id: "overview", label: "Genel", Icon: LayoutGrid },
+  { id: "days", label: "Days", Icon: Calendar },
+  { id: "reservations", label: "Bookings", Icon: Bookmark },
+  { id: "shopping", label: "Shopping", Icon: ShoppingBag },
+  { id: "overview", label: "Overview", Icon: LayoutGrid },
 ];
 
 export function Nav({ tab, onChange }: { tab: Tab; onChange: (t: Tab) => void }) {

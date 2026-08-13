@@ -43,7 +43,7 @@ export function DaysView({
     <ol className="space-y-3 mt-3">
       {filtered.length === 0 ? (
         <li className="text-sm text-ink-muted dark:text-paper-muted text-center py-8">
-          "{query}" için sonuç yok.
+          No results for "{query}".
         </li>
       ) : (
         filtered.map((d) => (

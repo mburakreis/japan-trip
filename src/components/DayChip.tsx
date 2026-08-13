@@ -12,7 +12,7 @@ export function DayChip({ dayId, navigate }: { dayId: string; navigate: NavFn })
       onClick={() => navigate({ tab: "days", focusId: dayId })}
       className="chip bg-black/5 dark:bg-white/10 text-ink-muted dark:text-paper-muted hover:bg-accent hover:text-white transition-colors"
     >
-      G{d.dayNumber}
+      D{d.dayNumber}
     </button>
   );
 }
@@ -29,5 +29,5 @@ export function DayChips({ dayIds, navigate }: { dayIds: string[]; navigate: Nav
 }
 
 export function dayLabel(d: Day): string {
-  return `G${d.dayNumber}`;
+  return `D${d.dayNumber}`;
 }

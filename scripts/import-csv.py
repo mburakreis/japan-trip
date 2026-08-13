@@ -5,9 +5,15 @@ One-shot importer: raw/*.csv  -->  src/data/*.json
 Cross-references all data via `dayIds: string[]` so the UI can show, for
 day N: which reservations are active, which shopping items are planned,
 which budget rows fall on that day. Hidden train/activity reservations
-embedded in days.json activity notes ("✅ REZERVE …") are extracted as
+embedded in days.json activity notes ("✅ BOOKED …") are extracted as
 proper Reservation records, eliminating the days/reservations drift the
 old importer had.
+
+This importer was written for one specific spreadsheet's column layout and
+day/month text conventions (e.g. "Day 6-8", "18 May"). It is a worked
+example, not a general CSV format — adapt the column unpacking and the
+regexes in `parse_day_refs` / `classify` / `is_transport` to match your own
+spreadsheet before running it against real data.
 """
 
 from __future__ import annotations
@@ -22,9 +28,10 @@ RAW = ROOT / "raw"
 OUT = ROOT / "src" / "data"
 OUT.mkdir(parents=True, exist_ok=True)
 
-# Trip starts on May 18, 2026. Day N → May (17 + N).
-TRIP_START_DAY_OF_MAY = 18  # day-1
-TRIP_DAYS = 13
+# Trip starts on October 1, 2026. Day N → October (N).
+TRIP_START_DAY_OF_MONTH = 1  # day-1
+TRIP_MONTH_NAME = "October"
+TRIP_DAYS = 5
 
 
 # ----------------------------- helpers --------------------------------------
@@ -37,11 +44,11 @@ def slug(s: str) -> str:
 
 
 def parse_money_jpy(s: str) -> dict | None:
-    if not s or s.strip() in {"—", "-", "0", "Dahil", "TBD"}:
+    if not s or s.strip() in {"—", "-", "0", "Included", "TBD"}:
         return None
     raw = s.strip()
     cleaned = (
-        raw.replace("¥", "").replace("₺", "").replace(",", "").replace(".", "").replace(" ", "")
+        raw.replace("¥", "").replace("$", "").replace(",", "").replace(".", "").replace(" ", "")
     )
     m = re.match(r"^(\d+)([KkMm]?)-(\d+)([KkMm]?)$", cleaned)
     if m:
@@ -63,7 +70,7 @@ def read_csv(name: str) -> list[list[str]]:
 
 
 def parse_day_refs(text: str) -> list[str]:
-    """Extract dayIds from text containing 'Gün N', 'Gün N-M', or '<day> May'.
+    """Extract dayIds from text containing 'Day N', 'Day N-M', or '<day> <Month>'.
 
     Returns sorted list of unique 'day-N' strings (e.g. ['day-3', 'day-4']).
     """
@@ -71,105 +78,105 @@ def parse_day_refs(text: str) -> list[str]:
         return []
     days: set[int] = set()
 
-    # 'Gün 6-8' or 'Gün 2-3'
-    for m in re.finditer(r"Gün\s*(\d{1,2})\s*[-–]\s*(\d{1,2})", text):
+    # 'Day 6-8' or 'Day 2-3'
+    for m in re.finditer(r"Day\s*(\d{1,2})\s*[-–]\s*(\d{1,2})", text):
         a, b = int(m.group(1)), int(m.group(2))
         if 1 <= a <= TRIP_DAYS and 1 <= b <= TRIP_DAYS and a <= b:
             for n in range(a, b + 1):
                 days.add(n)
 
-    # 'Gün 2' (single, not part of a range — \b prevents matching "1" in "10")
-    for m in re.finditer(r"Gün\s*(\d{1,2})\b(?!\s*[-–])", text):
+    # 'Day 2' (single, not part of a range — \b prevents matching "1" in "10")
+    for m in re.finditer(r"Day\s*(\d{1,2})\b(?!\s*[-–])", text):
         n = int(m.group(1))
         if 1 <= n <= TRIP_DAYS:
             days.add(n)
 
-    # '20-21 May' / '20-21 Mayıs'
-    for m in re.finditer(r"(\d{1,2})\s*[-–]\s*(\d{1,2})\s*(?:May|Mayıs)", text):
+    # '2-3 October'
+    for m in re.finditer(rf"(\d{{1,2}})\s*[-–]\s*(\d{{1,2}})\s*{TRIP_MONTH_NAME}", text):
         a, b = int(m.group(1)), int(m.group(2))
         for d in range(a, b + 1):
-            n = d - TRIP_START_DAY_OF_MAY + 1
+            n = d - TRIP_START_DAY_OF_MONTH + 1
             if 1 <= n <= TRIP_DAYS:
                 days.add(n)
 
-    # '18 May' / '18 Mayıs'
-    for m in re.finditer(r"(?<![\d-])(\d{1,2})\s*(?:May|Mayıs)", text):
+    # '1 October'
+    for m in re.finditer(rf"(?<![\d-])(\d{{1,2}})\s*{TRIP_MONTH_NAME}", text):
         d = int(m.group(1))
-        n = d - TRIP_START_DAY_OF_MAY + 1
+        n = d - TRIP_START_DAY_OF_MONTH + 1
         if 1 <= n <= TRIP_DAYS:
             days.add(n)
 
     return [f"day-{n}" for n in sorted(days)]
 
 
-# ----------------------------- konaklama ------------------------------------
+# ----------------------------- accommodation ---------------------------------
 
 
-def import_konaklama() -> list[dict]:
-    rows = read_csv("konaklama.csv")
+def import_accommodation() -> list[dict]:
+    rows = read_csv("accommodation.csv")
     out = []
     for i, r in enumerate(rows[1:], start=1):
         if not any(r):
             continue
-        tarih, gece, sehir, otel, fiyat, durum, not_ = (r + [""] * 7)[:7]
+        date_raw, nights, city, hotel, price, state, note = (r + [""] * 7)[:7]
         status = "research"
         platform = ""
-        if "REZERVE" in durum:
+        if "BOOKED" in state:
             status = "booked"
-            m = re.search(r"\(([^)]+)\)", durum)
+            m = re.search(r"\(([^)]+)\)", state)
             if m:
                 platform = m.group(1).strip()
-        elif "Araştırılacak" in durum or "TBD" in (otel or ""):
+        elif "Researching" in state or "TBD" in (hotel or ""):
             status = "research"
         else:
             status = "pending"
-        day_ids = parse_day_refs(tarih)
+        day_ids = parse_day_refs(date_raw)
         out.append({
             "id": f"acc-{i}",
             "type": "accommodation",
-            "title": otel,
-            "city": sehir,
-            "dateRaw": tarih,
-            "nights": int(gece) if gece.strip().isdigit() else None,
+            "title": hotel,
+            "city": city,
+            "dateRaw": date_raw,
+            "nights": int(nights) if nights.strip().isdigit() else None,
             "status": status,
             "platform": platform,
             "manageLink": "",
             "email": "",
-            "priceRaw": fiyat,
-            "note": not_,
+            "priceRaw": price,
+            "note": note,
             "dayIds": day_ids,
         })
     return out
 
 
-# ----------------------------- alisveris ------------------------------------
+# ----------------------------- shopping ---------------------------------------
 
 
-def import_alisveris() -> list[dict]:
-    rows = read_csv("alisveris.csv")
+def import_shopping() -> list[dict]:
+    rows = read_csv("shopping.csv")
     out = []
     for i, r in enumerate(rows[1:], start=1):
         if not any(r):
             continue
-        check, urun, nereden, fiyat, gun, not_ = (r + [""] * 6)[:6]
+        check, item, where, price, day, note = (r + [""] * 6)[:6]
         out.append({
             "id": f"shop-{i}",
             "checked": bool(check.strip()),
-            "item": urun,
-            "where": nereden,
-            "priceRaw": fiyat,
-            "day": gun,
-            "note": not_,
-            "dayIds": parse_day_refs(gun),
+            "item": item,
+            "where": where,
+            "priceRaw": price,
+            "day": day,
+            "note": note,
+            "dayIds": parse_day_refs(day),
         })
     return out
 
 
-# ----------------------------- butce ----------------------------------------
+# ----------------------------- budget -----------------------------------------
 
 
-def import_butce() -> dict:
-    rows = read_csv("butce.csv")
+def import_budget() -> dict:
+    rows = read_csv("budget.csv")
     sections: list[dict] = []
     current: dict | None = None
     fx_note = ""
@@ -178,26 +185,26 @@ def import_butce() -> dict:
             continue
         cell0 = r[0].strip()
         if any(cell0.startswith(emoji) for emoji in ("🔋", "🛍️", "🏨", "🍜", "🚄", "💰")):
-            if "GENEL TOPLAM" in cell0:
+            if "GRAND TOTAL" in cell0:
                 current = None
                 continue
-            title = re.sub(r"^[^A-Za-zÇĞİÖŞÜçğıöşü]+", "", cell0).strip()
+            title = re.sub(r"^[^A-Za-z]+", "", cell0).strip()
             current = {"id": slug(title.split("|")[0]), "title": title.replace("|", "—").strip(), "items": []}
             sections.append(current)
             continue
         if cell0.startswith("▶"):
             if current is not None:
-                kategori, mn, mx, birim = (r + [""] * 7)[1:5]
+                _category, mn, mx, currency = (r + [""] * 7)[1:5]
                 current["subtotal"] = {"min": int(mn) if mn.strip().isdigit() else None,
                                         "max": int(mx) if mx.strip().isdigit() else None,
-                                        "currency": birim or current.get("currency")}
+                                        "currency": currency or current.get("currency")}
             continue
-        if cell0.startswith("Kur:"):
+        if cell0.startswith("Rate:"):
             fx_note = cell0
             continue
         if current is None:
             continue
-        kalem, kategori, mn, mx, birim, ne_zaman, not_ = (r + [""] * 7)[:7]
+        name, category, mn, mx, currency, when, note = (r + [""] * 7)[:7]
         try:
             mn_v = int(mn) if mn.strip() else 0
         except ValueError:
@@ -206,32 +213,32 @@ def import_butce() -> dict:
             mx_v = int(mx) if mx.strip() else 0
         except ValueError:
             mx_v = 0
-        if not kalem.strip():
+        if not name.strip():
             continue
-        current.setdefault("currency", birim or "¥")
+        current.setdefault("currency", currency or "¥")
         current["items"].append({
-            "name": kalem,
-            "category": kategori,
+            "name": name,
+            "category": category,
             "min": mn_v,
             "max": mx_v,
-            "currency": birim,
-            "when": ne_zaman,
-            "note": not_,
-            "dayIds": parse_day_refs(ne_zaman) or parse_day_refs(not_),
+            "currency": currency,
+            "when": when,
+            "note": note,
+            "dayIds": parse_day_refs(when) or parse_day_refs(note),
         })
     return {"fxNote": fx_note, "sections": sections}
 
 
-# ----------------------------- gunluk plan ----------------------------------
+# ----------------------------- daily plan --------------------------------------
 
 
-DAY_HEADER_RE = re.compile(r"GÜN\s*(\d+)\s*[—-]\s*(\d+\s*\w+\s*\d{4}\s*\w+)\s*[—-]\s*(.+)$")
+DAY_HEADER_RE = re.compile(r"DAY\s*(\d+)\s*[—-]\s*(.+?\d{4}.*?)\s*[—-]\s*(.+)$")
 SECTION_NAMES = {
-    "SABİT": "fixed",
-    "ANA PLAN": "main",
-    "B PLANI": "alternatives",
-    "YEMEK": "meals",
-    "ICN TRANSİT PLANI": "transit",
+    "FIXED": "fixed",
+    "MAIN PLAN": "main",
+    "PLAN B": "alternatives",
+    "MEALS": "meals",
+    "TRANSIT PLAN": "transit",
 }
 
 
@@ -240,11 +247,11 @@ def is_section_header(cell: str) -> str | None:
     if not m:
         return None
     name = m.group(1).strip()
-    return SECTION_NAMES.get(name, None) or ("notes" if "Alternatifler" in cell else None)
+    return SECTION_NAMES.get(name, None) or ("notes" if "Alternatives" in cell else None)
 
 
-def import_gunluk() -> list[dict]:
-    rows = read_csv("gunluk-plan.csv")
+def import_daily_plan() -> list[dict]:
+    rows = read_csv("daily-plan.csv")
     days: list[dict] = []
     current_day: dict | None = None
     current_section = "main"
@@ -273,9 +280,6 @@ def import_gunluk() -> list[dict]:
                 current_section = "main"
                 continue
 
-        if c0.startswith("🇯🇵"):
-            continue
-
         if "──" in c0:
             sect = is_section_header(c0)
             if sect:
@@ -289,20 +293,20 @@ def import_gunluk() -> list[dict]:
         if current_day is None:
             continue
 
-        saat, mekan, aksiyon, ulasim, sure, ucret, not_ = (r + [""] * 7)[:7]
-        if not (saat.strip() or mekan.strip() or aksiyon.strip()):
+        time_, place, action, transport, duration, cost_raw, note = (r + [""] * 7)[:7]
+        if not (time_.strip() or place.strip() or action.strip()):
             continue
 
-        cost = parse_money_jpy(ucret) if ucret.strip() else None
+        cost = parse_money_jpy(cost_raw) if cost_raw.strip() else None
 
         item = {
-            "time": saat.strip(),
-            "place": mekan.strip(),
-            "action": aksiyon.strip(),
-            "transport": ulasim.strip(),
-            "duration": sure.strip(),
+            "time": time_.strip(),
+            "place": place.strip(),
+            "action": action.strip(),
+            "transport": transport.strip(),
+            "duration": duration.strip(),
             "cost": cost,
-            "note": not_.strip(),
+            "note": note.strip(),
             "mapsUrl": "",
             "tabelogUrl": "",
         }
@@ -316,13 +320,13 @@ def import_gunluk() -> list[dict]:
 # ----------------------- extract embedded reservations ----------------------
 
 
-RES_PLATFORM_RE = re.compile(r"REZERVE\s*\(([^)]+)\)")
+RES_PLATFORM_RE = re.compile(r"BOOKED\s*\(([^)]+)\)")
 RES_PLATFORM_HINT_RE = re.compile(
     r"\b(SmartEX|e5489|Trip\.com|Agoda|Klook|Booking|Yamato|Ta-Q-Bin|Skyliner)\b",
     re.IGNORECASE,
 )
 PENDING_VERB_RE = re.compile(
-    r"(rez\.|alınacak|açık|açılış|bookable|ön rez)", re.IGNORECASE
+    r"(to book|open|opens|bookable|provisional)", re.IGNORECASE
 )
 
 
@@ -331,9 +335,9 @@ def extract_reservations_from_days(
 ) -> list[dict]:
     """Scan day activities and extract transport/activity reservations.
 
-    Booked: "✅ REZERVE (Platform)" anywhere in the note.
-    Pending: "⚠️" + known booking platform mention + a pending verb (alınacak,
-             açık, rez., etc.).
+    Booked: "✅ BOOKED (Platform)" anywhere in the note.
+    Pending: "⚠️" + known booking platform mention + a pending verb (to book,
+             open, provisional, etc.).
     Skips activities whose place matches an already-tracked accommodation.
     """
     out: list[dict] = []
@@ -345,7 +349,7 @@ def extract_reservations_from_days(
         note = activity.get("note", "")
         if not note:
             return None
-        if "✅" in note and "REZERVE" in note:
+        if "✅" in note and "BOOKED" in note:
             m = RES_PLATFORM_RE.search(note)
             return ("booked", m.group(1).strip() if m else "")
         if "⚠️" in note:
@@ -367,7 +371,7 @@ def extract_reservations_from_days(
             k in blob
             for k in (
                 "shinkansen",
-                "tren",
+                "train",
                 "ltd. exp",
                 "nozomi",
                 "ropeway",
@@ -401,7 +405,7 @@ def extract_reservations_from_days(
                 elif action and (is_transport(act) or len(action) > len(place)):
                     title = action
                 else:
-                    title = place or action or "Rezervasyon"
+                    title = place or action or "Reservation"
 
                 kind = "transport" if is_transport(act) else "activity"
                 seq += 1
@@ -427,25 +431,25 @@ def extract_reservations_from_days(
 
 
 def main() -> None:
-    konaklama = import_konaklama()
-    days = import_gunluk()
-    extracted = extract_reservations_from_days(days, konaklama)
-    reservations = konaklama + extracted
+    accommodation = import_accommodation()
+    days = import_daily_plan()
+    extracted = extract_reservations_from_days(days, accommodation)
+    reservations = accommodation + extracted
 
     trip = {
-        "title": "Japan Trip 2026",
-        "subtitle": "13 gün — Tokyo · Kyoto · Kinosaki · Osaka · Tokyo",
-        "startDate": "2026-05-18",
-        "endDate": "2026-05-30",
-        "fx": {"from": "JPY", "to": "TRY", "rate": 0.24, "asOf": "2026-03"},
+        "title": "Example Japan Trip",
+        "subtitle": f"{TRIP_DAYS} days — Tokyo · Kyoto",
+        "startDate": "2026-10-01",
+        "endDate": "2026-10-05",
+        "fx": {"from": "JPY", "to": "USD", "rate": 0.0067, "asOf": "2026-09"},
     }
 
     files = {
         "trip.json": trip,
         "days.json": days,
         "reservations.json": reservations,
-        "shopping.json": import_alisveris(),
-        "budget.json": import_butce(),
+        "shopping.json": import_shopping(),
+        "budget.json": import_budget(),
     }
 
     for name, data in files.items():
@@ -455,7 +459,7 @@ def main() -> None:
         print(f"  {name}  {size:>7} bytes")
 
     print(f"\nWrote {len(files)} files to {OUT}/")
-    print(f"Reservations: {len(konaklama)} accommodation + {len(extracted)} extracted")
+    print(f"Reservations: {len(accommodation)} accommodation + {len(extracted)} extracted")
 
 
 if __name__ == "__main__":

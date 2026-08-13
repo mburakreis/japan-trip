@@ -65,7 +65,7 @@ export function ShoppingView({
     <div className="mt-3">
       <div className="card px-4 py-3 mb-3 flex items-center justify-between">
         <span className="text-sm">
-          {done} / {total} tamamlandı
+          {done} / {total} done
         </span>
         <div className="w-28 h-1.5 bg-black/5 dark:bg-white/10 rounded-full overflow-hidden">
           <div
@@ -76,13 +76,13 @@ export function ShoppingView({
       </div>
 
       {planVisible.length > 0 && (
-        <Section title="Plandan">
+        <Section title="From the plan">
           <ItemList items={planVisible} focusId={focusId} focusRef={focusRef} navigate={navigate} onEdit={setEditingId} />
         </Section>
       )}
 
       {userVisible.length > 0 && (
-        <Section title={`Eklediklerim (${userVisible.length})`}>
+        <Section title={`Added by me (${userVisible.length})`}>
           <ItemList items={userVisible} focusId={focusId} focusRef={focusRef} navigate={navigate} onEdit={setEditingId} />
         </Section>
       )}
@@ -93,7 +93,7 @@ export function ShoppingView({
         className="w-full mt-3 card px-4 py-3 text-sm text-ink-muted dark:text-paper-muted hover:text-accent hover:border-accent/30 transition inline-flex items-center justify-center gap-1.5"
       >
         <Plus size={15} strokeWidth={2} />
-        Yeni ekle
+        Add new
       </button>
 
       {planHidden.length > 0 && (
@@ -104,7 +104,7 @@ export function ShoppingView({
             className="inline-flex items-center gap-1 text-xs text-ink-muted dark:text-paper-muted hover:text-accent"
           >
             {showHidden ? <ChevronDown size={13} strokeWidth={1.75} /> : <ChevronRight size={13} strokeWidth={1.75} />}
-            Gizlenenler ({planHidden.length})
+            Hidden ({planHidden.length})
           </button>
           {showHidden && (
             <div className="mt-2 opacity-60">
@@ -114,18 +114,18 @@ export function ShoppingView({
         </div>
       )}
 
-      <Sheet open={addOpen} onClose={() => setAddOpen(false)} title="Yeni ürün ekle">
+      <Sheet open={addOpen} onClose={() => setAddOpen(false)} title="Add new item">
         <ShoppingItemForm
           onSubmit={(v: FormValues) => {
             addUserItem(v);
             setAddOpen(false);
           }}
           onCancel={() => setAddOpen(false)}
-          submitLabel="Ekle"
+          submitLabel="Add"
         />
       </Sheet>
 
-      <Sheet open={!!editing} onClose={() => setEditingId(null)} title="Ürünü düzenle">
+      <Sheet open={!!editing} onClose={() => setEditingId(null)} title="Edit item">
         {editing && (
           <ShoppingItemForm
             initial={{
@@ -216,7 +216,7 @@ function Row({
               ? "bg-ink border-ink text-paper dark:bg-paper dark:border-paper dark:text-ink"
               : "border-black/20 dark:border-white/20 bg-white dark:bg-white/5"
           }`}
-          aria-label={it.checked ? "Kaldır" : "İşaretle"}
+          aria-label={it.checked ? "Uncheck" : "Check"}
         >
           {it.checked && <Check size={12} strokeWidth={2.5} />}
         </button>
@@ -225,7 +225,7 @@ function Row({
             {it.item}
           </p>
           <p className="text-[11px] text-ink-muted dark:text-paper-muted mt-0.5">
-            {[it.where, it.priceRaw && `Plan ${it.priceRaw}`, it.actualPriceRaw && `Gerçek ${it.actualPriceRaw}`]
+            {[it.where, it.priceRaw && `Plan ${it.priceRaw}`, it.actualPriceRaw && `Actual ${it.actualPriceRaw}`]
               .filter(Boolean)
               .join(" · ")}
           </p>
@@ -240,7 +240,7 @@ function Row({
                 onClick={(e) => e.stopPropagation()}
               >
                 <Map size={11} strokeWidth={1.75} />
-                Haritada gör
+                View on map
               </a>
             )}
             {it.note && (
@@ -253,7 +253,7 @@ function Row({
               inputMode="decimal"
               value={it.actualPriceRaw}
               onChange={(e) => setActualPrice(it.id, e.target.value)}
-              placeholder="Gerçek fiyat (¥, ₺...)"
+              placeholder="Actual price (¥, $...)"
               className="mt-2 w-full text-sm rounded-lg border border-black/10 dark:border-white/10 bg-white dark:bg-white/5 px-2.5 py-1.5 placeholder:text-ink-muted/50 dark:placeholder:text-paper-muted/50 focus:outline-none focus:ring-2 focus:ring-accent/30"
             />
           )}
@@ -263,7 +263,7 @@ function Row({
             type="button"
             onClick={() => setMenuOpen((m) => !m)}
             className="text-ink-muted dark:text-paper-muted px-2 -mx-1"
-            aria-label="Menü"
+            aria-label="Menu"
           >
             <MoreHorizontal size={18} strokeWidth={1.75} />
           </button>
@@ -271,7 +271,7 @@ function Row({
             <>
               <button
                 type="button"
-                aria-label="Kapat"
+                aria-label="Close"
                 onClick={() => setMenuOpen(false)}
                 className="fixed inset-0 z-10"
               />
@@ -282,7 +282,7 @@ function Row({
                     setMenuOpen(false);
                   }}
                 >
-                  Düzenle
+                  Edit
                 </MenuItem>
                 {it.source === "plan" && (
                   <MenuItem
@@ -291,7 +291,7 @@ function Row({
                       setMenuOpen(false);
                     }}
                   >
-                    {it.hidden ? "Tekrar göster" : "Gizle"}
+                    {it.hidden ? "Show again" : "Hide"}
                   </MenuItem>
                 )}
                 {it.source === "plan" && (it.checked || it.actualPriceRaw) && (
@@ -301,18 +301,18 @@ function Row({
                       setMenuOpen(false);
                     }}
                   >
-                    Sıfırla
+                    Reset
                   </MenuItem>
                 )}
                 {it.source === "user" && (
                   <MenuItem
                     danger
                     onClick={() => {
-                      if (confirm(`"${it.item}" silinsin mi?`)) deleteUserItem(it.id);
+                      if (confirm(`Delete "${it.item}"?`)) deleteUserItem(it.id);
                       setMenuOpen(false);
                     }}
                   >
-                    Sil
+                    Delete
                   </MenuItem>
                 )}
               </div>

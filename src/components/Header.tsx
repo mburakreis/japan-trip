@@ -35,9 +35,9 @@ export function Header({ theme, onToggleTheme }: { theme: "light" | "dark"; onTo
   const status = tripStatus(t);
 
   let badge: string;
-  if (status.kind === "before") badge = `Geziye ${status.daysUntil} gün`;
-  else if (status.kind === "active") badge = `Bugün Gün ${status.dayNumber}/${status.totalDays}`;
-  else badge = `Geziden ${status.daysSince} gün geçti`;
+  if (status.kind === "before") badge = `${status.daysUntil} days until the trip`;
+  else if (status.kind === "active") badge = `Today: Day ${status.dayNumber}/${status.totalDays}`;
+  else badge = `${status.daysSince} days since the trip`;
 
   return (
     <header className="px-4 pt-6 pb-3 max-w-3xl mx-auto">
@@ -50,8 +50,8 @@ export function Header({ theme, onToggleTheme }: { theme: "light" | "dark"; onTo
           <button
             type="button"
             onClick={downloadAllData}
-            aria-label="Tüm JSON verilerini indir"
-            title="Tüm JSON verilerini indir (tarihli)"
+            aria-label="Download all JSON data"
+            title="Download all JSON data (timestamped)"
             className="p-2 -m-2 rounded-lg hover:bg-black/5 dark:hover:bg-white/10 text-ink dark:text-paper"
           >
             <Download size={18} strokeWidth={1.75} />
@@ -77,7 +77,7 @@ export function Header({ theme, onToggleTheme }: { theme: "light" | "dark"; onTo
           {badge}
         </span>
         <span className="text-xs text-ink-muted dark:text-paper-muted">
-          {t.startDate} → {t.endDate} · ¥1 ≈ ₺{t.fx.rate}
+          {t.startDate} → {t.endDate} · 1 {t.fx.from} ≈ {t.fx.rate} {t.fx.to}
         </span>
       </div>
     </header>

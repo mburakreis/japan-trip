@@ -26,7 +26,7 @@ export function Sheet({
     <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center">
       <button
         type="button"
-        aria-label="Kapat"
+        aria-label="Close"
         onClick={onClose}
         className="absolute inset-0 bg-black/40"
       />
@@ -37,7 +37,7 @@ export function Sheet({
             type="button"
             onClick={onClose}
             className="text-ink-muted dark:text-paper-muted p-1 -m-1"
-            aria-label="Kapat"
+            aria-label="Close"
           >
             <X size={18} strokeWidth={1.75} />
           </button>

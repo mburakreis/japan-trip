@@ -1,12 +1,14 @@
 # raw/
 
-Excel'den export edilen ham CSV dosyaları buraya konur. Her sheet ayrı CSV
-olarak yüklenir. Bu klasör veri kaynağıdır; uygulama bu CSV'lerden üretilen
-`/data/*.json` dosyalarını okur.
+Raw CSV files exported from Excel/Sheets go here. Each sheet is uploaded as
+its own CSV. This folder is the data source; `scripts/import-csv.py` reads
+these CSVs and regenerates `src/data/*.json` from them.
 
-Tipik dosyalar:
-- `days.csv` — günlük plan
-- `reservations.csv` — rezervasyonlar (link + email dahil)
-- `budget.csv` — bütçe
-- `shopping.csv` — alışveriş listesi
-- diğer sheet'ler...
+Typical files (matching `scripts/import-csv.py`):
+- `daily-plan.csv` — day-by-day itinerary
+- `accommodation.csv` — accommodation bookings
+- `shopping.csv` — shopping list
+- `budget.csv` — budget
+
+`scripts/import-csv.py` was written for one specific spreadsheet's column
+layout — treat it as a worked example and adapt it to your own sheet.

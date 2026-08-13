@@ -20,14 +20,14 @@ export function ObfuscatedEmail({ email }: { email: string }) {
     <button
       type="button"
       onClick={copy}
-      title={copied ? "kopyalandı" : "Tam adresi kopyala"}
+      title={copied ? "copied" : "Copy full address"}
       className="inline-flex items-center gap-1 text-xs text-ink-muted dark:text-paper-muted hover:text-ink dark:hover:text-paper"
     >
       ({prefix})
       {copied && (
         <span className="inline-flex items-center gap-0.5 text-emerald-600">
           <Check size={11} strokeWidth={2.5} />
-          kopyalandı
+          copied
         </span>
       )}
     </button>

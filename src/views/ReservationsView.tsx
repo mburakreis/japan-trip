@@ -9,10 +9,10 @@ import { DayChips } from "../components/DayChip";
 type NavFn = (next: { tab: "days" | "reservations"  | "shopping"; focusId?: string }) => void;
 
 const TYPE_LABEL: Record<Reservation["type"], string> = {
-  accommodation: "Konaklama",
-  transport: "Ulaşım",
-  activity: "Aktivite",
-  restaurant: "Yemek",
+  accommodation: "Accommodation",
+  transport: "Transport",
+  activity: "Activity",
+  restaurant: "Food",
 };
 
 function matches(r: Reservation, q: string): boolean {
@@ -59,21 +59,21 @@ export function ReservationsView({
     <div className="mt-3">
       <div className="flex gap-2 mb-3 overflow-x-auto pb-1 -mx-1 px-1">
         <Pill active={filter === "all"} onClick={() => setFilter("all")}>
-          Hepsi · {reservations.length}
+          All · {reservations.length}
         </Pill>
         <Pill active={filter === "booked"} onClick={() => setFilter("booked")}>
-          <CheckCircle2 size={12} strokeWidth={2} className="mr-1" /> Rezerve · {counts.booked}
+          <CheckCircle2 size={12} strokeWidth={2} className="mr-1" /> Booked · {counts.booked}
         </Pill>
         <Pill active={filter === "pending"} onClick={() => setFilter("pending")}>
-          <Clock size={12} strokeWidth={2} className="mr-1" /> Beklemede · {counts.pending}
+          <Clock size={12} strokeWidth={2} className="mr-1" /> Pending · {counts.pending}
         </Pill>
         <Pill active={filter === "research"} onClick={() => setFilter("research")}>
-          <Search size={12} strokeWidth={2} className="mr-1" /> Araştırılacak · {counts.research}
+          <Search size={12} strokeWidth={2} className="mr-1" /> Researching · {counts.research}
         </Pill>
       </div>
       {visible.length === 0 ? (
         <p className="text-sm text-ink-muted dark:text-paper-muted text-center py-8">
-          Eşleşen rezervasyon yok.
+          No matching reservations.
         </p>
       ) : (
         <ul className="space-y-3">
@@ -99,7 +99,7 @@ export function ReservationsView({
                   </div>
                   <h3 className="font-medium mt-1.5 leading-snug">{r.title}</h3>
                   <p className="text-sm text-ink-muted dark:text-paper-muted mt-0.5">
-                    {[r.city, r.dateRaw, r.nights ? `${r.nights} gece` : ""]
+                    {[r.city, r.dateRaw, r.nights ? `${r.nights} nights` : ""]
                       .filter(Boolean)
                       .join(" · ")}
                   </p>
@@ -126,7 +126,7 @@ export function ReservationsView({
                       rel="noopener noreferrer nofollow"
                       className="inline-flex items-center gap-1.5 text-sm bg-ink dark:bg-paper text-paper dark:text-ink px-3 py-1.5 rounded-lg"
                     >
-                      Rezervasyonu yönet
+                      Manage reservation
                       <ExternalLink size={13} strokeWidth={2} />
                     </a>
                   )}
@@ -138,7 +138,7 @@ export function ReservationsView({
                       className="inline-flex items-center gap-1.5 text-sm border border-black/10 dark:border-white/10 px-3 py-1.5 rounded-lg"
                     >
                       <Map size={13} strokeWidth={1.75} />
-                      Haritada gör
+                      View on map
                     </a>
                   )}
                   {r.email && <ObfuscatedEmail email={r.email} />}

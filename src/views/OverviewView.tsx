@@ -27,7 +27,7 @@ function plannedBullets(d: Day): string[] {
   const all = [...d.fixed, ...d.main];
   return all
     .map((a) => {
-      const time = a.time?.replace(/\[SABİT\]\s*/i, "").replace(/\[ANCHOR\]\s*/i, "").trim();
+      const time = a.time?.replace(/\[FIXED\]\s*/i, "").replace(/\[ANCHOR\]\s*/i, "").trim();
       const place = a.place || a.action;
       if (!place) return "";
       return time ? `${time} · ${place}` : place;
@@ -39,13 +39,13 @@ export function OverviewView() {
   return (
     <section className="py-4">
       <div className="px-2 mb-4">
-        <h1 className="text-xl font-semibold">{trip.title} — Genel Bakış</h1>
+        <h1 className="text-xl font-semibold">{trip.title} — Overview</h1>
         <p className="text-sm text-ink-muted dark:text-paper-muted mt-1">
-          {trip.subtitle} · {days.length} gün
+          {trip.subtitle} · {days.length} days
         </p>
         <p className="text-xs text-ink-muted/70 dark:text-paper-muted/70 mt-1">
-          Tüm planı tek bakışta görmek için tasarlandı. Yatay kaydır ya da
-          ekran görüntüsü için tarayıcıyı uzaklaştır (Ctrl/Cmd + −).
+          Designed to see the whole plan at a glance. Scroll horizontally, or
+          zoom out the browser for a screenshot (Ctrl/Cmd + −).
         </p>
       </div>
       <div className="overflow-x-auto pb-6">
@@ -71,7 +71,7 @@ function DayColumn({ day }: { day: Day }) {
     <li className="shrink-0 w-[320px] bg-white dark:bg-white/[0.02] border border-black/10 dark:border-white/10 rounded-2xl overflow-hidden flex flex-col">
       <header className="px-5 py-4 border-b border-black/5 dark:border-white/10">
         <div className="flex items-baseline gap-2">
-          <span className="text-2xl font-semibold leading-none">G{day.dayNumber}</span>
+          <span className="text-2xl font-semibold leading-none">D{day.dayNumber}</span>
           <span className="text-xs text-ink-muted dark:text-paper-muted">
             {shortDate(day.dateRaw)}
           </span>
@@ -83,25 +83,25 @@ function DayColumn({ day }: { day: Day }) {
         <p className="text-[13px] mt-2 leading-snug">{day.title}</p>
       </header>
 
-      <Section title="Konaklama" Icon={Bed} empty={acc.length === 0 ? "—" : null}>
+      <Section title="Accommodation" Icon={Bed} empty={acc.length === 0 ? "—" : null}>
         {acc.map((r) => (
           <ReservationLine key={r.id} r={r} />
         ))}
       </Section>
 
-      <Section title="Ulaşım" Icon={Train} empty={transport.length === 0 ? "—" : null}>
+      <Section title="Transport" Icon={Train} empty={transport.length === 0 ? "—" : null}>
         {transport.map((r) => (
           <ReservationLine key={r.id} r={r} />
         ))}
       </Section>
 
-      <Section title="Yemek" Icon={Utensils} empty={meals.length === 0 ? "—" : null}>
+      <Section title="Food" Icon={Utensils} empty={meals.length === 0 ? "—" : null}>
         {meals.map((r) => (
           <ReservationLine key={r.id} r={r} />
         ))}
       </Section>
 
-      <Section title="Alışveriş" Icon={ShoppingBag} empty={shopping.length === 0 ? "—" : null}>
+      <Section title="Shopping" Icon={ShoppingBag} empty={shopping.length === 0 ? "—" : null}>
         {shopping.map((s) => (
           <ShoppingLine key={s.id} s={s} />
         ))}

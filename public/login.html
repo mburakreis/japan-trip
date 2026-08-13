@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#fafaf7" />
     <meta name="robots" content="noindex,nofollow,noarchive,nosnippet" />
-    <title>Japan Trip 2026 — Giriş</title>
+    <title>Japan Trip Planner — Login</title>
     <style>
       :root {
         color-scheme: light dark;
@@ -111,8 +111,8 @@
     <main>
       <div class="logo" aria-hidden="true"></div>
       <div style="text-align: center;">
-        <h1>Japan Trip 2026</h1>
-        <p class="sub">PIN gir</p>
+        <h1>Japan Trip Planner</h1>
+        <p class="sub">Enter PIN</p>
       </div>
       <form id="pin-form">
         <input
@@ -125,7 +125,7 @@
           maxlength="8"
           aria-label="PIN"
         />
-        <button id="submit" type="submit">Giriş</button>
+        <button id="submit" type="submit">Log in</button>
         <div class="err" id="err" role="alert"></div>
       </form>
     </main>
@@ -139,7 +139,7 @@
         e.preventDefault();
         err.textContent = "";
         submit.disabled = true;
-        submit.textContent = "Kontrol ediliyor…";
+        submit.textContent = "Checking…";
         try {
           const r = await fetch("/api/auth", {
             method: "POST",
@@ -151,17 +151,17 @@
             return;
           }
           if (r.status === 401) {
-            err.textContent = "Yanlış PIN.";
+            err.textContent = "Wrong PIN.";
           } else {
-            err.textContent = "Hata: " + r.status;
+            err.textContent = "Error: " + r.status;
           }
         } catch (e) {
-          err.textContent = "Bağlantı hatası.";
+          err.textContent = "Connection error.";
         }
         pin.value = "";
         pin.focus();
         submit.disabled = false;
-        submit.textContent = "Giriş";
+        submit.textContent = "Log in";
       });
     </script>
   </body>

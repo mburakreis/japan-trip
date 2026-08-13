@@ -13,14 +13,14 @@ export function SearchBar({ value, onChange }: { value: string; onChange: (v: st
           type="search"
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder="Ara: ramen, Akihabara, Mizuno..."
+          placeholder="Search: ramen, Akihabara, Mizuno..."
           className="w-full pl-9 pr-9 py-2 text-sm rounded-xl border border-black/10 dark:border-white/10 bg-white dark:bg-white/5 text-ink dark:text-paper placeholder:text-ink-muted/60 dark:placeholder:text-paper-muted/60 focus:outline-none focus:ring-2 focus:ring-accent/40"
         />
         {value && (
           <button
             type="button"
             onClick={() => onChange("")}
-            aria-label="Temizle"
+            aria-label="Clear"
             className="absolute right-2 top-1/2 -translate-y-1/2 p-1 text-ink-muted dark:text-paper-muted"
           >
             <X size={14} strokeWidth={1.75} />

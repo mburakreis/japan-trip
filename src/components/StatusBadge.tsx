@@ -2,10 +2,10 @@ import { CheckCircle2, Clock, Search, XCircle, type LucideIcon } from "lucide-re
 import type { ReservationStatus } from "../types";
 
 export const STATUS_LABEL: Record<ReservationStatus, string> = {
-  booked: "Rezerve",
-  pending: "Beklemede",
-  research: "Araştırılacak",
-  cancelled: "İptal",
+  booked: "Booked",
+  pending: "Pending",
+  research: "Researching",
+  cancelled: "Cancelled",
 };
 
 const CLASS: Record<ReservationStatus, string> = {
