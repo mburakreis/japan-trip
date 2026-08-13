@@ -1,0 +1,167 @@
+[
+  {
+    "id": "day-1",
+    "dayNumber": 1,
+    "dateRaw": "Thursday, October 1, 2026",
+    "title": "Arrival in Tokyo",
+    "fixed": [
+      {
+        "time": "[FIXED] 14:30",
+        "place": "Narita Airport (NRT)",
+        "action": "Land, clear immigration and customs",
+        "transport": "—",
+        "duration": "1h",
+        "cost": null,
+        "note": "Have the Visit Japan Web QR ready to skip the paper customs form.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Narita%20International%20Airport",
+        "tabelogUrl": ""
+      }
+    ],
+    "main": [
+      {
+        "time": "16:00",
+        "place": "Narita Airport (NRT)",
+        "action": "N'EX to Tokyo Station",
+        "transport": "train",
+        "duration": "1h",
+        "cost": { "min": 3070, "max": 3070, "raw": "¥3,070" },
+        "note": "Reserved-seat Narita Express, JR Pass or standalone ticket both work.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "17:30",
+        "place": "Hotel (Shinjuku)",
+        "action": "Check in, drop bags",
+        "transport": "—",
+        "duration": "30m",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
+    "alternatives": [
+      {
+        "time": "evening",
+        "place": "Omoide Yokocho",
+        "action": "Backup dinner spot if the planned restaurant has a queue",
+        "transport": "walk",
+        "duration": "—",
+        "cost": null,
+        "note": "Small yakitori alley near Shinjuku Station west exit.",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Omoide%20Yokocho",
+        "tabelogUrl": ""
+      }
+    ],
+    "meals": [
+      {
+        "time": "19:30",
+        "place": "Sample Ramen (Shinjuku)",
+        "action": "Dinner",
+        "transport": "walk",
+        "duration": "1h",
+        "cost": { "min": 1200, "max": 1200, "raw": "¥1,200" },
+        "note": "Fictional example entry — replace with your own pick.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
+    "transit": [],
+    "budgetSummary": "~¥4,300 (transit + dinner)"
+  },
+  {
+    "id": "day-2",
+    "dayNumber": 2,
+    "dateRaw": "Friday, October 2, 2026",
+    "title": "Tokyo — Asakusa & Ueno",
+    "fixed": [],
+    "main": [
+      {
+        "time": "09:00",
+        "place": "Senso-ji Temple",
+        "action": "Visit before the tour groups arrive",
+        "transport": "subway",
+        "duration": "1.5h",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Senso-ji%20Temple",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "13:00",
+        "place": "Ueno Park & Museums",
+        "action": "Ueno Park, optionally the National Museum",
+        "transport": "subway",
+        "duration": "3h",
+        "cost": { "min": 1000, "max": 1000, "raw": "¥1,000" },
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
+    "alternatives": [],
+    "meals": [
+      {
+        "time": "12:00",
+        "place": "Sample Tempura (Asakusa)",
+        "action": "Lunch",
+        "transport": "walk",
+        "duration": "45m",
+        "cost": { "min": 1500, "max": 1500, "raw": "¥1,500" },
+        "note": "Fictional example entry.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
+    "transit": [],
+    "budgetSummary": "~¥2,500 (museum + lunch)"
+  },
+  {
+    "id": "day-3",
+    "dayNumber": 3,
+    "dateRaw": "Saturday, October 3, 2026",
+    "title": "Tokyo → Kyoto",
+    "fixed": [
+      {
+        "time": "[FIXED] 10:00",
+        "place": "Tokyo Station",
+        "action": "Shinkansen to Kyoto",
+        "transport": "train",
+        "duration": "2h15m",
+        "cost": { "min": 14170, "max": 14170, "raw": "¥14,170" },
+        "note": "Reserved seat, Car 9.",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      }
+    ],
+    "main": [
+      {
+        "time": "13:00",
+        "place": "Hotel (Kyoto)",
+        "action": "Check in, drop bags",
+        "transport": "—",
+        "duration": "30m",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "",
+        "tabelogUrl": ""
+      },
+      {
+        "time": "15:00",
+        "place": "Fushimi Inari Shrine",
+        "action": "Walk the torii gate trail",
+        "transport": "train",
+        "duration": "2h",
+        "cost": null,
+        "note": "",
+        "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fushimi%20Inari%20Shrine",
+        "tabelogUrl": ""
+      }
+    ],
+    "alternatives": [],
+    "meals": [],
+    "transit": [],
+    "budgetSummary": "~¥14,170 (shinkansen)"
+  }
+]

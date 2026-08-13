@@ -1,0 +1,12 @@
+{
+  "title": "Example Japan Trip",
+  "subtitle": "5 days — Tokyo · Kyoto",
+  "startDate": "2026-10-01",
+  "endDate": "2026-10-05",
+  "fx": {
+    "from": "JPY",
+    "to": "USD",
+    "rate": 0.0067,
+    "asOf": "2026-09"
+  }
+}

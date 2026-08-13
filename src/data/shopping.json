@@ -1,0 +1,35 @@
+[
+  {
+    "id": "shop-1",
+    "checked": false,
+    "item": "Example running shoes",
+    "where": "A sporting goods store in Ginza",
+    "priceRaw": "¥22,000",
+    "day": "Day 2 — Tokyo",
+    "note": "Fictional example entry.",
+    "dayIds": ["day-2"],
+    "mapsUrl": ""
+  },
+  {
+    "id": "shop-2",
+    "checked": false,
+    "item": "Example matcha set",
+    "where": "A tea shop in Kyoto",
+    "priceRaw": "¥4,500",
+    "day": "Day 3 — Kyoto",
+    "note": "Fictional example entry.",
+    "dayIds": ["day-3"],
+    "mapsUrl": ""
+  },
+  {
+    "id": "shop-3",
+    "checked": true,
+    "item": "Example souvenir",
+    "where": "Airport duty-free",
+    "priceRaw": "¥1,800",
+    "day": "Day 5 — departure",
+    "note": "Shows what a checked-off item looks like.",
+    "dayIds": [],
+    "mapsUrl": ""
+  }
+]
